@@ -1,0 +1,965 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>hub.linux.do你用了别人的模型，别人是可以看到你的聊天记录的吗</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>hub.linux.do你用了别人的模型，别人是可以看到你的聊天记录的吗</h1>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2112183">https://linux.do/t/topic/2112183</a><br>
+      Version: v1<br>
+      Posts: 73; missing floors: 20
+    </div>
+    
+      <article class="post" id="post-1">
+        <header>
+          <a href="#post-1">#1</a>
+          <strong>初墨</strong>
+          <span>@chumo</span>
+          
+          <time datetime="2026-05-05T03:59:10.225Z">5/5/2026, 11:59:10 AM</time>
+        </header>
+        <div class="content"><p>今天偶然发现神奇子站 <a href="http://hub.linux.do">hub.linux.do</a>，然后找了一个模型就开始爽用，我就想着研究一下各个功能吧。发现了这个调用管理的追踪的表格有一列叫“用户提问”，因为我没有模型给别人用过，所以我的表格是空的，我就去这个子站开源的项目上看，果然是字面意思，可以看到用户的聊天记录 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/smiling_face_with_tear.png?v=15" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20"></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/d/f/edf6cf0d1afa7082dd524df09747a48318498f92.png" data-download-href="/uploads/short-url/xX7WE22gxiYujBOK5kKzPP3olF0.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/d/f/edf6cf0d1afa7082dd524df09747a48318498f92_2_690x463.png" alt="image" data-base62-sha1="xX7WE22gxiYujBOK5kKzPP3olF0" width="690" height="463" srcset="https://cdn3.ldstatic.com/optimized/4X/e/d/f/edf6cf0d1afa7082dd524df09747a48318498f92_2_690x463.png, https://cdn3.ldstatic.com/original/4X/e/d/f/edf6cf0d1afa7082dd524df09747a48318498f92.png 1.5x, https://cdn3.ldstatic.com/original/4X/e/d/f/edf6cf0d1afa7082dd524df09747a48318498f92.png 2x" data-dominant-color="F0EFED"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">966×649 36.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>ps：我看的是开源项目可以看，不清楚hub子站是否可以，不过有佬友说他hub上满足条件其实是看不见的，还有其它满足条件的佬友吗？是否可以帮忙解答一下</p></div>
+      </article>
+    
+
+      <article class="post" id="post-2">
+        <header>
+          <a href="#post-2">#2</a>
+          <strong>9527-oo</strong>
+          <span>@9527-oo</span>
+          
+          <time datetime="2026-05-05T04:00:02.913Z">5/5/2026, 12:00:02 PM</time>
+        </header>
+        <div class="content"><p>能点进去看下详细吗？佬友你这能记录详情能点进去吗？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-3">
+        <header>
+          <a href="#post-3">#3</a>
+          <strong>bunny</strong>
+          <span>@demo_le</span>
+          
+          <time datetime="2026-05-05T04:00:46.318Z">5/5/2026, 12:00:46 PM</time>
+        </header>
+        <div class="content"><p>同问能不能看详情？如果能看详情的话，这个功能多少有点冒昧了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-4">
+        <header>
+          <a href="#post-4">#4</a>
+          <strong>KINDNESS</strong>
+          <span>@kindnessfork</span>
+          
+          <time datetime="2026-05-05T04:01:14.797Z">5/5/2026, 12:01:14 PM</time>
+        </header>
+        <div class="content"><p>啊这，还好我只拿来写程序，对我没什么影响。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-5">
+        <header>
+          <a href="#post-5">#5</a>
+          <strong>美好的</strong>
+          <span>@DongMEI</span>
+          
+          <time datetime="2026-05-05T04:01:55.379Z">5/5/2026, 12:01:55 PM</time>
+        </header>
+        <div class="content"><p>这不就是相当于收集了数据吗？…我理解没错吧 ，就是某些中转站拿去卖的那种</p></div>
+      </article>
+    
+
+      <article class="post" id="post-6">
+        <header>
+          <a href="#post-6">#6</a>
+          <strong>Luck</strong>
+          <span>@luck-everything</span>
+          
+          <time datetime="2026-05-05T04:02:29.400Z">5/5/2026, 12:02:29 PM</time>
+        </header>
+        <div class="content"><p>和中转站一样吗？岂不是可以卖数据了。想私密只能走官方账号或api</p></div>
+      </article>
+    
+
+      <article class="post" id="post-7">
+        <header>
+          <a href="#post-7">#7</a>
+          <strong>梦影</strong>
+          <span>@dreamhadow</span>
+          
+          <time datetime="2026-05-05T04:03:20.221Z">5/5/2026, 12:03:20 PM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"> 不是吧，这对吗？不改的话后面真就不敢用了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-8">
+        <header>
+          <a href="#post-8">#8</a>
+          <strong>海岛神兵</strong>
+          <span>@feek</span>
+          
+          <time datetime="2026-05-05T04:03:27.029Z">5/5/2026, 12:03:27 PM</time>
+        </header>
+        <div class="content"><p>任何一个人都能看其他人聊天记录吗，突然变得无法直视了。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-9">
+        <header>
+          <a href="#post-9">#9</a>
+          <strong>【失业客服喵】</strong>
+          <span>@Maru_sec</span>
+          
+          <time datetime="2026-05-05T04:03:34.288Z">5/5/2026, 12:03:34 PM</time>
+        </header>
+        <div class="content"><p>大概是方便抓坏人的留底功能吧，平时应该都不感兴趣去看的<img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20">或者搜集数据之类的巴拉巴拉…</p>
+<p>但是感官上确实有点不舒服哈哈哈</p></div>
+      </article>
+    
+
+      <article class="post" id="post-10">
+        <header>
+          <a href="#post-10">#10</a>
+          <strong>蔡徐坤</strong>
+          <span>@wangwangit</span>
+          
+          <time datetime="2026-05-05T04:03:45.841Z">5/5/2026, 12:03:45 PM</time>
+        </header>
+        <div class="content"><p>我咋都打不开这个网站呀.太难受了呀 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-11">
+        <header>
+          <a href="#post-11">#11</a>
+          <strong>Letswish</strong>
+          <span>@letswish</span>
+          
+          <time datetime="2026-05-05T04:04:08.744Z">5/5/2026, 12:04:08 PM</time>
+        </header>
+        <div class="content"><p>那感觉不能用来做coding了，难免会访问到一些隐私数据吧 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/smiling_face_with_tear.png?v=15" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20">(虽然只要是有中转肯定都能看到，只是这有些显眼了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-12">
+        <header>
+          <a href="#post-12">#12</a>
+          <strong>shsb</strong>
+          <span>@shsb</span>
+          
+          <time datetime="2026-05-05T04:04:37.908Z">5/5/2026, 12:04:37 PM</time>
+        </header>
+        <div class="content"><p>隐私泄露问题，看来不是这么好嫖的，还好我没用<img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"> 这样还不如用deepseek这种便宜的模型呢，至少官方使用用户数据会先脱敏。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-13">
+        <header>
+          <a href="#post-13">#13</a>
+          <strong>shsb</strong>
+          <span>@shsb</span>
+          
+          <time datetime="2026-05-05T04:05:20.135Z">5/5/2026, 12:05:20 PM</time>
+        </header>
+        <div class="content"><p>应该是别人用了你的渠道，你就能看到你用户的聊天记录。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-14">
+        <header>
+          <a href="#post-14">#14</a>
+          <strong>HLiny</strong>
+          <span>@HLiny</span>
+          
+          <time datetime="2026-05-05T04:05:59.547Z">5/5/2026, 12:05:59 PM</time>
+        </header>
+        <div class="content"><p>hub不该向提供者开放查看的，尤其是官方接口。中转接口被抓在所难免<br>
+但问题是如果有违规内容也没办法查</p></div>
+      </article>
+    
+
+      <article class="post" id="post-15">
+        <header>
+          <a href="#post-15">#15</a>
+          <strong>初墨</strong>
+          <span>@chumo</span>
+          
+          <time datetime="2026-05-05T04:06:21.208Z">5/5/2026, 12:06:21 PM</time>
+        </header>
+        <div class="content"><p>截图是开源项目：<a href="https://github.com/looplj/axonhub" rel="noopener nofollow ugc">axonhub</a><br>
+子站是基于这个开源项目搭建的，我不清楚子站能不能看<br>
+因为我的账号不满足条件所以没办法测试，需要共享模型并且别人调用才可以看到。<br>
+但是开源项目是可以点进去看的，能看到完整的请求与响应记录<br>
+有没有佬友满足条件出来帮忙解答一下</p></div>
+      </article>
+    
+
+      <article class="post" id="post-16">
+        <header>
+          <a href="#post-16">#16</a>
+          <strong>zx</strong>
+          <span>@zixiangcode</span>
+          
+          <time datetime="2026-05-05T04:08:04.852Z">5/5/2026, 12:08:04 PM</time>
+        </header>
+        <div class="content"><p>看不了，有人调用我的渠道，我也看不了任何信息<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/6/9/b69ae661104541fb05e626e3c03e6bdee7d163d2.png" data-download-href="/uploads/short-url/q3oLOmCb3Dx3nKvyq7rXyFL9GzE.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/b/6/9/b69ae661104541fb05e626e3c03e6bdee7d163d2_2_690x207.png" alt="image" data-base62-sha1="q3oLOmCb3Dx3nKvyq7rXyFL9GzE" width="690" height="207" srcset="https://cdn3.ldstatic.com/optimized/4X/b/6/9/b69ae661104541fb05e626e3c03e6bdee7d163d2_2_690x207.png, https://cdn3.ldstatic.com/optimized/4X/b/6/9/b69ae661104541fb05e626e3c03e6bdee7d163d2_2_1035x310.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/6/9/b69ae661104541fb05e626e3c03e6bdee7d163d2_2_1380x414.png 2x" data-dominant-color="EAEDF2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1835×552 45.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-17">
+        <header>
+          <a href="#post-17">#17</a>
+          <strong>🐟</strong>
+          <span>@stevessr</span>
+          
+          <time datetime="2026-05-05T04:09:24.816Z">5/5/2026, 12:09:24 PM</time>
+        </header>
+        <div class="content"><p>这个好像是axonhub自身的功能说是<img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-18">
+        <header>
+          <a href="#post-18">#18</a>
+          <strong>初墨</strong>
+          <span>@chumo</span>
+          
+          <time datetime="2026-05-05T04:09:34.858Z">5/5/2026, 12:09:34 PM</time>
+        </header>
+        <div class="content"><p>原来如此，我没有在子站中找到类似的说明，还以为可以看，虚惊一场。。。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-19">
+        <header>
+          <a href="#post-19">#19</a>
+          <strong>RootCarrot</strong>
+          <span>@RootCarrot</span>
+          
+          <time datetime="2026-05-05T04:11:00.663Z">5/5/2026, 12:11:00 PM</time>
+        </header>
+        <div class="content"><p>但是如果你是提供者，你在上面套一层Axonhub就能看到了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/worried.png?v=15" title=":worried:" class="emoji" alt=":worried:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-20">
+          <header><a href="#post-20">#20</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-21">
+        <header>
+          <a href="#post-21">#21</a>
+          <strong>outgoing</strong>
+          <span>@outgoing</span>
+          
+          <time datetime="2026-05-05T04:12:52.666Z">5/5/2026, 12:12:52 PM</time>
+        </header>
+        <div class="content"><p>所有中转站都能这样吧，开了详细log，你发的每个字都能看到，如果怕泄露就只能用官方的了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-22">
+        <header>
+          <a href="#post-22">#22</a>
+          <strong>HuanXiang</strong>
+          <span>@HuanXiang</span>
+          
+          <time datetime="2026-05-05T04:15:05.319Z">5/5/2026, 12:15:05 PM</time>
+        </header>
+        <div class="content"><p>如果对方有意想要收集. 就一定有办法在各种层级上加上捕获. 所以如果是重要的请求调用还是不要随意用第三方的接口</p></div>
+      </article>
+    
+
+      <article class="post" id="post-23">
+        <header>
+          <a href="#post-23">#23</a>
+          <strong>初墨</strong>
+          <span>@chumo</span>
+          
+          <time datetime="2026-05-05T04:17:09.037Z">5/5/2026, 12:17:09 PM</time>
+        </header>
+        <div class="content"><p>emmm。。。所以说大家还是要保护好敏感数据，项目和技术都是好东西，但是就怕有心之人利用做坏事</p></div>
+      </article>
+    
+
+      <article class="post" id="post-24">
+        <header>
+          <a href="#post-24">#24</a>
+          <strong>chuan</strong>
+          <span>@Cairter</span>
+          
+          <time datetime="2026-05-05T04:18:20.779Z">5/5/2026, 12:18:20 PM</time>
+        </header>
+        <div class="content"><p>这不所有的中转站公益站都能看嘛，毕竟都是经过数据中转</p></div>
+      </article>
+    
+
+      <article class="post" id="post-25">
+        <header>
+          <a href="#post-25">#25</a>
+          <strong>墨墨墨</strong>
+          <span>@love1207717766</span>
+          
+          <time datetime="2026-05-05T04:21:27.100Z">5/5/2026, 12:21:27 PM</time>
+        </header>
+        <div class="content"><aside class="quote no-group" data-username="chumo" data-display-name="初墨" data-post="1" data-topic="2112183">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/chumo/48/1916564_2.png" class="avatar"> 初墨:</div>
+<blockquote>
+<p>ps：我看的是开源项目可以看，不清楚hub子站是否可以，不过有佬友说他hub上满足条件其实是看不见的，还有其它满足条件的佬友吗？是否可以帮忙解答一下</p>
+</blockquote>
+</aside>
+<p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20">就这么跟你说吧，真想看的话哪个项目都能看，只要经过了我跑起来的项目我就能看内容。这玩意只看运营的良心</p></div>
+      </article>
+    
+
+      <article class="post" id="post-26">
+        <header>
+          <a href="#post-26">#26</a>
+          <strong>zhang</strong>
+          <span>@fredy5532</span>
+          
+          <time datetime="2026-05-05T04:26:10.144Z">5/5/2026, 12:26:10 PM</time>
+        </header>
+        <div class="content"><p>接一杯水有很多细菌。喝着没啥影响，直接喝了，但是你喝前拿个显微镜观察一下。再喝的时候估计就很膈应。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-27">
+        <header>
+          <a href="#post-27">#27</a>
+          <strong>初墨</strong>
+          <span>@chumo</span>
+          
+          <time datetime="2026-05-05T04:27:53.263Z">5/5/2026, 12:27:53 PM</time>
+        </header>
+        <div class="content"><p>是我没有表达清楚，我已经重新编辑了帖子，我知道开源项目可以看，但是我更想了解一下子站有没有取消掉这个功能，但是我的账号不满足条件没有办法测试验证</p></div>
+      </article>
+    
+
+      <article class="post" id="post-28">
+        <header>
+          <a href="#post-28">#28</a>
+          <strong>如忆</strong>
+          <span>@taoman</span>
+          
+          <time datetime="2026-05-05T04:38:40.166Z">5/5/2026, 12:38:40 PM</time>
+        </header>
+        <div class="content"><p>你可以选那种用的人多的，一般来说也不会自己去看你的日志。除了官方，你用任何中转渠道都是可以看到你的日志的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-29">
+        <header>
+          <a href="#post-29">#29</a>
+          <strong>ssoocc</strong>
+          <span>@ssoocc</span>
+          
+          <time datetime="2026-05-05T04:40:05.247Z">5/5/2026, 12:40:05 PM</time>
+        </header>
+        <div class="content"><p>现在好像关了，看不见了。不知道是隐藏了还是修改了不可见</p></div>
+      </article>
+    
+
+      <article class="post" id="post-30">
+        <header>
+          <a href="#post-30">#30</a>
+          <strong>过期绿坝粮</strong>
+          <span>@arch_linux</span>
+          
+          <time datetime="2026-05-05T04:40:52.470Z">5/5/2026, 12:40:52 PM</time>
+        </header>
+        <div class="content"><p>中转商都能保存您的数据，不太理解回帖为什么对这事很惊讶</p>
+<p>"别人"想看也可以套一层newapi再发布到Hub上</p>
+<p>难道各位的隐私意识只是"只要你不说，我就放心问"的态度吗？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-31">
+        <header>
+          <a href="#post-31">#31</a>
+          <strong>Ringo</strong>
+          <span>@RingoDHZ</span>
+          
+          <time datetime="2026-05-05T04:44:04.709Z">5/5/2026, 12:44:04 PM</time>
+        </header>
+        <div class="content"><p>在有new-api开始，L站到处都是中转、公益、别人套壳提供Key，还有帖子扒中转是否有保存数据的，现在才反应过来是否会看到数据有点迟钝了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"> 一直一来都是用别怕怕别用。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-32">
+        <header>
+          <a href="#post-32">#32</a>
+          <strong>agi_is_coming</strong>
+          <span>@agi_is_coming</span>
+          
+          <time datetime="2026-05-05T04:44:05.902Z">5/5/2026, 12:44:05 PM</time>
+        </header>
+        <div class="content"><p>所有中转不管是哪里，想看都能看。<br>
+要隐私的就自己开官方订阅用</p></div>
+      </article>
+    
+
+      <article class="post" id="post-33">
+        <header>
+          <a href="#post-33">#33</a>
+          <strong>绿茶好呀，绿茶得喝</strong>
+          <span>@PixelCyber</span>
+          
+          <time datetime="2026-05-05T04:44:19.835Z">5/5/2026, 12:44:19 PM</time>
+        </header>
+        <div class="content"><p>用别人的模型，走的是别人的账号，理论上肯定是可以看到的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-34">
+        <header>
+          <a href="#post-34">#34</a>
+          <strong>JayLi1024</strong>
+          <span>@JayLi1024</span>
+          
+          <time datetime="2026-05-05T04:44:50.970Z">5/5/2026, 12:44:50 PM</time>
+        </header>
+        <div class="content"><p>未开放注册，这个什么时候会开放，还是对邮箱有要求</p></div>
+      </article>
+    
+
+      <article class="post" id="post-35">
+        <header>
+          <a href="#post-35">#35</a>
+          <strong>某人</strong>
+          <span>@abao</span>
+          
+          <time datetime="2026-05-05T04:45:08.467Z">5/5/2026, 12:45:08 PM</time>
+        </header>
+        <div class="content"><p>这没有办法，你猜猜为什么叫“中转”站，只要他想看他就能看。<br>
+所以只能是用别怕，怕别用。<br>
+除非中转站跳脸了，要不然你也不知道他是不是真的不看。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-36">
+        <header>
+          <a href="#post-36">#36</a>
+          <strong>过期绿坝粮</strong>
+          <span>@arch_linux</span>
+          
+          <time datetime="2026-05-05T04:47:46.550Z">5/5/2026, 12:47:46 PM</time>
+        </header>
+        <div class="content"><p>预设中转一定会保存对话没问题，卖数据是钱，能增加竞争力</p></div>
+      </article>
+    
+
+      <article class="post" id="post-37">
+        <header>
+          <a href="#post-37">#37</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          
+          <time datetime="2026-05-05T04:48:08.602Z">5/5/2026, 12:48:08 PM</time>
+        </header>
+        <div class="content"><p>都用中转了还在乎什么隐私</p>
+<p>李彦宏圣经发力了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-38">
+        <header>
+          <a href="#post-38">#38</a>
+          <strong>musistudio</strong>
+          <span>@musistudio</span>
+          
+          <time datetime="2026-05-05T04:51:00.790Z">5/5/2026, 12:51:00 PM</time>
+        </header>
+        <div class="content"><p>不是都用中转了还在这在乎隐私？？？怎么还都这么惊讶？不会都以为做中转都是大善人吧？<br>
+其他的先不说，我用个nginx也能保存请求体日志啊</p></div>
+      </article>
+    
+
+      <article class="post" id="post-39">
+        <header>
+          <a href="#post-39">#39</a>
+          <strong>霜门雪桂</strong>
+          <span>@Systina</span>
+          
+          <time datetime="2026-05-05T04:53:13.834Z">5/5/2026, 12:53:13 PM</time>
+        </header>
+        <div class="content"><p>没办法，中转肯定是看得见的，请求是先去中转再去下游的<br>
+中转想看想注入都无法避免，甚至偷换function call也是可行的，毕竟现在也没听说哪个厂搞了e2e或者HMAC<br>
+如果一定要安全的话还是本地先脱敏，工作区里别放敏感信息，或者试试round-robin？每个中转跑一个请求，泄露面小点。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-40">
+        <header>
+          <a href="#post-40">#40</a>
+          <strong>量子咸鱼K</strong>
+          <span>@koast18</span>
+          
+          <time datetime="2026-05-05T04:53:53.555Z">5/5/2026, 12:53:53 PM</time>
+        </header>
+        <div class="content"><p>原始项目的目的基本上是自用的，所以有这功能。其实无论hub站有没有这功能，其实都不影响别人在渠道那里自己存一下，所以用非官方渠道就要有记录被留存的觉悟啊。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-41">
+        <header>
+          <a href="#post-41">#41</a>
+          <strong>Dowad</strong>
+          <span>@lewarh</span>
+          
+          <time datetime="2026-05-05T04:55:48.370Z">5/5/2026, 12:55:48 PM</time>
+        </header>
+        <div class="content"><p>不需要有这种疑问，从条件上，你全部数据路过，是可以随意查看的。<br>
+关键区别是，这么多数据，尤其是有脏乱差的数据，值不值得全部存储。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-42">
+        <header>
+          <a href="#post-42">#42</a>
+          <strong>mathitme</strong>
+          <span>@mathitme</span>
+          
+          <time datetime="2026-05-05T04:56:39.110Z">5/5/2026, 12:56:39 PM</time>
+        </header>
+        <div class="content"><p>这个不是hub一个站的问题。除非直连官方接口，或者明确底层只有cpa或者sub2api，否则不清楚转了几层的话，都有这个风险。我自用的axonhub也是能看详细请求和回应的。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-43">
+        <header>
+          <a href="#post-43">#43</a>
+          <strong>Letswish</strong>
+          <span>@letswish</span>
+          
+          <time datetime="2026-05-05T04:58:24.440Z">5/5/2026, 12:58:24 PM</time>
+        </header>
+        <div class="content"><p>有心要弄的话，怎么弄都能看到的，这个没办法…门槛降低，使用的人没那么膈应就还好</p></div>
+      </article>
+    
+
+      <article class="post" id="post-44">
+        <header>
+          <a href="#post-44">#44</a>
+          <strong>貓</strong>
+          <span>@lovecat</span>
+          
+          <time datetime="2026-05-05T05:04:49.633Z">5/5/2026, 1:04:49 PM</time>
+        </header>
+        <div class="content"><p>之前就說過幾百次了</p>
+<p>公司的重要數據，個人的私密隱私，不想公開的金鑰帳密</p>
+<p>都在中轉或公益站是直接能獲取</p>
+<p>所以，有時候要評估風險後使用</p></div>
+      </article>
+    
+
+      <article class="post" id="post-45">
+        <header>
+          <a href="#post-45">#45</a>
+          <strong>rayx</strong>
+          <span>@rayx</span>
+          
+          <time datetime="2026-05-05T05:14:45.637Z">5/5/2026, 1:14:45 PM</time>
+        </header>
+        <div class="content"><p>想看都是没问题的，反正是自己提供的，开log就能分析</p></div>
+      </article>
+    
+
+      <article class="post" id="post-46">
+        <header>
+          <a href="#post-46">#46</a>
+          <strong>小兔和鹿</strong>
+          <span>@lincat</span>
+          
+          <time datetime="2026-05-05T05:22:31.078Z">5/5/2026, 1:22:31 PM</time>
+        </header>
+        <div class="content"><p>指的是hub站？hub站是只能L站登录吧</p></div>
+      </article>
+    
+
+      <article class="post" id="post-47">
+        <header>
+          <a href="#post-47">#47</a>
+          <strong>哈基米南北绿豆</strong>
+          <span>@hajimiww</span>
+          
+          <time datetime="2026-05-05T05:28:57.003Z">5/5/2026, 1:28:57 PM</time>
+        </header>
+        <div class="content"><p>这个是肯定的，你用别人的中转，肯定是他们能截获你的这个聊天记录，那你这相当于就是裸奔  你这直接都把什么提问呐、回答都是通过他中转过来的，他肯定看得到   哪怕是外面那些什么公益站之类的，都是这样  唯一的区别就是，他到底是想不想</p></div>
+      </article>
+    
+
+      <article class="post" id="post-48">
+        <header>
+          <a href="#post-48">#48</a>
+          <strong>dunNaNa</strong>
+          <span>@dunNaNa</span>
+          
+          <time datetime="2026-05-05T05:32:38.041Z">5/5/2026, 1:32:38 PM</time>
+        </header>
+        <div class="content"><p>这个没法避免，如果渠道是2api或是在官方api上又套一层得到的，那对话记录随便看</p></div>
+      </article>
+    
+
+      <article class="post" id="post-49">
+        <header>
+          <a href="#post-49">#49</a>
+          <strong>AX</strong>
+          <span>@abtxu</span>
+          
+          <time datetime="2026-05-05T05:32:59.113Z">5/5/2026, 1:32:59 PM</time>
+        </header>
+        <div class="content"><p><a href="https://hub.linux.do/">https://hub.linux.do/</a> 突然报错：</p>
+<h1><a name="p-17494547-h-400-bad-request-1" class="anchor" href="#p-17494547-h-400-bad-request-1" aria-label="标题链接"></a>400 Bad Request</h1>
+<p>是在修改什么吗？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-50">
+        <header>
+          <a href="#post-50">#50</a>
+          <strong>fly8848</strong>
+          <span>@fly8848</span>
+          
+          <time datetime="2026-05-05T05:33:44.279Z">5/5/2026, 1:33:44 PM</time>
+        </header>
+        <div class="content"><p>使用了中转站 那肯定是能看到你的信息的 大家都做过开发 这一块应该再清楚不过了 纯看站长想不想拿你的信息做一些啥 我觉得要么就不用 用了就不要太焦虑 保护好个人隐私就行 当然每个人对隐私这一块认定不同 我一般就只保护好我的数据隐私 其他的随意</p></div>
+      </article>
+    
+
+      <article class="post" id="post-51">
+        <header>
+          <a href="#post-51">#51</a>
+          <strong>SEA</strong>
+          <span>@Seai</span>
+          
+          <time datetime="2026-05-05T05:33:56.535Z">5/5/2026, 1:33:56 PM</time>
+        </header>
+        <div class="content"><p>之前看hub站应该是没有的。<br>
+不过用中转站自然是能够看到所有的聊天记录的，所以为了隐私安全之类的可能会考虑买官方订阅</p></div>
+      </article>
+    
+
+      <article class="post" id="post-52">
+        <header>
+          <a href="#post-52">#52</a>
+          <strong>Akiakane</strong>
+          <span>@Akiakane</span>
+          
+          <time datetime="2026-05-05T05:34:48.705Z">5/5/2026, 1:34:48 PM</time>
+        </header>
+        <div class="content"><p>如果我没记错，原版这个功能是要手动开启的<br>
+但是手动开启的目的是追踪同一个对话，分配到同一个渠道，方便缓存<br>
+对于中转站，你的聊天内容中转站主能看到应该是预期内了<img src="https://cdn3.ldstatic.com/original/3X/4/0/4035794fd9995594b024ca6695de918567c5b192.png?v=15" title=":tieba_086:" class="emoji emoji-custom" alt=":tieba_086:" loading="lazy" width="20" height="20">并且这种分享账号的站子，原账号主能看到很正常<br>
+但是完全无关的其他用户也能看有点不合适？可以隐藏一下？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-53">
+        <header>
+          <a href="#post-53">#53</a>
+          <strong>111zaka</strong>
+          <span>@111zaka</span>
+          
+          <time datetime="2026-05-05T05:34:49.003Z">5/5/2026, 1:34:49 PM</time>
+        </header>
+        <div class="content"><p>加一个newapi中转，再接入到这个站，肯定是能捕获到的。目前所有的免费渠道，都有隐私泄露的风险。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-54">
+        <header>
+          <a href="#post-54">#54</a>
+          <strong>dijunwanshou</strong>
+          <span>@dijunwanshou</span>
+          
+          <time datetime="2026-05-05T05:35:26.337Z">5/5/2026, 1:35:26 PM</time>
+        </header>
+        <div class="content"><p>中转默认可以获取聊天内容，不是说站子一定会去看你的，而是技术上能够做到。</p>
+<p>中转需要先把你的内容拿出来，再重新转发给官方或者其他渠道。所以你问了什么必然是能够看到的，只是会不会存留和利用这些内容的问题。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-55">
+        <header>
+          <a href="#post-55">#55</a>
+          <strong>leon</strong>
+          <span>@changgeng</span>
+          
+          <time datetime="2026-05-05T05:53:37.858Z">5/5/2026, 1:53:37 PM</time>
+        </header>
+        <div class="content"><p>他们那些中转什么的就是几头都吃，你用户付费，他还能倒手卖用户的聊天数据，都是这样的，就是官方的，不是照样可以看你数据记录。用了AI你的隐私就已经不算隐私了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-56">
+        <header>
+          <a href="#post-56">#56</a>
+          <strong>fablia</strong>
+          <span>@fable</span>
+          
+          <time datetime="2026-05-05T06:10:44.121Z">5/5/2026, 2:10:44 PM</time>
+        </header>
+        <div class="content"><p>之前在hub上分发过官方渠道codex<br>
+看不到这个记录</p></div>
+      </article>
+    
+
+      <article class="post" id="post-57">
+        <header>
+          <a href="#post-57">#57</a>
+          <strong>Doshide</strong>
+          <span>@Doshide</span>
+          
+          <time datetime="2026-05-05T06:39:51.755Z">5/5/2026, 2:39:51 PM</time>
+        </header>
+        <div class="content"><p>看到聊天记录有啥奇怪的，某个故人的项目直接光明正大提供这个功能</p></div>
+      </article>
+    
+
+      <article class="post" id="post-58">
+        <header>
+          <a href="#post-58">#58</a>
+          <strong>老白</strong>
+          <span>@laobaile</span>
+          
+          <time datetime="2026-05-05T06:50:06.431Z">5/5/2026, 2:50:06 PM</time>
+        </header>
+        <div class="content"><p>说实话，但凡是稍微大点的中转站，除非是有特殊的目的，否则一般是不存储这些内容的，主要是这玩意对服务器的压力巨大。。<br>
+至少以HUB站目前的使用量，一旦开了记录日志，必然卡死服务器，即便是现在没开的情况下，都无法避免卡死的情况</p></div>
+      </article>
+    
+
+      <article class="post" id="post-59">
+        <header>
+          <a href="#post-59">#59</a>
+          <strong>111zaka</strong>
+          <span>@111zaka</span>
+          
+          <time datetime="2026-05-05T07:00:06.742Z">5/5/2026, 3:00:06 PM</time>
+        </header>
+        <div class="content"><p>可以把这个记录日志最后从云服务器拉到本地啥的，想记录肯定能记录到</p></div>
+      </article>
+    
+
+      <article class="post" id="post-60">
+        <header>
+          <a href="#post-60">#60</a>
+          <strong>_042</strong>
+          <span>@SKDG042</span>
+          
+          <time datetime="2026-05-05T07:01:46.186Z">5/5/2026, 3:01:46 PM</time>
+        </header>
+        <div class="content"><p>所有的中转都是这样啊，你把数据发给中转再帮你转发，怎么可能看不到你的数据 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/melting_face.png?v=15" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-61">
+        <header>
+          <a href="#post-61">#61</a>
+          <strong>梦秋思</strong>
+          <span>@skyline1982</span>
+          
+          <time datetime="2026-05-05T07:03:47.094Z">5/5/2026, 3:03:47 PM</time>
+        </header>
+        <div class="content"><p>如果人比较多的话，看也看不过来吧，那么多字，还有编程，还有废话，还有翻译。。。。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-62">
+        <header>
+          <a href="#post-62">#62</a>
+          <strong>貓</strong>
+          <span>@lovecat</span>
+          
+          <time datetime="2026-05-05T07:14:30.173Z">5/5/2026, 3:14:30 PM</time>
+        </header>
+        <div class="content"><p>不會的</p>
+<p>想撈資料還是很好撈</p>
+<p>有很多方法可以抽出資料</p>
+<p>想要的就是那幾個而已</p>
+<p>key, 金鑰，帳密，如果讓agent讀取照片，筆記，下載檔案，文件夾內的檔案</p>
+<p>只要你授權夠應有盡有</p></div>
+      </article>
+    
+
+      <article class="post" id="post-63">
+        <header>
+          <a href="#post-63">#63</a>
+          <strong>龙行龘龘🇨🇳</strong>
+          <span>@Keanu_Reeves</span>
+          
+          <time datetime="2026-05-05T07:14:57.307Z">5/5/2026, 3:14:57 PM</time>
+        </header>
+        <div class="content"><p>确实用中转，只要站长想看，啥都可以看得到的。当然我相信大部分数据对于绝大部分人是没有价值的。只不过有些灰产会买数据。因此隐私/核心/最好还是用官方/自己代理的渠道。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-64">
+        <header>
+          <a href="#post-64">#64</a>
+          <strong>Robin</strong>
+          <span>@Robin</span>
+          
+          <time datetime="2026-05-05T07:24:42.303Z">5/5/2026, 3:24:42 PM</time>
+        </header>
+        <div class="content"><p>再怎么说不要去试图激起人性中的恶，都是经不起考验的。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-65">
+        <header>
+          <a href="#post-65">#65</a>
+          <strong>dflg</strong>
+          <span>@dflg</span>
+          
+          <time datetime="2026-05-05T13:12:00.009Z">5/5/2026, 9:12:00 PM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/f/d/bfdc8695ea1273ef6533e27550b9db95adc1efc7.png" data-download-href="/uploads/short-url/rnhFBueBHy4091iQEBrYQ2jwcM7.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/b/f/d/bfdc8695ea1273ef6533e27550b9db95adc1efc7.png" alt="image" data-base62-sha1="rnhFBueBHy4091iQEBrYQ2jwcM7" width="690" height="245" data-dominant-color="343430"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1352×482 28.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+佬，请问你有没有遇到过，key自定义制定渠道，然后莫名就被转到其他渠道了，然后充值的额度一会就没了<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-66">
+        <header>
+          <a href="#post-66">#66</a>
+          <strong>老白</strong>
+          <span>@laobaile</span>
+          
+          <time datetime="2026-05-05T13:13:47.265Z">5/5/2026, 9:13:47 PM</time>
+        </header>
+        <div class="content"><p>自定义渠道的话，只会走你选的，只有你没选渠道或者设置了动态绑定，才会切换不同的渠道</p></div>
+      </article>
+    
+
+      <article class="post" id="post-67">
+        <header>
+          <a href="#post-67">#67</a>
+          <strong>dflg</strong>
+          <span>@dflg</span>
+          
+          <time datetime="2026-05-05T13:15:26.659Z">5/5/2026, 9:15:26 PM</time>
+        </header>
+        <div class="content"><p>我选了自定义渠道，然后上游的key,好像失效了，也不清楚什么原因，系统里我的key被莫名其妙禁用了，然后我任务中断了，手动启用了一下，没二次核对渠道，然后一会hub额度就没了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-68">
+        <header>
+          <a href="#post-68">#68</a>
+          <strong>liuliu</strong>
+          <span>@liuliu66</span>
+          
+          <time datetime="2026-05-05T13:15:56.758Z">5/5/2026, 9:15:56 PM</time>
+        </header>
+        <div class="content"><p>反正是猛猛蹬，核心私密数据尽量脱敏去沟通。毕竟免费就意味着让渡隐私权益。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-69">
+        <header>
+          <a href="#post-69">#69</a>
+          <strong>老白</strong>
+          <span>@laobaile</span>
+          
+          <time datetime="2026-05-05T13:16:33.308Z">5/5/2026, 9:16:33 PM</time>
+        </header>
+        <div class="content"><p>被禁用就说明渠道没了啊。。那你这属于自己操作的哈，而且你启用的时候应该是有提示的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-70">
+        <header>
+          <a href="#post-70">#70</a>
+          <strong>dflg</strong>
+          <span>@dflg</span>
+          
+          <time datetime="2026-05-05T13:18:12.364Z">5/5/2026, 9:18:12 PM</time>
+        </header>
+        <div class="content"><p>我不知道被禁用指的是渠道没了，第一次碰到，下次注意，不多充了，多谢大佬解释啥情况，感谢</p></div>
+      </article>
+    
+
+      <article class="post" id="post-71">
+        <header>
+          <a href="#post-71">#71</a>
+          <strong>老白</strong>
+          <span>@laobaile</span>
+          
+          <time datetime="2026-05-05T13:21:39.474Z">5/5/2026, 9:21:39 PM</time>
+        </header>
+        <div class="content"><p>上游渠道价格变动，而你就只绑定了一个渠道的话，就会自动禁用，防止你钱被多扣，你这。。。费劲巴拉做的功能，还是没防住你，哈哈哈</p></div>
+      </article>
+    
+
+      <article class="post" id="post-72">
+        <header>
+          <a href="#post-72">#72</a>
+          <strong>dflg</strong>
+          <span>@dflg</span>
+          
+          <time datetime="2026-05-05T13:23:58.366Z">5/5/2026, 9:23:58 PM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20">还想着为啥莫名其妙禁用了，这回知道了，下次注意这个事情，感谢</p></div>
+      </article>
+    
+
+      <article class="post" id="post-73">
+        <header>
+          <a href="#post-73">#73</a>
+          <strong>老白</strong>
+          <span>@laobaile</span>
+          
+          <time datetime="2026-05-05T13:26:29.821Z">5/5/2026, 9:26:29 PM</time>
+        </header>
+        <div class="content"><p>左侧菜单有更新日志，里面会介绍更新了哪些内容，没事的时候可以翻翻，有可能会有大发现</p></div>
+      </article>
+    
+
+      <article class="post" id="post-74">
+        <header>
+          <a href="#post-74">#74</a>
+          <strong>dflg</strong>
+          <span>@dflg</span>
+          
+          <time datetime="2026-05-05T13:28:02.682Z">5/5/2026, 9:28:02 PM</time>
+        </header>
+        <div class="content"><p>好嘞，好嘞，收到，大佬，之前没细看这个，下次多注意看更新日志和功能</p></div>
+      </article>
+    
+  </main>
+</body>
+</html>

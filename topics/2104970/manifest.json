@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2104970,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2104970",
+    "title": "资本家我恨你们，你们用贷款毁了多少人啊",
+    "currentVersionId": "v1",
+    "currentHash": "1bb458992befb22bf925d4422c0ec867ddc120a5477c666b0c4c0a1f6b57c712",
+    "postCount": 15,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2104970,
+      "sourceUrl": "https://linux.do/t/topic/2104970",
+      "contentHash": "1bb458992befb22bf925d4422c0ec867ddc120a5477c666b0c4c0a1f6b57c712",
+      "postCount": 15,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 15 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

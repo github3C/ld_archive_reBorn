@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2125060,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2125060",
+    "title": "账号封禁问题（未解决）",
+    "currentVersionId": "v3",
+    "currentHash": "815b77eb92a8345ebcf900f2c87e156f8ac7a36068e930aff39a5a54762f476e",
+    "postCount": 51,
+    "missingPostNumbers": [
+      17
+    ]
+  },
+  "versions": [
+    {
+      "id": "v3",
+      "topicId": 2125060,
+      "sourceUrl": "https://linux.do/t/topic/2125060",
+      "contentHash": "815b77eb92a8345ebcf900f2c87e156f8ac7a36068e930aff39a5a54762f476e",
+      "postCount": 51,
+      "missingPostNumbers": [
+        17
+      ],
+      "changeSummary": {
+        "id": "v2...v3",
+        "previousVersionId": "v2",
+        "currentVersionId": "v3",
+        "addedPostNumbers": [
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "5 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
+    {
+      "id": "v2",
+      "topicId": 2125060,
+      "sourceUrl": "https://linux.do/t/topic/2125060",
+      "contentHash": "39df8535856386c1797697b83c6e0a7bb87c4c02c8d87e38826f2e455d10fe8a",
+      "postCount": 46,
+      "missingPostNumbers": [
+        17
+      ],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [
+          26
+        ],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "14 added, 1 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
+    {
+      "id": "v1",
+      "topicId": 2125060,
+      "sourceUrl": "https://linux.do/t/topic/2125060",
+      "contentHash": "67c9caf632f0947857f33e5f25e92b175e675bac2b9c0ff1ae63b26c4a29593c",
+      "postCount": 32,
+      "missingPostNumbers": [
+        17
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 32 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [
+        26
+      ],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "14 added, 1 changed, 0 removed, 0 newly missing, 0 restored."
+    },
+    {
+      "id": "v2...v3",
+      "previousVersionId": "v2",
+      "currentVersionId": "v3",
+      "addedPostNumbers": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "5 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  ]
+}

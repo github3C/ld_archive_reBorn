@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2115417,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2115417",
+    "title": "关于站内三级贴说我未标明原作者的事情，我想作此回复（我只想证明清白，请求管理员不要删帖）",
+    "currentVersionId": "v1",
+    "currentHash": "e386654c10b3841dfbb5990e543b31c85fe78c5886f567a51d45437bba4785e1",
+    "postCount": 14,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2115417,
+      "sourceUrl": "https://linux.do/t/topic/2115417",
+      "contentHash": "e386654c10b3841dfbb5990e543b31c85fe78c5886f567a51d45437bba4785e1",
+      "postCount": 14,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 14 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

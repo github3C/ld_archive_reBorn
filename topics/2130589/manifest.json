@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2130589,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2130589",
+    "title": "【NSFW】《通向“淫秽性团结”之路》上——我视角下的互联网色情史",
+    "currentVersionId": "v1",
+    "currentHash": "76acfde8da27861538ffabdc00af6ac2b8985280e413118fcbd8d9c576e8ab2a",
+    "postCount": 48,
+    "missingPostNumbers": [
+      2
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2130589,
+      "sourceUrl": "https://linux.do/t/topic/2130589",
+      "contentHash": "76acfde8da27861538ffabdc00af6ac2b8985280e413118fcbd8d9c576e8ab2a",
+      "postCount": 48,
+      "missingPostNumbers": [
+        2
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 48 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

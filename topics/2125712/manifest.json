@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2125712,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2125712",
+    "title": "狐帝一跑，全都在争...",
+    "currentVersionId": "v1",
+    "currentHash": "9275c879da797766ddd7ad9e9ad23e0ea3d5dc43ab1fd3f71f88c7ddc4c009c9",
+    "postCount": 11,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2125712,
+      "sourceUrl": "https://linux.do/t/topic/2125712",
+      "contentHash": "9275c879da797766ddd7ad9e9ad23e0ea3d5dc43ab1fd3f71f88c7ddc4c009c9",
+      "postCount": 11,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 11 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

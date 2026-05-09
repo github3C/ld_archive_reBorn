@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2112183,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2112183",
+    "title": "hub.linux.do你用了别人的模型，别人是可以看到你的聊天记录的吗",
+    "currentVersionId": "v1",
+    "currentHash": "ec47e45ab5ceda06e053df810fed80492efac2ab1cd0c8a29f1ed063594c9d68",
+    "postCount": 73,
+    "missingPostNumbers": [
+      20
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2112183,
+      "sourceUrl": "https://linux.do/t/topic/2112183",
+      "contentHash": "ec47e45ab5ceda06e053df810fed80492efac2ab1cd0c8a29f1ed063594c9d68",
+      "postCount": 73,
+      "missingPostNumbers": [
+        20
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 73 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2118653,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2118653",
+    "title": "始皇，我对封禁我这个账号有异议",
+    "currentVersionId": "v1",
+    "currentHash": "7c1c35f24d1ac3f9d48cf211bb576d194b698908f837b8e5d22bce95f097542f",
+    "postCount": 11,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2118653,
+      "sourceUrl": "https://linux.do/t/topic/2118653",
+      "contentHash": "7c1c35f24d1ac3f9d48cf211bb576d194b698908f837b8e5d22bce95f097542f",
+      "postCount": 11,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 11 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

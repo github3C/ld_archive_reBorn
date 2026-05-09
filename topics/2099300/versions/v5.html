@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snipaste 2.11.3 离线激活码生成器</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Snipaste 2.11.3 离线激活码生成器</h1>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2099300">https://linux.do/t/topic/2099300</a><br>
+      Version: v5<br>
+      Posts: 27; missing floors: none
+    </div>
+    
+      <article class="post" id="post-1">
+        <header>
+          <a href="#post-1">#1</a>
+          <strong>萝警官</strong>
+          <span>@Hermione027</span>
+          
+          <time datetime="2026-05-02T12:38:24.027Z">5/2/2026, 8:38:24 PM</time>
+        </header>
+        <div class="content"><p>之前看到有佬友想要 <a href="https://zh.snipaste.com/" rel="noopener nofollow ugc">Snipaste</a> 的，正好无聊分析了下，就做了个离线激活码生成器方便大家用。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp" data-download-href="/uploads/short-url/5ZBBSOU7L2rOPm2Nr9CR8jTExZj.webp?dl=1" title="PixPin2026-05-0220-35-56" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad_2_690x111.webp" alt="PixPin2026-05-0220-35-56" data-base62-sha1="5ZBBSOU7L2rOPm2Nr9CR8jTExZj" width="690" height="111" srcset="https://cdn3.ldstatic.com/optimized/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad_2_690x111.webp, https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp 1.5x, https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp 2x" data-dominant-color="FCFBFB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">PixPin2026-05-0220-35-56</span><span class="informations">899×145 5.16 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>因为只是为了讨论和技术交流，复现脚本不会发布。等逆向分析帖写完后生成器也会关掉，想研究的佬友可以等详细分析帖出来后自己跟着复现一下。</p>
+<p><strong>生成器地址：</strong> <a href="https://snipastekeygen.20200626.xyz/" rel="noopener nofollow ugc">Snipaste 离线激活码生成器</a></p>
+<h2><a name="p-17427125-h-1" class="anchor" href="#p-17427125-h-1" aria-label="标题链接"></a>食用教程</h2>
+<h3><a name="p-17427125-h-2" class="anchor" href="#p-17427125-h-2" aria-label="标题链接"></a>第一步：替换主程序</h3>
+<p>生成的激活码需要配合修改后的主程序才能用。</p>
+<p>下载修改后的主程序：<a class="attachment" href="https://linux.do/uploads/short-url/nrWuiMsrcsqXRSjux52n2Ga7815.zip">Snipaste.zip</a> (2.7 MB)</p>
+<p>把原来的 <code>Snipaste.exe</code> 备份后，用这个文件替换。</p>
+<p><strong>担心有病毒的佬友可以自己手动修改：</strong></p>
+<p>把下面的代码保存为 <code>patch_snipaste.py</code>，放到 Snipaste 安装目录下运行：</p>
+<pre data-code-wrap="python"><code class="lang-python">from __future__ import annotations
+
+import hashlib
+from pathlib import Path
+
+
+INPUT_FILE = Path("Snipaste.exe")
+PATCH_OFFSET = 0x33F217
+ORIGINAL_BYTES = bytes.fromhex("8AC3")
+PATCHED_BYTES = bytes.fromhex("B001")
+
+
+def sha256(path: Path) -&gt; str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def patch_binary(input_path: Path) -&gt; None:
+    print(f"sha256(before): {sha256(input_path)}")
+    
+    data = bytearray(input_path.read_bytes())
+    end = PATCH_OFFSET + len(PATCHED_BYTES)
+    
+    if end &gt; len(data):
+        raise SystemExit(
+            f"file too small: need at least 0x{end:X} bytes, got 0x{len(data):X}"
+        )
+
+    current = bytes(data[PATCH_OFFSET:end])
+    if current not in (ORIGINAL_BYTES, PATCHED_BYTES):
+        raise SystemExit(
+            "unexpected bytes at 0x{0:X}: got {1}, expected {2} or {3}".format(
+                PATCH_OFFSET,
+                current.hex(" ").upper(),
+                ORIGINAL_BYTES.hex(" ").upper(),
+                PATCHED_BYTES.hex(" ").upper(),
+            )
+        )
+
+    if current == PATCHED_BYTES:
+        print("already patched")
+        return
+
+    data[PATCH_OFFSET:end] = PATCHED_BYTES
+    input_path.write_bytes(data)
+
+    print(f"file  : {input_path}")
+    print(f"offset: 0x{PATCH_OFFSET:X}")
+    print(f"before: {current.hex(' ').upper()}")
+    print(f"after : {PATCHED_BYTES.hex(' ').upper()}")
+    print(f"sha256(after) : {sha256(input_path)}")
+    print("patch success")
+
+
+if __name__ == "__main__":
+    patch_binary(INPUT_FILE)
+</code></pre>
+<p>运行：</p>
+<pre data-code-wrap="bash"><code class="lang-bash">python patch_snipaste.py
+</code></pre>
+<p>会直接修改 <code>Snipaste.exe</code>（建议先备份）。</p>
+<h3><a name="p-17427125-h-3" class="anchor" href="#p-17427125-h-3" aria-label="标题链接"></a>第二步：获取机器信息</h3>
+<p>在需要激活的电脑上打开 PowerShell，运行这条命令：</p>
+<pre data-code-wrap="powershell"><code class="lang-powershell">powershell -Command "Write-Host 'MachineGuid:' (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Cryptography').MachineGuid; Write-Host 'Workgroup:' (Get-CimInstance Win32_ComputerSystem).Workgroup"
+</code></pre>
+<p>会输出两行信息，复制下来：</p>
+<pre><code class="lang-auto">MachineGuid: 26074b5f-d160-49fc-ae64-dba2857c9f47
+Workgroup: WORKGROUP
+</code></pre>
+<h3><a name="p-17427125-h-4" class="anchor" href="#p-17427125-h-4" aria-label="标题链接"></a>第三步：生成激活码</h3>
+<p>打开<a href="https://snipastekeygen.20200626.xyz/" rel="noopener nofollow ugc">生成器页面</a>，把 <code>MachineGuid</code> 和 <code>Workgroup</code> 填进去，点生成就行。</p>
+<h3><a name="p-17427125-h-5" class="anchor" href="#p-17427125-h-5" aria-label="标题链接"></a>第四步：激活</h3>
+<p>复制生成的激活码，在 Snipaste 里粘贴激活。</p>
+<p>位置：托盘图标 → 解锁专业版 → 输入授权码 → 离线激活</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/0/2/302d7654bd96148a0031f64b0d3cbeb2c86769b7.png" data-download-href="/uploads/short-url/6ScjTM3xI9QM8IIIzWhySwL419R.png?dl=1" title="PixPin2026-05-0220-32-17" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/3/0/2/302d7654bd96148a0031f64b0d3cbeb2c86769b7.png" alt="PixPin2026-05-0220-32-17" data-base62-sha1="6ScjTM3xI9QM8IIIzWhySwL419R" width="549" height="409"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">PixPin2026-05-0220-32-17</span><span class="informations">549×409 19.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h2><a name="p-17427125-h-6" class="anchor" href="#p-17427125-h-6" aria-label="标题链接"></a>说明</h2>
+<ul>
+<li>激活码只对指定机器有效，换电脑要重新生成</li>
+<li>服务器不保存任何信息，只生成激活码</li>
+<li>修改后的主程序只改了 2 个字节（<code>0x33F217</code> 处：<code>8A C3</code> → <code>B0 01</code>）</li>
+</ul>
+<h2><a name="p-17427125-h-7" class="anchor" href="#p-17427125-h-7" aria-label="标题链接"></a>技术细节</h2>
+<p>分析的是 Snipaste <code>2.11.3</code> 版本，主要涉及：</p>
+<ul>
+<li>Blake2s 哈希（自定义 salt）</li>
+<li>Ed25519 签名验证</li>
+<li>设备 ID 生成算法</li>
+</ul>
+<p>激活码结构：<code>0{checksum}-{base64(signature + xor(signature, license_json))}</code></p>
+<p>详细的逆向过程会单独开帖记录，这里就不详细展开了。</p>
+<hr>
+<p><strong>注意：</strong> 纯技术研究用途，Snipaste 个人版也不贵，有条件建议支持正版。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-2">
+        <header>
+          <a href="#post-2">#2</a>
+          <strong>Byte01</strong>
+          <span>@Byte01</span>
+          
+          <time datetime="2026-05-02T12:55:20.871Z">5/2/2026, 8:55:20 PM</time>
+        </header>
+        <div class="content"><p>非常感谢，好用。Snipaste设计简约但功能强大，非常推荐。<br>
+<img src="https://cdn3.ldstatic.com/original/4X/2/1/1/21198101baeb41452506f14b973de7c85fcc4922.png" alt="image" data-base62-sha1="4IOoHDr8Z5eF1vpMCo6hlLqVUiK" width="365" height="99"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-3">
+        <header>
+          <a href="#post-3">#3</a>
+          <strong>天赐鱼鱼</strong>
+          <span>@yuyu-gift</span>
+          
+          <time datetime="2026-05-02T12:59:15.114Z">5/2/2026, 8:59:15 PM</time>
+        </header>
+        <div class="content"><p>我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享<img src="https://cdn.ldstatic.com/images/emoji/twemoji/smiling_face_with_three_hearts.png?v=15" title=":smiling_face_with_three_hearts:" class="emoji" alt=":smiling_face_with_three_hearts:" loading="lazy" width="20" height="20"><br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/c/b/7/cb7316b7a811bc3bc064c11c0d99183976fafaf3.png" data-download-href="/uploads/short-url/t1NvbuoAIgICmGWF0cPNscwZ6Ej.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/c/b/7/cb7316b7a811bc3bc064c11c0d99183976fafaf3.png" alt="image" data-base62-sha1="t1NvbuoAIgICmGWF0cPNscwZ6Ej" width="496" height="462"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">496×462 15.5 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-4">
+        <header>
+          <a href="#post-4">#4</a>
+          <strong>sunfly</strong>
+          <span>@sunfly</span>
+          
+          <time datetime="2026-05-02T13:40:42.573Z">5/2/2026, 9:40:42 PM</time>
+        </header>
+        <div class="content"><p>snipaste的专业版也不支持长截图吧？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-5">
+        <header>
+          <a href="#post-5">#5</a>
+          <strong>jucc</strong>
+          <span>@jucc</span>
+          
+          <time datetime="2026-05-02T13:43:59.238Z">5/2/2026, 9:43:59 PM</time>
+        </header>
+        <div class="content"><p>大佬有兴趣研究一下mac的吗，非常非常感谢</p></div>
+      </article>
+    
+
+      <article class="post" id="post-6">
+        <header>
+          <a href="#post-6">#6</a>
+          <strong>Acefa</strong>
+          <span>@acefa163</span>
+          
+          <time datetime="2026-05-02T13:52:11.963Z">5/2/2026, 9:52:11 PM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/0/6/c/06cb4c4131ccb48f42559b86a097e6b651ecc7d0.png" data-download-href="/uploads/short-url/Y6qz9wNyAxtNrYiQltLm38NsjK.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/0/6/c/06cb4c4131ccb48f42559b86a097e6b651ecc7d0.png" alt="image" data-base62-sha1="Y6qz9wNyAxtNrYiQltLm38NsjK" width="690" height="448" data-dominant-color="EBEAE9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1068×694 14.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+谢谢佬，跟着佬吃上了细糠，一直用这个软件贴图，感觉蛮方便的<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-7">
+        <header>
+          <a href="#post-7">#7</a>
+          <strong>萝警官</strong>
+          <span>@Hermione027</span>
+          
+          <time datetime="2026-05-02T13:52:26.236Z">5/2/2026, 9:52:26 PM</time>
+        </header>
+        <div class="content"><p>主要是没mac的机器呀 emmmm    <img src="https://cdn.ldstatic.com/images/emoji/twemoji/face_holding_back_tears.png?v=15" title=":face_holding_back_tears:" class="emoji" alt=":face_holding_back_tears:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-8">
+        <header>
+          <a href="#post-8">#8</a>
+          <strong>里奥 加</strong>
+          <span>@user374</span>
+          
+          <time datetime="2026-05-02T13:52:32.001Z">5/2/2026, 9:52:32 PM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013.png" data-download-href="/uploads/short-url/jktlcyz54aVnS8gFD50C2Bv9QvV.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_690x412.png" alt="image" data-base62-sha1="jktlcyz54aVnS8gFD50C2Bv9QvV" width="690" height="412" srcset="https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_690x412.png, https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_1035x618.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_1380x824.png 2x" data-dominant-color="F8F9F9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1804×1078 50.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+下载exe提示这个<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-9">
+        <header>
+          <a href="#post-9">#9</a>
+          <strong>萝警官</strong>
+          <span>@Hermione027</span>
+          
+          <time datetime="2026-05-02T13:53:13.588Z">5/2/2026, 9:53:13 PM</time>
+        </header>
+        <div class="content"><p>得去官网下载完整的版本哦 之后再按照教程来操作就好了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-10">
+        <header>
+          <a href="#post-10">#10</a>
+          <strong>里奥 加</strong>
+          <span>@user374</span>
+          
+          <time datetime="2026-05-02T13:56:09.011Z">5/2/2026, 9:56:09 PM</time>
+        </header>
+        <div class="content"><p>感谢佬，成功了，太强了，这个pro之前一直想要</p></div>
+      </article>
+    
+
+      <article class="post" id="post-11">
+        <header>
+          <a href="#post-11">#11</a>
+          <strong>EFL</strong>
+          <span>@EFL</span>
+          
+          <time datetime="2026-05-02T13:59:55.326Z">5/2/2026, 9:59:55 PM</time>
+        </header>
+        <div class="content"><p>诶……Snipaste 有长截图吗？我记得我是因为这个才换到 PixPin 的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-12">
+        <header>
+          <a href="#post-12">#12</a>
+          <strong>追杀Bug</strong>
+          <span>@w03176688</span>
+          
+          <time datetime="2026-05-02T14:02:01.640Z">5/2/2026, 10:02:01 PM</time>
+        </header>
+        <div class="content"><p>？ 这玩意是收费的吗， 我咋记忆里这个免费用<br>
+<img src="https://cdn3.ldstatic.com/original/4X/d/5/0/d5090d9a12ead03c7dd4d8de8a72b3c116e87aaf.png" alt="image" data-base62-sha1="uoB62BxtE0t0dGTs1HZj66kgQbR" width="115" height="91"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-13">
+        <header>
+          <a href="#post-13">#13</a>
+          <strong>叶遮天</strong>
+          <span>@yezhetian</span>
+          
+          <time datetime="2026-05-02T14:07:36.166Z">5/2/2026, 10:07:36 PM</time>
+        </header>
+        <div class="content"><aside class="quote no-group quote-modified" data-username="yuyu-gift" data-display-name="天赐鱼鱼" data-post="3" data-topic="2099300">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/yuyu-gift/48/1802251_2.png" class="avatar"> 天赐鱼鱼:</div>
+<blockquote>
+<p>我勒个去，照着大佬的步骤一步一补操作已经成功离线激活了！非常感谢大佬的分享</p>
+</blockquote>
+</aside>
+<p>我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享</p></div>
+      </article>
+    
+
+      <article class="post" id="post-14">
+        <header>
+          <a href="#post-14">#14</a>
+          <strong>萝警官</strong>
+          <span>@Hermione027</span>
+          
+          <time datetime="2026-05-02T14:18:01.339Z">5/2/2026, 10:18:01 PM</time>
+        </header>
+        <div class="content"><p>不知道哎 我是无聊研究者玩的 PixPin我也做了一个帖子哦 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/innocent.png?v=15" title=":innocent:" class="emoji" alt=":innocent:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-15">
+        <header>
+          <a href="#post-15">#15</a>
+          <strong>chancat</strong>
+          <span>@chancat</span>
+          
+          <time datetime="2026-05-02T14:20:42.499Z">5/2/2026, 10:20:42 PM</time>
+        </header>
+        <div class="content"><p>已激活<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/5/1/e51aaad7c775657c0e44f0fb4c458c463390e900.webp" data-download-href="/uploads/short-url/wGKtsXVJkIFryqkD5nXnxuxRemc.webp?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/e/5/1/e51aaad7c775657c0e44f0fb4c458c463390e900.webp" alt="image" data-base62-sha1="wGKtsXVJkIFryqkD5nXnxuxRemc" width="671" height="477"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">671×477 11.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>感谢分享 好人一生平安</p></div>
+      </article>
+    
+
+      <article class="post" id="post-16">
+        <header>
+          <a href="#post-16">#16</a>
+          <strong>cymorian</strong>
+          <span>@cymorian</span>
+          
+          <time datetime="2026-05-02T14:26:50.419Z">5/2/2026, 10:26:50 PM</time>
+        </header>
+        <div class="content"><p>才知道snipaste还有这种玩法，很好很强大，谢谢佬</p></div>
+      </article>
+    
+
+      <article class="post" id="post-17">
+        <header>
+          <a href="#post-17">#17</a>
+          <strong>Simon</strong>
+          <span>@ulpyuxa</span>
+          
+          <time datetime="2026-05-02T14:33:02.623Z">5/2/2026, 10:33:02 PM</time>
+        </header>
+        <div class="content"><p>作者的更新越来越不上进了，AI时代了，长截图依然遥遥无期</p></div>
+      </article>
+    
+
+      <article class="post" id="post-18">
+        <header>
+          <a href="#post-18">#18</a>
+          <strong>天赐鱼鱼</strong>
+          <span>@yuyu-gift</span>
+          
+          <time datetime="2026-05-02T14:40:10.310Z">5/2/2026, 10:40:10 PM</time>
+        </header>
+        <div class="content"><p>就是说，平常主要是用它贴图和直接复制粘贴图片，长截图功能还是微信自带的长截图，用完大佬的方式开了专业版才知道有识别翻译这个功能</p></div>
+      </article>
+    
+
+      <article class="post" id="post-19">
+        <header>
+          <a href="#post-19">#19</a>
+          <strong>不要向命运妥协</strong>
+          <span>@ctntc</span>
+          
+          <time datetime="2026-05-02T14:43:24.301Z">5/2/2026, 10:43:24 PM</time>
+        </header>
+        <div class="content"><p>佬，为什么我激活成功了之后，但是点击打开看还是免费版呢？</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/c/0/1c05e0913614dc536a718c71aced4aba1e85f884.png" data-download-href="/uploads/short-url/3ZTXAgWuckZJwj7YYzzigNqrJSk.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/1/c/0/1c05e0913614dc536a718c71aced4aba1e85f884.png" alt="image" data-base62-sha1="3ZTXAgWuckZJwj7YYzzigNqrJSk" width="542" height="402"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">542×402 8.91 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/1/7/b17f686c6c78f3c71745c4f1444780b89d4608e2.png" data-download-href="/uploads/short-url/pkdtUwkJLSXf7wa6a9Hp7aeX67g.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/b/1/7/b17f686c6c78f3c71745c4f1444780b89d4608e2.png" alt="image" data-base62-sha1="pkdtUwkJLSXf7wa6a9Hp7aeX67g" width="414" height="379"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">414×379 8.75 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>找到问题了，程序保存的文件夹目录下需要管理员权限，换个不要权限的路径就行了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-20">
+        <header>
+          <a href="#post-20">#20</a>
+          <strong>loup</strong>
+          <span>@loup</span>
+          
+          <time datetime="2026-05-02T14:49:38.856Z">5/2/2026, 10:49:38 PM</time>
+        </header>
+        <div class="content"><p>mac有pixpin可玩耍，也可以白嫖哦</p></div>
+      </article>
+    
+
+      <article class="post" id="post-21">
+        <header>
+          <a href="#post-21">#21</a>
+          <strong>Hanhua153</strong>
+          <span>@hanhua153</span>
+          
+          <time datetime="2026-05-02T20:09:33.378Z">5/3/2026, 4:09:33 AM</time>
+        </header>
+        <div class="content"><p>坏了，我之前没找到破解激活码，已经自己买了-99¥</p></div>
+      </article>
+    
+
+      <article class="post" id="post-22">
+        <header>
+          <a href="#post-22">#22</a>
+          <strong>DragonCoder</strong>
+          <span>@DragonCoder</span>
+          
+          <time datetime="2026-05-02T23:50:49.745Z">5/3/2026, 7:50:49 AM</time>
+        </header>
+        <div class="content"><p>佬友 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/+1.png?v=15" title=":+1:" class="emoji" alt=":+1:" loading="lazy" width="20" height="20">，虽然不用这软件，但是可以学习下过程和思路</p></div>
+      </article>
+    
+
+      <article class="post" id="post-23">
+        <header>
+          <a href="#post-23">#23</a>
+          <strong>Vrustx</strong>
+          <span>@vrustx</span>
+          
+          <time datetime="2026-05-03T00:00:43.747Z">5/3/2026, 8:00:43 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/5/b/35ba2c9359d0cbac9e756b41f98ee5626c3e887a.png" data-download-href="/uploads/short-url/7Fibiciss0wI5jkf7PpuLTmvsUO.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/3/5/b/35ba2c9359d0cbac9e756b41f98ee5626c3e887a.png" alt="image" data-base62-sha1="7Fibiciss0wI5jkf7PpuLTmvsUO" width="668" height="473"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">668×473 10.5 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+感谢大佬！激活成功<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-24">
+        <header>
+          <a href="#post-24">#24</a>
+          <strong>dfxing</strong>
+          <span>@dfxing</span>
+          
+          <time datetime="2026-05-03T01:13:51.457Z">5/3/2026, 9:13:51 AM</time>
+        </header>
+        <div class="content"><p>厉害，虽然已经入手了正版了，不过以前都是绑定微软商店的，比较烦</p></div>
+      </article>
+    
+
+      <article class="post" id="post-25">
+        <header>
+          <a href="#post-25">#25</a>
+          <strong>wwss</strong>
+          <span>@wwss</span>
+          
+          <time datetime="2026-05-03T01:28:47.975Z">5/3/2026, 9:28:47 AM</time>
+        </header>
+        <div class="content"><p>大佬厉害啊，按照你的方法激活成功了，也是用上了专业版</p></div>
+      </article>
+    
+
+      <article class="post" id="post-26">
+        <header>
+          <a href="#post-26">#26</a>
+          <strong>小王</strong>
+          <span>@galt</span>
+          
+          <time datetime="2026-05-03T01:32:22.782Z">5/3/2026, 9:32:22 AM</time>
+        </header>
+        <div class="content"><p>哇，这个是真厉害！！</p>
+<p>佬，请问对于 linux 有可用的方法吗？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-27">
+        <header>
+          <a href="#post-27">#27</a>
+          <strong>a412317</strong>
+          <span>@a412317</span>
+          
+          <time datetime="2026-05-03T01:33:56.350Z">5/3/2026, 9:33:56 AM</time>
+        </header>
+        <div class="content"><p>强啊，不过之前就已经入了正版了，反正也不贵</p></div>
+      </article>
+    
+  </main>
+</body>
+</html>

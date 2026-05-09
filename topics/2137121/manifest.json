@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2137121,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2137121",
+    "title": "Hub上被薅了Opus羊毛",
+    "currentVersionId": "v1",
+    "currentHash": "e663671e085931896028f0a6dcfe90ef489e4287e93fc97fce7e4bd8e252c9f1",
+    "postCount": 24,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2137121,
+      "sourceUrl": "https://linux.do/t/topic/2137121",
+      "contentHash": "e663671e085931896028f0a6dcfe90ef489e4287e93fc97fce7e4bd8e252c9f1",
+      "postCount": 24,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 24 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2128066,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2128066",
+    "title": "站长你好！想咨询一下封禁缘由，谢谢！",
+    "currentVersionId": "v1",
+    "currentHash": "c6fc6d0ff22bdde9cc9e237944689e87c33d7e1aa044c05ec9d37a973bd32a55",
+    "postCount": 25,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2128066,
+      "sourceUrl": "https://linux.do/t/topic/2128066",
+      "contentHash": "c6fc6d0ff22bdde9cc9e237944689e87c33d7e1aa044c05ec9d37a973bd32a55",
+      "postCount": 25,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 25 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

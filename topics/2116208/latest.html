@@ -1,0 +1,3075 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>星辰AI出来解释下呗</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>星辰AI出来解释下呗</h1>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2116208">https://linux.do/t/topic/2116208</a><br>
+      Version: v4<br>
+      Posts: 218; missing floors: 14, 78, 118, 151, 168, 215
+    </div>
+    
+      <article class="post" id="post-1">
+        <header>
+          <a href="#post-1">#1</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          
+          <time datetime="2026-05-05T16:19:57.521Z">5/6/2026, 12:19:57 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/5/6/456b4092a5ade65aa0b1db898ea188b78cd5d1b5.png" data-download-href="/uploads/short-url/9U6Jp2sk43BrVOtwnaecz304Boh.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/5/6/456b4092a5ade65aa0b1db898ea188b78cd5d1b5_2_690x185.png" alt="image" data-base62-sha1="9U6Jp2sk43BrVOtwnaecz304Boh" width="690" height="185" srcset="https://cdn3.ldstatic.com/optimized/4X/4/5/6/456b4092a5ade65aa0b1db898ea188b78cd5d1b5_2_690x185.png, https://cdn3.ldstatic.com/optimized/4X/4/5/6/456b4092a5ade65aa0b1db898ea188b78cd5d1b5_2_1035x277.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/4/5/6/456b4092a5ade65aa0b1db898ea188b78cd5d1b5_2_1380x370.png 2x" data-dominant-color="2F3034"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1762×474 73.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>我说opus说话怎么一股异味，做了个探针查一下Tokenizer，对比一下官方订阅</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/1/7/d17a9f951bd7f0bb1e24a6966f2f4d12eb4fd981.png" data-download-href="/uploads/short-url/tT8vF3ow2Bu2tnZ6Yn5gnkV1KoN.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/d/1/7/d17a9f951bd7f0bb1e24a6966f2f4d12eb4fd981_2_690x341.png" alt="image" data-base62-sha1="tT8vF3ow2Bu2tnZ6Yn5gnkV1KoN" width="690" height="341" srcset="https://cdn3.ldstatic.com/optimized/4X/d/1/7/d17a9f951bd7f0bb1e24a6966f2f4d12eb4fd981_2_690x341.png, https://cdn3.ldstatic.com/optimized/4X/d/1/7/d17a9f951bd7f0bb1e24a6966f2f4d12eb4fd981_2_1035x511.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/d/1/7/d17a9f951bd7f0bb1e24a6966f2f4d12eb4fd981_2_1380x682.png 2x" data-dominant-color="F6F0DE"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2472×1222 321 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>claude给我的建议：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/b/8/bb840aa4baa62adaea533167e536682e88aaee38.png" data-download-href="/uploads/short-url/qKQbsa8KpcKaUefl19susRdVtTa.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/b/b/8/bb840aa4baa62adaea533167e536682e88aaee38_2_690x68.png" alt="image" data-base62-sha1="qKQbsa8KpcKaUefl19susRdVtTa" width="690" height="68" srcset="https://cdn3.ldstatic.com/optimized/4X/b/b/8/bb840aa4baa62adaea533167e536682e88aaee38_2_690x68.png, https://cdn3.ldstatic.com/optimized/4X/b/b/8/bb840aa4baa62adaea533167e536682e88aaee38_2_1035x102.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/b/8/bb840aa4baa62adaea533167e536682e88aaee38_2_1380x136.png 2x" data-dominant-color="F6F1DF"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1986×196 29.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>也没少充值，充给老板用</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/7/b/0/7b08facce625198b2d6e5bdb15a36df70ef55544.png" data-download-href="/uploads/short-url/hypY04m1VbonuWsXYCYB56HTp7S.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/7/b/0/7b08facce625198b2d6e5bdb15a36df70ef55544.png" alt="image" data-base62-sha1="hypY04m1VbonuWsXYCYB56HTp7S" width="460" height="422"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">460×422 17.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>难怪我老板说opus怎么这么笨</p>
+<p>btw补充一下，我不是让模型来判断是不是真的，我是本地跑了claude auth两个号作为基准，azure的一个api作为参考，说幻觉的可以省省。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/6/2/3626b95a24180bdfdd33aad042ea292758227651.png" data-download-href="/uploads/short-url/7J2Ks9wlIdykBdiUIqxYKNACwGR.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/3/6/2/3626b95a24180bdfdd33aad042ea292758227651_2_690x384.png" alt="image" data-base62-sha1="7J2Ks9wlIdykBdiUIqxYKNACwGR" width="690" height="384" srcset="https://cdn3.ldstatic.com/optimized/4X/3/6/2/3626b95a24180bdfdd33aad042ea292758227651_2_690x384.png, https://cdn3.ldstatic.com/optimized/4X/3/6/2/3626b95a24180bdfdd33aad042ea292758227651_2_1035x576.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/3/6/2/3626b95a24180bdfdd33aad042ea292758227651_2_1380x768.png 2x" data-dominant-color="F1ECDA"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1380×768 94.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-2">
+        <header>
+          <a href="#post-2">#2</a>
+          <strong>诺曼底企鹅</strong>
+          <span>@normandy</span>
+          
+          <time datetime="2026-05-05T16:20:21.938Z">5/6/2026, 12:20:21 AM</time>
+        </header>
+        <div class="content"><p>我将第一时间赶赴战场进行一个搬凳子吃瓜。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-3">
+        <header>
+          <a href="#post-3">#3</a>
+          <strong>柚子</strong>
+          <span>@youzi2025</span>
+          
+          <time datetime="2026-05-05T16:21:43.213Z">5/6/2026, 12:21:43 AM</time>
+        </header>
+        <div class="content"><p>我将第三时间赶赴战场进行一个搬凳子吃瓜。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-4">
+        <header>
+          <a href="#post-4">#4</a>
+          <strong>奎因</strong>
+          <span>@Ellery</span>
+          
+          <time datetime="2026-05-05T16:22:28.950Z">5/6/2026, 12:22:28 AM</time>
+        </header>
+        <div class="content"><p>又是富可敌国的瓜吗，感觉最近各种瓜好多都有点吃累了 <img src="https://cdn3.ldstatic.com/original/3X/2/e/2e09f3a3c7b27eacbabe9e9614b06b88d5b06343.png?v=15" title=":tieba_087:" class="emoji emoji-custom" alt=":tieba_087:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-5">
+        <header>
+          <a href="#post-5">#5</a>
+          <strong>等光的影子</strong>
+          <span>@smallbaby</span>
+          
+          <time datetime="2026-05-05T16:23:09.335Z">5/6/2026, 12:23:09 AM</time>
+        </header>
+        <div class="content"><p>又是新一轮的吃瓜现场了吗, 太有意思了, 假期结束娱乐项目</p></div>
+      </article>
+    
+
+      <article class="post" id="post-6">
+        <header>
+          <a href="#post-6">#6</a>
+          <strong>星野</strong>
+          <span>@XingYe16X</span>
+          
+          <time datetime="2026-05-05T16:23:20.892Z">5/6/2026, 12:23:20 AM</time>
+        </header>
+        <div class="content"><p>我将搬个凳子和西瓜前排吃瓜！最喜欢看富可敌国的瓜了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-7">
+        <header>
+          <a href="#post-7">#7</a>
+          <strong>巴力勤</strong>
+          <span>@baliqin</span>
+          
+          <time datetime="2026-05-05T16:23:29.426Z">5/6/2026, 12:23:29 AM</time>
+        </header>
+        <div class="content"><p>好像有先例？记得五一之前看过类似的帖子，不知道当时有没有解决</p></div>
+      </article>
+    
+
+      <article class="post" id="post-8">
+        <header>
+          <a href="#post-8">#8</a>
+          <strong>Jeffry</strong>
+          <span>@Jeffry39</span>
+          
+          <time datetime="2026-05-05T16:23:34.985Z">5/6/2026, 12:23:34 AM</time>
+        </header>
+        <div class="content"><p>板凳搬好了，瓜子拿出来磕了，就等瓜吃了<img src="https://cdn.ldstatic.com/images/emoji/twemoji/zany_face.png?v=15" title=":zany_face:" class="emoji" alt=":zany_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-9">
+        <header>
+          <a href="#post-9">#9</a>
+          <strong>fjhorn</strong>
+          <span>@fjhorn</span>
+          
+          <time datetime="2026-05-05T16:23:47.430Z">5/6/2026, 12:23:47 AM</time>
+        </header>
+        <div class="content"><p>我是不理解为什么有人前赴后继的用这些中转站。掺水不说，自己的数据安全都被别人看底裤。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-10">
+        <header>
+          <a href="#post-10">#10</a>
+          <strong>Zooe</strong>
+          <span>@Zooe</span>
+          
+          <time datetime="2026-05-05T16:24:13.766Z">5/6/2026, 12:24:13 AM</time>
+        </header>
+        <div class="content"><p>板凳搬好，坐前排，吃瓜子。看客姥爷坐好了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-11">
+        <header>
+          <a href="#post-11">#11</a>
+          <strong>小P小P</strong>
+          <span>@peterh</span>
+          
+          <time datetime="2026-05-05T16:24:32.081Z">5/6/2026, 12:24:32 AM</time>
+        </header>
+        <div class="content"><p>我嘞个又是富可敌国，前排直接一个占座吃瓜</p></div>
+      </article>
+    
+
+      <article class="post" id="post-12">
+        <header>
+          <a href="#post-12">#12</a>
+          <strong>McD</strong>
+          <span>@McD</span>
+          <span class="reply-context">in reply to <a href="#post-9">#9</a> fjhorn</span>
+          <time datetime="2026-05-05T16:24:42.329Z">5/6/2026, 12:24:42 AM</time>
+        </header>
+        <div class="content"><p>原价充的价格你是一点不提啊，还有封号等各种风险</p></div>
+      </article>
+    
+
+      <article class="post" id="post-13">
+        <header>
+          <a href="#post-13">#13</a>
+          <strong>koubibulaien</strong>
+          <span>@koubibulaien</span>
+          
+          <time datetime="2026-05-05T16:25:24.568Z">5/6/2026, 12:25:24 AM</time>
+        </header>
+        <div class="content"><p>opus4.7就是难用啊，说话怪怪的是正常的。和官订不一样可能是逆向渠道？</p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-14">
+          <header><a href="#post-14">#14</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-15">
+        <header>
+          <a href="#post-15">#15</a>
+          <strong>Shinyoki</strong>
+          <span>@shinyoki</span>
+          
+          <time datetime="2026-05-05T16:25:36.599Z">5/6/2026, 12:25:36 AM</time>
+        </header>
+        <div class="content"><p>我将以第一时间搬起小板凳坐等后续进展，拭目以待</p></div>
+      </article>
+    
+
+      <article class="post" id="post-16">
+        <header>
+          <a href="#post-16">#16</a>
+          <strong>gavinsolo</strong>
+          <span>@gavinsolo</span>
+          
+          <time datetime="2026-05-05T16:25:39.002Z">5/6/2026, 12:25:39 AM</time>
+        </header>
+        <div class="content"><p>话说现在中转站倍率都这么高了吗？1.8X？ <img src="https://cdn.ldstatic.com/images/emoji/twemoji/face_with_raised_eyebrow.png?v=15" title=":face_with_raised_eyebrow:" class="emoji" alt=":face_with_raised_eyebrow:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-17">
+        <header>
+          <a href="#post-17">#17</a>
+          <strong>Zooe</strong>
+          <span>@Zooe</span>
+          <span class="reply-context">in reply to <a href="#post-9">#9</a> fjhorn</span>
+          <time datetime="2026-05-05T16:25:44.889Z">5/6/2026, 12:25:44 AM</time>
+        </header>
+        <div class="content"><p>现在这社会数据这玩意，不都是裸奔的嘛，你用官方的，不也把数据拿去训练，真要是机密都自己开源模型搭建了。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-18">
+        <header>
+          <a href="#post-18">#18</a>
+          <strong>Zooe</strong>
+          <span>@Zooe</span>
+          <span class="reply-context">in reply to <a href="#post-16">#16</a> gavinsolo</span>
+          <time datetime="2026-05-05T16:26:36.550Z">5/6/2026, 12:26:36 AM</time>
+        </header>
+        <div class="content"><p>正常的 max中转站价格，但是成本1 以下，但是要考虑封号成本。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-19">
+        <header>
+          <a href="#post-19">#19</a>
+          <strong>欣欣|林可欣</strong>
+          <span>@StellaFortuna</span>
+          
+          <time datetime="2026-05-05T16:26:50.630Z">5/6/2026, 12:26:50 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-20">
+        <header>
+          <a href="#post-20">#20</a>
+          <strong>Zenuncl</strong>
+          <span>@Zenuncl</span>
+          
+          <time datetime="2026-05-05T16:29:19.230Z">5/6/2026, 12:29:19 AM</time>
+        </header>
+        <div class="content"><p>探针查一下Tokenizer 的思路/工具有推荐么？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-21">
+        <header>
+          <a href="#post-21">#21</a>
+          <strong>GwIhViEte</strong>
+          <span>@GwIhViEte</span>
+          
+          <time datetime="2026-05-05T16:29:45.932Z">5/6/2026, 12:29:45 AM</time>
+        </header>
+        <div class="content"><p>哦？有新的瓜吃了？后排兜售啤酒饮料花生瓜子矿泉水，脚都收一下啊~ <img src="https://cdn.ldstatic.com/images/emoji/twemoji/face_savoring_food.png?v=15" title=":face_savoring_food:" class="emoji" alt=":face_savoring_food:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-22">
+        <header>
+          <a href="#post-22">#22</a>
+          <strong>Gongyi_Churen</strong>
+          <span>@Gongyi_Churen</span>
+          
+          <time datetime="2026-05-05T16:29:55.781Z">5/6/2026, 12:29:55 AM</time>
+        </header>
+        <div class="content"><p>前排吃瓜咯——啤酒饮料矿泉水，花生瓜子八宝粥，腿收一下，让一让，盒饭15LDC一份<img src="https://cdn.ldstatic.com/images/emoji/twemoji/shopping_cart.png?v=15" title=":shopping_cart:" class="emoji" alt=":shopping_cart:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-23">
+        <header>
+          <a href="#post-23">#23</a>
+          <strong>karx</strong>
+          <span>@karx</span>
+          <span class="reply-context">in reply to <a href="#post-19">#19</a> 欣欣|林可欣</span>
+          <time datetime="2026-05-05T16:31:14.877Z">5/6/2026, 12:31:14 AM</time>
+        </header>
+        <div class="content"><p>这里的链接怎么都打不开，我也是3级了啊@</p></div>
+      </article>
+    
+
+      <article class="post" id="post-24">
+        <header>
+          <a href="#post-24">#24</a>
+          <strong>赌狗</strong>
+          <span>@YOLOer</span>
+          
+          <time datetime="2026-05-05T16:31:24.059Z">5/6/2026, 12:31:24 AM</time>
+        </header>
+        <div class="content"><p>我差点就往里面充了，要不是手头上现有的没到期就已经充了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-25">
+        <header>
+          <a href="#post-25">#25</a>
+          <strong>AI_Mouse</strong>
+          <span>@AI_Mouse</span>
+          
+          <time datetime="2026-05-05T16:31:34.335Z">5/6/2026, 12:31:34 AM</time>
+        </header>
+        <div class="content"><p>这是什么情况，我也要搬个板凳进行一个吃瓜。 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-26">
+        <header>
+          <a href="#post-26">#26</a>
+          <strong>奕道</strong>
+          <span>@saberkirito</span>
+          
+          <time datetime="2026-05-05T16:31:35.305Z">5/6/2026, 12:31:35 AM</time>
+        </header>
+        <div class="content"><p>萌新前排吃瓜，第一次听说这个，不过真有大佬这么干的吗？等着看后续情况。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-27">
+        <header>
+          <a href="#post-27">#27</a>
+          <strong>intak48</strong>
+          <span>@intak48</span>
+          
+          <time datetime="2026-05-05T16:33:50.220Z">5/6/2026, 12:33:50 AM</time>
+        </header>
+        <div class="content"><p>哈哈哈，我也在星晨冲了的，用的特惠，没管真假，因为太便宜了。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-28">
+        <header>
+          <a href="#post-28">#28</a>
+          <strong>大卫戴</strong>
+          <span>@zhangjk</span>
+          
+          <time datetime="2026-05-05T16:34:32.595Z">5/6/2026, 12:34:32 AM</time>
+        </header>
+        <div class="content"><p>测了过的了 cctets 理论上来说是真的模型 多收toekn 按这个计算看应该只是语法转义反正风控 而且测智商为啥用4.5</p></div>
+      </article>
+    
+
+      <article class="post" id="post-29">
+        <header>
+          <a href="#post-29">#29</a>
+          <strong>yuyi233</strong>
+          <span>@yuyi233</span>
+          
+          <time datetime="2026-05-05T16:34:56.465Z">5/6/2026, 12:34:56 AM</time>
+        </header>
+        <div class="content"><p>10分钟了，赶个后排吃瓜，蹲一个后续 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-30">
+        <header>
+          <a href="#post-30">#30</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-28">#28</a> 大卫戴</span>
+          <time datetime="2026-05-05T16:35:59.592Z">5/6/2026, 12:35:59 AM</time>
+        </header>
+        <div class="content"><p>测的opus4.7，排除法排除的sonnet 4.5</p></div>
+      </article>
+    
+
+      <article class="post" id="post-31">
+        <header>
+          <a href="#post-31">#31</a>
+          <strong>zhiyao wang</strong>
+          <span>@zhiyao_wang</span>
+          <span class="reply-context">in reply to <a href="#post-12">#12</a> McD</span>
+          <time datetime="2026-05-05T16:36:54.418Z">5/6/2026, 12:36:54 AM</time>
+        </header>
+        <div class="content"><aside class="quote no-group" data-username="McD" data-post="12" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/mcd/48/1823387_2.png" class="avatar"> McD:</div>
+<blockquote>
+<p>原价充的价格你是一点不提啊，还有封号等各种风险</p>
+</blockquote>
+</aside>
+<p>原价充比中转站便宜多了吧 而且质量有保证</p></div>
+      </article>
+    
+
+      <article class="post" id="post-32">
+        <header>
+          <a href="#post-32">#32</a>
+          <strong>朱陵</strong>
+          <span>@firmant</span>
+          <span class="reply-context">in reply to <a href="#post-31">#31</a> zhiyao wang</span>
+          <time datetime="2026-05-05T16:37:55.073Z">5/6/2026, 12:37:55 AM</time>
+        </header>
+        <div class="content"><p>要是原价比中转便宜谁用中转啊，目前这些中转站基本都是比原价便宜不少的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-33">
+        <header>
+          <a href="#post-33">#33</a>
+          <strong>林翩翩</strong>
+          <span>@xg_ame</span>
+          <span class="reply-context">in reply to <a href="#post-12">#12</a> McD</span>
+          <time datetime="2026-05-05T16:38:02.425Z">5/6/2026, 12:38:02 AM</time>
+        </header>
+        <div class="content"><p>原价比中转站便宜哦。claude配额是这样的。max每周给的额度还是挺多的，虽然没以前那么多。<br>
+但是算下来也就四五角一刀</p></div>
+      </article>
+    
+
+      <article class="post" id="post-34">
+        <header>
+          <a href="#post-34">#34</a>
+          <strong>zspzwal</strong>
+          <span>@zspzwal</span>
+          
+          <time datetime="2026-05-05T16:38:03.137Z">5/6/2026, 12:38:03 AM</time>
+        </header>
+        <div class="content"><p>密切关注，这个探针是什么原理呢，能准么？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-35">
+        <header>
+          <a href="#post-35">#35</a>
+          <strong>McD</strong>
+          <span>@McD</span>
+          <span class="reply-context">in reply to <a href="#post-31">#31</a> zhiyao wang</span>
+          <time datetime="2026-05-05T16:39:02.141Z">5/6/2026, 12:39:02 AM</time>
+        </header>
+        <div class="content"><p>中转基本充值就先打1/7的汇率差了，怎么可能直充比中转便宜，那谁还中转</p></div>
+      </article>
+    
+
+      <article class="post" id="post-36">
+        <header>
+          <a href="#post-36">#36</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-19">#19</a> 欣欣|林可欣</span>
+          <time datetime="2026-05-05T16:39:03.002Z">5/6/2026, 12:39:03 AM</time>
+        </header>
+        <div class="content"><p>君的公益和星辰的cc特惠确实是一样的，各种逆向，不过都有缓存，区别是一个免费一个三毛，别的没有区别</p></div>
+      </article>
+    
+
+      <article class="post" id="post-37">
+        <header>
+          <a href="#post-37">#37</a>
+          <strong>gitday</strong>
+          <span>@didiaodidiao260</span>
+          
+          <time datetime="2026-05-05T16:39:06.603Z">5/6/2026, 12:39:06 AM</time>
+        </header>
+        <div class="content"><p>又有新的瓜可以吃了吗？已关注，持续吃瓜中</p></div>
+      </article>
+    
+
+      <article class="post" id="post-38">
+        <header>
+          <a href="#post-38">#38</a>
+          <strong>karx</strong>
+          <span>@karx</span>
+          <span class="reply-context">in reply to <a href="#post-32">#32</a> 朱陵</span>
+          <time datetime="2026-05-05T16:39:51.946Z">5/6/2026, 12:39:51 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-39">
+        <header>
+          <a href="#post-39">#39</a>
+          <strong>NovDec</strong>
+          <span>@NovDec</span>
+          
+          <time datetime="2026-05-05T16:40:24.675Z">5/6/2026, 12:40:24 AM</time>
+        </header>
+        <div class="content"><p>这个探针怎么操作，有佬友知道吗，围观中。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-40">
+        <header>
+          <a href="#post-40">#40</a>
+          <strong>大卫戴</strong>
+          <span>@zhangjk</span>
+          
+          <time datetime="2026-05-05T16:40:33.828Z">5/6/2026, 12:40:33 AM</time>
+        </header>
+        <div class="content"><p>测的opus4.7，排除法排除的sonnet 4.5 然后发个ai截图就可以打架了吗哈哈哈哈</p>
+<p>看不懂了 反正我用着挺好用还便宜</p></div>
+      </article>
+    
+
+      <article class="post" id="post-41">
+        <header>
+          <a href="#post-41">#41</a>
+          <strong>林翩翩</strong>
+          <span>@xg_ame</span>
+          <span class="reply-context">in reply to <a href="#post-36">#36</a> 慕鸢</span>
+          <time datetime="2026-05-05T16:41:56.723Z">5/6/2026, 12:41:56 AM</time>
+        </header>
+        <div class="content"><p>但是这个好像是1.8x的分组，这是怎么回事呢？<br>
+是不是对用户请求做了什么篡改？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-42">
+        <header>
+          <a href="#post-42">#42</a>
+          <strong>一液千精</strong>
+          <span>@link455like</span>
+          
+          <time datetime="2026-05-05T16:42:13.419Z">5/6/2026, 12:42:13 AM</time>
+        </header>
+        <div class="content"><p>喲～又到了吃瓜的时候，好好好，搬个板凳出来看</p></div>
+      </article>
+    
+
+      <article class="post" id="post-43">
+        <header>
+          <a href="#post-43">#43</a>
+          <strong>Lumi</strong>
+          <span>@ysyl</span>
+          
+          <time datetime="2026-05-05T16:43:33.202Z">5/6/2026, 12:43:33 AM</time>
+        </header>
+        <div class="content"><p>不困了，吃瓜吃瓜。让子弹飞一会儿，等待慕鸢佬回复先</p></div>
+      </article>
+    
+
+      <article class="post" id="post-44">
+        <header>
+          <a href="#post-44">#44</a>
+          <strong>mlxyh</strong>
+          <span>@mlxyh</span>
+          
+          <time datetime="2026-05-05T16:44:55.756Z">5/6/2026, 12:44:55 AM</time>
+        </header>
+        <div class="content"><p>前排前排，腿让一让了啊，都收一收，给后来的腾个座</p></div>
+      </article>
+    
+
+      <article class="post" id="post-45">
+        <header>
+          <a href="#post-45">#45</a>
+          <strong>大卫戴</strong>
+          <span>@zhangjk</span>
+          <span class="reply-context">in reply to <a href="#post-40">#40</a> 大卫戴</span>
+          <time datetime="2026-05-05T16:45:16.091Z">5/6/2026, 12:45:16 AM</time>
+        </header>
+        <div class="content"><p>还国产模型 富可敌国又不是没脑子 son 和国产模型说话风格都不一样</p></div>
+      </article>
+    
+
+      <article class="post" id="post-46">
+        <header>
+          <a href="#post-46">#46</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-41">#41</a> 林翩翩</span>
+          <time datetime="2026-05-05T16:46:04.192Z">5/6/2026, 12:46:04 AM</time>
+        </header>
+        <div class="content"><p>我说实话我没看太懂他发了什么，逻辑好像不太通，输入确实加了语义翻译规避封控，有所差别</p></div>
+      </article>
+    
+
+      <article class="post" id="post-47">
+        <header>
+          <a href="#post-47">#47</a>
+          <strong>Neko</strong>
+          <span>@Neko66</span>
+          
+          <time datetime="2026-05-05T16:46:08.107Z">5/6/2026, 12:46:08 AM</time>
+        </header>
+        <div class="content"><p>没想到还能深夜吃瓜，泡个面蹲一会更新美滋滋</p></div>
+      </article>
+    
+
+      <article class="post" id="post-48">
+        <header>
+          <a href="#post-48">#48</a>
+          <strong>starfall</strong>
+          <span>@starfall</span>
+          
+          <time datetime="2026-05-05T16:46:15.764Z">5/6/2026, 12:46:15 AM</time>
+        </header>
+        <div class="content"><p>终于赶上热乎的了 搬板凳搬板凳 吃瓜吃瓜</p></div>
+      </article>
+    
+
+      <article class="post" id="post-49">
+        <header>
+          <a href="#post-49">#49</a>
+          <strong>模</strong>
+          <span>@3601650001</span>
+          
+          <time datetime="2026-05-05T16:46:38.185Z">5/6/2026, 12:46:38 AM</time>
+        </header>
+        <div class="content"><p>坐吃，这种到底靠谱不靠谱呀，我也一直在观望</p></div>
+      </article>
+    
+
+      <article class="post" id="post-50">
+        <header>
+          <a href="#post-50">#50</a>
+          <strong>javafun</strong>
+          <span>@user1857</span>
+          
+          <time datetime="2026-05-05T16:47:46.069Z">5/6/2026, 12:47:46 AM</time>
+        </header>
+        <div class="content"><p>貌似claude中转站就没几个是纯血的，目前看到的爆出来掺水的太多了，真想纯血要么官网要么openroute了，还有谷歌的antigravity</p></div>
+      </article>
+    
+
+      <article class="post" id="post-51">
+        <header>
+          <a href="#post-51">#51</a>
+          <strong>林翩翩</strong>
+          <span>@xg_ame</span>
+          <span class="reply-context">in reply to <a href="#post-46">#46</a> 慕鸢</span>
+          <time datetime="2026-05-05T16:47:58.159Z">5/6/2026, 12:47:58 AM</time>
+        </header>
+        <div class="content"><p>他的意思是 如果你是透传的话，那么理应分词和官方保持一致。<br>
+但是现在是不一致的，他就怀疑你篡改模型，以次充好。<br>
+我感觉应该不会，可能是风控或者其他模块修改了什么…?<br>
+建议私下交流跟踪一下问题。</p>
+<p>whatever claude opus 4.7确实无限傻逼。所以我觉得大概率不是掺水渠道的锅，哈哈。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-52">
+        <header>
+          <a href="#post-52">#52</a>
+          <strong>zhilv</strong>
+          <span>@zhilv</span>
+          
+          <time datetime="2026-05-05T16:48:21.048Z">5/6/2026, 12:48:21 AM</time>
+        </header>
+        <div class="content"><p>搬着小板凳过来吃吃瓜<img src="https://cdn.ldstatic.com/images/emoji/twemoji/face_savoring_food.png?v=15" title=":face_savoring_food:" class="emoji" alt=":face_savoring_food:" loading="lazy" width="20" height="20">，看看怎么个情况<img src="https://cdn.ldstatic.com/images/emoji/twemoji/face_savoring_food.png?v=15" title=":face_savoring_food:" class="emoji" alt=":face_savoring_food:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-53">
+        <header>
+          <a href="#post-53">#53</a>
+          <strong>哈雷彗星</strong>
+          <span>@Haleclipse</span>
+          
+          <time datetime="2026-05-05T16:49:12.583Z">5/6/2026, 12:49:12 AM</time>
+        </header>
+        <div class="content"><p><a class="mention" href="https://linux.do/u/wendavid">@WenDavid</a><br>
+吃瓜是吧 逮捕了 哈哈</p></div>
+      </article>
+    
+
+      <article class="post" id="post-54">
+        <header>
+          <a href="#post-54">#54</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-45">#45</a> 大卫戴</span>
+          <time datetime="2026-05-05T16:49:39.579Z">5/6/2026, 12:49:39 AM</time>
+        </header>
+        <div class="content"><p>你说的没错，就是因为说话风格有异味我才研究的，opus不可能这么说话</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/5/5/d/55da3af9cee9858c1ca4d5efc3e32cfdb276ce70.png" data-download-href="/uploads/short-url/cfu8LzErNxB94kJR71AGQY6hCHm.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/5/5/d/55da3af9cee9858c1ca4d5efc3e32cfdb276ce70_2_690x43.png" alt="image" data-base62-sha1="cfu8LzErNxB94kJR71AGQY6hCHm" width="690" height="43" srcset="https://cdn3.ldstatic.com/optimized/4X/5/5/d/55da3af9cee9858c1ca4d5efc3e32cfdb276ce70_2_690x43.png, https://cdn3.ldstatic.com/optimized/4X/5/5/d/55da3af9cee9858c1ca4d5efc3e32cfdb276ce70_2_1035x64.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/5/5/d/55da3af9cee9858c1ca4d5efc3e32cfdb276ce70_2_1380x86.png 2x" data-dominant-color="F5EFDD"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2376×150 30.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-55">
+        <header>
+          <a href="#post-55">#55</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          
+          <time datetime="2026-05-05T16:49:41.470Z">5/6/2026, 12:49:41 AM</time>
+        </header>
+        <div class="content"><p>一眼鉴定为模型幻觉。佬友是不是没看过opus4.7出来之后的报告（） <img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"></p>
+<ol>
+<li>opus4.7换了tokenizer，众所周知，token数都是翻了几倍（）</li>
+<li>自爆sonnet 4.5和knowledge cutoff的问题<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/8/0/b803c4deabe8a7419576474ababd707f74eac08e.png" data-download-href="/uploads/short-url/qfRVDBb0FNl1Jyrt6VosDodhLjM.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/b/8/0/b803c4deabe8a7419576474ababd707f74eac08e_2_690x423.png" alt="image" data-base62-sha1="qfRVDBb0FNl1Jyrt6VosDodhLjM" width="690" height="423" srcset="https://cdn3.ldstatic.com/optimized/4X/b/8/0/b803c4deabe8a7419576474ababd707f74eac08e_2_690x423.png, https://cdn3.ldstatic.com/optimized/4X/b/8/0/b803c4deabe8a7419576474ababd707f74eac08e_2_1035x634.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/8/0/b803c4deabe8a7419576474ababd707f74eac08e_2_1380x846.png 2x" data-dominant-color="2F2F2E"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1762×1081 86.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+实际上你应该直接问gpt-5是啥时候发布的<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/b/a/4ba0329e20bf8248966a2f6f376f2fa90b08b199.png" data-download-href="/uploads/short-url/aN120gv1cjWuflaevCYOWsy6HFf.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/b/a/4ba0329e20bf8248966a2f6f376f2fa90b08b199_2_690x376.png" alt="image" data-base62-sha1="aN120gv1cjWuflaevCYOWsy6HFf" width="690" height="376" srcset="https://cdn3.ldstatic.com/optimized/4X/4/b/a/4ba0329e20bf8248966a2f6f376f2fa90b08b199_2_690x376.png, https://cdn3.ldstatic.com/optimized/4X/4/b/a/4ba0329e20bf8248966a2f6f376f2fa90b08b199_2_1035x564.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/4/b/a/4ba0329e20bf8248966a2f6f376f2fa90b08b199_2_1380x752.png 2x" data-dominant-color="30302E"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1800×983 88.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div></li>
+</ol>
+<p>我看与其是自爆sonnet4.5不如说是自爆sonnet3.5。<br>
+实际上前几年有篇paper指出，如果你问像是“罗纳尔多的父亲是谁”，会比“谁的儿子是罗纳尔多”这种更容易问出答案（特别是可能你这里没开reasoning），这是大模型本身的KV的性质来决定的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-56">
+        <header>
+          <a href="#post-56">#56</a>
+          <strong>Cody Mohr</strong>
+          <span>@Rosalia_Lang1</span>
+          <span class="reply-context">in reply to <a href="#post-50">#50</a> javafun</span>
+          <time datetime="2026-05-05T16:49:43.962Z">5/6/2026, 12:49:43 AM</time>
+        </header>
+        <div class="content"><p>有个比 openrouter 便宜的渠道，poe ，不过便宜的不多，也是个可以的选择</p></div>
+      </article>
+    
+
+      <article class="post" id="post-57">
+        <header>
+          <a href="#post-57">#57</a>
+          <strong>hxy</strong>
+          <span>@HenryXiaoYang</span>
+          <span class="reply-context">in reply to <a href="#post-53">#53</a> 哈雷彗星</span>
+          <time datetime="2026-05-05T16:49:59.605Z">5/6/2026, 12:49:59 AM</time>
+        </header>
+        <div class="content"><p>哎呀，我勒个去，哈雷这么晚了还没睡，捉捉捉</p></div>
+      </article>
+    
+
+      <article class="post" id="post-58">
+        <header>
+          <a href="#post-58">#58</a>
+          <strong>AdiosMike</strong>
+          <span>@AdiosMike</span>
+          
+          <time datetime="2026-05-05T16:50:04.391Z">5/6/2026, 12:50:04 AM</time>
+        </header>
+        <div class="content"><p>搬个小板凳开始吃瓜，既然付费了就不应该这么对待用户，这样的话不就变成割韭菜的吗</p></div>
+      </article>
+    
+
+      <article class="post" id="post-59">
+        <header>
+          <a href="#post-59">#59</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-55">#55</a> WD</span>
+          <time datetime="2026-05-05T16:50:35.901Z">5/6/2026, 12:50:35 AM</time>
+        </header>
+        <div class="content"><p>我没那么傻，对比本地claude 的auth测的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-60">
+        <header>
+          <a href="#post-60">#60</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T16:51:17.689Z">5/6/2026, 12:51:17 AM</time>
+        </header>
+        <div class="content"><p>我也不喜欢4.7， 这种男不男女不女的杂交蒸馏模型，我不喜欢</p>
+<p>但是他确实是4.7</p></div>
+      </article>
+    
+
+      <article class="post" id="post-61">
+        <header>
+          <a href="#post-61">#61</a>
+          <strong>javafun</strong>
+          <span>@user1857</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T16:51:38.415Z">5/6/2026, 12:51:38 AM</time>
+        </header>
+        <div class="content"><p>很熟悉的味道，这是gpt5.4的风格吧，这种自说自话的感觉很像</p></div>
+      </article>
+    
+
+      <article class="post" id="post-62">
+        <header>
+          <a href="#post-62">#62</a>
+          <strong>finley0066</strong>
+          <span>@hmbb_lv</span>
+          <span class="reply-context">in reply to <a href="#post-56">#56</a> Cody Mohr</span>
+          <time datetime="2026-05-05T16:51:48.189Z">5/6/2026, 12:51:48 AM</time>
+        </header>
+        <div class="content"><p>我怀疑cursor也不老实，opus4.7效果很差，来一期怎么用探针教程吧</p></div>
+      </article>
+    
+
+      <article class="post" id="post-63">
+        <header>
+          <a href="#post-63">#63</a>
+          <strong>梦_良辰</strong>
+          <span>@MrChen-hero</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T16:51:52.629Z">5/6/2026, 12:51:52 AM</time>
+        </header>
+        <div class="content"><p>用的opus4.7吗，4.7的风格是变了的，没那么有人味了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-64">
+        <header>
+          <a href="#post-64">#64</a>
+          <strong>林翩翩</strong>
+          <span>@xg_ame</span>
+          <span class="reply-context">in reply to <a href="#post-63">#63</a> 梦_良辰</span>
+          <time datetime="2026-05-05T16:52:23.467Z">5/6/2026, 12:52:23 AM</time>
+        </header>
+        <div class="content"><p>4.7是纯纯的畜生东西，我只能说不如回头用opus4.6。又贵又抽象又张牙舞爪又急眼。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-65">
+        <header>
+          <a href="#post-65">#65</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-59">#59</a> xiaomao</span>
+          <time datetime="2026-05-05T16:52:25.980Z">5/6/2026, 12:52:25 AM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"> 你看我这里不就是直接用的claude api测的，照样有不同的地方</p>
+<p>而且你这里count token有倍率差别感觉这个倍率也挺合理的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-66">
+        <header>
+          <a href="#post-66">#66</a>
+          <strong>Angel</strong>
+          <span>@HatsuneMiku</span>
+          
+          <time datetime="2026-05-05T16:52:53.708Z">5/6/2026, 12:52:53 AM</time>
+        </header>
+        <div class="content"><p>吃瓜吃瓜 我是一个合格的吃瓜群众 但是能把中转站底裤给拔下来 佬 你也是很强<img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-67">
+        <header>
+          <a href="#post-67">#67</a>
+          <strong>Cody Mohr</strong>
+          <span>@Rosalia_Lang1</span>
+          
+          <time datetime="2026-05-05T16:53:19.993Z">5/6/2026, 12:53:19 AM</time>
+        </header>
+        <div class="content"><p>坐等吃瓜，如果证实了有问题就拉黑避坑，如果没问题以后就固定这家了，毕竟这也是经过检验了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-68">
+        <header>
+          <a href="#post-68">#68</a>
+          <strong>夏日渐长</strong>
+          <span>@Z181z784</span>
+          
+          <time datetime="2026-05-05T16:53:28.302Z">5/6/2026, 12:53:28 AM</time>
+        </header>
+        <div class="content"><p>佬友们，不发表意见，只吃瓜，吃瓜群众来迟了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-69">
+        <header>
+          <a href="#post-69">#69</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-65">#65</a> WD</span>
+          <time datetime="2026-05-05T16:53:44.600Z">5/6/2026, 12:53:44 AM</time>
+        </header>
+        <div class="content"><pre><code class="lang-auto">del":“claude-opus-4-7”,“id”:“msg_01YHaAUzj7mLM1CuNnzqN6gr”,“type”:“message”,“role”:“assistant”,“content”:[{“type”:“text”,“text”:“1) self_model: I don’t know my exact model id\n2) training_cutoff: early 2025 (approximate; not certain)\n3) known_event: unknown”}],“stop_reason”:“end_turn”,“stop_sequence”:null,“stop_details”:null,“usage”:{“input_tokens”:126,“cache_creation_input_tokens”:0,“cache_read_input_tokens”:0,“cache_creation”:{“ephemeral_5m_input_tokens”:0,“ephemeral_1h_input_tokens”:0},“output_tokens”:54,“service_tier”:“standard”,“inference_geo”:“not_available”},“context_management”:{“applied_edits”:}}
+</code></pre>
+<p>auth测的，我不知道你的api是什么情况</p></div>
+      </article>
+    
+
+      <article class="post" id="post-70">
+        <header>
+          <a href="#post-70">#70</a>
+          <strong>lueluelue</strong>
+          <span>@lueluelue</span>
+          
+          <time datetime="2026-05-05T16:53:45.971Z">5/6/2026, 12:53:45 AM</time>
+        </header>
+        <div class="content"><p>没太看懂呢，这是说用于计费的tokenizer变了吗？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-71">
+        <header>
+          <a href="#post-71">#71</a>
+          <strong>Serelene</strong>
+          <span>@Serelene</span>
+          
+          <time datetime="2026-05-05T16:54:13.038Z">5/6/2026, 12:54:13 AM</time>
+        </header>
+        <div class="content"><aside class="quote no-group" data-username="xiaomao" data-post="1" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/xiaomao/48/405862_2.png" class="avatar"> xiaomao:</div>
+<blockquote>
+<p>Tokenizer</p>
+</blockquote>
+</aside>
+<p>尽信ai不如无AI<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/c/8/8c88f2ee7c59a847ea87e5187457d7fbe12599fa.jpeg" data-download-href="/uploads/short-url/k3efYmpxRqTvWo0zdn2syOi2G02.jpeg?dl=1" title="IMG0665" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/8/c/8/8c88f2ee7c59a847ea87e5187457d7fbe12599fa_2_690x317.jpeg" alt="IMG0665" data-base62-sha1="k3efYmpxRqTvWo0zdn2syOi2G02" width="690" height="317" srcset="https://cdn3.ldstatic.com/optimized/4X/8/c/8/8c88f2ee7c59a847ea87e5187457d7fbe12599fa_2_690x317.jpeg, https://cdn3.ldstatic.com/optimized/4X/8/c/8/8c88f2ee7c59a847ea87e5187457d7fbe12599fa_2_1035x475.jpeg 1.5x, https://cdn3.ldstatic.com/original/4X/8/c/8/8c88f2ee7c59a847ea87e5187457d7fbe12599fa.jpeg 2x" data-dominant-color="EDEEF2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG0665</span><span class="informations">1179×543 111 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+4.7换了新的分词器 token计数更高是正常的<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-72">
+        <header>
+          <a href="#post-72">#72</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-69">#69</a> xiaomao</span>
+          <time datetime="2026-05-05T16:54:58.181Z">5/6/2026, 12:54:58 AM</time>
+        </header>
+        <div class="content"><p>具体讲讲auth咋测的，调用的cc的吗？</p>
+<p>另外这里给给问的啥prompt？</p>
+<p>尽信AI不如自己上手发个请求</p></div>
+      </article>
+    
+
+      <article class="post" id="post-73">
+        <header>
+          <a href="#post-73">#73</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-71">#71</a> Serelene</span>
+          <time datetime="2026-05-05T16:55:00.550Z">5/6/2026, 12:55:00 AM</time>
+        </header>
+        <div class="content"><p>尽信reddit不如自己上手测试一下</p>
+<pre><code class="lang-auto">del":“claude-opus-4-7”,“id”:“msg_01YHaAUzj7mLM1CuNnzqN6gr”,“type”:“message”,“role”:“assistant”,“content”:[{“type”:“text”,“text”:“1) self_model: I don’t know my exact model id\n2) training_cutoff: early 2025 (approximate; not certain)\n3) known_event: unknown”}],“stop_reason”:“end_turn”,“stop_sequence”:null,“stop_details”:null,“usage”:{“input_tokens”:126,“cache_creation_input_tokens”:0,“cache_read_input_tokens”:0,“cache_creation”:{“ephemeral_5m_input_tokens”:0,“ephemeral_1h_input_tokens”:0},“output_tokens”:54,“service_tier”:“standard”,“inference_geo”:“not_available”},“context_management”:{“applied_edits”:}}
+</code></pre></div>
+      </article>
+    
+
+      <article class="post" id="post-74">
+        <header>
+          <a href="#post-74">#74</a>
+          <strong>Zane-Leo</strong>
+          <span>@Zane-Leo</span>
+          
+          <time datetime="2026-05-05T16:55:40.933Z">5/6/2026, 12:55:40 AM</time>
+        </header>
+        <div class="content"><p>搬个小板凳坐在这里吃瓜等后续，没想到凌晨刷 l 站还能前排吃瓜。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-75">
+        <header>
+          <a href="#post-75">#75</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-72">#72</a> WD</span>
+          <time datetime="2026-05-05T16:56:46.723Z">5/6/2026, 12:56:46 AM</time>
+        </header>
+        <div class="content"><p>本地读取auth啊</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/7/f/f7fd2c55a56f8fed981e3ef414f45ab24adedfa6.png" data-download-href="/uploads/short-url/znOm5oj1MAuDj2qDIwKcLltA47k.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/f/7/f/f7fd2c55a56f8fed981e3ef414f45ab24adedfa6_2_690x208.png" alt="image" data-base62-sha1="znOm5oj1MAuDj2qDIwKcLltA47k" width="690" height="208" srcset="https://cdn3.ldstatic.com/optimized/4X/f/7/f/f7fd2c55a56f8fed981e3ef414f45ab24adedfa6_2_690x208.png, https://cdn3.ldstatic.com/optimized/4X/f/7/f/f7fd2c55a56f8fed981e3ef414f45ab24adedfa6_2_1035x312.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/f/7/f/f7fd2c55a56f8fed981e3ef414f45ab24adedfa6_2_1380x416.png 2x" data-dominant-color="121218"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2778×840 157 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-76">
+        <header>
+          <a href="#post-76">#76</a>
+          <strong>且笑风尘不敢造次</strong>
+          <span>@showyoubetter</span>
+          
+          <time datetime="2026-05-05T16:59:57.574Z">5/6/2026, 12:59:57 AM</time>
+        </header>
+        <div class="content"><p>大晚上的还能吃瓜, 真的是兴奋的要睡不着了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-77">
+        <header>
+          <a href="#post-77">#77</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-72">#72</a> WD</span>
+          <time datetime="2026-05-05T17:00:18.555Z">5/6/2026, 1:00:18 AM</time>
+        </header>
+        <div class="content"><p>我本地两个订阅auth ,一个amp的官方oups，加这个api一起测的你说我尽信ai有点过分了</p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-78">
+          <header><a href="#post-78">#78</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-79">
+        <header>
+          <a href="#post-79">#79</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-77">#77</a> xiaomao</span>
+          <time datetime="2026-05-05T17:03:22.221Z">5/6/2026, 1:03:22 AM</time>
+        </header>
+        <div class="content"><p>不懂啊，但是opus4.7的分词器更换了这是事实，你就算不信reddit那也可以信站里的测评结果吧，而且你这用的啥软件，我感觉应该这个软件本身有逆向的前缀，我直接用的官方api测得嘞（</p>
+<p>我感觉整体上还是某种直接问 who are you的问题（）我看你不如测测opus4.6，毕竟opus4.7和4.6进货价不太能有啥差别，你测opus4.6说不定能稳定点，也符合模型里面默认带的比较老的知识。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-80">
+        <header>
+          <a href="#post-80">#80</a>
+          <strong>木瓜蛋白酶Tea🎋</strong>
+          <span>@Papain233</span>
+          <span class="reply-context">in reply to <a href="#post-32">#32</a> 朱陵</span>
+          <time datetime="2026-05-05T17:03:25.022Z">5/6/2026, 1:03:25 AM</time>
+        </header>
+        <div class="content"><p>原价就是比中转便宜啊。要是Claude不封号谁买中转</p></div>
+      </article>
+    
+
+      <article class="post" id="post-81">
+        <header>
+          <a href="#post-81">#81</a>
+          <strong>Naxida</strong>
+          <span>@PaimonForever</span>
+          
+          <time datetime="2026-05-05T17:03:32.764Z">5/6/2026, 1:03:32 AM</time>
+        </header>
+        <div class="content"><p>Opus4.6升级到Opus4.7就像是小娇妻突然变成胸口长毛的大汉。<img src="https://cdn.ldstatic.com/images/emoji/twemoji/sob.png?v=15" title=":sob:" class="emoji" alt=":sob:" loading="lazy" width="20" height="20"><br>
+以前还是软软的，现在直来直去的一点都不和你玩，而且有时候直接无视你说的话。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-82">
+        <header>
+          <a href="#post-82">#82</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          
+          <time datetime="2026-05-05T17:05:21.021Z">5/6/2026, 1:05:21 AM</time>
+        </header>
+        <div class="content"><p>还有一件事，今天下午Claude确实降智了，我用的时候感受到了，这个没办法</p></div>
+      </article>
+    
+
+      <article class="post" id="post-83">
+        <header>
+          <a href="#post-83">#83</a>
+          <strong>jue</strong>
+          <span>@yorickjue</span>
+          
+          <time datetime="2026-05-05T17:05:50.899Z">5/6/2026, 1:05:50 AM</time>
+        </header>
+        <div class="content"><p>不管了，先搬个板吃个瓜，真羡慕你们公司啊，还出钱买claude</p></div>
+      </article>
+    
+
+      <article class="post" id="post-84">
+        <header>
+          <a href="#post-84">#84</a>
+          <strong>freeqbar</strong>
+          <span>@freeqbar</span>
+          
+          <time datetime="2026-05-05T17:06:23.680Z">5/6/2026, 1:06:23 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/5/b/65b085fc90ceb08a428c800b27ec47f0325688e1.png" data-download-href="/uploads/short-url/evAqiky4oWNxgCqcMed1Cm3OQ0N.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/5/b/65b085fc90ceb08a428c800b27ec47f0325688e1_2_690x164.png" alt="image" data-base62-sha1="evAqiky4oWNxgCqcMed1Cm3OQ0N" width="690" height="164" srcset="https://cdn3.ldstatic.com/optimized/4X/6/5/b/65b085fc90ceb08a428c800b27ec47f0325688e1_2_690x164.png, https://cdn3.ldstatic.com/optimized/4X/6/5/b/65b085fc90ceb08a428c800b27ec47f0325688e1_2_1035x246.png 1.5x, https://cdn3.ldstatic.com/original/4X/6/5/b/65b085fc90ceb08a428c800b27ec47f0325688e1.png 2x" data-dominant-color="F8F7F7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1186×283 36.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20">之前用的时候也发现过问题，后面用了其他分组是正常的，就这个max分组有问题</p></div>
+      </article>
+    
+
+      <article class="post" id="post-85">
+        <header>
+          <a href="#post-85">#85</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-84">#84</a> freeqbar</span>
+          <time datetime="2026-05-05T17:09:09.115Z">5/6/2026, 1:09:09 AM</time>
+        </header>
+        <div class="content"><p>这个他用的是Claude code分组，这个分组九毛一刀，我没说过这个分组是ccmax</p></div>
+      </article>
+    
+
+      <article class="post" id="post-86">
+        <header>
+          <a href="#post-86">#86</a>
+          <strong>DeMeng</strong>
+          <span>@DeMeng</span>
+          <span class="reply-context">in reply to <a href="#post-9">#9</a> fjhorn</span>
+          <time datetime="2026-05-05T17:13:13.369Z">5/6/2026, 1:13:13 AM</time>
+        </header>
+        <div class="content"><p>为什么理解不了有富人有穷人啊。首先价钱啊算3:1极致的0.4:1。其次中转站对短期大量token也更灵活，官网只能包月，短期用量多了直接拉闸。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-87">
+        <header>
+          <a href="#post-87">#87</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-79">#79</a> WD</span>
+          <time datetime="2026-05-05T17:14:05.419Z">5/6/2026, 1:14:05 AM</time>
+        </header>
+        <div class="content"><p>我都说了我两个订阅号加amp的渠道，我自己测还不行，还让我去看测评，你是说达里奥卖我假号是吧</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/d/2/6d2fae3c397b2fe9bd19ea686de9ea0cc3e613ab.png" data-download-href="/uploads/short-url/fzUcmU8vNXA29i2Db0QBEVi0TOP.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/d/2/6d2fae3c397b2fe9bd19ea686de9ea0cc3e613ab_2_690x327.png" alt="image" data-base62-sha1="fzUcmU8vNXA29i2Db0QBEVi0TOP" width="690" height="327" srcset="https://cdn3.ldstatic.com/optimized/4X/6/d/2/6d2fae3c397b2fe9bd19ea686de9ea0cc3e613ab_2_690x327.png, https://cdn3.ldstatic.com/optimized/4X/6/d/2/6d2fae3c397b2fe9bd19ea686de9ea0cc3e613ab_2_1035x490.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/d/2/6d2fae3c397b2fe9bd19ea686de9ea0cc3e613ab_2_1380x654.png 2x" data-dominant-color="252221"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1818×864 54.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/1/0/b108e5ba872c1bb0ddeec1cc7070e11a9a776003.png" data-download-href="/uploads/short-url/pg7zDzY7lrmYd3b1tr7iYqFG3gn.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/b/1/0/b108e5ba872c1bb0ddeec1cc7070e11a9a776003_2_690x320.png" alt="image" data-base62-sha1="pg7zDzY7lrmYd3b1tr7iYqFG3gn" width="690" height="320" srcset="https://cdn3.ldstatic.com/optimized/4X/b/1/0/b108e5ba872c1bb0ddeec1cc7070e11a9a776003_2_690x320.png, https://cdn3.ldstatic.com/optimized/4X/b/1/0/b108e5ba872c1bb0ddeec1cc7070e11a9a776003_2_1035x480.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/1/0/b108e5ba872c1bb0ddeec1cc7070e11a9a776003_2_1380x640.png 2x" data-dominant-color="232323"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1616×750 42.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/7/7/477dbf8ff1dd413ee946720f5cfe79567fae11d1.png" data-download-href="/uploads/short-url/acrjwmAsUyGyFFlDpbLFbmfk5EZ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/7/7/477dbf8ff1dd413ee946720f5cfe79567fae11d1_2_690x190.png" alt="image" data-base62-sha1="acrjwmAsUyGyFFlDpbLFbmfk5EZ" width="690" height="190" srcset="https://cdn3.ldstatic.com/optimized/4X/4/7/7/477dbf8ff1dd413ee946720f5cfe79567fae11d1_2_690x190.png, https://cdn3.ldstatic.com/optimized/4X/4/7/7/477dbf8ff1dd413ee946720f5cfe79567fae11d1_2_1035x285.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/4/7/7/477dbf8ff1dd413ee946720f5cfe79567fae11d1_2_1380x380.png 2x" data-dominant-color="1A1D1A"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2060×568 55.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-88">
+        <header>
+          <a href="#post-88">#88</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-87">#87</a> xiaomao</span>
+          <time datetime="2026-05-05T17:16:16.585Z">5/6/2026, 1:16:16 AM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"> 你没懂我说的啥意思，我意思是你用的具体啥软件把订阅转出来的，我很好奇，另外具体的请求体长得啥样，也就是说提的啥问题，我拿去用官方api key测试一下。因为据我所知，普通的Claude Code的订阅是有预填system prompt的</p>
+<p><s>或者你意思是api.anthropic.com掺假是吧</s></p></div>
+      </article>
+    
+
+      <article class="post" id="post-89">
+        <header>
+          <a href="#post-89">#89</a>
+          <strong>星际泰迪</strong>
+          <span>@InterstellarTeddy</span>
+          
+          <time datetime="2026-05-05T17:17:40.058Z">5/6/2026, 1:17:40 AM</time>
+        </header>
+        <div class="content"><p>楼已经挺高的了, 有没有义士总结一下双方辩手的核心论据? 现在有没有直接捶死的证据啊 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-90">
+        <header>
+          <a href="#post-90">#90</a>
+          <strong>gitday</strong>
+          <span>@didiaodidiao260</span>
+          
+          <time datetime="2026-05-05T17:27:18.786Z">5/6/2026, 1:27:18 AM</time>
+        </header>
+        <div class="content"><p>都要100楼了还没有定论吗？感觉要扛不住了，先去睡了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-91">
+        <header>
+          <a href="#post-91">#91</a>
+          <strong>古明地恋</strong>
+          <span>@shino0</span>
+          <span class="reply-context">in reply to <a href="#post-89">#89</a> 星际泰迪</span>
+          <time datetime="2026-05-05T17:28:59.788Z">5/6/2026, 1:28:59 AM</time>
+        </header>
+        <div class="content"><p>阶段总结：没有直接捶死，我感觉楼主的打假证据并不充分，慕鸢有回复，不过也没给具体自证的证据</p>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="46" data-topic="2116208" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>我说实话我没看太懂他发了什么，逻辑好像不太通，输入确实加了语义翻译规避封控，有所差别</p>
+</blockquote>
+</aside>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="60" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>但是他确实是4.7</p>
+</blockquote>
+</aside>
+<p>我和WD佬的观点类似，觉得证据不够充分。已知信息太少了，如果真有问题我也支持打假 （）</p>
+<aside class="quote no-group" data-username="WenDavid" data-display-name="WD" data-post="79" data-topic="2116208" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/letter_avatar/wendavid/48/5_c16b2ee14fe83ed9a59fc65fbec00f85.png" class="avatar"> WD:</div>
+<blockquote>
+<p>不懂啊，但是opus4.7的分词器更换了这是事实，你就算不信reddit那也可以信站里的测评结果吧，而且你这用的啥软件，我感觉应该这个软件本身有逆向的前缀，我直接用的官方api测得嘞（</p>
+<p>我感觉整体上还是某种直接问 who are you的问题（）我看你不如测测opus4.6，毕竟opus4.7和4.6进货价不太能有啥差别，你测opus4.6说不定能稳定点，也符合模型里面默认带的比较老的知识。</p>
+</blockquote>
+</aside>
+<aside class="quote no-group" data-username="WenDavid" data-display-name="WD" data-post="88" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/letter_avatar/wendavid/48/5_c16b2ee14fe83ed9a59fc65fbec00f85.png" class="avatar"> WD:</div>
+<blockquote>
+<p>你没懂我说的啥意思，我意思是你用的具体啥软件把订阅转出来的，我很好奇，另外具体的请求体长得啥样，也就是说提的啥问题，我拿去用官方api key测试一下。因为据我所知，普通的Claude Code的订阅是有预填system prompt的</p>
+</blockquote>
+</aside></div>
+      </article>
+    
+
+      <article class="post" id="post-92">
+        <header>
+          <a href="#post-92">#92</a>
+          <strong>blacksein</strong>
+          <span>@blacksein</span>
+          
+          <time datetime="2026-05-05T17:29:06.641Z">5/6/2026, 1:29:06 AM</time>
+        </header>
+        <div class="content"><p>这个ai说的不对呀<br>
+opus4.7换tokenizer了 比原来更多token<br>
+这个ai是不是没这个知识呀 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-93">
+        <header>
+          <a href="#post-93">#93</a>
+          <strong>niaodong</strong>
+          <span>@niaodong</span>
+          <span class="reply-context">in reply to <a href="#post-89">#89</a> 星际泰迪</span>
+          <time datetime="2026-05-05T17:30:11.647Z">5/6/2026, 1:30:11 AM</time>
+        </header>
+        <div class="content"><p>正：</p>
+<ul>
+<li>Token计数不一致（+73 tokens，对比了官方Token计数API）</li>
+<li>语风与Claude不一致（等等，也许用户…）</li>
+</ul>
+<p>方：</p>
+<ul>
+<li>Claude 4.7大改Tokenizer导致中文Token计数膨胀</li>
+<li>可能上游由于逆向渠道等原因自行添加了System prompt</li>
+<li>Claude 4.7同时大改了语风</li>
+</ul></div>
+      </article>
+    
+
+      <article class="post" id="post-94">
+        <header>
+          <a href="#post-94">#94</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-88">#88</a> WD</span>
+          <time datetime="2026-05-05T17:31:38.081Z">5/6/2026, 1:31:38 AM</time>
+        </header>
+        <div class="content"><p>我仔细看了下你这个图…没问题啊…跟我说的是一个事情，你这个tokenizer跟我是一样的啊。跟星辰的不一样</p>
+<p>你知道tokenizer什么意思不</p></div>
+      </article>
+    
+
+      <article class="post" id="post-95">
+        <header>
+          <a href="#post-95">#95</a>
+          <strong>飞飞鱼</strong>
+          <span>@hatesvg</span>
+          
+          <time datetime="2026-05-05T17:36:21.978Z">5/6/2026, 1:36:21 AM</time>
+        </header>
+        <div class="content"><p>有没有省流版，我看好像有人说是claude官方更新了tokenizer</p></div>
+      </article>
+    
+
+      <article class="post" id="post-96">
+        <header>
+          <a href="#post-96">#96</a>
+          <strong>Coeus</strong>
+          <span>@Coeus</span>
+          <span class="reply-context">in reply to <a href="#post-82">#82</a> 慕鸢</span>
+          <time datetime="2026-05-05T17:36:25.545Z">5/6/2026, 1:36:25 AM</time>
+        </header>
+        <div class="content"><p>不是今天下午，Claude 4.7 Opus 出来的时候就不太行 一直不行很多人都退订转投codex了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-97">
+        <header>
+          <a href="#post-97">#97</a>
+          <strong>Coeeshu</strong>
+          <span>@Coee</span>
+          
+          <time datetime="2026-05-05T17:36:26.921Z">5/6/2026, 1:36:26 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/c/4/6/c4607771d4238ebef50c0cbef319dc3e7035e912.png" data-download-href="/uploads/short-url/s1egiBlsagwi3ZPmQZC2Jco8dwu.png?dl=1" title="PixPin2026-05-0601-36-20" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/c/4/6/c4607771d4238ebef50c0cbef319dc3e7035e912.png" alt="PixPin2026-05-0601-36-20" data-base62-sha1="s1egiBlsagwi3ZPmQZC2Jco8dwu" width="456" height="173"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">PixPin2026-05-0601-36-20</span><span class="informations">456×173 4.63 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+持续关注<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-98">
+        <header>
+          <a href="#post-98">#98</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-94">#94</a> xiaomao</span>
+          <time datetime="2026-05-05T17:36:58.613Z">5/6/2026, 1:36:58 AM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"> 你要不还是给一下具体的request来测试吧，另外最好是给个长一点的，比如搞个像是几千字的，回归一下曲线好了，像是前面说的，有点预注入的防封prompt也是正常的。最后我感觉你应该尝试一下测测输出token，比如让他 直接输出某些文本，然后这样不就能避免掉这部分的差别了吗</p></div>
+      </article>
+    
+
+      <article class="post" id="post-99">
+        <header>
+          <a href="#post-99">#99</a>
+          <strong>df</strong>
+          <span>@dfder</span>
+          
+          <time datetime="2026-05-05T17:38:33.537Z">5/6/2026, 1:38:33 AM</time>
+        </header>
+        <div class="content"><p>這家目前看到第二篇，第一篇不知道解決了沒。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-100">
+        <header>
+          <a href="#post-100">#100</a>
+          <strong>佛克斯</strong>
+          <span>@I-was-here</span>
+          <span class="reply-context">in reply to <a href="#post-96">#96</a> Coeus</span>
+          <time datetime="2026-05-05T17:40:12.604Z">5/6/2026, 1:40:12 AM</time>
+        </header>
+        <div class="content"><p>A\新模型端出来的时候一般是100%智力的,过几周会降智的说是<br>
+此外可能也收到高峰期影响说是</p></div>
+      </article>
+    
+
+      <article class="post" id="post-101">
+        <header>
+          <a href="#post-101">#101</a>
+          <strong>ByteBender</strong>
+          <span>@ByteBender</span>
+          
+          <time datetime="2026-05-05T17:41:41.910Z">5/6/2026, 1:41:41 AM</time>
+        </header>
+        <div class="content"><p>建议给出更多细节，毕竟盐和白糖乍一眼看上去是一样的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-102">
+        <header>
+          <a href="#post-102">#102</a>
+          <strong>佛克斯</strong>
+          <span>@I-was-here</span>
+          
+          <time datetime="2026-05-05T17:41:49.652Z">5/6/2026, 1:41:49 AM</time>
+        </header>
+        <div class="content"><aside class="quote no-group" data-username="xiaomao" data-post="1" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/xiaomao/48/405862_2.png" class="avatar"> xiaomao:</div>
+<blockquote>
+<p>我说opus说话怎么一股异味，做了个探针查一下Tokenizer，对比一下官方订阅</p>
+</blockquote>
+</aside>
+<p>查Claude Opus用 日本校园那套试题,能查是不是Opus来着,链接我这里暂时找不到,可以靠名称顺序来判定</p>
+<p>此外Claude 4.7不是换了分词器了吗?上文的Claude Code的回复可以被视为幻觉,但分词器闭源也无法进一步了解<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/9/3/c/93cbfd74c202fdfd6f1a2637edf24b937220bfe0.png" data-download-href="/uploads/short-url/l5teyLkpZzonZsLnQ2PkcKT7GrS.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/9/3/c/93cbfd74c202fdfd6f1a2637edf24b937220bfe0_2_690x351.png" alt="image" data-base62-sha1="l5teyLkpZzonZsLnQ2PkcKT7GrS" width="690" height="351" srcset="https://cdn3.ldstatic.com/optimized/4X/9/3/c/93cbfd74c202fdfd6f1a2637edf24b937220bfe0_2_690x351.png, https://cdn3.ldstatic.com/optimized/4X/9/3/c/93cbfd74c202fdfd6f1a2637edf24b937220bfe0_2_1035x526.png 1.5x, https://cdn3.ldstatic.com/original/4X/9/3/c/93cbfd74c202fdfd6f1a2637edf24b937220bfe0.png 2x" data-dominant-color="EAE9E5"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1202×613 98.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+截图来源: <a href="https://www.anthropic.com/news/claude-opus-4-7" rel="noopener nofollow ugc">介绍克劳德作品4.7 \ 人类</a><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-103">
+        <header>
+          <a href="#post-103">#103</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-102">#102</a> 佛克斯</span>
+          <time datetime="2026-05-05T17:43:15.340Z">5/6/2026, 1:43:15 AM</time>
+        </header>
+        <div class="content"><p>opus4.7好像现在修了，不知道4.6的是不是也修掉了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-104">
+        <header>
+          <a href="#post-104">#104</a>
+          <strong>雅灵</strong>
+          <span>@Yaling</span>
+          
+          <time datetime="2026-05-05T17:45:00.090Z">5/6/2026, 1:45:00 AM</time>
+        </header>
+        <div class="content"><p>一有富可敌国相关"负面"的<img src="https://cdn.ldstatic.com/images/emoji/twemoji/watermelon.png?v=15" title=":watermelon:" class="emoji" alt=":watermelon:" loading="lazy" width="20" height="20">立马就有热度，why我不李姐<img src="https://cdn.ldstatic.com/images/emoji/twemoji/worried.png?v=15" title=":worried:" class="emoji" alt=":worried:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-105">
+        <header>
+          <a href="#post-105">#105</a>
+          <strong>Angel</strong>
+          <span>@HatsuneMiku</span>
+          <span class="reply-context">in reply to <a href="#post-98">#98</a> WD</span>
+          <time datetime="2026-05-05T17:45:25.092Z">5/6/2026, 1:45:25 AM</time>
+        </header>
+        <div class="content"><p>你得给用户怀疑的机会啊 用户已经把问题和相关的论点已经抛出来了 再画更多的时间自证也没有意义了  怀疑的种子已经产生 现在应该是卖家抛出论据论证来自证的环节了 不要苛求完美用户（就算这位佬自己的问题导致的怀疑 商家也应该合理解释）<img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"><img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-106">
+        <header>
+          <a href="#post-106">#106</a>
+          <strong>WD</strong>
+          <span>@WenDavid</span>
+          <span class="reply-context">in reply to <a href="#post-105">#105</a> Angel</span>
+          <time datetime="2026-05-05T17:49:15.984Z">5/6/2026, 1:49:15 AM</time>
+        </header>
+        <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"> 主要感觉这些怀疑是错的啊 而且我也不是商家嘞</p>
+<p>我感觉给出一套更完整的复现方案更有利于验证吧，比如证明是tokenzier的问题，而不是一些预注入prompt造成的，比如除了“是否知晓gpt-5”之外，更能打掉的证据，像是缓存之类的方式？我印象中不是都有一些站点可以测试像是缓存、格式之类的问题么</p></div>
+      </article>
+    
+
+      <article class="post" id="post-107">
+        <header>
+          <a href="#post-107">#107</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-106">#106</a> WD</span>
+          <time datetime="2026-05-05T17:54:45.203Z">5/6/2026, 1:54:45 AM</time>
+        </header>
+        <div class="content"><p>我说Tokenizer对比测试，你说prompt，我们说的不是一回事，你愿意测你的Prompt你就测，我通过Tokenizer我就明白怎么一回事了，我也不想锤什么，星辰愿意解释解释不愿意反正2000多块钱老板出的我也无所谓。</p>
+<p>上来就"一眼模型幻觉"，太不礼貌了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-108">
+        <header>
+          <a href="#post-108">#108</a>
+          <strong>mikleaf</strong>
+          <span>@mikleaf</span>
+          <span class="reply-context">in reply to <a href="#post-107">#107</a> xiaomao</span>
+          <time datetime="2026-05-05T17:56:06.124Z">5/6/2026, 1:56:06 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-109">
+        <header>
+          <a href="#post-109">#109</a>
+          <strong>w1k1</strong>
+          <span>@w1k1</span>
+          
+          <time datetime="2026-05-05T17:59:17.729Z">5/6/2026, 1:59:17 AM</time>
+        </header>
+        <div class="content"><p>毕竟谁是消费者，谁是提供服务者，是不是啊</p></div>
+      </article>
+    
+
+      <article class="post" id="post-110">
+        <header>
+          <a href="#post-110">#110</a>
+          <strong>好女人锂离子</strong>
+          <span>@usebit</span>
+          
+          <time datetime="2026-05-05T18:05:03.229Z">5/6/2026, 2:05:03 AM</time>
+        </header>
+        <div class="content"><p>有没有长求总啊。整个爬下来好像也没啥东西啊</p></div>
+      </article>
+    
+
+      <article class="post" id="post-111">
+        <header>
+          <a href="#post-111">#111</a>
+          <strong>佛克斯</strong>
+          <span>@I-was-here</span>
+          
+          <time datetime="2026-05-05T18:05:58.557Z">5/6/2026, 2:05:58 AM</time>
+        </header>
+        <div class="content"><h1><a name="p-17513709-h-1" class="anchor" href="#p-17513709-h-1" aria-label="标题链接"></a>总结内容难免附带我个人的主观看法,理性看待总结内容</h1>
+<hr>
+<p>楼主质疑 Claude Opus4.7掺水<br>
+原因为官方同问题的计费为 170 Token<br>
+而富可敌国计费为 243 Token(面板显示)</p>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="46" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>输入确实加了语义翻译规避封控</p>
+</blockquote>
+</aside>
+<p>富可敌国方面的回复,大概的意思是 为了规避风控使用 语意翻译导致偏差</p>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="46" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>输入确实加了语义翻译规避封控，有所差别</p>
+</blockquote>
+</aside>
+<p>这是第一轮质疑</p>
+<hr>
+<p>第二轮质疑是:</p>
+<aside class="quote no-group" data-username="xiaomao" data-post="54" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/xiaomao/48/405862_2.png" class="avatar"> xiaomao:</div>
+<blockquote>
+<p>opus不可能这么说话</p>
+</blockquote>
+</aside>
+<p>Opus不会说这种非人话,富可敌国方面给出的回复是</p>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="60" data-topic="2116208" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>我也不喜欢4.7， 这种男不男女不女的杂交蒸馏模型，我不喜欢</p>
+<p>但是他确实是4.7</p>
+</blockquote>
+</aside>
+<p>Opus4.7本来就不说人话(对的兄弟对的)</p>
+<aside class="quote no-group" data-username="xiaomao" data-post="69" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/xiaomao/48/405862_2.png" class="avatar"> xiaomao:</div>
+<blockquote>
+<pre><code class="lang-auto">kens”:0,“cache_creation”:{“ephemeral_5m_input_tokens”:0,“ephemeral_1h_input_tokens”:0},“output_tokens”:54,“service_tier”:“standard”,“inference_geo”:“not_available”},“context_management”:{“applied_edits”:}}
+</code></pre>
+<p>auth测的，我不知道你的api是什么情况</p>
+</blockquote>
+</aside>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/8/3/68354ff48018f791989d4bde2eb6c17d8336f109.png" data-download-href="/uploads/short-url/eRRSrf91gnXfg6oyJ3PdPLMQc8F.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/6/8/3/68354ff48018f791989d4bde2eb6c17d8336f109.png" alt="image" data-base62-sha1="eRRSrf91gnXfg6oyJ3PdPLMQc8F" width="690" height="467" data-dominant-color="333333"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1245×843 62.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+内容放在这里,但我认为这依旧可能是幻觉范畴,任何直接问与模型有关的内容,再无提示词直接提示的情况下都很有可能是幻觉<p></p>
+<aside class="quote group-g-merchant2" data-username="user792" data-display-name="慕鸢" data-post="82" data-topic="2116208" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/user792/48/1627624_2.png" class="avatar"> 慕鸢:</div>
+<blockquote>
+<p>还有一件事，今天下午Claude确实降智了，我用的时候感受到了，这个没办法</p>
+</blockquote>
+</aside>
+<p>我无法求证</p></div>
+      </article>
+    
+
+      <article class="post" id="post-112">
+        <header>
+          <a href="#post-112">#112</a>
+          <strong>ruotian</strong>
+          <span>@ruotian</span>
+          
+          <time datetime="2026-05-05T18:07:41.949Z">5/6/2026, 2:07:41 AM</time>
+        </header>
+        <div class="content"><p>前排吃瓜，已经备好花生瓜子矿泉水，赶紧端上来给大伙瞧瞧<img src="https://cdn.ldstatic.com/images/emoji/twemoji/eyes.png?v=15" title=":eyes:" class="emoji" alt=":eyes:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-113">
+        <header>
+          <a href="#post-113">#113</a>
+          <strong>瓦缇芙</strong>
+          <span>@WTF888</span>
+          
+          <time datetime="2026-05-05T18:13:32.077Z">5/6/2026, 2:13:32 AM</time>
+        </header>
+        <div class="content"><p>搬个凳子来吃瓜了 话说掺水技术迟早要成熟的 利益太大了 <a class="mention" href="https://linux.do/u/wtf888">@WTF888</a></p></div>
+      </article>
+    
+
+      <article class="post" id="post-114">
+        <header>
+          <a href="#post-114">#114</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          
+          <time datetime="2026-05-05T18:17:12.632Z">5/6/2026, 2:17:12 AM</time>
+        </header>
+        <div class="content"><p>补一个azure的官方api对比吧。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/2/1/d/21dcc0874da964ecb053ad5b3588cbf2d40682a8.png" data-download-href="/uploads/short-url/4PyImVuY1A8bTw2hWZDip45k4BO.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/2/1/d/21dcc0874da964ecb053ad5b3588cbf2d40682a8_2_690x384.png" alt="image" data-base62-sha1="4PyImVuY1A8bTw2hWZDip45k4BO" width="690" height="384" srcset="https://cdn3.ldstatic.com/optimized/4X/2/1/d/21dcc0874da964ecb053ad5b3588cbf2d40682a8_2_690x384.png, https://cdn3.ldstatic.com/optimized/4X/2/1/d/21dcc0874da964ecb053ad5b3588cbf2d40682a8_2_1035x576.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/2/1/d/21dcc0874da964ecb053ad5b3588cbf2d40682a8_2_1380x768.png 2x" data-dominant-color="F2EDD9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2132×1188 212 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-115">
+        <header>
+          <a href="#post-115">#115</a>
+          <strong>想回家干饭</strong>
+          <span>@cengjing51</span>
+          
+          <time datetime="2026-05-05T18:20:36.882Z">5/6/2026, 2:20:36 AM</time>
+        </header>
+        <div class="content"><p>有没有安全靠谱的中转站，感觉还是自己搭更安全，虽然初期成本高点</p></div>
+      </article>
+    
+
+      <article class="post" id="post-116">
+        <header>
+          <a href="#post-116">#116</a>
+          <strong>钟阮</strong>
+          <span>@zhongruan</span>
+          <span class="reply-context">in reply to <a href="#post-115">#115</a> 想回家干饭</span>
+          <time datetime="2026-05-05T18:26:09.969Z">5/6/2026, 2:26:09 AM</time>
+        </header>
+        <div class="content"><aside class="onebox allowlistedgeneric" data-onebox-src="https://openrouter.ai">
+  <header class="source">
+      <img src="https://cdn3.ldstatic.com/original/4X/7/1/e/71e66ad1970bf06760db66cb226bda90c1bd11ab.png" class="site-icon" alt="" data-dominant-color="94A3B8" width="48" height="48">
+
+      <a href="https://openrouter.ai" target="_blank" rel="noopener nofollow ugc">OpenRouter</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/362;"><img src="https://cdn3.ldstatic.com/optimized/4X/5/7/5/57536a25d3484c103feded3518706b2a76baf55c_2_690x362.png" class="thumbnail" alt="" data-dominant-color="F7F7F8" width="690" height="362"></div>
+
+<h3><a href="https://openrouter.ai" target="_blank" rel="noopener nofollow ugc">OpenRouter</a></h3>
+
+  <p>The unified interface for LLMs. Find the best models &amp; prices for your prompts</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+</div>
+      </article>
+    
+
+      <article class="post" id="post-117">
+        <header>
+          <a href="#post-117">#117</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-114">#114</a> xiaomao</span>
+          <time datetime="2026-05-05T18:30:22.388Z">5/6/2026, 2:30:22 AM</time>
+        </header>
+        <div class="content"><p>ccmax分组本来就是max账号反带，那个cookie和api是没有可比性的，这两个没有比较的意义</p>
+<p>aws az or 官 都属于api 直出，剩下的，严格意义上，都属于逆向</p>
+<p>比较也没有意义</p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-118">
+          <header><a href="#post-118">#118</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-119">
+        <header>
+          <a href="#post-119">#119</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-117">#117</a> 慕鸢</span>
+          <time datetime="2026-05-05T18:39:51.279Z">5/6/2026, 2:39:51 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/3/1/e31c8289d8fafb4a2c86666a59aaa1613dcd7d8b.png" data-download-href="/uploads/short-url/wp7t10HlPDLr63z3ZC1wJ3d3vab.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/3/1/e31c8289d8fafb4a2c86666a59aaa1613dcd7d8b_2_690x75.png" alt="image" data-base62-sha1="wp7t10HlPDLr63z3ZC1wJ3d3vab" width="690" height="75" srcset="https://cdn3.ldstatic.com/optimized/4X/e/3/1/e31c8289d8fafb4a2c86666a59aaa1613dcd7d8b_2_690x75.png, https://cdn3.ldstatic.com/optimized/4X/e/3/1/e31c8289d8fafb4a2c86666a59aaa1613dcd7d8b_2_1035x112.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/3/1/e31c8289d8fafb4a2c86666a59aaa1613dcd7d8b_2_1380x150.png 2x" data-dominant-color="4F5A6C"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1472×162 22.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-120">
+        <header>
+          <a href="#post-120">#120</a>
+          <strong>佛克斯</strong>
+          <span>@I-was-here</span>
+          <span class="reply-context">in reply to <a href="#post-119">#119</a> xiaomao</span>
+          <time datetime="2026-05-05T18:46:48.062Z">5/6/2026, 2:46:48 AM</time>
+        </header>
+        <div class="content"><p>哥,表达质疑把观点写好行不行,这样子真的猜不出来想要表达什么意思说是<br>
+这张图就想不出来想要表达什么意思…</p></div>
+      </article>
+    
+
+      <article class="post" id="post-121">
+        <header>
+          <a href="#post-121">#121</a>
+          <strong>ying hua</strong>
+          <span>@ying_hua</span>
+          <span class="reply-context">in reply to <a href="#post-119">#119</a> xiaomao</span>
+          <time datetime="2026-05-05T18:47:05.048Z">5/6/2026, 2:47:05 AM</time>
+        </header>
+        <div class="content"><p>官api无法和ccmax对比 他两本来就是完全两个渠道，除非佬开个max 通过cpa或者sub逆出来对比才能锤死</p></div>
+      </article>
+    
+
+      <article class="post" id="post-122">
+        <header>
+          <a href="#post-122">#122</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-121">#121</a> ying hua</span>
+          <time datetime="2026-05-05T18:53:51.189Z">5/6/2026, 2:53:51 AM</time>
+        </header>
+        <div class="content"><p>你别说我还真是，真不知道你们要闹哪样</p>
+<p>max本地的，pro cpa的 ，加上azure，你们还要求证什么</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/b/3/4b3ffe605bef3d6986f5d7a0fd76fb5020acf8ae.png" data-download-href="/uploads/short-url/aJGUNlweZ3FYuPgSRfGfFlA6JQO.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/b/3/4b3ffe605bef3d6986f5d7a0fd76fb5020acf8ae_2_690x398.png" alt="image" data-base62-sha1="aJGUNlweZ3FYuPgSRfGfFlA6JQO" width="690" height="398" srcset="https://cdn3.ldstatic.com/optimized/4X/4/b/3/4b3ffe605bef3d6986f5d7a0fd76fb5020acf8ae_2_690x398.png, https://cdn3.ldstatic.com/optimized/4X/4/b/3/4b3ffe605bef3d6986f5d7a0fd76fb5020acf8ae_2_1035x597.png 1.5x, https://cdn3.ldstatic.com/original/4X/4/b/3/4b3ffe605bef3d6986f5d7a0fd76fb5020acf8ae.png 2x" data-dominant-color="2E2E28"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1114×644 36.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-123">
+        <header>
+          <a href="#post-123">#123</a>
+          <strong>ying hua</strong>
+          <span>@ying_hua</span>
+          <span class="reply-context">in reply to <a href="#post-122">#122</a> xiaomao</span>
+          <time datetime="2026-05-05T18:56:49.325Z">5/6/2026, 2:56:49 AM</time>
+        </header>
+        <div class="content"><p>拿max和他的做测试两个一对比 ，结果就出来了不一样就直接捶死了，拿官api对比cc容易误导佬友</p></div>
+      </article>
+    
+
+      <article class="post" id="post-124">
+        <header>
+          <a href="#post-124">#124</a>
+          <strong>w1k1</strong>
+          <span>@w1k1</span>
+          <span class="reply-context">in reply to <a href="#post-122">#122</a> xiaomao</span>
+          <time datetime="2026-05-05T18:57:41.314Z">5/6/2026, 2:57:41 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-125">
+        <header>
+          <a href="#post-125">#125</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-123">#123</a> ying hua</span>
+          <time datetime="2026-05-05T18:59:32.715Z">5/6/2026, 2:59:32 AM</time>
+        </header>
+        <div class="content"><p>我从来没拿官方api测啊…我一开始就说了我拿auth订阅测的啊，你在说神马</p></div>
+      </article>
+    
+
+      <article class="post" id="post-126">
+        <header>
+          <a href="#post-126">#126</a>
+          <strong>ying hua</strong>
+          <span>@ying_hua</span>
+          <span class="reply-context">in reply to <a href="#post-125">#125</a> xiaomao</span>
+          <time datetime="2026-05-05T19:02:11.706Z">5/6/2026, 3:02:11 AM</time>
+        </header>
+        <div class="content"><p>你的表格并不明显 还有个官api 结果就是100楼都没讨论出结果，直接用的你渠道单独做一张表格图 说这是你ccmax 通过cpa原生使用的 第二张图是他渠道信息表格  不一样的佬友一眼就能看明白了，几个渠道和一起还打个马赛克</p></div>
+      </article>
+    
+
+      <article class="post" id="post-127">
+        <header>
+          <a href="#post-127">#127</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          
+          <time datetime="2026-05-05T19:07:25.162Z">5/6/2026, 3:07:25 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/2/0/e20ca976970b15e6b2ec424e3a4c2eb94e57e73c.png" data-download-href="/uploads/short-url/wfJ2g8YNG9vy6Gwj0QWGYqcMRe4.png?dl=1" title="IMG0301" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/2/0/e20ca976970b15e6b2ec424e3a4c2eb94e57e73c_2_229x500.png" alt="IMG0301" data-base62-sha1="wfJ2g8YNG9vy6Gwj0QWGYqcMRe4" width="229" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/e/2/0/e20ca976970b15e6b2ec424e3a4c2eb94e57e73c_2_229x500.png, https://cdn3.ldstatic.com/optimized/4X/e/2/0/e20ca976970b15e6b2ec424e3a4c2eb94e57e73c_2_343x750.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/2/0/e20ca976970b15e6b2ec424e3a4c2eb94e57e73c_2_458x1000.png 2x" data-dominant-color="373838"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG0301</span><span class="informations">1206×2622 326 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/c/5/fc59b53b76941cdca5b648db2a46d7629bb06aa5.jpeg" data-download-href="/uploads/short-url/A0owir3ofP66EMA1EfhCNOT6xwx.jpeg?dl=1" title="IMG0300" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/f/c/5/fc59b53b76941cdca5b648db2a46d7629bb06aa5_2_229x500.jpeg" alt="IMG0300" data-base62-sha1="A0owir3ofP66EMA1EfhCNOT6xwx" width="229" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/f/c/5/fc59b53b76941cdca5b648db2a46d7629bb06aa5_2_229x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/f/c/5/fc59b53b76941cdca5b648db2a46d7629bb06aa5_2_343x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/f/c/5/fc59b53b76941cdca5b648db2a46d7629bb06aa5_2_458x1000.jpeg 2x" data-dominant-color="1E1D1C"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG0300</span><span class="informations">1206×2622 272 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-128">
+        <header>
+          <a href="#post-128">#128</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          
+          <time datetime="2026-05-05T19:09:46.127Z">5/6/2026, 3:09:46 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/2/9/e29c10d33fff81517491cc5c62501bc3c9faed3e.jpeg" data-download-href="/uploads/short-url/wkGhd3TXfIVTYFYRGzXdjMAdQGG.jpeg?dl=1" title="IMG0302" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/2/9/e29c10d33fff81517491cc5c62501bc3c9faed3e_2_229x500.jpeg" alt="IMG0302" data-base62-sha1="wkGhd3TXfIVTYFYRGzXdjMAdQGG" width="229" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/e/2/9/e29c10d33fff81517491cc5c62501bc3c9faed3e_2_229x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/e/2/9/e29c10d33fff81517491cc5c62501bc3c9faed3e_2_343x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/2/9/e29c10d33fff81517491cc5c62501bc3c9faed3e_2_458x1000.jpeg 2x" data-dominant-color="333330"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG0302</span><span class="informations">1206×2622 271 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-129">
+        <header>
+          <a href="#post-129">#129</a>
+          <strong>kslr</strong>
+          <span>@kslr</span>
+          <span class="reply-context">in reply to <a href="#post-127">#127</a> 慕鸢</span>
+          <time datetime="2026-05-05T19:10:02.171Z">5/6/2026, 3:10:02 AM</time>
+        </header>
+        <div class="content"><p>这个可以外接的 max 是前面套了模型再转译的吗，可以写黄文吗 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/nerd_face.png?v=15" title=":nerd_face:" class="emoji" alt=":nerd_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-130">
+        <header>
+          <a href="#post-130">#130</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-129">#129</a> kslr</span>
+          <time datetime="2026-05-05T19:13:02.564Z">5/6/2026, 3:13:02 AM</time>
+        </header>
+        <div class="content"><p>你接着看血流成河吧，我现在挺无语的，我连发帖的是哪个用户，我都不知道。</p>
+<p>到现在qq都没私信</p></div>
+      </article>
+    
+
+      <article class="post" id="post-131">
+        <header>
+          <a href="#post-131">#131</a>
+          <strong>AAAAcola</strong>
+          <span>@alexcola_133</span>
+          
+          <time datetime="2026-05-05T19:13:58.477Z">5/6/2026, 3:13:58 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-132">
+        <header>
+          <a href="#post-132">#132</a>
+          <strong>deer</strong>
+          <span>@deer</span>
+          <span class="reply-context">in reply to <a href="#post-104">#104</a> 雅灵</span>
+          <time datetime="2026-05-05T19:15:57.088Z">5/6/2026, 3:15:57 AM</time>
+        </header>
+        <div class="content"><p>这有什么不理解的，以富可敌国的口碑来看，大部分不都是花了真金白银出事了吗</p></div>
+      </article>
+    
+
+      <article class="post" id="post-133">
+        <header>
+          <a href="#post-133">#133</a>
+          <strong>xiaomao</strong>
+          <span>@xiaomao</span>
+          <span class="reply-context">in reply to <a href="#post-128">#128</a> 慕鸢</span>
+          <time datetime="2026-05-05T19:30:49.017Z">5/6/2026, 3:30:49 AM</time>
+        </header>
+        <div class="content"><p>唉</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/7/d/47d1241eab96aa491b2e2c67f9b0c640981aabad.png" data-download-href="/uploads/short-url/afjYX8I4RUZgHOMPqtOuW2PK96l.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/7/d/47d1241eab96aa491b2e2c67f9b0c640981aabad_2_690x142.png" alt="image" data-base62-sha1="afjYX8I4RUZgHOMPqtOuW2PK96l" width="690" height="142" srcset="https://cdn3.ldstatic.com/optimized/4X/4/7/d/47d1241eab96aa491b2e2c67f9b0c640981aabad_2_690x142.png, https://cdn3.ldstatic.com/optimized/4X/4/7/d/47d1241eab96aa491b2e2c67f9b0c640981aabad_2_1035x213.png 1.5x, https://cdn3.ldstatic.com/original/4X/4/7/d/47d1241eab96aa491b2e2c67f9b0c640981aabad.png 2x" data-dominant-color="2C2E2D"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1228×254 43.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>第一批用户，我又不是来维权要退款的。</p>
+<p>你还是别这样引用自家员工的话当总结，非常小孩子气。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-134">
+        <header>
+          <a href="#post-134">#134</a>
+          <strong>nuohe</strong>
+          <span>@nuohe</span>
+          
+          <time datetime="2026-05-05T19:35:17.478Z">5/6/2026, 3:35:17 AM</time>
+        </header>
+        <div class="content"><p>我丢上次准备给别人推荐这个我看这家很便宜,幸亏我删除了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/melting_face.png?v=15" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20">(这里只是代表有人发帖,怕有人问我不代表星辰就是有问题)</p></div>
+      </article>
+    
+
+      <article class="post" id="post-135">
+        <header>
+          <a href="#post-135">#135</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-133">#133</a> xiaomao</span>
+          <time datetime="2026-05-05T19:35:53.507Z">5/6/2026, 3:35:53 AM</time>
+        </header>
+        <div class="content"><p>那是我发的，这是我的手机截屏，所有的内容都是完全复制这个帖子的回复，作为记录留档</p>
+<p>我到现在都没有收到你的私信</p></div>
+      </article>
+    
+
+      <article class="post" id="post-136">
+        <header>
+          <a href="#post-136">#136</a>
+          <strong>阿达姆</strong>
+          <span>@Adam.H</span>
+          
+          <time datetime="2026-05-05T19:37:11.746Z">5/6/2026, 3:37:11 AM</time>
+        </header>
+        <div class="content"><p>发个我刚测的吧：</p>
+<p>用cherry studio发个你好，无system提示词：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/d/b/bdb2da696b4f64d56871602b55e9e8bed7ded4b0.png" data-download-href="/uploads/short-url/r49qQHU08SxE7RIJVapO7Als0co.png?dl=1" title="ScreenShot2026-05-06032808634" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/b/d/b/bdb2da696b4f64d56871602b55e9e8bed7ded4b0.png" alt="ScreenShot2026-05-06032808634" data-base62-sha1="r49qQHU08SxE7RIJVapO7Als0co" width="599" height="465"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ScreenShot2026-05-06032808634</span><span class="informations">599×465 22.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/d/3/dd3aa306d7a0fa9cc9345cc0a085fd5e6e79b239.png" data-download-href="/uploads/short-url/vz59hLAGvV3m3sa1GCb5K8czM7v.png?dl=1" title="ScreenShot2026-05-06032748131" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/d/d/3/dd3aa306d7a0fa9cc9345cc0a085fd5e6e79b239_2_690x42.png" alt="ScreenShot2026-05-06032748131" data-base62-sha1="vz59hLAGvV3m3sa1GCb5K8czM7v" width="690" height="42" srcset="https://cdn3.ldstatic.com/optimized/4X/d/d/3/dd3aa306d7a0fa9cc9345cc0a085fd5e6e79b239_2_690x42.png, https://cdn3.ldstatic.com/optimized/4X/d/d/3/dd3aa306d7a0fa9cc9345cc0a085fd5e6e79b239_2_1035x63.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/d/d/3/dd3aa306d7a0fa9cc9345cc0a085fd5e6e79b239_2_1380x84.png 2x" data-dominant-color="27282C"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ScreenShot2026-05-06032748131</span><span class="informations">2199×135 14.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>抓包数据：<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/5/e/a5e95c742e437c7d56be04e67425301bd53e5e74.png" data-download-href="/uploads/short-url/nFIKUhz990useX4sETxRJKsu5aA.png?dl=1" title="ScreenShot2026-05-06032927041" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/a/5/e/a5e95c742e437c7d56be04e67425301bd53e5e74_2_690x256.png" alt="ScreenShot2026-05-06032927041" data-base62-sha1="nFIKUhz990useX4sETxRJKsu5aA" width="690" height="256" srcset="https://cdn3.ldstatic.com/optimized/4X/a/5/e/a5e95c742e437c7d56be04e67425301bd53e5e74_2_690x256.png, https://cdn3.ldstatic.com/optimized/4X/a/5/e/a5e95c742e437c7d56be04e67425301bd53e5e74_2_1035x384.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/a/5/e/a5e95c742e437c7d56be04e67425301bd53e5e74_2_1380x512.png 2x" data-dominant-color="F9F9F9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ScreenShot2026-05-06032927041</span><span class="informations">2109×784 122 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<hr>
+<p>一句你好，一般来说应该是1-2token，星辰返回的input是140，说明肯定是中转的时候加了什么提示词呗，不然怎么换tokenlizer也不可能把一个“你好”变成140token啊</p>
+<p>所以我认为楼主说的通过input token数量来证明中转掺假，仅靠楼主给出的一个测试结果是站不住脚的；我认为楼主你可以试试尝试不同长度(包括1 token，比如输个hi)的input和官方订阅进行对比，如果差值是恒定的，说明起码从分词器角度上来说是没有差别的，只是提示词有差别，如果差值会随着输入长度发生线性变化，才说明分词器有差异</p></div>
+      </article>
+    
+
+      <article class="post" id="post-137">
+        <header>
+          <a href="#post-137">#137</a>
+          <strong>慕鸢</strong>
+          <span>@user792</span>
+          <span class="reply-context">in reply to <a href="#post-133">#133</a> xiaomao</span>
+          <time datetime="2026-05-05T19:42:12.396Z">5/6/2026, 3:42:12 AM</time>
+        </header>
+        <div class="content"><p>解释：输入确实加了语义翻译规避封控，有所差别</p>
+<p>没有掺假</p>
+<p>或许这是你想要的？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-138">
+        <header>
+          <a href="#post-138">#138</a>
+          <strong>nuohe</strong>
+          <span>@nuohe</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T19:44:02.816Z">5/6/2026, 3:44:02 AM</time>
+        </header>
+        <div class="content"><p>OPUS4.7这样说话应该是对的,蒸馏了5.4xhigt的小笨蛋 刚刚出来的时候我就有发帖</p>
+<aside class="quote quote-modified" data-post="1" data-topic="1984135">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/nuohe/48/1144939_2.png" class="avatar">
+    <div class="quote-title__text-content">
+      <a href="https://linux.do/t/topic/1984135">claude4.7opus发布了,我生成了两张图可以概括4.7opus能力</a> <a class="badge-category__wrapper " href="https://linux.do/c/develop/4"><span data-category-id="4" style="--category-badge-color: #32c3c3; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-icon " title="此版块包含开发、测试、调试、部署、优化、安全等方面的内容。"><svg class="fa d-icon svg-icon svg-node" aria-hidden="true"><svg id="code" viewBox="0 0 640 512">
+  <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"></path>
+</svg></svg>
+<span class="badge-category__name">开发调优</span></span></a>
+    </div>
+  </div>
+  <blockquote>
+    <a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/f/1/6f1bcfc9430a5e636d47813a104fcbf15d2b2ef6.jpeg" data-download-href="/uploads/short-url/fQUAipYIhKnAk6POZzwWiAHJCcK.jpeg?dl=1" title="ChatGPT Image 2026年4月17日 021255" rel="noopener nofollow ugc">[ChatGPT Image 2026年4月17日 021255]</a> 
+<a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/8/e/38eae8acae78d1f02c84e749e5bec91d3f530485.jpeg" data-download-href="/uploads/short-url/87w1KP2TDorfVR0NWVsvZB0xIjz.jpeg?dl=1" title="ChatGPT Image 2026年4月17日 021913" rel="noopener nofollow ugc">[ChatGPT Image 2026年4月17日 021913]</a> 
+此图片由伟大的gpt生成 <img width="20" height="20" src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title="rofl" alt="rofl" class="emoji">
+  </blockquote>
+</aside>
+</div>
+      </article>
+    
+
+      <article class="post" id="post-139">
+        <header>
+          <a href="#post-139">#139</a>
+          <strong>nuohe</strong>
+          <span>@nuohe</span>
+          <span class="reply-context">in reply to <a href="#post-137">#137</a> 慕鸢</span>
+          <time datetime="2026-05-05T19:48:21.399Z">5/6/2026, 3:48:21 AM</time>
+        </header>
+        <div class="content"><p>借着这里说一下我觉得中转拼接提示词是有必要的:防逆向(用户做了这个操作的话会导致账号被封) <img src="https://cdn.ldstatic.com/images/emoji/twemoji/melting_face.png?v=15" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20">Codex最少是这样的Claude不知道.（我站马路中间）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-140">
+        <header>
+          <a href="#post-140">#140</a>
+          <strong>莹酱</strong>
+          <span>@mazhichen8780</span>
+          
+          <time datetime="2026-05-05T20:33:32.050Z">5/6/2026, 4:33:32 AM</time>
+        </header>
+        <div class="content"><aside class="onebox allowlistedgeneric" data-onebox-src="https://openrouter.ai/announcements/opus-47-tokenizer-analysis">
+  <header class="source">
+      <img src="https://cdn3.ldstatic.com/original/4X/c/1/c/c1c136db7eea01252bac09372196f661623adac9.png" class="site-icon" alt="" data-dominant-color="94A3B8" width="48" height="48">
+
+      <a href="https://openrouter.ai/announcements/opus-47-tokenizer-analysis" target="_blank" rel="noopener nofollow ugc">OpenRouter</a>
+  </header>
+
+  <article class="onebox-body">
+    <div class="aspect-image" style="--aspect-ratio:690/362;"><img src="https://cdn3.ldstatic.com/optimized/4X/a/2/1/a21767806cffaf6271e521ad8af857a58207920e_2_690x362.png" class="thumbnail" alt="" data-dominant-color="E6E7E9" width="690" height="362"></div>
+
+<h3><a href="https://openrouter.ai/announcements/opus-47-tokenizer-analysis" target="_blank" rel="noopener nofollow ugc">Opus 4.7's New Tokenizer: What It Actually Costs | OpenRouter</a></h3>
+
+  <p>Anthropic changed the tokenizer in Opus 4.7. We looked at usage that shifted from 4.6 to 4.7 to measure exactly how it affects costs.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<p>
+先附上openrouter对op47的分词器论文<br>
+我在这里提出三问∶<br>
+1.我就想知道你让ai去分析ai，能出来什么呢？<br>
+2.难道风控加头，加了引导词，缺失风控数据就是你判断假的唯一标准？<br>
+3.你作为基准，怕不是不知道在newapi中，tier一般不做透传？<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037.jpeg" data-download-href="/uploads/short-url/8UTTfMOcniHd0FGKqEGpncSArbx.jpeg?dl=1" title="IMG20260506043233" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037_2_476x500.jpeg" alt="IMG20260506043233" data-base62-sha1="8UTTfMOcniHd0FGKqEGpncSArbx" width="476" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037_2_476x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037_2_714x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037_2_952x1000.jpeg 2x" data-dominant-color="F3F3F4"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG20260506043233</span><span class="informations">1080×1134 116 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>照你那么测全站中转op4.7全假的</p>
+<h2><a name="p-17514249-ai-1" class="anchor" href="#p-17514249-ai-1" aria-label="标题链接"></a>建议三思而后行，查阅相关资料，勿将自己的智商完全交给ai</h2>
+<p>半夜人不是很清醒，有什么问题欢迎下方指正，检查了一下应该没有问题</p></div>
+      </article>
+    
+
+      <article class="post" id="post-141">
+        <header>
+          <a href="#post-141">#141</a>
+          <strong>Ha hA</strong>
+          <span>@harrylarry</span>
+          <span class="reply-context">in reply to <a href="#post-133">#133</a> xiaomao</span>
+          <time datetime="2026-05-05T20:47:23.921Z">5/6/2026, 4:47:23 AM</time>
+        </header>
+        <div class="content"><p>这个头像我好像也记得上次鸢佬说是员工来着。<img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-142">
+        <header>
+          <a href="#post-142">#142</a>
+          <strong>zhiyao wang</strong>
+          <span>@zhiyao_wang</span>
+          <span class="reply-context">in reply to <a href="#post-32">#32</a> 朱陵</span>
+          <time datetime="2026-05-05T20:52:05.160Z">5/6/2026, 4:52:05 AM</time>
+        </header>
+        <div class="content"><p>官方订阅折合 4-6 毛/刀 中转站给不到这个汇率的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-143">
+        <header>
+          <a href="#post-143">#143</a>
+          <strong>gitday</strong>
+          <span>@didiaodidiao260</span>
+          <span class="reply-context">in reply to <a href="#post-141">#141</a> Ha hA</span>
+          <time datetime="2026-05-05T20:59:28.403Z">5/6/2026, 4:59:28 AM</time>
+        </header>
+        <div class="content"><p>上次说是员工，后来出事后我记得说把账号收回了由团队直接负责<img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-144">
+        <header>
+          <a href="#post-144">#144</a>
+          <strong>0wFF</strong>
+          <span>@Fengfeng10</span>
+          <span class="reply-context">in reply to <a href="#post-140">#140</a> 莹酱</span>
+          <time datetime="2026-05-05T21:41:49.698Z">5/6/2026, 5:41:49 AM</time>
+        </header>
+        <div class="content"><p>摸摸莹酱啦ww<br>
+莹酱要记得早点休息哦w）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-145">
+        <header>
+          <a href="#post-145">#145</a>
+          <strong>MoonTwine</strong>
+          <span>@moontwine</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T21:58:19.792Z">5/6/2026, 5:58:19 AM</time>
+        </header>
+        <div class="content"><p>佬能确定这种自言自语的风格是假的opus4.7嘛，我用的另一家也会冒出这种说话风格，我还寻思挺可爱呢 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-146">
+        <header>
+          <a href="#post-146">#146</a>
+          <strong>summoonlight</strong>
+          <span>@summoonlight</span>
+          
+          <time datetime="2026-05-05T22:09:45.673Z">5/6/2026, 6:09:45 AM</time>
+        </header>
+        <div class="content"><p>你要锤死他就把复现过程做成脚本, 有的是友商帮你做, 但现在无论如何都迟了.<br>
+如果真的是假的, 只要这家中转还有点脑子都会暂时切回去, 你要做的是过两个月收集完全证据包括复现流程</p></div>
+      </article>
+    
+
+      <article class="post" id="post-147">
+        <header>
+          <a href="#post-147">#147</a>
+          <strong>南塔天</strong>
+          <span>@gandme</span>
+          
+          <time datetime="2026-05-05T22:31:14.290Z">5/6/2026, 6:31:14 AM</time>
+        </header>
+        <div class="content"><p>我建议<br>
+中转站直接把反代改了的内容发出来，瓜友帮你验证一下？再不济按照楼主贴的时间捞一下请求呢。</p>
+<p>题主想捶死商业站，就自己折腾一下正经伪装，不要用cpa这种半吊子呢。</p>
+<p>这瓜吃的不上不下真的难受，只能怪双方都<strong>有些傲慢</strong>了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-148">
+        <header>
+          <a href="#post-148">#148</a>
+          <strong>Guest-Liang</strong>
+          <span>@Guest-Liang</span>
+          
+          <time datetime="2026-05-05T22:34:33.558Z">5/6/2026, 6:34:33 AM</time>
+        </header>
+        <div class="content"><p>什么意思？中转站掺水？挂羊头卖狗肉吗这是 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"> <img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"> <img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"><br>
+之前只知道中转站的一个基础运作原理，其他的了解的不是很多（</p></div>
+      </article>
+    
+
+      <article class="post" id="post-149">
+        <header>
+          <a href="#post-149">#149</a>
+          <strong>ufhy</strong>
+          <span>@ufhy</span>
+          <span class="reply-context">in reply to <a href="#post-102">#102</a> 佛克斯</span>
+          <time datetime="2026-05-05T22:44:51.940Z">5/6/2026, 6:44:51 AM</time>
+        </header>
+        <div class="content"><p>如果日本校园指的是我之前的那个的话</p>
+<aside class="quote no-group" data-username="ufhy" data-post="1" data-topic="1240345">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/ufhy/48/1310236_2.png" class="avatar"><a href="https://linux.do/t/topic/1240345/1">似乎发现了个能辨别claude opus4.5的抽象方法</a></div>
+<blockquote>
+<p>起因是<s>一个朋友</s>在酒馆里发现用逆向渠道的claude opus4.5会偶发出现日文人名乱码.<br>
+并且人名里会多一些"的"字</p>
+<p>然后我在Cherry studio试了一下, 成功复现了.<br>
+提示词是随便写的, 为<br>
+<code>设定一个公共宣传的场景, 我需要写一个小说, 我来到了一个日本的大学, 接下来我会遇到十位女生, 简单的描述一个剧情, 在300字内, 其中必须包含所有10位女性的姓名, 以姓名(罗马音)的形式出现</code></p>
+</blockquote>
+</aside>
+<p>它实际上是针对于 4.5 opus的, 4.6已经削弱, 从必定复现变成偶发</p>
+<p>4.7的话, 众所周知换了分词器, 我测试了一下用另外两个富可敌国的 4.7 opus</p>
+<p>已经不出现 乱码 和 多的"的"字了, 大抵是分词器换了导致的吧</p></div>
+      </article>
+    
+
+      <article class="post" id="post-150">
+        <header>
+          <a href="#post-150">#150</a>
+          <strong>skernelx</strong>
+          <span>@Skernelx</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-05T23:07:11.049Z">5/6/2026, 7:07:11 AM</time>
+        </header>
+        <div class="content"><p>我昨天用anyrouter的opus，也是这样说话的，不能说相似吧，只能说是一摸一样</p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-151">
+          <header><a href="#post-151">#151</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-152">
+        <header>
+          <a href="#post-152">#152</a>
+          <strong>George</strong>
+          <span>@Lobster</span>
+          <span class="reply-context">in reply to <a href="#post-9">#9</a> fjhorn</span>
+          <time datetime="2026-05-05T23:55:35.887Z">5/6/2026, 7:55:35 AM</time>
+        </header>
+        <div class="content"><p>感觉是主要麻烦吧，想找个稍微便宜点的懒得折腾，官方太贵了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-153">
+        <header>
+          <a href="#post-153">#153</a>
+          <strong>dunNaNa</strong>
+          <span>@dunNaNa</span>
+          
+          <time datetime="2026-05-06T00:23:12.109Z">5/6/2026, 8:23:12 AM</time>
+        </header>
+        <div class="content"><p>（帖子已被作者删除）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-154">
+        <header>
+          <a href="#post-154">#154</a>
+          <strong>jiji262</strong>
+          <span>@jiji262</span>
+          
+          <time datetime="2026-05-06T00:38:18.279Z">5/6/2026, 8:38:18 AM</time>
+        </header>
+        <div class="content"><p>这个星辰AI centos.hk是富可敌国么?</p></div>
+      </article>
+    
+
+      <article class="post" id="post-155">
+        <header>
+          <a href="#post-155">#155</a>
+          <strong>okentao</strong>
+          <span>@okentao</span>
+          
+          <time datetime="2026-05-06T00:42:30.089Z">5/6/2026, 8:42:30 AM</time>
+        </header>
+        <div class="content"><p>我将搬个凳子和西瓜前排吃瓜！喜欢看富可敌国的瓜</p></div>
+      </article>
+    
+
+      <article class="post" id="post-156">
+        <header>
+          <a href="#post-156">#156</a>
+          <strong>卡里姆•汗</strong>
+          <span>@fgozxy</span>
+          
+          <time datetime="2026-05-06T00:48:29.016Z">5/6/2026, 8:48:29 AM</time>
+        </header>
+        <div class="content"><p>吃瓜，爽，五一结束第一天就有瓜吃，看看对方怎么说</p></div>
+      </article>
+    
+
+      <article class="post" id="post-157">
+        <header>
+          <a href="#post-157">#157</a>
+          <strong>xinsheng</strong>
+          <span>@xinsheng</span>
+          
+          <time datetime="2026-05-06T00:49:43.448Z">5/6/2026, 8:49:43 AM</time>
+        </header>
+        <div class="content"><p>这么多人都在吃瓜，我嘞个豆，瓜子和<img src="https://cdn.ldstatic.com/images/emoji/twemoji/teacup_without_handle.png?v=15" title=":teacup_without_handle:" class="emoji" alt=":teacup_without_handle:" loading="lazy" width="20" height="20">都准备好了<img src="https://cdn.ldstatic.com/images/emoji/twemoji/zany_face.png?v=15" title=":zany_face:" class="emoji" alt=":zany_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-158">
+        <header>
+          <a href="#post-158">#158</a>
+          <strong>Elon Musk</strong>
+          <span>@elon-musk</span>
+          
+          <time datetime="2026-05-06T00:53:40.018Z">5/6/2026, 8:53:40 AM</time>
+        </header>
+        <div class="content"><p>楼主贴出了数据，商家自己去把实测数据贴出来啊，拿什么文字、文档回复太虚了，小圈子里的人带冷嘲热讽，怎么信服？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-159">
+        <header>
+          <a href="#post-159">#159</a>
+          <strong>tardis</strong>
+          <span>@tardis</span>
+          
+          <time datetime="2026-05-06T00:53:54.150Z">5/6/2026, 8:53:54 AM</time>
+        </header>
+        <div class="content"><p>经典掺水，搬个小板凳，一起来赤吃 瓜。（</p></div>
+      </article>
+    
+
+      <article class="post" id="post-160">
+        <header>
+          <a href="#post-160">#160</a>
+          <strong>leavesMING</strong>
+          <span>@leaves-ming</span>
+          
+          <time datetime="2026-05-06T00:56:59.646Z">5/6/2026, 8:56:59 AM</time>
+        </header>
+        <div class="content"><p>又是富可敌国爆瓜了吗？ <img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20">我要看到血流成河！</p></div>
+      </article>
+    
+
+      <article class="post" id="post-161">
+        <header>
+          <a href="#post-161">#161</a>
+          <strong>Xuezi003</strong>
+          <span>@Xuezi003</span>
+          
+          <time datetime="2026-05-06T00:59:08.074Z">5/6/2026, 8:59:08 AM</time>
+        </header>
+        <div class="content"><p>官方订阅加上家宽，信用卡，服务器一类的成本<br>
+真的比中转站便宜吗（个人折腾水平确实不足<img src="https://cdn.ldstatic.com/images/emoji/twemoji/sob.png?v=15" title=":sob:" class="emoji" alt=":sob:" loading="lazy" width="20" height="20">），还有封号退款真的是可以100%按比例退吗<img src="https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-162">
+        <header>
+          <a href="#post-162">#162</a>
+          <strong>leavesMING</strong>
+          <span>@leaves-ming</span>
+          <span class="reply-context">in reply to <a href="#post-160">#160</a> leavesMING</span>
+          <time datetime="2026-05-06T01:01:12.925Z">5/6/2026, 9:01:12 AM</time>
+        </header>
+        <div class="content"><p>我不行了，看了看两边的回复，我想问哪边是好的（）</p></div>
+      </article>
+    
+
+      <article class="post" id="post-163">
+        <header>
+          <a href="#post-163">#163</a>
+          <strong>crb1025</strong>
+          <span>@crb1025</span>
+          <span class="reply-context">in reply to <a href="#post-12">#12</a> McD</span>
+          <time datetime="2026-05-06T01:07:32.996Z">5/6/2026, 9:07:32 AM</time>
+        </header>
+        <div class="content"><p>claude 之前封号会退款，现在按天数退。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-164">
+        <header>
+          <a href="#post-164">#164</a>
+          <strong>匿名佬友#4241(INTJ版)📷</strong>
+          <span>@Yak</span>
+          <span class="reply-context">in reply to <a href="#post-10">#10</a> Zooe</span>
+          <time datetime="2026-05-06T01:08:26.474Z">5/6/2026, 9:08:26 AM</time>
+        </header>
+        <div class="content"><p>你这头像，是我之前用的头像，差点以为自己回过贴 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-165">
+        <header>
+          <a href="#post-165">#165</a>
+          <strong>匿名佬友#4241(INTJ版)📷</strong>
+          <span>@Yak</span>
+          <span class="reply-context">in reply to <a href="#post-158">#158</a> Elon Musk</span>
+          <time datetime="2026-05-06T01:12:51.720Z">5/6/2026, 9:12:51 AM</time>
+        </header>
+        <div class="content"><p>不是，你为啥有个<code>特斯拉创始人兼首席执行官</code>的标啊？谁给你发的？我也想要 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-166">
+        <header>
+          <a href="#post-166">#166</a>
+          <strong>LucasGreen</strong>
+          <span>@LucasGreen</span>
+          
+          <time datetime="2026-05-06T01:13:02.023Z">5/6/2026, 9:13:02 AM</time>
+        </header>
+        <div class="content"><p>假期刚结束就有富可敌国的瓜,板凳搬好了,瓜子准备好了,坐等吃瓜 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/drooling_face.png?v=15" title=":drooling_face:" class="emoji" alt=":drooling_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-167">
+        <header>
+          <a href="#post-167">#167</a>
+          <strong>龒龘鸗</strong>
+          <span>@Gongzhongsou</span>
+          
+          <time datetime="2026-05-06T01:15:57.315Z">5/6/2026, 9:15:57 AM</time>
+        </header>
+        <div class="content"><p>之前发的测试真假的网站又可以派上用场了，不知道还能不能用。</p>
+<aside class="quote quote-modified" data-post="1" data-topic="1961727">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://cdn.ldstatic.com/letter_avatar/gongzhongsou/48/5_c16b2ee14fe83ed9a59fc65fbec00f85.png" class="avatar">
+    <div class="quote-title__text-content">
+      <a href="https://linux.do/t/topic/1961727/">推荐2个中转站真假鉴别工具，让掺水的假模型无处遁形～～～</a> <a class="badge-category__wrapper " href="https://linux.do/c/develop/4"><span data-category-id="4" style="--category-badge-color: #32c3c3; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-icon " title="此版块包含开发、测试、调试、部署、优化、安全等方面的内容。"><svg class="fa d-icon svg-icon svg-node" aria-hidden="true"><svg id="code" viewBox="0 0 640 512">
+  <path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"></path>
+</svg></svg>
+<span class="badge-category__name">开发调优</span></span></a>
+    </div>
+  </div>
+  <blockquote>
+    最近试着用了几个类似的网站，感觉这两个是最靠谱的。 
+有需要可以试试。 
+注意， 
+要使用测试key，要使用测试key，要使用测试key。 
+
+
+测试结果： 
+ <a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/f/7/1f7b14195c91e7b42b6d68725829f10a212ed4c3.jpeg" data-download-href="/uploads/short-url/4uuuKVGrlxPTH7Te5nqj0z9WYRt.jpeg?dl=1" title="image" rel="noopener nofollow ugc">[image]</a> 
+
+
+测试结果： 
+ <a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/9/5/0/9507e2d812374d75bfceac4d53073f8fa2aa4c65.png" data-download-href="/uploads/short-url/lgo2pWPwzj0Ttg3qnoejtBGuWb3.png?dl=1" title="image" rel="noopener nofollow ugc">[image]</a>
+  </blockquote>
+</aside>
+</div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-168">
+          <header><a href="#post-168">#168</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-169">
+        <header>
+          <a href="#post-169">#169</a>
+          <strong>led</strong>
+          <span>@led</span>
+          
+          <time datetime="2026-05-06T01:17:55.962Z">5/6/2026, 9:17:55 AM</time>
+        </header>
+        <div class="content"><p>也好，都开始扒掺水了，信息越透明越好。但是claude直充确实麻烦</p></div>
+      </article>
+    
+
+      <article class="post" id="post-170">
+        <header>
+          <a href="#post-170">#170</a>
+          <strong>ddn</strong>
+          <span>@ddn</span>
+          
+          <time datetime="2026-05-06T01:18:36.357Z">5/6/2026, 9:18:36 AM</time>
+        </header>
+        <div class="content"><p>搬起板凳在线吃瓜看看是怎么个事，这是什么操作 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/smiling_face_with_tear.png?v=15" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-171">
+        <header>
+          <a href="#post-171">#171</a>
+          <strong>unsafetrait</strong>
+          <span>@jackliu100</span>
+          
+          <time datetime="2026-05-06T01:19:25.329Z">5/6/2026, 9:19:25 AM</time>
+        </header>
+        <div class="content"><p>意思是路由模型掺假？收着OPUS4.7的钱？给的是低价或国产模型？这么幽默么？问题是DeepSeek没有多模态啊</p></div>
+      </article>
+    
+
+      <article class="post" id="post-172">
+        <header>
+          <a href="#post-172">#172</a>
+          <strong>joonde</strong>
+          <span>@joonde</span>
+          
+          <time datetime="2026-05-06T01:21:11.513Z">5/6/2026, 9:21:11 AM</time>
+        </header>
+        <div class="content"><p>后排吃瓜，板凳坐起，又有富可敌国的瓜来了。 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/slightly_smiling_face.png?v=15" title=":slightly_smiling_face:" class="emoji" alt=":slightly_smiling_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-173">
+        <header>
+          <a href="#post-173">#173</a>
+          <strong>Dyna</strong>
+          <span>@Dyna</span>
+          <span class="reply-context">in reply to <a href="#post-16">#16</a> gavinsolo</span>
+          <time datetime="2026-05-06T01:21:32.147Z">5/6/2026, 9:21:32 AM</time>
+        </header>
+        <div class="content"><p>现在好像宣称自己是Max号池的价格基本都在1.4以上了。<br>
+无法理解，就Opus4.7这个质量+分词器，怎么会有人通过中转站去用Opus，稍微用多点，就是官方订阅价格的几倍了。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-174">
+        <header>
+          <a href="#post-174">#174</a>
+          <strong>房东的猫</strong>
+          <span>@kano233</span>
+          
+          <time datetime="2026-05-06T01:22:11.511Z">5/6/2026, 9:22:11 AM</time>
+        </header>
+        <div class="content"><p>后排吃瓜，中转站感觉很多以次充好的，目前有啥好判断的方法吗</p></div>
+      </article>
+    
+
+      <article class="post" id="post-175">
+        <header>
+          <a href="#post-175">#175</a>
+          <strong>wxl</strong>
+          <span>@xiaolong</span>
+          <span class="reply-context">in reply to <a href="#post-174">#174</a> 房东的猫</span>
+          <time datetime="2026-05-06T01:23:02.837Z">5/6/2026, 9:23:02 AM</time>
+        </header>
+        <div class="content"><p>哈哈，还是用gpt吧，目前感觉更靠谱，更好判断</p></div>
+      </article>
+    
+
+      <article class="post" id="post-176">
+        <header>
+          <a href="#post-176">#176</a>
+          <strong>TiiT</strong>
+          <span>@TiiT</span>
+          
+          <time datetime="2026-05-06T01:27:51.443Z">5/6/2026, 9:27:51 AM</time>
+        </header>
+        <div class="content"><p>论坛里这么多被中转坑的帖子，怎么还有人往里跳。。。需求大走管渠呀。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-177">
+        <header>
+          <a href="#post-177">#177</a>
+          <strong>anxinya</strong>
+          <span>@anxinya</span>
+          
+          <time datetime="2026-05-06T01:29:02.875Z">5/6/2026, 9:29:02 AM</time>
+        </header>
+        <div class="content"><p>所有的中转站貌似都无法避免或者是不由自主的掺假。没有一个例外？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-178">
+        <header>
+          <a href="#post-178">#178</a>
+          <strong>梦_良辰</strong>
+          <span>@MrChen-hero</span>
+          <span class="reply-context">in reply to <a href="#post-114">#114</a> xiaomao</span>
+          <time datetime="2026-05-06T01:53:31.016Z">5/6/2026, 9:53:31 AM</time>
+        </header>
+        <div class="content"><p>但是佬友，你这个126和你第一次测得170也不一样呀，具体是怎么测得？同样的输入prompt然后看返回的input_token吗</p></div>
+      </article>
+    
+
+      <article class="post" id="post-179">
+        <header>
+          <a href="#post-179">#179</a>
+          <strong>Dieu</strong>
+          <span>@Dieu</span>
+          
+          <time datetime="2026-05-06T01:55:31.833Z">5/6/2026, 9:55:31 AM</time>
+        </header>
+        <div class="content"><p>看的很头大 迷迷糊糊的有佬总结下吗 any用着很舒服但是总503</p></div>
+      </article>
+    
+
+      <article class="post" id="post-180">
+        <header>
+          <a href="#post-180">#180</a>
+          <strong>unsafetrait</strong>
+          <span>@jackliu100</span>
+          <span class="reply-context">in reply to <a href="#post-161">#161</a> Xuezi003</span>
+          <time datetime="2026-05-06T01:57:15.933Z">5/6/2026, 9:57:15 AM</time>
+        </header>
+        <div class="content"><p>reply:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/3/4/8349da6d58fd6d678b59b42bc52742152dae88fd.png" data-download-href="/uploads/short-url/iJqMglBmk3jytftkmrVMjPWu4bP.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/8/3/4/8349da6d58fd6d678b59b42bc52742152dae88fd_2_690x145.png" alt="image" data-base62-sha1="iJqMglBmk3jytftkmrVMjPWu4bP" width="690" height="145" srcset="https://cdn3.ldstatic.com/optimized/4X/8/3/4/8349da6d58fd6d678b59b42bc52742152dae88fd_2_690x145.png, https://cdn3.ldstatic.com/original/4X/8/3/4/8349da6d58fd6d678b59b42bc52742152dae88fd.png 1.5x, https://cdn3.ldstatic.com/original/4X/8/3/4/8349da6d58fd6d678b59b42bc52742152dae88fd.png 2x" data-dominant-color="F7F5F5"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">875×185 16.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/4/1/44179f2694e5cf7f675838bf1ce46020efdad3ea.jpeg" data-download-href="/uploads/short-url/9In4MNJs0hXgrn94RMetXxTHb6i.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/4/4/1/44179f2694e5cf7f675838bf1ce46020efdad3ea_2_690x174.jpeg" alt="image" data-base62-sha1="9In4MNJs0hXgrn94RMetXxTHb6i" width="690" height="174" srcset="https://cdn3.ldstatic.com/optimized/4X/4/4/1/44179f2694e5cf7f675838bf1ce46020efdad3ea_2_690x174.jpeg, https://cdn3.ldstatic.com/optimized/4X/4/4/1/44179f2694e5cf7f675838bf1ce46020efdad3ea_2_1035x261.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/4/4/1/44179f2694e5cf7f675838bf1ce46020efdad3ea_2_1380x348.jpeg 2x" data-dominant-color="F4EEDC"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1423×360 87.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>咋没提呢？这不图上写了么，DeepSeek V2/V3 。</p>
+<p>人家图片你是一点不看啊</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/5/8/8/5887a68112cf20b283a3f16333e433650e3ad5cf.png" data-download-href="/uploads/short-url/cDaE7hB9NaOFoFUE4ZVcXeRGliv.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/5/8/8/5887a68112cf20b283a3f16333e433650e3ad5cf_2_690x44.png" alt="image" data-base62-sha1="cDaE7hB9NaOFoFUE4ZVcXeRGliv" width="690" height="44" srcset="https://cdn3.ldstatic.com/optimized/4X/5/8/8/5887a68112cf20b283a3f16333e433650e3ad5cf_2_690x44.png, https://cdn3.ldstatic.com/optimized/4X/5/8/8/5887a68112cf20b283a3f16333e433650e3ad5cf_2_1035x66.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/5/8/8/5887a68112cf20b283a3f16333e433650e3ad5cf_2_1380x88.png 2x" data-dominant-color="F2E8D7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1996×130 26.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>DeepSeek被你开除国产模型了？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-181">
+        <header>
+          <a href="#post-181">#181</a>
+          <strong>lueluelue</strong>
+          <span>@lueluelue</span>
+          <span class="reply-context">in reply to <a href="#post-180">#180</a> unsafetrait</span>
+          <time datetime="2026-05-06T02:03:26.737Z">5/6/2026, 10:03:26 AM</time>
+        </header>
+        <div class="content"><p>零一万物：Claude 竟然还记得我 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/pleading_face.png?v=15" title=":pleading_face:" class="emoji" alt=":pleading_face:" loading="lazy" width="20" height="20"> <img src="https://cdn.ldstatic.com/images/emoji/twemoji/pleading_face.png?v=15" title=":pleading_face:" class="emoji" alt=":pleading_face:" loading="lazy" width="20" height="20"> <img src="https://cdn.ldstatic.com/images/emoji/twemoji/pleading_face.png?v=15" title=":pleading_face:" class="emoji" alt=":pleading_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-182">
+        <header>
+          <a href="#post-182">#182</a>
+          <strong>薛晨</strong>
+          <span>@xc287259627</span>
+          
+          <time datetime="2026-05-06T02:05:59.402Z">5/6/2026, 10:05:59 AM</time>
+        </header>
+        <div class="content"><p>佬，这都可以吗，这下可以吃瓜了，如果情况属实的话，确实太不地道了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-183">
+        <header>
+          <a href="#post-183">#183</a>
+          <strong>银月</strong>
+          <span>@lxm.47</span>
+          
+          <time datetime="2026-05-06T02:09:47.961Z">5/6/2026, 10:09:47 AM</time>
+        </header>
+        <div class="content"><p>居然是现成的吃瓜现场吗，那我得尝尝，有没佬友说一下还有别的现场</p></div>
+      </article>
+    
+
+      <article class="post" id="post-184">
+        <header>
+          <a href="#post-184">#184</a>
+          <strong>Joel Stodolski</strong>
+          <span>@wuhao1477</span>
+          
+          <time datetime="2026-05-06T02:16:50.028Z">5/6/2026, 10:16:50 AM</time>
+        </header>
+        <div class="content"><p>感觉这方法不错！佬友有空可以研究成统一的工具了。不过别到时候一测全部富可敌国都寄了哈哈哈</p></div>
+      </article>
+    
+
+      <article class="post" id="post-185">
+        <header>
+          <a href="#post-185">#185</a>
+          <strong>W-W</strong>
+          <span>@W-W</span>
+          <span class="reply-context">in reply to <a href="#post-176">#176</a> TiiT</span>
+          <time datetime="2026-05-06T02:17:25.525Z">5/6/2026, 10:17:25 AM</time>
+        </header>
+        <div class="content"><p>直接考虑始皇的 <a href="http://oaipro.com">http://oaipro.com</a> ，官转，按量，省心不折腾</p></div>
+      </article>
+    
+
+      <article class="post" id="post-186">
+        <header>
+          <a href="#post-186">#186</a>
+          <strong>Janna</strong>
+          <span>@Janna</span>
+          
+          <time datetime="2026-05-06T02:20:02.219Z">5/6/2026, 10:20:02 AM</time>
+        </header>
+        <div class="content"><p>搬个凳子，拿袋瓜子，坐前排，就等吃瓜了，哈哈</p></div>
+      </article>
+    
+
+      <article class="post" id="post-187">
+        <header>
+          <a href="#post-187">#187</a>
+          <strong>木木</strong>
+          <span>@littlemumu</span>
+          
+          <time datetime="2026-05-06T02:20:56.870Z">5/6/2026, 10:20:56 AM</time>
+        </header>
+        <div class="content"><p>看到满地的瓜子啤酒瓶，我就来了，不能少了我啊 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/grinning_face_with_smiling_eyes.png?v=15" title=":grinning_face_with_smiling_eyes:" class="emoji" alt=":grinning_face_with_smiling_eyes:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-188">
+        <header>
+          <a href="#post-188">#188</a>
+          <strong>Lookwhat</strong>
+          <span>@lookwhat</span>
+          
+          <time datetime="2026-05-06T02:21:04.772Z">5/6/2026, 10:21:04 AM</time>
+        </header>
+        <div class="content"><p>啊？？？我现在都还在用呢，本来还觉得蛮好的，价格也不算便宜的吧，蹲一个后续</p></div>
+      </article>
+    
+
+      <article class="post" id="post-189">
+        <header>
+          <a href="#post-189">#189</a>
+          <strong>evrn</strong>
+          <span>@jjtang11</span>
+          
+          <time datetime="2026-05-06T02:23:41.112Z">5/6/2026, 10:23:41 AM</time>
+        </header>
+        <div class="content"><p>唉，要找个比官方便宜又不掺水的中转站真难啊，不是不让你赚钱，但是别赚黑心钱啊</p></div>
+      </article>
+    
+
+      <article class="post" id="post-190">
+        <header>
+          <a href="#post-190">#190</a>
+          <strong>founder</strong>
+          <span>@founder</span>
+          
+          <time datetime="2026-05-06T02:36:53.256Z">5/6/2026, 10:36:53 AM</time>
+        </header>
+        <div class="content"><p>如果是真的那就太离谱了，贵就贵算了，怎么还套壳免费模型呢，坐等后续 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"> <img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-191">
+        <header>
+          <a href="#post-191">#191</a>
+          <strong>尘心雪</strong>
+          <span>@steven91</span>
+          <span class="reply-context">in reply to <a href="#post-20">#20</a> Zenuncl</span>
+          <time datetime="2026-05-06T02:40:01.242Z">5/6/2026, 10:40:01 AM</time>
+        </header>
+        <div class="content"><p>应该可以让ai帮忙写一个，部署下就可以了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-192">
+        <header>
+          <a href="#post-192">#192</a>
+          <strong>darkJune</strong>
+          <span>@darkJune</span>
+          
+          <time datetime="2026-05-06T02:41:15.400Z">5/6/2026, 10:41:15 AM</time>
+        </header>
+        <div class="content"><p>终于看完了，总结一下：现有证据好像没有实锤，蹲蹲看还有没有后续</p></div>
+      </article>
+    
+
+      <article class="post" id="post-193">
+        <header>
+          <a href="#post-193">#193</a>
+          <strong>xyfd</strong>
+          <span>@xyfd</span>
+          
+          <time datetime="2026-05-06T02:42:48.809Z">5/6/2026, 10:42:48 AM</time>
+        </header>
+        <div class="content"><p>后排吃瓜，这模型掺水也太难杜绝了吧，感谢佬友爆料</p></div>
+      </article>
+    
+
+      <article class="post" id="post-194">
+        <header>
+          <a href="#post-194">#194</a>
+          <strong>Hirovo</strong>
+          <span>@Hirovo</span>
+          
+          <time datetime="2026-05-06T02:44:59.539Z">5/6/2026, 10:44:59 AM</time>
+        </header>
+        <div class="content"><p>正好五一放假回来无心工作，后排关注富可敌国又有什么新瓜</p></div>
+      </article>
+    
+
+      <article class="post" id="post-195">
+        <header>
+          <a href="#post-195">#195</a>
+          <strong>某人</strong>
+          <span>@abao</span>
+          
+          <time datetime="2026-05-06T02:47:20.341Z">5/6/2026, 10:47:20 AM</time>
+        </header>
+        <div class="content"><p>感觉两边都有点模糊不清，要是opus4.6就没那么事了，一眼顶真。<br>
+所以，都是opus4.7蛆了导致的 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/enraged_face.png?v=15" title=":enraged_face:" class="emoji" alt=":enraged_face:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-196">
+        <header>
+          <a href="#post-196">#196</a>
+          <strong>mannnnnnnn</strong>
+          <span>@mannnnnnnn</span>
+          
+          <time datetime="2026-05-06T02:51:44.091Z">5/6/2026, 10:51:44 AM</time>
+        </header>
+        <div class="content"><p>希望能有个说法，蹲一蹲。<br>
+之前也入过这个站 但是没有细用</p></div>
+      </article>
+    
+
+      <article class="post" id="post-197">
+        <header>
+          <a href="#post-197">#197</a>
+          <strong>南山</strong>
+          <span>@578382239</span>
+          
+          <time datetime="2026-05-06T02:57:48.513Z">5/6/2026, 10:57:48 AM</time>
+        </header>
+        <div class="content"><p>看完了，站点方承认提示词注入+分词器调整导致token增大，但是不承认模型注水。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-198">
+        <header>
+          <a href="#post-198">#198</a>
+          <strong>zilanlann</strong>
+          <span>@zilanlann</span>
+          
+          <time datetime="2026-05-06T02:59:50.195Z">5/6/2026, 10:59:50 AM</time>
+        </header>
+        <div class="content"><p>楼主有一个事实错误，实际上 claude opus 4.7 就是不同的 tokenizer。相同的一段话比起前代会多一些 token。<br>
+参考 <a href="https://openrouter.ai/announcements/opus-47-tokenizer-analysis" class="inline-onebox" rel="noopener nofollow ugc">Opus 4.7's New Tokenizer: What It Actually Costs | OpenRouter</a></p></div>
+      </article>
+    
+
+      <article class="post" id="post-199">
+        <header>
+          <a href="#post-199">#199</a>
+          <strong>easonlee1982</strong>
+          <span>@easonlee1982</span>
+          
+          <time datetime="2026-05-06T03:04:49.944Z">5/6/2026, 11:04:49 AM</time>
+        </header>
+        <div class="content"><p>后排吃瓜，看看怎么回事，有切好的结果了么</p></div>
+      </article>
+    
+
+      <article class="post" id="post-200">
+        <header>
+          <a href="#post-200">#200</a>
+          <strong>JsonSong89</strong>
+          <span>@JsonSong89</span>
+          <span class="reply-context">in reply to <a href="#post-54">#54</a> xiaomao</span>
+          <time datetime="2026-05-06T03:06:52.128Z">5/6/2026, 11:06:52 AM</time>
+        </header>
+        <div class="content"><p>这不是kimi2.6么?<br>
+kimi最喜欢说一个逻辑分支,然后说等等,但是xxx<br>
+思考内容特别多</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/e/8/8e8cf498c766c883a591c2823549ceefa3fe14a5.png" data-download-href="/uploads/short-url/kl3NnEvXF6urqEI2x4SCFj8mHGt.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/8/e/8/8e8cf498c766c883a591c2823549ceefa3fe14a5.png" alt="image" data-base62-sha1="kl3NnEvXF6urqEI2x4SCFj8mHGt" width="690" height="301" data-dominant-color="212325"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">990×433 31.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-201">
+        <header>
+          <a href="#post-201">#201</a>
+          <strong>PiAi</strong>
+          <span>@PiAi</span>
+          <span class="reply-context">in reply to <a href="#post-200">#200</a> JsonSong89</span>
+          <time datetime="2026-05-06T03:22:29.195Z">5/6/2026, 11:22:29 AM</time>
+        </header>
+        <div class="content"><p>我认为注入提示词就应该判定为掺假， 谁能解释下 加了语义翻译， 是什么鬼？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-202">
+        <header>
+          <a href="#post-202">#202</a>
+          <strong>阿达姆</strong>
+          <span>@Adam.H</span>
+          <span class="reply-context">in reply to <a href="#post-201">#201</a> PiAi</span>
+          <time datetime="2026-05-06T03:31:53.135Z">5/6/2026, 11:31:53 AM</time>
+        </header>
+        <div class="content"><p>这个分组描述写的是CC max，但是没有限制，也就是说可以接其他agent、应用，而不限于CC，那他必须是要搞点什么东西来伪装成CC客户端的调用的，不然很容易被封的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-203">
+        <header>
+          <a href="#post-203">#203</a>
+          <strong>PiAi</strong>
+          <span>@PiAi</span>
+          <span class="reply-context">in reply to <a href="#post-202">#202</a> 阿达姆</span>
+          <time datetime="2026-05-06T03:35:13.743Z">5/6/2026, 11:35:13 AM</time>
+        </header>
+        <div class="content"><p>人家是在CC中使用啊？难道还要加强伪装，不明白</p></div>
+      </article>
+    
+
+      <article class="post" id="post-204">
+        <header>
+          <a href="#post-204">#204</a>
+          <strong>✨</strong>
+          <span>@ecswc</span>
+          
+          <time datetime="2026-05-06T03:35:59.707Z">5/6/2026, 11:35:59 AM</time>
+        </header>
+        <div class="content"><p>掺水是必然的，但好歹用GPT5.4/5.5掺水吧</p></div>
+      </article>
+    
+
+      <article class="post" id="post-205">
+        <header>
+          <a href="#post-205">#205</a>
+          <strong>阿达姆</strong>
+          <span>@Adam.H</span>
+          <span class="reply-context">in reply to <a href="#post-203">#203</a> PiAi</span>
+          <time datetime="2026-05-06T03:38:14.281Z">5/6/2026, 11:38:14 AM</time>
+        </header>
+        <div class="content"><p>你可以自己去注册个星辰看就知道了，有CC专用的分组，倍率还低一点；但是LZ偏偏就要挑这个(肯定是做了什么手脚来做伪装的)没有限制的分组来说事</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/d/b/ddb4cd58f7b5db1cc29f2c27ac7b69d966a3677b.png" data-download-href="/uploads/short-url/vDiT2zh4PCbbtspOwAlEKntgoxJ.png?dl=1" title="ScreenShot2026-05-06113639022" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/d/d/b/ddb4cd58f7b5db1cc29f2c27ac7b69d966a3677b.png" alt="ScreenShot2026-05-06113639022" data-base62-sha1="vDiT2zh4PCbbtspOwAlEKntgoxJ" width="690" height="277" data-dominant-color="4C525C"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ScreenShot2026-05-06113639022</span><span class="informations">1059×426 26.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-206">
+        <header>
+          <a href="#post-206">#206</a>
+          <strong>Wit</strong>
+          <span>@Wit</span>
+          
+          <time datetime="2026-05-06T03:38:31.219Z">5/6/2026, 11:38:31 AM</time>
+        </header>
+        <div class="content"><p>吃瓜，刷到过好多次这个站点，都是要书法的</p></div>
+      </article>
+    
+
+      <article class="post" id="post-207">
+        <header>
+          <a href="#post-207">#207</a>
+          <strong>车轮滚滚</strong>
+          <span>@2474481080</span>
+          
+          <time datetime="2026-05-06T03:41:26.379Z">5/6/2026, 11:41:26 AM</time>
+        </header>
+        <div class="content"><p>快快快，急死我了，现在官方回复了吗，屁股放这里，狠狠踢我</p></div>
+      </article>
+    
+
+      <article class="post" id="post-208">
+        <header>
+          <a href="#post-208">#208</a>
+          <strong>PiAi</strong>
+          <span>@PiAi</span>
+          <span class="reply-context">in reply to <a href="#post-205">#205</a> 阿达姆</span>
+          <time datetime="2026-05-06T03:43:48.613Z">5/6/2026, 11:43:48 AM</time>
+        </header>
+        <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/b/4/6b4f2acc30d1cc2bdda9a9d1965e6b6d06cf87eb.jpeg" data-download-href="/uploads/short-url/fjiHF4WlTuzX5fsTkv43EQW0K6v.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/b/4/6b4f2acc30d1cc2bdda9a9d1965e6b6d06cf87eb_2_690x252.jpeg" alt="image" data-base62-sha1="fjiHF4WlTuzX5fsTkv43EQW0K6v" width="690" height="252" srcset="https://cdn3.ldstatic.com/optimized/4X/6/b/4/6b4f2acc30d1cc2bdda9a9d1965e6b6d06cf87eb_2_690x252.jpeg, https://cdn3.ldstatic.com/original/4X/6/b/4/6b4f2acc30d1cc2bdda9a9d1965e6b6d06cf87eb.jpeg 1.5x, https://cdn3.ldstatic.com/original/4X/6/b/4/6b4f2acc30d1cc2bdda9a9d1965e6b6d06cf87eb.jpeg 2x" data-dominant-color="F3EAD4"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">843×309 49.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+多谢指教，追问max号池， 移除响应中这些字段又如何理解呢<p></p></div>
+      </article>
+    
+
+      <article class="post" id="post-209">
+        <header>
+          <a href="#post-209">#209</a>
+          <strong>wyjistest</strong>
+          <span>@wyjistest</span>
+          
+          <time datetime="2026-05-06T03:44:25.986Z">5/6/2026, 11:44:25 AM</time>
+        </header>
+        <div class="content"><p>什么情况，一路看下来好像还没特别实锤的证据？继续观察一下看看啥情况。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-210">
+        <header>
+          <a href="#post-210">#210</a>
+          <strong>nimabibi</strong>
+          <span>@nimabibi</span>
+          
+          <time datetime="2026-05-06T03:45:46.034Z">5/6/2026, 11:45:46 AM</time>
+        </header>
+        <div class="content"><p>算了吧，人家中转站赚点钱容易吗，整天给你们用还提心吊胆的 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-211">
+        <header>
+          <a href="#post-211">#211</a>
+          <strong>lvxiaobu</strong>
+          <span>@lvxiaobu</span>
+          <span class="reply-context">in reply to <a href="#post-32">#32</a> 朱陵</span>
+          <time datetime="2026-05-06T03:49:14.751Z">5/6/2026, 11:49:14 AM</time>
+        </header>
+        <div class="content"><p>买中转的原因一部分是因为封号，一部分是因为200美元的订阅用不完，买中转可以花多少用多少</p></div>
+      </article>
+    
+
+      <article class="post" id="post-212">
+        <header>
+          <a href="#post-212">#212</a>
+          <strong>牛爷爷 cos 性感猫娘勾引壮壮妈</strong>
+          <span>@shanran</span>
+          
+          <time datetime="2026-05-06T04:12:00.683Z">5/6/2026, 12:12:00 PM</time>
+        </header>
+        <div class="content"><p>别说了别说了，正在培训星辰 ai。还没来得及用</p></div>
+      </article>
+    
+
+      <article class="post" id="post-213">
+        <header>
+          <a href="#post-213">#213</a>
+          <strong>阿达姆</strong>
+          <span>@Adam.H</span>
+          <span class="reply-context">in reply to <a href="#post-208">#208</a> PiAi</span>
+          <time datetime="2026-05-06T04:25:31.739Z">5/6/2026, 12:25:31 PM</time>
+        </header>
+        <div class="content"><p>这我就不懂了，不过我看前面莹酱说newapi透传的问题，不知道是不是和这个有关？</p>
+<aside class="quote quote-modified" data-post="140" data-topic="2116208">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/mazhichen8780/48/1839690_2.png" class="avatar">
+    <div class="quote-title__text-content">
+      <a href="https://linux.do/t/topic/2116208/140">星辰AI出来解释下呗</a> <a class="badge-category__wrapper " href="https://linux.do/c/gossip/11"><span data-category-id="11" style="--category-badge-color: #3AB54A; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-icon " title="闲聊吹水的板块。不得讨论政治、色情等违规内容。"><svg class="fa d-icon svg-icon svg-node" aria-hidden="true"><svg id="droplet" viewBox="0 0 384 512">
+  <path d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0l1.8 0c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z"></path>
+</svg></svg>
+<span class="badge-category__name">搞七捻三</span></span></a>
+    </div>
+  </div>
+  <blockquote>
+    先附上openrouter对op47的分词器论文 
+我在这里提出三问∶ 
+1.我就想知道你让ai去分析ai，能出来什么呢？ 
+2.难道风控加头，加了引导词，缺失风控数据就是你判断假的唯一标准？ 
+3.你作为基准，怕不是不知道在newapi中，tier一般不做透传？ 
+ <a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/e/8/3e8005e40b5f8d5322cbfe55516d5e87b2333037.jpeg" data-download-href="/uploads/short-url/8UTTfMOcniHd0FGKqEGpncSArbx.jpeg?dl=1" title="IMG20260506043233" rel="noopener nofollow ugc">[IMG20260506043233]</a> 
+照你那么测全站中转op4.7全假的 
+<a name="p-17514249-ai-1" class="anchor" href="#p-17514249-ai-1" aria-label="标题链接"></a>建议三思而后行，查阅相关资料，勿将自己的智商完…
+  </blockquote>
+</aside>
+</div>
+      </article>
+    
+
+      <article class="post" id="post-214">
+        <header>
+          <a href="#post-214">#214</a>
+          <strong>gavinsolo</strong>
+          <span>@gavinsolo</span>
+          <span class="reply-context">in reply to <a href="#post-173">#173</a> Dyna</span>
+          <time datetime="2026-05-06T04:59:41.940Z">5/6/2026, 12:59:41 PM</time>
+        </header>
+        <div class="content"><p>而且大把人还说中转比官方订阅便宜，我都怀疑是不是伪人入侵了。。。<br>
+倍率都这么离谱了，不算缓存都比官方贵3-4倍，算上缓存计费，贵6-10倍不止。这个倍率中转站随便一跑一天都要一两百了，还有人往里跳 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/grin.png?v=15" title=":grin:" class="emoji" alt=":grin:" loading="lazy" width="20" height="20"><br>
+要说纯省事用中转站我还能理解，来个中转站比官方便宜给我CPU都快烧冒烟了，合计着A​<img src="https://cdn.ldstatic.com/images/emoji/twemoji/divide.png?v=15" title=":divide:" class="emoji" alt=":divide:" loading="lazy" width="20" height="20">都得从中转站进货</p></div>
+      </article>
+    
+
+        <article class="post missing-post" id="post-215">
+          <header><a href="#post-215">#215</a> <span>Missing or inaccessible</span></header>
+          <p>This floor was not visible when the archive was created.</p>
+        </article>
+      
+
+      <article class="post" id="post-216">
+        <header>
+          <a href="#post-216">#216</a>
+          <strong>林翩翩</strong>
+          <span>@xg_ame</span>
+          <span class="reply-context">in reply to <a href="#post-208">#208</a> PiAi</span>
+          <time datetime="2026-05-06T05:14:56.338Z">5/6/2026, 1:14:56 PM</time>
+        </header>
+        <div class="content"><p>newapi设计的问题 这些如果不完整透传的话 那么就会被剥离</p></div>
+      </article>
+    
+
+      <article class="post" id="post-217">
+        <header>
+          <a href="#post-217">#217</a>
+          <strong>coveydzblrsjlay</strong>
+          <span>@coveydzblrsjlay</span>
+          
+          <time datetime="2026-05-06T05:17:18.450Z">5/6/2026, 1:17:18 PM</time>
+        </header>
+        <div class="content"><p>所以我一直宁愿用公益站…他们是没有掺假的动机的.</p></div>
+      </article>
+    
+
+      <article class="post" id="post-218">
+        <header>
+          <a href="#post-218">#218</a>
+          <strong>zclb</strong>
+          <span>@zaync0lab</span>
+          
+          <time datetime="2026-05-06T05:42:31.994Z">5/6/2026, 1:42:31 PM</time>
+        </header>
+        <div class="content"><p>不是回应了吗，楼主怎么不把回复放主贴呀，好多佬友懒得爬楼，以为没回复 <img src="https://cdn3.ldstatic.com/original/3X/9/4/949d4d71290d75c51e81e4fc70d23246e4a9214c.png?v=15" title=":bili_017:" class="emoji emoji-custom" alt=":bili_017:" loading="lazy" width="20" height="20"></p></div>
+      </article>
+    
+
+      <article class="post" id="post-219">
+        <header>
+          <a href="#post-219">#219</a>
+          <strong>shi_si</strong>
+          <span>@shi_si</span>
+          <span class="reply-context">in reply to <a href="#post-115">#115</a> 想回家干饭</span>
+          <time datetime="2026-05-06T05:55:20.314Z">5/6/2026, 1:55:20 PM</time>
+        </header>
+        <div class="content"><p>虽然现在是自己买,但是还是推荐yes这个中转站, 确实是正经max转</p></div>
+      </article>
+    
+
+      <article class="post" id="post-220">
+        <header>
+          <a href="#post-220">#220</a>
+          <strong>明明如月</strong>
+          <span>@mingmingruyue</span>
+          
+          <time datetime="2026-05-06T06:00:22.088Z">5/6/2026, 2:00:22 PM</time>
+        </header>
+        <div class="content"><p>中转站基本都不可信，真实的模型贵的要死，最近转向 CodeX   Pro 套餐了。</p></div>
+      </article>
+    
+
+      <article class="post" id="post-221">
+        <header>
+          <a href="#post-221">#221</a>
+          <strong>liyun_u_m</strong>
+          <span>@liyun_u_m</span>
+          <span class="reply-context">in reply to <a href="#post-64">#64</a> 林翩翩</span>
+          <time datetime="2026-05-06T06:05:43.500Z">5/6/2026, 2:05:43 PM</time>
+        </header>
+        <div class="content"><aside class="quote no-group" data-username="xg_ame" data-display-name="林翩翩" data-post="64" data-topic="2116208">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/xg_ame/48/1040452_2.png" class="avatar"> 林翩翩:</div>
+<blockquote>
+<p>又贵又抽象又张牙舞爪又急眼</p>
+</blockquote>
+</aside>
+<p>我也觉得 4.6 最好用，还省钱。4.7 真的太抽象了</p></div>
+      </article>
+    
+
+      <article class="post" id="post-222">
+        <header>
+          <a href="#post-222">#222</a>
+          <strong>佛克斯</strong>
+          <span>@I-was-here</span>
+          
+          <time datetime="2026-05-06T06:09:31.992Z">5/6/2026, 2:09:31 PM</time>
+        </header>
+        <div class="content"><p>目前下来是锤不死的，楼主提出的质疑都能被解释<br>
+好比鉴挂,你只能在无法证明他不是挂的情况下才能认定有人是挂<br>
+现在的情况是楼主的回复都是基于“假定富可敌国掺水”的前提下回复的,提出的质疑部分富可敌国方面都能解释的还算合理<br>
+以及模型有没有掺水，我论坛这么多按照模型特性的试题哥们不做两张看看结果吗，这玩意比你目前的玩意可能更准确一点？</p></div>
+      </article>
+    
+
+      <article class="post" id="post-223">
+        <header>
+          <a href="#post-223">#223</a>
+          <strong>fanhong</strong>
+          <span>@quodr3</span>
+          
+          <time datetime="2026-05-06T06:10:39.863Z">5/6/2026, 2:10:39 PM</time>
+        </header>
+        <div class="content"><p>又有新瓜可以吃了，不知道这次的瓜怎么样呢</p></div>
+      </article>
+    
+
+      <article class="post" id="post-224">
+        <header>
+          <a href="#post-224">#224</a>
+          <strong>lamess</strong>
+          <span>@lamess</span>
+          
+          <time datetime="2026-05-06T06:12:53.501Z">5/6/2026, 2:12:53 PM</time>
+        </header>
+        <div class="content"><p>爬完楼了，我的看法是双方都没锤死。<br>
+保持关注</p></div>
+      </article>
+    
+  </main>
+</body>
+</html>

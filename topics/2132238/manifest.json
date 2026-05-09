@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2132238,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2132238",
+    "title": "感谢奥特曼百亿补贴： DSV4 PRO的 TOKEN实际价格为GPT5.5的2.38倍",
+    "currentVersionId": "v1",
+    "currentHash": "c48ce53dfa994998a9552cdcf4fe63d61be6ec0fddfd27e62158aef78701a5bf",
+    "postCount": 96,
+    "missingPostNumbers": [
+      19
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2132238,
+      "sourceUrl": "https://linux.do/t/topic/2132238",
+      "contentHash": "c48ce53dfa994998a9552cdcf4fe63d61be6ec0fddfd27e62158aef78701a5bf",
+      "postCount": 96,
+      "missingPostNumbers": [
+        19
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 96 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

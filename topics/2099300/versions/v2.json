@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2099300,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2099300",
+    "title": "Snipaste 2.11.3 离线激活码生成器",
+    "createdAt": "2026-05-02T12:38:23.927Z",
+    "currentVersionId": "v2",
+    "currentHash": "b67df972c9f57e189c4cf3218cb563b625f92a8ab7cb204d99907cbe7dba06b2"
+  },
+  "version": {
+    "id": "v2",
+    "topicId": 2099300,
+    "sourceUrl": "https://linux.do/t/topic/2099300",
+    "contentHash": "b67df972c9f57e189c4cf3218cb563b625f92a8ab7cb204d99907cbe7dba06b2",
+    "postCount": 14,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        12,
+        13,
+        14
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  },
+  "posts": [
+    {
+      "id": 17427125,
+      "postNumber": 1,
+      "username": "Hermione027",
+      "displayName": "萝警官",
+      "createdAt": "2026-05-02T12:38:24.027Z",
+      "updatedAt": "2026-05-02T12:38:24.027Z",
+      "cookedHtml": "<p>之前看到有佬友想要 <a href=\"https://zh.snipaste.com/\" rel=\"noopener nofollow ugc\">Snipaste</a> 的，正好无聊分析了下，就做了个离线激活码生成器方便大家用。</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp\" data-download-href=\"/uploads/short-url/5ZBBSOU7L2rOPm2Nr9CR8jTExZj.webp?dl=1\" title=\"PixPin2026-05-0220-35-56\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad_2_690x111.webp\" alt=\"PixPin2026-05-0220-35-56\" data-base62-sha1=\"5ZBBSOU7L2rOPm2Nr9CR8jTExZj\" width=\"690\" height=\"111\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad_2_690x111.webp, https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp 1.5x, https://cdn3.ldstatic.com/original/4X/2/a/0/2a01a90c7e4f87026d2c9667e6036a2c7e57a9ad.webp 2x\" data-dominant-color=\"FCFBFB\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">PixPin2026-05-0220-35-56</span><span class=\"informations\">899×145 5.16 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<p>因为只是为了讨论和技术交流，复现脚本不会发布。等逆向分析帖写完后生成器也会关掉，想研究的佬友可以等详细分析帖出来后自己跟着复现一下。</p>\n<p><strong>生成器地址：</strong> <a href=\"https://snipastekeygen.20200626.xyz/\" rel=\"noopener nofollow ugc\">Snipaste 离线激活码生成器</a></p>\n<h2><a name=\"p-17427125-h-1\" class=\"anchor\" href=\"#p-17427125-h-1\" aria-label=\"标题链接\"></a>食用教程</h2>\n<h3><a name=\"p-17427125-h-2\" class=\"anchor\" href=\"#p-17427125-h-2\" aria-label=\"标题链接\"></a>第一步：替换主程序</h3>\n<p>生成的激活码需要配合修改后的主程序才能用。</p>\n<p>下载修改后的主程序：<a class=\"attachment\" href=\"/uploads/short-url/nrWuiMsrcsqXRSjux52n2Ga7815.zip\">Snipaste.zip</a> (2.7 MB)</p>\n<p>把原来的 <code>Snipaste.exe</code> 备份后，用这个文件替换。</p>\n<p><strong>担心有病毒的佬友可以自己手动修改：</strong></p>\n<p>把下面的代码保存为 <code>patch_snipaste.py</code>，放到 Snipaste 安装目录下运行：</p>\n<pre data-code-wrap=\"python\"><code class=\"lang-python\">from __future__ import annotations\n\nimport hashlib\nfrom pathlib import Path\n\n\nINPUT_FILE = Path(\"Snipaste.exe\")\nPATCH_OFFSET = 0x33F217\nORIGINAL_BYTES = bytes.fromhex(\"8AC3\")\nPATCHED_BYTES = bytes.fromhex(\"B001\")\n\n\ndef sha256(path: Path) -&gt; str:\n    h = hashlib.sha256()\n    with path.open(\"rb\") as f:\n        for chunk in iter(lambda: f.read(1024 * 1024), b\"\"):\n            h.update(chunk)\n    return h.hexdigest()\n\n\ndef patch_binary(input_path: Path) -&gt; None:\n    print(f\"sha256(before): {sha256(input_path)}\")\n    \n    data = bytearray(input_path.read_bytes())\n    end = PATCH_OFFSET + len(PATCHED_BYTES)\n    \n    if end &gt; len(data):\n        raise SystemExit(\n            f\"file too small: need at least 0x{end:X} bytes, got 0x{len(data):X}\"\n        )\n\n    current = bytes(data[PATCH_OFFSET:end])\n    if current not in (ORIGINAL_BYTES, PATCHED_BYTES):\n        raise SystemExit(\n            \"unexpected bytes at 0x{0:X}: got {1}, expected {2} or {3}\".format(\n                PATCH_OFFSET,\n                current.hex(\" \").upper(),\n                ORIGINAL_BYTES.hex(\" \").upper(),\n                PATCHED_BYTES.hex(\" \").upper(),\n            )\n        )\n\n    if current == PATCHED_BYTES:\n        print(\"already patched\")\n        return\n\n    data[PATCH_OFFSET:end] = PATCHED_BYTES\n    input_path.write_bytes(data)\n\n    print(f\"file  : {input_path}\")\n    print(f\"offset: 0x{PATCH_OFFSET:X}\")\n    print(f\"before: {current.hex(' ').upper()}\")\n    print(f\"after : {PATCHED_BYTES.hex(' ').upper()}\")\n    print(f\"sha256(after) : {sha256(input_path)}\")\n    print(\"patch success\")\n\n\nif __name__ == \"__main__\":\n    patch_binary(INPUT_FILE)\n</code></pre>\n<p>运行：</p>\n<pre data-code-wrap=\"bash\"><code class=\"lang-bash\">python patch_snipaste.py\n</code></pre>\n<p>会直接修改 <code>Snipaste.exe</code>（建议先备份）。</p>\n<h3><a name=\"p-17427125-h-3\" class=\"anchor\" href=\"#p-17427125-h-3\" aria-label=\"标题链接\"></a>第二步：获取机器信息</h3>\n<p>在需要激活的电脑上打开 PowerShell，运行这条命令：</p>\n<pre data-code-wrap=\"powershell\"><code class=\"lang-powershell\">powershell -Command \"Write-Host 'MachineGuid:' (Get-ItemProperty 'HKLM:\\SOFTWARE\\Microsoft\\Cryptography').MachineGuid; Write-Host 'Workgroup:' (Get-CimInstance Win32_ComputerSystem).Workgroup\"\n</code></pre>\n<p>会输出两行信息，复制下来：</p>\n<pre><code class=\"lang-auto\">MachineGuid: 26074b5f-d160-49fc-ae64-dba2857c9f47\nWorkgroup: WORKGROUP\n</code></pre>\n<h3><a name=\"p-17427125-h-4\" class=\"anchor\" href=\"#p-17427125-h-4\" aria-label=\"标题链接\"></a>第三步：生成激活码</h3>\n<p>打开<a href=\"https://snipastekeygen.20200626.xyz/\" rel=\"noopener nofollow ugc\">生成器页面</a>，把 <code>MachineGuid</code> 和 <code>Workgroup</code> 填进去，点生成就行。</p>\n<h3><a name=\"p-17427125-h-5\" class=\"anchor\" href=\"#p-17427125-h-5\" aria-label=\"标题链接\"></a>第四步：激活</h3>\n<p>复制生成的激活码，在 Snipaste 里粘贴激活。</p>\n<p>位置：托盘图标 → 解锁专业版 → 输入授权码 → 离线激活</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/3/0/2/302d7654bd96148a0031f64b0d3cbeb2c86769b7.png\" data-download-href=\"/uploads/short-url/6ScjTM3xI9QM8IIIzWhySwL419R.png?dl=1\" title=\"PixPin2026-05-0220-32-17\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/3/0/2/302d7654bd96148a0031f64b0d3cbeb2c86769b7.png\" alt=\"PixPin2026-05-0220-32-17\" data-base62-sha1=\"6ScjTM3xI9QM8IIIzWhySwL419R\" width=\"549\" height=\"409\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">PixPin2026-05-0220-32-17</span><span class=\"informations\">549×409 19.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>\n<h2><a name=\"p-17427125-h-6\" class=\"anchor\" href=\"#p-17427125-h-6\" aria-label=\"标题链接\"></a>说明</h2>\n<ul>\n<li>激活码只对指定机器有效，换电脑要重新生成</li>\n<li>服务器不保存任何信息，只生成激活码</li>\n<li>修改后的主程序只改了 2 个字节（<code>0x33F217</code> 处：<code>8A C3</code> → <code>B0 01</code>）</li>\n</ul>\n<h2><a name=\"p-17427125-h-7\" class=\"anchor\" href=\"#p-17427125-h-7\" aria-label=\"标题链接\"></a>技术细节</h2>\n<p>分析的是 Snipaste <code>2.11.3</code> 版本，主要涉及：</p>\n<ul>\n<li>Blake2s 哈希（自定义 salt）</li>\n<li>Ed25519 签名验证</li>\n<li>设备 ID 生成算法</li>\n</ul>\n<p>激活码结构：<code>0{checksum}-{base64(signature + xor(signature, license_json))}</code></p>\n<p>详细的逆向过程会单独开帖记录，这里就不详细展开了。</p>\n<hr>\n<p><strong>注意：</strong> 纯技术研究用途，Snipaste 个人版也不贵，有条件建议支持正版。</p>",
+      "normalizedText": "之前看到有佬友想要 Snipaste 的，正好无聊分析了下，就做了个离线激活码生成器方便大家用。 PixPin2026-05-0220-35-56899×145 5.16 KB 因为只是为了讨论和技术交流，复现脚本不会发布。等逆向分析帖写完后生成器也会关掉，想研究的佬友可以等详细分析帖出来后自己跟着复现一下。 生成器地址： Snipaste 离线激活码生成器 食用教程 第一步：替换主程序 生成的激活码需要配合修改后的主程序才能用。 下载修改后的主程序：Snipaste.zip (2.7 MB) 把原来的 Snipaste.exe 备份后，用这个文件替换。 担心有病毒的佬友可以自己手动修改： 把下面的代码保存为 patch_snipaste.py，放到 Snipaste 安装目录下运行： from __future__ import annotations import hashlib from pathlib import Path INPUT_FILE = Path(\"Snipaste.exe\") PATCH_OFFSET = 0x33F217 ORIGINAL_BYTES = bytes.fromhex(\"8AC3\") PATCHED_BYTES = bytes.fromhex(\"B001\") def sha256(path: Path) -> str: h = hashlib.sha256() with path.open(\"rb\") as f: for chunk in iter(lambda: f.read(1024 * 1024), b\"\"): h.update(chunk) return h.hexdigest() def patch_binary(input_path: Path) -> None: print(f\"sha256(before): {sha256(input_path)}\") data = bytearray(input_path.read_bytes()) end = PATCH_OFFSET + len(PATCHED_BYTES) if end > len(data): raise SystemExit( f\"file too small: need at least 0x{end:X} bytes, got 0x{len(data):X}\" ) current = bytes(data[PATCH_OFFSET:end]) if current not in (ORIGINAL_BYTES, PATCHED_BYTES): raise SystemExit( \"unexpected bytes at 0x{0:X}: got {1}, expected {2} or {3}\".format( PATCH_OFFSET, current.hex(\" \").upper(), ORIGINAL_BYTES.hex(\" \").upper(), PATCHED_BYTES.hex(\" \").upper(), ) ) if current == PATCHED_BYTES: print(\"already patched\") return data[PATCH_OFFSET:end] = PATCHED_BYTES input_path.write_bytes(data) print(f\"file : {input_path}\") print(f\"offset: 0x{PATCH_OFFSET:X}\") print(f\"before: {current.hex(' ').upper()}\") print(f\"after : {PATCHED_BYTES.hex(' ').upper()}\") print(f\"sha256(after) : {sha256(input_path)}\") print(\"patch success\") if __name__ == \"__main__\": patch_binary(INPUT_FILE) 运行： python patch_snipaste.py 会直接修改 Snipaste.exe（建议先备份）。 第二步：获取机器信息 在需要激活的电脑上打开 PowerShell，运行这条命令： powershell -Command \"Write-Host 'MachineGuid:' (Get-ItemProperty 'HKLM:\\SOFTWARE\\Microsoft\\Cryptography').MachineGuid; Write-Host 'Workgroup:' (Get-CimInstance Win32_ComputerSystem).Workgroup\" 会输出两行信息，复制下来： MachineGuid: 26074b5f-d160-49fc-ae64-dba2857c9f47 Workgroup: WORKGROUP 第三步：生成激活码 打开生成器页面，把 MachineGuid 和 Workgroup 填进去，点生成就行。 第四步：激活 复制生成的激活码，在 Snipaste 里粘贴激活。 位置：托盘图标 → 解锁专业版 → 输入授权码 → 离线激活 PixPin2026-05-0220-32-17549×409 19.3 KB 说明 激活码只对指定机器有效，换电脑要重新生成 服务器不保存任何信息，只生成激活码 修改后的主程序只改了 2 个字节（0x33F217 处：8A C3 → B0 01） 技术细节 分析的是 Snipaste 2.11.3 版本，主要涉及： Blake2s 哈希（自定义 salt） Ed25519 签名验证 设备 ID 生成算法 激活码结构：0{checksum}-{base64(signature + xor(signature, license_json))} 详细的逆向过程会单独开帖记录，这里就不详细展开了。 注意： 纯技术研究用途，Snipaste 个人版也不贵，有条件建议支持正版。",
+      "contentHash": "5fde712c8997f5e08453118d0b45b6a97c6bf1ff3a25188ea4024cf4d5c9124e"
+    },
+    {
+      "id": 17427524,
+      "postNumber": 2,
+      "username": "Byte01",
+      "displayName": "Byte01",
+      "createdAt": "2026-05-02T12:55:20.871Z",
+      "updatedAt": "2026-05-02T12:55:20.871Z",
+      "cookedHtml": "<p>非常感谢，好用。Snipaste设计简约但功能强大，非常推荐。<br>\n<img src=\"https://cdn3.ldstatic.com/original/4X/2/1/1/21198101baeb41452506f14b973de7c85fcc4922.png\" alt=\"image\" data-base62-sha1=\"4IOoHDr8Z5eF1vpMCo6hlLqVUiK\" width=\"365\" height=\"99\"></p>",
+      "normalizedText": "非常感谢，好用。Snipaste设计简约但功能强大，非常推荐。",
+      "contentHash": "0e3b43d1254fc256b22b00ea19ea68d04e4a58f0737a1aeeee37439230244fed"
+    },
+    {
+      "id": 17427629,
+      "postNumber": 3,
+      "username": "yuyu-gift",
+      "displayName": "天赐鱼鱼",
+      "createdAt": "2026-05-02T12:59:15.114Z",
+      "updatedAt": "2026-05-02T12:59:15.114Z",
+      "cookedHtml": "<p>我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/smiling_face_with_three_hearts.png?v=15\" title=\":smiling_face_with_three_hearts:\" class=\"emoji\" alt=\":smiling_face_with_three_hearts:\" loading=\"lazy\" width=\"20\" height=\"20\"><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/c/b/7/cb7316b7a811bc3bc064c11c0d99183976fafaf3.png\" data-download-href=\"/uploads/short-url/t1NvbuoAIgICmGWF0cPNscwZ6Ej.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/c/b/7/cb7316b7a811bc3bc064c11c0d99183976fafaf3.png\" alt=\"image\" data-base62-sha1=\"t1NvbuoAIgICmGWF0cPNscwZ6Ej\" width=\"496\" height=\"462\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">496×462 15.5 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+      "normalizedText": "我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享 image496×462 15.5 KB",
+      "contentHash": "f56f26aeb2a4bbbe7a550aaaabd8d4ee3da2d8ac1e1cd4e0100877ae138c57ab"
+    },
+    {
+      "id": 17428668,
+      "postNumber": 4,
+      "username": "sunfly",
+      "displayName": "sunfly",
+      "createdAt": "2026-05-02T13:40:42.573Z",
+      "updatedAt": "2026-05-02T13:40:42.573Z",
+      "cookedHtml": "<p>snipaste的专业版也不支持长截图吧？</p>",
+      "normalizedText": "snipaste的专业版也不支持长截图吧？",
+      "contentHash": "50b75c2bdaf2e77b75e7d8d69b24924fd3b84086182a9524e65a24e7ea92e9dd"
+    },
+    {
+      "id": 17428775,
+      "postNumber": 5,
+      "username": "jucc",
+      "displayName": "jucc",
+      "createdAt": "2026-05-02T13:43:59.238Z",
+      "updatedAt": "2026-05-02T13:43:59.238Z",
+      "cookedHtml": "<p>大佬有兴趣研究一下mac的吗，非常非常感谢</p>",
+      "normalizedText": "大佬有兴趣研究一下mac的吗，非常非常感谢",
+      "contentHash": "4fb2f430f453de802e631feb54082f6e768a5425f5c9a7912a4bba963e5d481a"
+    },
+    {
+      "id": 17429027,
+      "postNumber": 6,
+      "username": "acefa163",
+      "displayName": "Acefa",
+      "createdAt": "2026-05-02T13:52:11.963Z",
+      "updatedAt": "2026-05-02T13:52:11.963Z",
+      "cookedHtml": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/0/6/c/06cb4c4131ccb48f42559b86a097e6b651ecc7d0.png\" data-download-href=\"/uploads/short-url/Y6qz9wNyAxtNrYiQltLm38NsjK.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/0/6/c/06cb4c4131ccb48f42559b86a097e6b651ecc7d0.png\" alt=\"image\" data-base62-sha1=\"Y6qz9wNyAxtNrYiQltLm38NsjK\" width=\"690\" height=\"448\" data-dominant-color=\"EBEAE9\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1068×694 14.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n谢谢佬，跟着佬吃上了细糠，一直用这个软件贴图，感觉蛮方便的</p>",
+      "normalizedText": "image1068×694 14.1 KB 谢谢佬，跟着佬吃上了细糠，一直用这个软件贴图，感觉蛮方便的",
+      "contentHash": "53883de788d9e5a022ae516baaf478e42ab31c0a74be208ac5b14de02ebb1535"
+    },
+    {
+      "id": 17429035,
+      "postNumber": 7,
+      "username": "Hermione027",
+      "displayName": "萝警官",
+      "createdAt": "2026-05-02T13:52:26.236Z",
+      "updatedAt": "2026-05-02T13:52:26.236Z",
+      "cookedHtml": "<p>主要是没mac的机器呀 emmmm    <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/face_holding_back_tears.png?v=15\" title=\":face_holding_back_tears:\" class=\"emoji\" alt=\":face_holding_back_tears:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "主要是没mac的机器呀 emmmm",
+      "contentHash": "ece52e570cac1802ceb179dd465286fc46ccd0769141b32bed554a3ce4c92238"
+    },
+    {
+      "id": 17429037,
+      "postNumber": 8,
+      "username": "user374",
+      "displayName": "里奥 加",
+      "createdAt": "2026-05-02T13:52:32.001Z",
+      "updatedAt": "2026-05-02T13:52:32.001Z",
+      "cookedHtml": "<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013.png\" data-download-href=\"/uploads/short-url/jktlcyz54aVnS8gFD50C2Bv9QvV.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_690x412.png\" alt=\"image\" data-base62-sha1=\"jktlcyz54aVnS8gFD50C2Bv9QvV\" width=\"690\" height=\"412\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_690x412.png, https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_1035x618.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/8/7/7/8779c43797e9c3ba9f084db51a39456b6d96f013_2_1380x824.png 2x\" data-dominant-color=\"F8F9F9\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1804×1078 50.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n下载exe提示这个</p>",
+      "normalizedText": "image1804×1078 50.3 KB 下载exe提示这个",
+      "contentHash": "6d740c13dbadf7142fcce760c8c84e5b93d4e804271694283be39b11138828c3"
+    },
+    {
+      "id": 17429063,
+      "postNumber": 9,
+      "username": "Hermione027",
+      "displayName": "萝警官",
+      "createdAt": "2026-05-02T13:53:13.588Z",
+      "updatedAt": "2026-05-02T13:53:13.588Z",
+      "cookedHtml": "<p>得去官网下载完整的版本哦 之后再按照教程来操作就好了</p>",
+      "normalizedText": "得去官网下载完整的版本哦 之后再按照教程来操作就好了",
+      "contentHash": "ff6e8904aa2b481370728030d53414443a6e23f76e30e792b396533051de256f"
+    },
+    {
+      "id": 17429153,
+      "postNumber": 10,
+      "username": "user374",
+      "displayName": "里奥 加",
+      "createdAt": "2026-05-02T13:56:09.011Z",
+      "updatedAt": "2026-05-02T13:56:09.011Z",
+      "cookedHtml": "<p>感谢佬，成功了，太强了，这个pro之前一直想要</p>",
+      "normalizedText": "感谢佬，成功了，太强了，这个pro之前一直想要",
+      "contentHash": "1f76079962b5de76bbb16848f1e47981f4ddd65915eb1f9c6b88f5412fa14e3d"
+    },
+    {
+      "id": 17429270,
+      "postNumber": 11,
+      "username": "EFL",
+      "displayName": "EFL",
+      "createdAt": "2026-05-02T13:59:55.326Z",
+      "updatedAt": "2026-05-02T13:59:59.215Z",
+      "cookedHtml": "<p>诶……Snipaste 有长截图吗？我记得我是因为这个才换到 PixPin 的</p>",
+      "normalizedText": "诶……Snipaste 有长截图吗？我记得我是因为这个才换到 PixPin 的",
+      "contentHash": "5397f9e033c06e53210086758b9058a566cbe233dfba39efae39055cc4fda276"
+    },
+    {
+      "id": 17429330,
+      "postNumber": 12,
+      "username": "w03176688",
+      "displayName": "追杀Bug",
+      "createdAt": "2026-05-02T14:02:01.640Z",
+      "updatedAt": "2026-05-02T14:02:01.640Z",
+      "cookedHtml": "<p>？ 这玩意是收费的吗， 我咋记忆里这个免费用<br>\n<img src=\"https://cdn3.ldstatic.com/original/4X/d/5/0/d5090d9a12ead03c7dd4d8de8a72b3c116e87aaf.png\" alt=\"image\" data-base62-sha1=\"uoB62BxtE0t0dGTs1HZj66kgQbR\" width=\"115\" height=\"91\"></p>",
+      "normalizedText": "？ 这玩意是收费的吗， 我咋记忆里这个免费用",
+      "contentHash": "98e65d7d315cf6f88b69cf7ed3651d313d2010769eb0f716b341eaeb73d3aeef"
+    },
+    {
+      "id": 17429506,
+      "postNumber": 13,
+      "username": "yezhetian",
+      "displayName": "叶遮天",
+      "createdAt": "2026-05-02T14:07:36.166Z",
+      "updatedAt": "2026-05-02T14:07:36.166Z",
+      "cookedHtml": "<aside class=\"quote no-group quote-modified\" data-username=\"yuyu-gift\" data-display-name=\"天赐鱼鱼\" data-post=\"3\" data-topic=\"2099300\">\n<div class=\"title\">\n<div class=\"quote-controls\"></div>\n<img alt=\"\" width=\"24\" height=\"24\" src=\"https://cdn.ldstatic.com/user_avatar/linux.do/yuyu-gift/48/1802251_2.png\" class=\"avatar\"> 天赐鱼鱼:</div>\n<blockquote>\n<p>我勒个去，照着大佬的步骤一步一补操作已经成功离线激活了！非常感谢大佬的分享</p>\n</blockquote>\n</aside>\n<p>我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享</p>",
+      "normalizedText": "天赐鱼鱼: 我勒个去，照着大佬的步骤一步一补操作已经成功离线激活了！非常感谢大佬的分享 我去！！！按照大佬的步骤一步步操作已经成功离线激活了！感谢大佬分享",
+      "contentHash": "a32d7b97f0fdaba04af29ff29f671ee189c64366cdd466af8ead58c4f03281cb"
+    },
+    {
+      "id": 17429854,
+      "postNumber": 14,
+      "username": "Hermione027",
+      "displayName": "萝警官",
+      "createdAt": "2026-05-02T14:18:01.339Z",
+      "updatedAt": "2026-05-02T14:18:01.339Z",
+      "cookedHtml": "<p>不知道哎 我是无聊研究者玩的 PixPin我也做了一个帖子哦 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/innocent.png?v=15\" title=\":innocent:\" class=\"emoji\" alt=\":innocent:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "不知道哎 我是无聊研究者玩的 PixPin我也做了一个帖子哦",
+      "contentHash": "d3ef588304911e6eaad9582821f5a6c7ed887cfe4802e112bf39282b3e19b130"
+    }
+  ]
+}

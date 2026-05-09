@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2134429,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2134429",
+    "title": "zyy0925 关于HUB站点的异常收费，请进来解释一下",
+    "currentVersionId": "v1",
+    "currentHash": "3a32846ea87da92e0aa4ffa12fa804329c81a1161a212e5012c00914cea79f81",
+    "postCount": 43,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2134429,
+      "sourceUrl": "https://linux.do/t/topic/2134429",
+      "contentHash": "3a32846ea87da92e0aa4ffa12fa804329c81a1161a212e5012c00914cea79f81",
+      "postCount": 43,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 43 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

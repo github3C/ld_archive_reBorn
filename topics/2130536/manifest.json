@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2130536,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2130536",
+    "title": "“关于我们在一个付费站发现了黑与白优选这件事”",
+    "currentVersionId": "v1",
+    "currentHash": "7bab0e9dbf1bd88fead349c85ec1571ad03de0d6e3fef15e14dcf64a6d18b55a",
+    "postCount": 18,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2130536,
+      "sourceUrl": "https://linux.do/t/topic/2130536",
+      "contentHash": "7bab0e9dbf1bd88fead349c85ec1571ad03de0d6e3fef15e14dcf64a6d18b55a",
+      "postCount": 18,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 18 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
