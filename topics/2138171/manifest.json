@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2138171,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2138171",
+    "title": "被绿以后，给佬友们一些可行性的建议（仅供参考，格局打开，没有任何目的仅仅作为建议，觉得我不对，那就是你对，我不犟）",
+    "currentVersionId": "v1",
+    "currentHash": "d104562e3bb729d457972ff393437ca9284fb2c05690f1799e85e56e124d958a",
+    "postCount": 55,
+    "missingPostNumbers": [
+      50
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2138171,
+      "sourceUrl": "https://linux.do/t/topic/2138171",
+      "contentHash": "d104562e3bb729d457972ff393437ca9284fb2c05690f1799e85e56e124d958a",
+      "postCount": 55,
+      "missingPostNumbers": [
+        50
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 55 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
