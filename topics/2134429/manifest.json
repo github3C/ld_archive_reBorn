@@ -6,12 +6,51 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2134429",
     "title": "zyy0925 关于HUB站点的异常收费，请进来解释一下",
-    "currentVersionId": "v1",
-    "currentHash": "3a32846ea87da92e0aa4ffa12fa804329c81a1161a212e5012c00914cea79f81",
-    "postCount": 43,
-    "missingPostNumbers": []
+    "currentVersionId": "v2",
+    "currentHash": "232fad6f3caf08abd74aa0a2ce5ea6ce1cd808c693ffe85eb06f4eec80a0a3b8",
+    "postCount": 48,
+    "missingPostNumbers": [
+      32,
+      42
+    ]
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2134429,
+      "sourceUrl": "https://linux.do/t/topic/2134429",
+      "contentHash": "232fad6f3caf08abd74aa0a2ce5ea6ce1cd808c693ffe85eb06f4eec80a0a3b8",
+      "postCount": 48,
+      "missingPostNumbers": [
+        32,
+        42
+      ],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "removedPostNumbers": [
+          32,
+          42
+        ],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [
+          32,
+          42
+        ],
+        "restoredPostNumbers": [],
+        "message": "7 added, 0 changed, 2 removed, 2 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2134429,
@@ -25,5 +64,31 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "removedPostNumbers": [
+        32,
+        42
+      ],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [
+        32,
+        42
+      ],
+      "restoredPostNumbers": [],
+      "message": "7 added, 0 changed, 2 removed, 2 newly missing, 0 restored."
+    }
+  ]
 }
