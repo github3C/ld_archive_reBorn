@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2149158,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2149158",
+    "title": "举报指标不达标，没找到举报入口，从哪操作来着……",
+    "createdAt": "2026-05-10T13:06:09.329Z",
+    "currentVersionId": "v1",
+    "currentHash": "e70d9ab13f552632c019f4e07178ddc93b9a17eded6456b525b1ae03be8d9078"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2149158,
+    "sourceUrl": "https://linux.do/t/topic/2149158",
+    "contentHash": "e70d9ab13f552632c019f4e07178ddc93b9a17eded6456b525b1ae03be8d9078",
+    "postCount": 7,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 7 visible posts with 0 missing floors."
+    }
+  },
+  "posts": [
+    {
+      "id": 17694487,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "laidabaha",
+      "displayName": "打不过你就跑快点",
+      "createdAt": "2026-05-10T13:06:09.447Z",
+      "updatedAt": "2026-05-10T13:07:32.635Z",
+      "cookedHtml": "<p>帖子里找半天没看到入口在哪…大佬指点下具体怎么举报</p>\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/0/e/1/0e1542731428bc358ae4aa353052d36fbecde92e.png\" data-download-href=\"/uploads/short-url/20AerEOFG5jH7gZyxszYqL3qZ9c.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/0/e/1/0e1542731428bc358ae4aa353052d36fbecde92e_2_690x424.png\" alt=\"image\" data-base62-sha1=\"20AerEOFG5jH7gZyxszYqL3qZ9c\" width=\"690\" height=\"424\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/0/e/1/0e1542731428bc358ae4aa353052d36fbecde92e_2_690x424.png, https://cdn3.ldstatic.com/optimized/4X/0/e/1/0e1542731428bc358ae4aa353052d36fbecde92e_2_1035x636.png 1.5x, https://cdn3.ldstatic.com/original/4X/0/e/1/0e1542731428bc358ae4aa353052d36fbecde92e.png 2x\" data-dominant-color=\"F1F9F2\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1297×797 52.8 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>",
+      "normalizedText": "帖子里找半天没看到入口在哪…大佬指点下具体怎么举报 image1297×797 52.8 KB",
+      "contentHash": "5da0a0a97e76b5301f618e4b2ce66c602de15dfdc6d47959e1ba63c28565bc18"
+    },
+    {
+      "id": 17694515,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Lima",
+      "displayName": "Star",
+      "createdAt": "2026-05-10T13:07:12.630Z",
+      "updatedAt": "2026-05-10T13:07:12.630Z",
+      "cookedHtml": "<p>不是？你要干什么？你要想干什么！举报达标？</p>",
+      "normalizedText": "不是？你要干什么？你要想干什么！举报达标？",
+      "contentHash": "f3460ffc47b0f1222138463e9e6e9e198dce74cba3f7047511992622a83a8a52"
+    },
+    {
+      "id": 17694516,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Lazyprankster",
+      "displayName": "Lazyprankster",
+      "createdAt": "2026-05-10T13:07:14.749Z",
+      "updatedAt": "2026-05-10T13:07:14.749Z",
+      "cookedHtml": "<p>…额 不是，哥们，什么叫做举报指标不达标<br>\n你不会以为升3级需要举报5个帖子吧<br>\n那照这个理解，岂不是你要被举报五次？</p>",
+      "normalizedText": "…额 不是，哥们，什么叫做举报指标不达标 你不会以为升3级需要举报5个帖子吧 那照这个理解，岂不是你要被举报五次？",
+      "contentHash": "db53808409cc9030d140a24e0012823239679f0cc9ddbcce815d136bf76097a9"
+    },
+    {
+      "id": 17694529,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "jiangbo",
+      "displayName": "jiangbo",
+      "createdAt": "2026-05-10T13:07:41.951Z",
+      "updatedAt": "2026-05-10T13:07:41.951Z",
+      "cookedHtml": "<p>举报还有指标吗？你是不是把下面的举报当成指标，那个应该是不能超过吧</p>",
+      "normalizedText": "举报还有指标吗？你是不是把下面的举报当成指标，那个应该是不能超过吧",
+      "contentHash": "d98a038f41c4fa6f07258f57f85f89c71df62d639e3ef1ec234289ea56eb8530"
+    },
+    {
+      "id": 17694535,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Jojo_Coco",
+      "displayName": "摇摆熊",
+      "createdAt": "2026-05-10T13:08:15.190Z",
+      "updatedAt": "2026-05-10T13:08:15.190Z",
+      "cookedHtml": "<p>大哥刚买的号吗，不行咱再好好读读呢</p>",
+      "normalizedText": "大哥刚买的号吗，不行咱再好好读读呢",
+      "contentHash": "bb8d23e4e1db0a7d8ef1b5eae204263b44190164d455e98272391894361a7900"
+    },
+    {
+      "id": 17694550,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "daodiyouduocai",
+      "displayName": "菜菜",
+      "createdAt": "2026-05-10T13:08:34.095Z",
+      "updatedAt": "2026-05-10T13:08:34.095Z",
+      "cookedHtml": "<p>这是你被举报了五次，等下一个窗口升级吧</p>",
+      "normalizedText": "这是你被举报了五次，等下一个窗口升级吧",
+      "contentHash": "39fe55bb8cb9b00d646f0806805058327a878389163255265238a0ecb9de0378"
+    },
+    {
+      "id": 17694552,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "11037",
+      "displayName": "11037",
+      "createdAt": "2026-05-10T13:08:36.900Z",
+      "updatedAt": "2026-05-10T13:08:36.900Z",
+      "cookedHtml": "<p>你是不是理解错了，你的图上是别人举报你，是要避免举报而不是要去主动举报别人</p>",
+      "normalizedText": "你是不是理解错了，你的图上是别人举报你，是要避免举报而不是要去主动举报别人",
+      "contentHash": "7d64cf9218da3230ef1e0aa19dac573d5c63b243a99e19123f50ac8da3f70672"
+    }
+  ]
+}
