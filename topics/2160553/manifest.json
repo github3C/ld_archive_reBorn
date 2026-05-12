@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2160553,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2160553",
+    "title": "大家小心，hub.linux.do 部分渠道返回内容含 prompt injection",
+    "currentVersionId": "v1",
+    "currentHash": "9ed549d96dae4e196c57b9e72becf729697fb5e190f4186da6db8ed4a45a48fa",
+    "postCount": 27,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2160553,
+      "sourceUrl": "https://linux.do/t/topic/2160553",
+      "contentHash": "9ed549d96dae4e196c57b9e72becf729697fb5e190f4186da6db8ed4a45a48fa",
+      "postCount": 27,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 27 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
