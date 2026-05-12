@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2153819,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2153819",
+    "title": "HUB站bug 充值不到账",
+    "currentVersionId": "v1",
+    "currentHash": "c17738b204ef27c668629ccb4c47eba26af50a7757ca9d02b914d271a72a9264",
+    "postCount": 36,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2153819,
+      "sourceUrl": "https://linux.do/t/topic/2153819",
+      "contentHash": "c17738b204ef27c668629ccb4c47eba26af50a7757ca9d02b914d271a72a9264",
+      "postCount": 36,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 36 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
