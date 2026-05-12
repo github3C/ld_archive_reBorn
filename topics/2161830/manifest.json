@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2161830,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2161830",
+    "title": "分享一下玩小红书以来,结识女孩到线下见面的一些感受",
+    "currentVersionId": "v1",
+    "currentHash": "46e4ce811d52bbd691dca5e54694a8ed22a6aa5cda963caa4b872bc79fb05478",
+    "postCount": 17,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2161830,
+      "sourceUrl": "https://linux.do/t/topic/2161830",
+      "contentHash": "46e4ce811d52bbd691dca5e54694a8ed22a6aa5cda963caa4b872bc79fb05478",
+      "postCount": 17,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 17 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
