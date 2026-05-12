@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2157710,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2157710",
+    "title": "将自用号池base64加密放到站内给佬们蹭，为啥被举报了",
+    "createdAt": "2026-05-11T16:37:39.385Z",
+    "currentVersionId": "v1",
+    "currentHash": "24e20582140895e0df81687b873fb30aba409a6e1bb1348ef5d5829758097058"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2157710,
+    "sourceUrl": "https://linux.do/t/topic/2157710",
+    "contentHash": "24e20582140895e0df81687b873fb30aba409a6e1bb1348ef5d5829758097058",
+    "postCount": 7,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 7 visible posts with 0 missing floors."
+    }
+  },
+  "posts": [
+    {
+      "id": 17739538,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "chengTeh",
+      "displayName": "chengTeh",
+      "createdAt": "2026-05-11T16:37:39.550Z",
+      "updatedAt": "2026-05-11T16:37:39.550Z",
+      "cookedHtml": "<p>刚才半小时前我把自己用不完的号池经过base64加密发到站内给佬们蹭，因为我个人只有9个plus号，数量不是很多，还达不到开公益站的程度，等佬们蹭完额度我的帖子就被举报了，说是涉及违规推广了，因为之前也看到有佬这样分享，我以为是合规的，没想到吃了个举报，长教训了</p>",
+      "normalizedText": "刚才半小时前我把自己用不完的号池经过base64加密发到站内给佬们蹭，因为我个人只有9个plus号，数量不是很多，还达不到开公益站的程度，等佬们蹭完额度我的帖子就被举报了，说是涉及违规推广了，因为之前也看到有佬这样分享，我以为是合规的，没想到吃了个举报，长教训了",
+      "contentHash": "163d53fc06ea12cb4563ff2b1c05effe102e59e2d88dd6f735a22187893ae9f3"
+    },
+    {
+      "id": 17739577,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Jojo_Coco",
+      "displayName": "摇摆熊",
+      "createdAt": "2026-05-11T16:40:43.272Z",
+      "updatedAt": "2026-05-11T16:40:43.272Z",
+      "cookedHtml": "<p>羊毛发3级，基本上不会有人举报，你要是发1级，那就不好说了</p>",
+      "normalizedText": "羊毛发3级，基本上不会有人举报，你要是发1级，那就不好说了",
+      "contentHash": "ae491723ef1266f67a09756906844dd02f63a837da8773054a3f55c352274959"
+    },
+    {
+      "id": 17739587,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "500tpig",
+      "displayName": "麦克当劳",
+      "createdAt": "2026-05-11T16:41:15.579Z",
+      "updatedAt": "2026-05-11T16:41:15.579Z",
+      "cookedHtml": "<p>哎，群众坏人还是太多了，感觉可以反馈一下</p>",
+      "normalizedText": "哎，群众坏人还是太多了，感觉可以反馈一下",
+      "contentHash": "602ec685825162236d2558743ecb710e28df848288048664fc363cf8ec5cca4d"
+    },
+    {
+      "id": 17739615,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "neo",
+      "displayName": "Neo",
+      "createdAt": "2026-05-11T16:42:21.234Z",
+      "updatedAt": "2026-05-11T16:42:21.234Z",
+      "cookedHtml": "<p><a class=\"mention\" href=\"https://linux.do/u/chengteh\">@chengTeh</a> <a class=\"mention\" href=\"https://linux.do/u/aiorg\">@Aiorg</a> <a class=\"mention\" href=\"https://linux.do/u/liji_1357\">@liji_1357</a> <a class=\"mention\" href=\"https://linux.do/u/yxyh\">@YXYH</a> <a class=\"mention\" href=\"https://linux.do/u/keepassxc\">@keepassxc</a> <a class=\"mention\" href=\"https://linux.do/u/500tpig\">@500tpig</a></p>\n<p>整天这个利益，那个坏人的，你们的3级账号都是买来的吗？社区规则一点不看？</p>\n<p>想清楚再出来吧。</p>",
+      "normalizedText": "@chengTeh @Aiorg @liji_1357 @YXYH @keepassxc @500tpig 整天这个利益，那个坏人的，你们的3级账号都是买来的吗？社区规则一点不看？ 想清楚再出来吧。",
+      "contentHash": "a2e1ae44d74b90c6a60d409e1383fa004040e4f889b071e4bcb67d887ac16a12"
+    },
+    {
+      "id": 17739742,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Coee",
+      "displayName": "Coeeshu",
+      "createdAt": "2026-05-11T16:49:37.710Z",
+      "updatedAt": "2026-05-11T16:52:52.892Z",
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/a/7/a/a7a5fbd1e988a832b3912cc5b8f9053ebf14a282.jpeg\" data-download-href=\"/uploads/short-url/nV5m4eRd2bvy6mZpO7l8wtJShQC.jpeg?dl=1\" title=\"PixPin2026-05-1200-47-27\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7a5fbd1e988a832b3912cc5b8f9053ebf14a282_2_690x386.jpeg\" alt=\"PixPin2026-05-1200-47-27\" data-base62-sha1=\"nV5m4eRd2bvy6mZpO7l8wtJShQC\" width=\"690\" height=\"386\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7a5fbd1e988a832b3912cc5b8f9053ebf14a282_2_690x386.jpeg, https://cdn3.ldstatic.com/original/4X/a/7/a/a7a5fbd1e988a832b3912cc5b8f9053ebf14a282.jpeg 1.5x, https://cdn3.ldstatic.com/original/4X/a/7/a/a7a5fbd1e988a832b3912cc5b8f9053ebf14a282.jpeg 2x\" data-dominant-color=\"1B1B1A\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">PixPin2026-05-1200-47-27</span><span class=\"informations\">898×503 64 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>\n<p>重点是 <strong><span style=\"color:red\">链接</span></strong></p>",
+      "normalizedText": "PixPin2026-05-1200-47-27898×503 64 KB 重点是 链接",
+      "contentHash": "fdd1a9ed357b7778c06ac39a2852f25a31987f43d8692464a78003baabde04d2"
+    },
+    {
+      "id": 17739781,
+      "postNumber": 6,
+      "replyToPostNumber": 5,
+      "replyToPostId": 17739742,
+      "replyToUsername": "Coee",
+      "replyToDisplayName": "Coeeshu",
+      "username": "Jojo_Coco",
+      "displayName": "摇摆熊",
+      "createdAt": "2026-05-11T16:52:13.768Z",
+      "updatedAt": "2026-05-11T16:52:13.768Z",
+      "cookedHtml": "<p>我还以为加密的密钥呢，链接直接发就是了</p>",
+      "normalizedText": "我还以为加密的密钥呢，链接直接发就是了",
+      "contentHash": "0a6f3eeb207b85cc240bff145f20eb851fdd9a6bef1beba8e135f1e96641f720"
+    },
+    {
+      "id": 17739806,
+      "postNumber": 7,
+      "replyToPostNumber": 5,
+      "replyToPostId": 17739742,
+      "replyToUsername": "Coee",
+      "replyToDisplayName": "Coeeshu",
+      "username": "Fernweh",
+      "displayName": "Frieren",
+      "createdAt": "2026-05-11T16:53:46.746Z",
+      "updatedAt": "2026-05-11T16:53:46.746Z",
+      "cookedHtml": "<p>那怪不得了，没看到前面帖子，正好奇前文是咋回事呢，吃瓜只吃到后一半，很难受啊 <img src=\"https://cdn3.ldstatic.com/original/3X/d/5/d58f6b9c419666d6876b00794310b7a262827aa4.png?v=15\" title=\":bili_063:\" class=\"emoji emoji-custom\" alt=\":bili_063:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "那怪不得了，没看到前面帖子，正好奇前文是咋回事呢，吃瓜只吃到后一半，很难受啊",
+      "contentHash": "3bb9f0e52711d1b0b43cc6f842b62a97ea2a520faaff3cbb4589bf90237b3082"
+    }
+  ]
+}

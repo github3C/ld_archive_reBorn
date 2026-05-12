@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2157710,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2157710",
+    "title": "将自用号池base64加密放到站内给佬们蹭，为啥被举报了",
+    "currentVersionId": "v1",
+    "currentHash": "24e20582140895e0df81687b873fb30aba409a6e1bb1348ef5d5829758097058",
+    "postCount": 7,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2157710,
+      "sourceUrl": "https://linux.do/t/topic/2157710",
+      "contentHash": "24e20582140895e0df81687b873fb30aba409a6e1bb1348ef5d5829758097058",
+      "postCount": 7,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 7 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
