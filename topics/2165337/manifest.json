@@ -6,12 +6,35 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2165337",
     "title": "再更一下后续",
-    "currentVersionId": "v2",
-    "currentHash": "b98b578a2f817bf8a0e285c30c6059f63fb16cf5651e1dd703625d3613d1decc",
-    "postCount": 6,
+    "currentVersionId": "v3",
+    "currentHash": "61f2b4cd232c7702b37e9c41a6706eedc46a1f89bdfa8db04397160983fcf858",
+    "postCount": 9,
     "missingPostNumbers": []
   },
   "versions": [
+    {
+      "id": "v3",
+      "topicId": 2165337,
+      "sourceUrl": "https://linux.do/t/topic/2165337",
+      "contentHash": "61f2b4cd232c7702b37e9c41a6706eedc46a1f89bdfa8db04397160983fcf858",
+      "postCount": 9,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "id": "v2...v3",
+        "previousVersionId": "v2",
+        "currentVersionId": "v3",
+        "addedPostNumbers": [
+          7,
+          8,
+          9
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v2",
       "topicId": 2165337,
@@ -57,6 +80,21 @@
         4,
         5,
         6
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    },
+    {
+      "id": "v2...v3",
+      "previousVersionId": "v2",
+      "currentVersionId": "v3",
+      "addedPostNumbers": [
+        7,
+        8,
+        9
       ],
       "removedPostNumbers": [],
       "changedPostNumbers": [],
