@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diff v12...v13 - HUB站bug 充值不到账</title>
+  <link rel="stylesheet" href="../../../assets/site.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <p><a href="../index.html">Topic versions</a></p>
+      <h1>HUB站bug 充值不到账</h1>
+      <p><code>v12</code> ... <code>v13</code></p>
+      <p>3 added, 0 changed, 0 removed, 0 newly missing, 0 restored.</p>
+    </header>
+    <section class="diff-summary-grid">
+      
+      <div class="diff-metric">
+        <strong>3</strong>
+        <span>Added</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Changed</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Removed</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Newly missing</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Restored</span>
+      </div>
+    
+    </section>
+    
+      <section class="diff-section">
+        <h2>Added Posts</h2>
+        
+          <article class="diff-post">
+            <h3>#92 若时间无垠 <span>@RSJWY</span></h3>
+            <p>就是lhDream贡献了渠道，但是他的渠道又拿hub做了负载均衡（埋下了隐患）。某 次不知道哪来的请求，导致之前的隐患被触发，所有请求从hub→lhDream的api→hub→ldm2060的渠道上，导致原本在hub上一周用不完的量被一天用完，并导致hub站（42提供的服务器）宕机。https://linux.do/t/topic/2147566 个人观点：lhDream一直在向老白和ldm2060要不是因为他导致的请求暴涨证据（因为做了RPM限制，理论不会导致请求暴增，但是似乎未生效）。</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#93 若时间无垠 <span>@RSJWY</span></h3>
+            <p>hub里的LDC是无法再次取出的（可能后续可以，具体看老白的后续安排）</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#94 老白 <span>@laobaile</span></h3>
+            <p>本身这几天都在补前面半个月更新hub所遗留下来的单位工作,不想在这个事情上一直纠缠,本不打算再次回应了,既然他想要证据就给他贴一个 key仅设置了价格优先以及最大倍率0.2 并发限制?排除渠道?</p>
+          </article>
+        
+      </section>
+    
+    
+    
+    
+    
+  </main>
+</body>
+</html>
