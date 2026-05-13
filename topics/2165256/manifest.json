@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2165256,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2165256",
+    "title": "我发现了论坛的一个特点 -- 就是敢说真话",
+    "currentVersionId": "v1",
+    "currentHash": "2faeab2228dc918d4237c1a44a9b293ad9b70b769206fde857016859dab66269",
+    "postCount": 46,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2165256,
+      "sourceUrl": "https://linux.do/t/topic/2165256",
+      "contentHash": "2faeab2228dc918d4237c1a44a9b293ad9b70b769206fde857016859dab66269",
+      "postCount": 46,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 46 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
