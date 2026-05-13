@@ -6,12 +6,34 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2153819",
     "title": "HUB站bug 充值不到账",
-    "currentVersionId": "v7",
-    "currentHash": "870b4e854c236c8746e3a745617e31f913eb2e36a74252e8bc88e703cb6a837c",
-    "postCount": 71,
+    "currentVersionId": "v8",
+    "currentHash": "f9267088e450030ad27a7ff4e99d4bbc1cd11266088e8cb17e95d50aaac8c2bd",
+    "postCount": 73,
     "missingPostNumbers": []
   },
   "versions": [
+    {
+      "id": "v8",
+      "topicId": 2153819,
+      "sourceUrl": "https://linux.do/t/topic/2153819",
+      "contentHash": "f9267088e450030ad27a7ff4e99d4bbc1cd11266088e8cb17e95d50aaac8c2bd",
+      "postCount": 73,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "id": "v7...v8",
+        "previousVersionId": "v7",
+        "currentVersionId": "v8",
+        "addedPostNumbers": [
+          72,
+          73
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "2 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v7",
       "topicId": 2153819,
@@ -291,6 +313,20 @@
       "newlyMissingPostNumbers": [],
       "restoredPostNumbers": [],
       "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    },
+    {
+      "id": "v7...v8",
+      "previousVersionId": "v7",
+      "currentVersionId": "v8",
+      "addedPostNumbers": [
+        72,
+        73
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "2 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
     }
   ]
 }
