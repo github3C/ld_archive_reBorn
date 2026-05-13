@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2167403,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2167403",
+    "title": "警惕中转站恶意贩卖用户数据：良心与底线何在？",
+    "currentVersionId": "v1",
+    "currentHash": "07549ac3727b5812167bcda5d1654fbbe0167cdf0f7904df6ba5021a19091181",
+    "postCount": 44,
+    "missingPostNumbers": [
+      2,
+      4
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2167403,
+      "sourceUrl": "https://linux.do/t/topic/2167403",
+      "contentHash": "07549ac3727b5812167bcda5d1654fbbe0167cdf0f7904df6ba5021a19091181",
+      "postCount": 44,
+      "missingPostNumbers": [
+        2,
+        4
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 44 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

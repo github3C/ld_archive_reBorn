@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>警惕中转站恶意贩卖用户数据：良心与底线何在？</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>警惕中转站恶意贩卖用户数据：良心与底线何在？</h1>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2167403">https://linux.do/t/topic/2167403</a><br>
+      Version: v1<br>
+      Posts: 44; missing floors: 2, 4
+    </div>
+    
+        <article class="post" id="post-1">
+          <header>
+            <a href="#post-1">#1</a>
+            <strong>苏苏 OneToken.sh</strong>
+            <span>@SuSu9898</span>
+            
+            <time datetime="2026-05-13T06:19:46.896Z">2026/5/13 14:19:46</time>
+          </header>
+          <div class="content"><h2><a name="p-17794177-h-1" class="anchor" href="#p-17794177-h-1" aria-label="标题链接"></a>开篇</h2>
+<p>最近，有人私下联系我，主动提出收购用户对话数据，价格是 <strong>1M token 10 元</strong>。之前在抖音上总刷到这种，我以为是闹着玩的，结果来真的？我平台定价才1块5人民币每百万啊…<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/0/9/4/094f709f4fbd0e84ca8ef8767e64a38ee835ff9f.png" data-download-href="/uploads/short-url/1kmuMy6g8fb7rgMIpZ09tI1akq3.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/0/9/4/094f709f4fbd0e84ca8ef8767e64a38ee835ff9f_2_684x500.png" alt="image" data-base62-sha1="1kmuMy6g8fb7rgMIpZ09tI1akq3" width="684" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/0/9/4/094f709f4fbd0e84ca8ef8767e64a38ee835ff9f_2_684x500.png, https://cdn3.ldstatic.com/optimized/4X/0/9/4/094f709f4fbd0e84ca8ef8767e64a38ee835ff9f_2_1026x750.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/0/9/4/094f709f4fbd0e84ca8ef8767e64a38ee835ff9f_2_1368x1000.png 2x" data-dominant-color="EFF0F1"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1582×1156 90.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/c/3/3/c33d1e0725b13c2c3a938fce93a285306ae42269.jpeg" data-download-href="/uploads/short-url/rRa35YsWgEr4hmR805mDhZhNYEx.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/c/3/3/c33d1e0725b13c2c3a938fce93a285306ae42269_2_426x500.jpeg" alt="image" data-base62-sha1="rRa35YsWgEr4hmR805mDhZhNYEx" width="426" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/c/3/3/c33d1e0725b13c2c3a938fce93a285306ae42269_2_426x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/c/3/3/c33d1e0725b13c2c3a938fce93a285306ae42269_2_639x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/c/3/3/c33d1e0725b13c2c3a938fce93a285306ae42269_2_852x1000.jpeg 2x" data-dominant-color="6D7983"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1240×1452 146 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/3/f/f3fbfdf101a40c1713f6b74026ec1dcedeb7e72d.png" data-download-href="/uploads/short-url/yOnULzhU0nGhEaPuDkGdvTlz8D3.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/f/3/f/f3fbfdf101a40c1713f6b74026ec1dcedeb7e72d_2_681x499.png" alt="image" data-base62-sha1="yOnULzhU0nGhEaPuDkGdvTlz8D3" width="681" height="499" srcset="https://cdn3.ldstatic.com/optimized/4X/f/3/f/f3fbfdf101a40c1713f6b74026ec1dcedeb7e72d_2_681x499.png, https://cdn3.ldstatic.com/optimized/4X/f/3/f/f3fbfdf101a40c1713f6b74026ec1dcedeb7e72d_2_1021x748.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/f/3/f/f3fbfdf101a40c1713f6b74026ec1dcedeb7e72d_2_1362x998.png 2x" data-dominant-color="EEEFF0"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1582×1160 102 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h3><a name="p-17794177-h-5wok5-2" class="anchor" href="#p-17794177-h-5wok5-2" aria-label="标题链接"></a>还有日赚5万的大佬，wok，光卖对话数据就能日赚5万，这一定是真大佬，但我想说一句：</h3>
+<blockquote>
+<p><strong>做人要有良心</strong></p>
+</blockquote>
+<p>震惊归震惊，但本站绝对不会干这种事。因为我自己是开发者，我太清楚隐私的重要性了。平时我懒的动脑的时候，甚至会把 <strong>服务器 IP、明文账户密码</strong> 丢给 AI，让它帮我搞环境、写配置、做运维……这些都是常有的事。</p>
+<p>比空口说白话更有说服力的是：<strong>我自己也在用自己的中转站。</strong></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/3/1/83112a51c0eb38eae2b67ce0e2f61a593a1c77de.png" data-download-href="/uploads/short-url/iHtk9OXUenEOI9rLUlJh5HB5fcO.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/8/3/1/83112a51c0eb38eae2b67ce0e2f61a593a1c77de_2_690x428.png" alt="image" data-base62-sha1="iHtk9OXUenEOI9rLUlJh5HB5fcO" width="690" height="428" srcset="https://cdn3.ldstatic.com/optimized/4X/8/3/1/83112a51c0eb38eae2b67ce0e2f61a593a1c77de_2_690x428.png, https://cdn3.ldstatic.com/optimized/4X/8/3/1/83112a51c0eb38eae2b67ce0e2f61a593a1c77de_2_1035x642.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/8/3/1/83112a51c0eb38eae2b67ce0e2f61a593a1c77de_2_1380x856.png 2x" data-dominant-color="F9FAFB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2560×1588 397 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>所以我可以<strong>负责任地</strong>说：<br>
+<strong>我的站使用的 API，用户数据绝不会被挪作他用。我只赚自己该赚的钱，不收集、保留用户数据。做人做事要讲良心，这是底线。</strong></p>
+<h1><a name="p-17794177-gpt-pro-20xonetokenshhttpsonetokensh-3" class="anchor" href="#p-17794177-gpt-pro-20xonetokenshhttpsonetokensh-3" aria-label="标题链接"></a>另外给我自己打个广告，本站坚持只用正价GPT Pro 20X账号，尽可能保证用户体验，且绝不掺水、保留、出售用户对话数据，本站网址：<a href="https://onetoken.sh" rel="noopener nofollow ugc">OneToken.sh</a></h1>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/7/a/a7ad31228cbc2dde2f117e3f0f4113ac0bd2614b.jpeg" data-download-href="/uploads/short-url/nVkNzyaF49C6URPCkn7WIYVLcqT.jpeg?dl=1" title="b51d21a47cc22986d09b3b188f03bb35" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7ad31228cbc2dde2f117e3f0f4113ac0bd2614b_2_280x500.jpeg" alt="b51d21a47cc22986d09b3b188f03bb35" data-base62-sha1="nVkNzyaF49C6URPCkn7WIYVLcqT" width="280" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7ad31228cbc2dde2f117e3f0f4113ac0bd2614b_2_280x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7ad31228cbc2dde2f117e3f0f4113ac0bd2614b_2_420x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/a/7/a/a7ad31228cbc2dde2f117e3f0f4113ac0bd2614b_2_560x1000.jpeg 2x" data-dominant-color="EEF5FB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">b51d21a47cc22986d09b3b188f03bb35</span><span class="informations">1284×2289 260 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h3><a name="p-17794177-h-1015gpt551000token-4" class="anchor" href="#p-17794177-h-1015gpt551000token-4" aria-label="标题链接"></a>抽个奖，抽10个站内15积分对应GPT5.5额1000万Token</h3>
+<hr>
+<h3><a name="p-17794177-h-5" class="anchor" href="#p-17794177-h-5" aria-label="标题链接"></a>补充：我很清楚，发这个帖子、爆这个雷，对我自己肯定也有影响。虽然我嘴上说会遵守承诺，但有些朋友还是不会完全放心，这很正常。我也早就知道会有这种反应，但为了让同行和老友看到真实情况，一起警惕、共同反对这种行为，我还是决定发出来，帖子不会删。</h3></div>
+        </article>
+      
+
+          <article class="post missing-post" id="post-2">
+            <header><a href="#post-2">#2</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-3">
+          <header>
+            <a href="#post-3">#3</a>
+            <strong>文月</strong>
+            <span>@Fumizuki</span>
+            
+            <time datetime="2026-05-13T06:24:25.301Z">2026/5/13 14:24:25</time>
+          </header>
+          <div class="content"><p>日入5万！这都打动不了佬友吗，佬友好样的。</p>
+<div class="spoiler">
+<p>但是这个数字依然会让我继续降低对中转普遍的的信任啊</p>
+</div></div>
+        </article>
+      
+
+          <article class="post missing-post" id="post-4">
+            <header><a href="#post-4">#4</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-5">
+          <header>
+            <a href="#post-5">#5</a>
+            <strong>search</strong>
+            <span>@search</span>
+            
+            <time datetime="2026-05-13T06:24:47.380Z">2026/5/13 14:24:47</time>
+          </header>
+          <div class="content"><p>确实，平时随手就把代码段和服务器配置丢给AI跑，如果数据被转手卖掉简直就是“裸奔”。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>苏苏 OneToken.sh</strong>
+            <span>@SuSu9898</span>
+            <span class="reply-context">in reply to <a href="#post-3">#3</a> 文月</span>
+            <time datetime="2026-05-13T06:26:09.064Z">2026/5/13 14:26:09</time>
+          </header>
+          <div class="content"><p>首先我们没那个体量，其次如果真到那个体量了，我站的运营情况应该也会很不错，我很容易满足的。还是那句话，做人做事要讲良心，也请各位佬友监督</p></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>水很深</strong>
+            <span>@deep_water</span>
+            
+            <time datetime="2026-05-13T06:26:16.253Z">2026/5/13 14:26:16</time>
+          </header>
+          <div class="content"><p>我靠，原来这么利啊，难怪最近都是问是否暴利的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>kexincolar</strong>
+            <span>@kexincolar</span>
+            
+            <time datetime="2026-05-13T06:26:42.992Z">2026/5/13 14:26:42</time>
+          </header>
+          <div class="content"><p>本帖只会反效果<br>
+令人唏嘘的是这种行业存在的合理性思考</p></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>kexincolar</strong>
+            <span>@kexincolar</span>
+            <span class="reply-context">in reply to <a href="#post-8">#8</a> kexincolar</span>
+            <time datetime="2026-05-13T06:27:45.058Z">2026/5/13 14:27:45</time>
+          </header>
+          <div class="content"><p>问心无愧没有任何作用 我们永远无法约束其他人不成为奸商</p></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>大帅哥</strong>
+            <span>@handsome</span>
+            
+            <time datetime="2026-05-13T06:28:05.639Z">2026/5/13 14:28:05</time>
+          </header>
+          <div class="content"><p>真有这种人啊，长见识了，太坏了吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>hwang</strong>
+            <span>@hwang</span>
+            
+            <time datetime="2026-05-13T06:29:03.706Z">2026/5/13 14:29:03</time>
+          </header>
+          <div class="content"><p>这图会给各大中转站一大重击，包括你的 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/scream.png?v=15" title=":scream:" class="emoji" alt=":scream:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>狛枝凪斗</strong>
+            <span>@neo33</span>
+            
+            <time datetime="2026-05-13T06:29:12.222Z">2026/5/13 14:29:12</time>
+          </header>
+          <div class="content"><p>大多数人其实都没建立起一个相应的安全意识，在L站的佬很多已经是很有安全意识的了。但是对于大多数普通人其实根本不懂，风险性极大，之前的龙虾也是因为这个安全性的问题吧。看过很多以安全为主的公司照样用着中转，层层防护结果这里不管不顾。</p>
+<p>不过大多数的人的数据也没有那么重要，希望佬不忘初心 我去瞅一眼 支持！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>Qiu</strong>
+            <span>@whj20</span>
+            
+            <time datetime="2026-05-13T06:30:06.203Z">2026/5/13 14:30:06</time>
+          </header>
+          <div class="content"><p>太强了，佬，我也有时候偷懒会把明文密码放在中转里面，看来以后得小心了，大佬是真良心只赚自己该赚的钱</p></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>Doss</strong>
+            <span>@Doss</span>
+            
+            <time datetime="2026-05-13T06:30:52.598Z">2026/5/13 14:30:52</time>
+          </header>
+          <div class="content"><p>难怪听到开始抓搞中转的，数据泄露也碰到底线了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>AgentQXR</strong>
+            <span>@AgentQXR</span>
+            
+            <time datetime="2026-05-13T06:30:55.106Z">2026/5/13 14:30:55</time>
+          </header>
+          <div class="content"><p>数据安全也是个大问题啊,这下变成信任危机了,估计之后转去官方api的人会变多吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>AIgniteLUO</strong>
+            <span>@AIgniteLUO</span>
+            
+            <time datetime="2026-05-13T06:31:29.049Z">2026/5/13 14:31:29</time>
+          </header>
+          <div class="content"><p>吓人啊，数据安全还是太重要了，平时我在服务器运维相关的操作时，也会传明文密码给AI，还好我是纯内网的服务器，不用太担心泄露问题</p></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>hideur</strong>
+            <span>@hideur</span>
+            
+            <time datetime="2026-05-13T06:32:08.526Z">2026/5/13 14:32:08</time>
+          </header>
+          <div class="content"><p>这一天终于来了嘛,太可怕了,还要怎么信任中转站啊,利益面前,好多人都是没底线的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>cmpdke33</strong>
+            <span>@cmpdke33</span>
+            <span class="reply-context">in reply to <a href="#post-8">#8</a> kexincolar</span>
+            <time datetime="2026-05-13T06:35:28.593Z">2026/5/13 14:35:28</time>
+          </header>
+          <div class="content"><p>其实卖用户对话数据这种事情是一直存在的，只是大伙都不是站长，又或者说量没那么大，没机会接触数据买家，不知道价格，现在知道了原来这么值钱</p></div>
+        </article>
+      
+
+        <article class="post" id="post-19">
+          <header>
+            <a href="#post-19">#19</a>
+            <strong>kexincolar</strong>
+            <span>@kexincolar</span>
+            <span class="reply-context">in reply to <a href="#post-18">#18</a> cmpdke33</span>
+            <time datetime="2026-05-13T06:36:06.493Z">2026/5/13 14:36:06</time>
+          </header>
+          <div class="content"><p>现阶段蒸馏模型最重要的就是用户数据 一些公益站 我就在思考</p></div>
+        </article>
+      
+
+        <article class="post" id="post-20">
+          <header>
+            <a href="#post-20">#20</a>
+            <strong>zecloud s</strong>
+            <span>@zecloud_s</span>
+            
+            <time datetime="2026-05-13T06:36:09.277Z">2026/5/13 14:36:09</time>
+          </header>
+          <div class="content"><p>我是真没有想到这个上下文的价格这么高的，难怪最近这块的新闻多</p></div>
+        </article>
+      
+
+        <article class="post" id="post-21">
+          <header>
+            <a href="#post-21">#21</a>
+            <strong>狛枝凪斗</strong>
+            <span>@neo33</span>
+            
+            <time datetime="2026-05-13T06:37:22.138Z">2026/5/13 14:37:22</time>
+          </header>
+          <div class="content"><p>想知道大佬这个credits的计费规则怎么算的？没太看懂</p></div>
+        </article>
+      
+
+        <article class="post" id="post-22">
+          <header>
+            <a href="#post-22">#22</a>
+            <strong>PanicMeow</strong>
+            <span>@PanicMeow</span>
+            
+            <time datetime="2026-05-13T06:37:31.105Z">2026/5/13 14:37:31</time>
+          </header>
+          <div class="content"><p>那不是永动了！开放协议，愿意出售自己数据的可以无限免费使用，不愿意的就花钱 <img src="https://cdn3.ldstatic.com/original/3X/e/4/e415f72201d585ac7ccc869a334048006d2b6b9d.png?v=15" title=":tieba_025:" class="emoji emoji-custom" alt=":tieba_025:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-23">
+          <header>
+            <a href="#post-23">#23</a>
+            <strong>cmpdke33</strong>
+            <span>@cmpdke33</span>
+            <span class="reply-context">in reply to <a href="#post-20">#20</a> zecloud s</span>
+            <time datetime="2026-05-13T06:37:53.202Z">2026/5/13 14:37:53</time>
+          </header>
+          <div class="content"><p>是的，知道值钱，但没想过这么值钱，再看看A\走退款流加上之前低价的凭证plus pro漫天飞，现在的低价codex也很多，再卖卖用户数据，我的天呀，怪不得越来越多人开中转赚钱</p></div>
+        </article>
+      
+
+        <article class="post" id="post-24">
+          <header>
+            <a href="#post-24">#24</a>
+            <strong>Serendipitys</strong>
+            <span>@Serendipitys</span>
+            
+            <time datetime="2026-05-13T06:38:55.534Z">2026/5/13 14:38:55</time>
+          </header>
+          <div class="content"><p>最近好像是看到不少有收中转数据去训练的不过没想到数据价格给得还是不低</p></div>
+        </article>
+      
+
+        <article class="post" id="post-25">
+          <header>
+            <a href="#post-25">#25</a>
+            <strong>Microsoft</strong>
+            <span>@Microsoft</span>
+            
+            <time datetime="2026-05-13T06:39:22.347Z">2026/5/13 14:39:22</time>
+          </header>
+          <div class="content"><p>卧槽，这么值钱，搞的我都想自己开了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-26">
+          <header>
+            <a href="#post-26">#26</a>
+            <strong>苏苏 OneToken.sh</strong>
+            <span>@SuSu9898</span>
+            <span class="reply-context">in reply to <a href="#post-21">#21</a> 狛枝凪斗</span>
+            <time datetime="2026-05-13T06:39:30.278Z">2026/5/13 14:39:30</time>
+          </header>
+          <div class="content"><p>人民币1:1，GPT 5.5 就是1.5人民币/M</p></div>
+        </article>
+      
+
+        <article class="post" id="post-27">
+          <header>
+            <a href="#post-27">#27</a>
+            <strong>DukeT</strong>
+            <span>@k23450987</span>
+            
+            <time datetime="2026-05-13T06:40:01.189Z">2026/5/13 14:40:01</time>
+          </header>
+          <div class="content"><p>触目惊心，很难保证公司内部的代码不被泄露，引发信任危机。怪不得最近大厂都在收紧，转向私有模型。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-28">
+          <header>
+            <a href="#post-28">#28</a>
+            <strong>wazou pau</strong>
+            <span>@wazou_pau</span>
+            
+            <time datetime="2026-05-13T06:40:18.655Z">2026/5/13 14:40:18</time>
+          </header>
+          <div class="content"><p>怪不得any能免费用，这价格确实不算亏啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-29">
+          <header>
+            <a href="#post-29">#29</a>
+            <strong>QAQ_QAQ</strong>
+            <span>@QAQ_QAQ</span>
+            
+            <time datetime="2026-05-13T06:41:58.934Z">2026/5/13 14:41:58</time>
+          </header>
+          <div class="content"><p>这种就是拼良心了，如果这样做其实也是犯法的，无论是买家还是卖家，均触犯了《数据安全法》、《网络安全法》、《个人信息保护法》，而且中转站一定程度上目前处于灰色地带。不认真还好一认真都跑不了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-30">
+          <header>
+            <a href="#post-30">#30</a>
+            <strong>leo_summit</strong>
+            <span>@leo_summit</span>
+            
+            <time datetime="2026-05-13T06:41:59.256Z">2026/5/13 14:41:59</time>
+          </header>
+          <div class="content"><p>怪不得最近中转站那么多，卖token赚一笔，百万撤离赚一笔，卖上下文又赚一笔，真疯狂</p></div>
+        </article>
+      
+
+        <article class="post" id="post-31">
+          <header>
+            <a href="#post-31">#31</a>
+            <strong>🅄🄽🄲🄻🄴𝕁𝕚𝕞𝕒𝕠 </strong>
+            <span>@unclejimao</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> 大帅哥</span>
+            <time datetime="2026-05-13T06:42:22.499Z">2026/5/13 14:42:22</time>
+          </header>
+          <div class="content"><p>我闲鱼发个反代的帖子，这周三个人问我要不要出日志数据了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-32">
+          <header>
+            <a href="#post-32">#32</a>
+            <strong>AlexD</strong>
+            <span>@AlexD</span>
+            
+            <time datetime="2026-05-13T06:42:30.827Z">2026/5/13 14:42:30</time>
+          </header>
+          <div class="content"><p>这真有点恐怖了，感觉以后还是尽量不直接给 AI vps 密钥，个人网关密码之类的了。<br>
+这些卖的人太缺德了。<br>
+不过佬友守住底线真值得点赞。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-33">
+          <header>
+            <a href="#post-33">#33</a>
+            <strong>aaa3055</strong>
+            <span>@aaa3055</span>
+            
+            <time datetime="2026-05-13T06:42:58.912Z">2026/5/13 14:42:58</time>
+          </header>
+          <div class="content"><p>虽然日赚五万有点夸大，但是确实，有时候也不会懒得打码那些东西再问ai</p></div>
+        </article>
+      
+
+        <article class="post" id="post-34">
+          <header>
+            <a href="#post-34">#34</a>
+            <strong>wfy</strong>
+            <span>@wfy</span>
+            
+            <time datetime="2026-05-13T06:43:44.261Z">2026/5/13 14:43:44</time>
+          </header>
+          <div class="content"><p>我去数据这么值钱，两头赚，怪不得线下都开始发小卡片了<img src="https://cdn.ldstatic.com/images/emoji/twemoji/smiley.png?v=15" title=":smiley:" class="emoji" alt=":smiley:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-35">
+          <header>
+            <a href="#post-35">#35</a>
+            <strong>柳</strong>
+            <span>@zsl520</span>
+            
+            <time datetime="2026-05-13T06:44:19.833Z">2026/5/13 14:44:19</time>
+          </header>
+          <div class="content"><p>有没有佬友知道怎么判断数据有没有被获取啊 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/sob.png?v=15" title=":sob:" class="emoji" alt=":sob:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-36">
+          <header>
+            <a href="#post-36">#36</a>
+            <strong>Aerpisc</strong>
+            <span>@Aerpisc</span>
+            
+            <time datetime="2026-05-13T06:44:33.114Z">2026/5/13 14:44:33</time>
+          </header>
+          <div class="content"><p>说实话，收的人很多，可以卖很多次，不止国内的大模型厂商在收，还有黑灰产的也在收</p></div>
+        </article>
+      
+
+        <article class="post" id="post-37">
+          <header>
+            <a href="#post-37">#37</a>
+            <strong>qingweia</strong>
+            <span>@qingweidoctor</span>
+            <span class="reply-context">in reply to <a href="#post-26">#26</a> 苏苏 OneToken.sh</span>
+            <time datetime="2026-05-13T06:44:43.159Z">2026/5/13 14:44:43</time>
+          </header>
+          <div class="content"><p>我看计费上5.5不是9 credits/m么佬，难道我理解错了？<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/e/3/ee36089ab6c5d1f1b23d65e88bf9b08bf2cab512.png" data-download-href="/uploads/short-url/xZjp4GkjRpuR1qNzu5I2L1Vd3lE.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/e/e/3/ee36089ab6c5d1f1b23d65e88bf9b08bf2cab512.png" alt="image" data-base62-sha1="xZjp4GkjRpuR1qNzu5I2L1Vd3lE" width="406" height="215"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">406×215 7.73 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-38">
+          <header>
+            <a href="#post-38">#38</a>
+            <strong>baijie</strong>
+            <span>@wilile</span>
+            
+            <time datetime="2026-05-13T06:45:28.016Z">2026/5/13 14:45:28</time>
+          </header>
+          <div class="content"><p>怪不得最近这么多进军中转站的，可怕</p></div>
+        </article>
+      
+
+        <article class="post" id="post-39">
+          <header>
+            <a href="#post-39">#39</a>
+            <strong>Sam</strong>
+            <span>@dujc98</span>
+            
+            <time datetime="2026-05-13T06:45:29.606Z">2026/5/13 14:45:29</time>
+          </header>
+          <div class="content"><p>可以收来蒸馏也就可以收来干别的事情，脱敏处理倒是脱敏多少也难以判断<br>
+在往赛博朋克世界前行的路上一路狂奔了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-40">
+          <header>
+            <a href="#post-40">#40</a>
+            <strong>青墨</strong>
+            <span>@tyq</span>
+            
+            <time datetime="2026-05-13T06:45:29.974Z">2026/5/13 14:45:29</time>
+          </header>
+          <div class="content"><p>难怪中转站这热潮都这么久了反而越来越热，这么搞.感觉后面迟早要出事。这市场混乱成这样</p></div>
+        </article>
+      
+
+        <article class="post" id="post-41">
+          <header>
+            <a href="#post-41">#41</a>
+            <strong>Furina</strong>
+            <span>@232181</span>
+            
+            <time datetime="2026-05-13T06:45:39.764Z">2026/5/13 14:45:39</time>
+          </header>
+          <div class="content"><p>目前用的就是中转，如果这样的话，<img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20">，还是有些怕了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-42">
+          <header>
+            <a href="#post-42">#42</a>
+            <strong>vega</strong>
+            <span>@vega510719</span>
+            
+            <time datetime="2026-05-13T06:45:50.841Z">2026/5/13 14:45:50</time>
+          </header>
+          <div class="content"><p>这个中转站是真的赚钱啊，一天5w还只是卖数据，nb</p></div>
+        </article>
+      
+
+        <article class="post" id="post-43">
+          <header>
+            <a href="#post-43">#43</a>
+            <strong>Butterl</strong>
+            <span>@Butterl</span>
+            
+            <time datetime="2026-05-13T06:46:11.994Z">2026/5/13 14:46:11</time>
+          </header>
+          <div class="content"><p>如果这么整，1M 10块 是不是可以单独跑一个屎山自产自销，然后补贴非屎山了。。。。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-44">
+          <header>
+            <a href="#post-44">#44</a>
+            <strong>sp k</strong>
+            <span>@sp_k</span>
+            
+            <time datetime="2026-05-13T06:46:15.975Z">2026/5/13 14:46:15</time>
+          </header>
+          <div class="content"><p>之前中转站火热的时候我还在想用户数据被中转站不良老板卖了岂不是更大的收益。佬还是有自己底线的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-45">
+          <header>
+            <a href="#post-45">#45</a>
+            <strong>Noval</strong>
+            <span>@Noval</span>
+            
+            <time datetime="2026-05-13T06:46:48.442Z">2026/5/13 14:46:48</time>
+          </header>
+          <div class="content"><p>那是不是代表我自己多搞几个free号skill都用起来每次对话800K token在跳是不是可以用这个思路来反赚他们一波 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-46">
+          <header>
+            <a href="#post-46">#46</a>
+            <strong>leo_summit</strong>
+            <span>@leo_summit</span>
+            <span class="reply-context">in reply to <a href="#post-30">#30</a> leo_summit</span>
+            <time datetime="2026-05-13T06:46:54.391Z">2026/5/13 14:46:54</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/cmpdke33">@cmpdke33</a> 还有百万撤离呢，在掺水，在默默增加倍率，我真不敢想多赚钱</p></div>
+        </article>
+      
+  </main>
+</body>
+</html>
