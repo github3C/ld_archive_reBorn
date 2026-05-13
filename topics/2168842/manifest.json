@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2168842,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2168842",
+    "title": "直接露l站二级的帖子，是个狠入",
+    "currentVersionId": "v1",
+    "currentHash": "9346da761d77c2dcca636d75141d7174deb31a4a21a337ff8412d22047b61943",
+    "postCount": 35,
+    "missingPostNumbers": [
+      18
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2168842,
+      "sourceUrl": "https://linux.do/t/topic/2168842",
+      "contentHash": "9346da761d77c2dcca636d75141d7174deb31a4a21a337ff8412d22047b61943",
+      "postCount": 35,
+      "missingPostNumbers": [
+        18
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 35 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

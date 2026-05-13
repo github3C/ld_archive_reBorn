@@ -1,0 +1,294 @@
+# 直接露l站二级的帖子，是个狠入
+
+Source: https://linux.do/t/topic/2168842
+Version: v1
+Posts: 35
+Missing floors: 18
+
+## #1 马克MkSaMa (@markskz)
+
+Created: 2026-05-13T09:22:27.363Z
+Updated: 2026-05-13T09:29:31.283Z
+
+【Internet Download Manager（IDM）-哔哩哔哩】 [https://b23.tv/MoM5v9e](https://b23.tv/MoM5v9e)
+
+[![Screenshot2026-05-13-17-18-54-286tv.danmaku.bili](https://cdn3.ldstatic.com/optimized/4X/3/5/9/3599539cb6f722996513038ef62892975aee0ef9_2_225x500.jpeg)Screenshot2026-05-13-17-18-54-286tv.danmaku.bili1080×2400 171 KB](https://cdn3.ldstatic.com/original/4X/3/5/9/3599539cb6f722996513038ef62892975aee0ef9.jpeg)
+
+视频显示的发送时间是三天前，5月10号
+
+## #2 還記得你說家是唯一的城堡 隨著稻香河流繼續奔跑 微微笑 小時候的夢我知道 (@user9527)
+
+Created: 2026-05-13T09:23:48.837Z
+Updated: 2026-05-13T09:23:48.837Z
+
+[![image](https://cdn3.ldstatic.com/original/4X/f/6/f/f6f624aa0fae65d7323f1180d236b985b5f5c73b.png)image628×280 15.6 KB](https://cdn3.ldstatic.com/original/4X/f/6/f/f6f624aa0fae65d7323f1180d236b985b5f5c73b.png)
+
+直接能搜到人耶
+
+## #3 leo_summit (@leo_summit)
+
+Created: 2026-05-13T09:23:50.590Z
+Updated: 2026-05-13T09:25:38.964Z
+
+这不得严肃处理，直接就这么分享出去了
+
+[@ITCQ-1024](https://linux.do/u/itcq-1024) 你怎么想的？
+
+## #4 马克MkSaMa (@markskz)
+
+Created: 2026-05-13T09:24:24.233Z
+Updated: 2026-05-13T09:24:24.233Z
+
+[@neo](https://linux.do/u/neo) 来看看这个人，这不得制裁
+
+## #5 glen (@xzx1428)
+
+Created: 2026-05-13T09:24:41.355Z
+Updated: 2026-05-13T09:24:41.355Z
+
+十个粉丝搞十万粉丝的活？这么牛逼
+
+## #6 Tagiot (@Tagiot)
+
+Created: 2026-05-13T09:24:49.645Z
+Updated: 2026-05-13T09:24:49.645Z
+
+即将凉凉，我觉得还是不应该分享出去。
+
+## #7 yushim (@yushim)
+
+Created: 2026-05-13T09:25:41.796Z
+Updated: 2026-05-13T09:25:41.796Z
+
+[@ITCQ-1024](https://linux.do/u/itcq-1024) 是你吗？你怎么评价此事
+
+## #8 夜游 (@yeyouy)
+
+Created: 2026-05-13T09:25:57.233Z
+Updated: 2026-05-13T09:25:57.233Z
+Reply to: #2 還記得你說家是唯一的城堡 隨著稻香河流繼續奔跑 微微笑 小時候的夢我知道
+
+用同一个用户名也是个狠人，居然还有小号
+
+## #9 wwwoook (@wwwoook)
+
+Created: 2026-05-13T09:25:59.219Z
+Updated: 2026-05-13T09:26:19.193Z
+
+前来吃瓜~
+
+![image](https://cdn3.ldstatic.com/original/4X/5/c/c/5ccec6e8684371a2894d26490670fa3bbef64b85.png)
+
+还有佬友标题有虫子，怎么天天狠入，是狠人吧 ![:distorted_face:](https://cdn.ldstatic.com/images/emoji/twemoji/distorted_face.png?v=15)
+
+## #10 Para (@parathesis0)
+
+Created: 2026-05-13T09:26:09.291Z
+Updated: 2026-05-13T09:27:09.871Z
+
+[![image](https://cdn3.ldstatic.com/optimized/4X/0/9/7/097955a7327a3351b29b4db1763ddb27cbe37af7_2_556x500.png)image1149×1033 76.8 KB](https://cdn3.ldstatic.com/original/4X/0/9/7/097955a7327a3351b29b4db1763ddb27cbe37af7.png)
+
+[![image](https://cdn3.ldstatic.com/optimized/4X/b/2/0/b20f5b3144b2fe23675f1f8ccc31b9a140b3325a_2_690x246.png)image1301×465 52.5 KB](https://cdn3.ldstatic.com/original/4X/b/2/0/b20f5b3144b2fe23675f1f8ccc31b9a140b3325a.png)
+
+坐等始皇咯
+
+这么老的号不珍惜
+
+## #11 o` (@MossoM)
+
+Created: 2026-05-13T09:26:35.026Z
+Updated: 2026-05-13T09:26:35.026Z
+
+这么看也没起号成功，同名起号真狠人
+
+## #12 𝓕-𝓓𝓻𝓸𝓲𝓭 (@F-droid)
+
+Created: 2026-05-13T09:28:15.856Z
+Updated: 2026-05-13T09:31:15.713Z
+
+这真是个狠人，别人还需要通过盲水印判断，他直接自曝家门。关键是行不更名，坐不改姓，而且多个账号的头像都一样![:tieba_087:](https://cdn3.ldstatic.com/original/3X/2/e/2e09f3a3c7b27eacbabe9e9614b06b88d5b06343.png?v=15)
+
+## #13 吾皇万岁万岁万万岁 (@superluckyduck)
+
+Created: 2026-05-13T09:28:27.351Z
+Updated: 2026-05-13T09:28:27.351Z
+
+[@neo](https://linux.do/u/neo) 正义的制裁！终将降临！
+
+## #14 南山 (@578382239)
+
+Created: 2026-05-13T09:28:30.831Z
+Updated: 2026-05-13T09:28:30.831Z
+Reply to: #10 Para
+
+加入时间和最后活动时间在一天，这是注册上就没登陆过了？
+
+## #15 Java教皇 (@JavaPope)
+
+Created: 2026-05-13T09:28:40.653Z
+Updated: 2026-05-13T09:28:40.653Z
+
+不用一键三连了，直接等待neo一张飞机票了
+
+## #16 王大锤 (@KingBigHammer)
+
+Created: 2026-05-13T09:28:56.360Z
+Updated: 2026-05-13T09:28:56.360Z
+Reply to: #9 wwwoook
+
+这是梗的一部分，类似的还有狼灭之类的
+
+## #17 Vrustx (@vrustx)
+
+Created: 2026-05-13T09:29:26.971Z
+Updated: 2026-05-13T09:29:26.971Z
+
+快快快，坐好了，这次是前排。 这些人到底咋想得呢，搞不清楚
+
+## #18 Missing or inaccessible
+
+This floor was not visible when the archive was created.
+
+## #19 CNJK49 (@CNJK49)
+
+Created: 2026-05-13T09:30:01.334Z
+Updated: 2026-05-13T09:30:10.612Z
+
+我昨天也刷到了这个视频，B站很多这种搬运的视频，这视频收益也没几块钱，不知道这群人为了点蝇头小利到底要干啥。
+
+## #20 陈绫曜 (@Karlbaey)
+
+Created: 2026-05-13T09:30:54.548Z
+Updated: 2026-05-13T09:30:54.548Z
+
+行不更名，坐不改姓，是个牛人，快发飞机票！
+
+## #21 EGGYLAN (@eggylan)
+
+Created: 2026-05-13T09:30:59.119Z
+Updated: 2026-05-13T09:32:07.545Z
+
+![](https://cdn.ldstatic.com/user_avatar/linux.do/markskz/48/1690144_2.png) 马克MkSaMa:
+
+> [https://b23.tv/MoM5v9e](https://b23.tv/MoM5v9e)
+
+捉个虫，建议不要用b23.tv分享B站视频，改用BV号。短链b23.tv是临时的，有效期只有一年，过期无法定位原视频，还包含追踪信息
+
+## #22 六尘缘影自心相 (@Alonso)
+
+Created: 2026-05-13T09:31:04.594Z
+Updated: 2026-05-13T09:31:04.594Z
+
+又一个引流佬被炼化成了 10ldc,上一次有人在公众号分发公益站的 key被我举报给站长,半小时不到给我炼化成公益站 50 刀额度 ![:sweat_smile:](https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15)
+
+## #23 Eric12 (@Eric12)
+
+Created: 2026-05-13T09:32:15.636Z
+Updated: 2026-05-13T09:32:15.636Z
+
+注册时间那么早啊，还有小号，还是同名！
+
+果然是狠入！
+
+## #24 Anan (@milynn)
+
+Created: 2026-05-13T09:32:18.462Z
+Updated: 2026-05-13T09:32:35.672Z
+
+是个狠入。。。真的是个狠入。。。
+
+这种B站和L站同头像同名的入。。其他平台必然也会发吧。。。 ![:rofl:](https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15)
+
+## #25 qsxmji (@qsxmji)
+
+Created: 2026-05-13T09:32:35.610Z
+Updated: 2026-05-13T09:32:35.610Z
+
+[@neo](https://linux.do/u/neo) sir this way
+
+[![image](https://cdn3.ldstatic.com/optimized/4X/1/1/7/117af2c25c6f09fc6186de066536daf0dd8697b1_2_690x377.jpeg)image1203×659 112 KB](https://cdn3.ldstatic.com/original/4X/1/1/7/117af2c25c6f09fc6186de066536daf0dd8697b1.jpeg)
+
+## #26 mou liu (@mou_liu)
+
+Created: 2026-05-13T09:32:45.105Z
+Updated: 2026-05-13T09:32:45.105Z
+
+前排吃瓜，等待后续，给视频一键三连（狗头保命
+
+## #27 枫 (@feng327)
+
+Created: 2026-05-13T09:32:51.174Z
+Updated: 2026-05-13T09:32:51.174Z
+Reply to: #19 CNJK49
+
+咱们是遵守L站规则，但是也有很多人都是为了引流或者卖钱之类的，没办法完全避免啊
+
+## #28 晚安 (@pekilovex)
+
+Created: 2026-05-13T09:33:10.542Z
+Updated: 2026-05-13T09:33:10.542Z
+
+也是神人了，社区准则也不看，这么久还是这低等级，可以说是毫无信任值可言。
+
+## #29 leo_summit (@leo_summit)
+
+Created: 2026-05-13T09:33:56.593Z
+Updated: 2026-05-13T09:33:56.593Z
+Reply to: #28 晚安
+
+他大号不仅是种子用户，还是新人等级
+
+## #30 绫波丽 (@AyanamiRei)
+
+Created: 2026-05-13T09:35:28.819Z
+Updated: 2026-05-13T09:35:28.819Z
+
+是不是去他的评论区卖L站的号，收益会比他的视频要高
+
+## #31 輕水 (@cqd5686)
+
+Created: 2026-05-13T09:36:56.270Z
+Updated: 2026-05-13T09:36:56.270Z
+
+公然搬运等级帖，怎么敢的，还行不改名坐不改姓 ![:laughing:](https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15)
+
+## #32 Anan (@milynn)
+
+Created: 2026-05-13T09:38:23.367Z
+Updated: 2026-05-13T09:38:23.367Z
+Reply to: #30 绫波丽
+
+会不会被钓鱼执法啊。。随便钓一下就知道谁在卖了。。。 ![:rofl:](https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15)
+
+## #33 我没吃饱 (@womeichibao)
+
+Created: 2026-05-13T09:38:35.437Z
+Updated: 2026-05-13T09:38:35.437Z
+
+昨天就看见了 二级帖子直接截图 是个少见的狠人
+
+## #34 西风之歌 (@huanxinshuimeng)
+
+Created: 2026-05-13T09:38:52.190Z
+Updated: 2026-05-13T09:38:52.190Z
+
+目前始皇还没有到达战场，我要看到血流成河，扬了全扬了 ![:kitchen_knife:](https://cdn.ldstatic.com/images/emoji/twemoji/kitchen_knife.png?v=15)
+
+## #35 尼克 (@w928028422)
+
+Created: 2026-05-13T09:39:06.530Z
+Updated: 2026-05-13T09:39:06.530Z
+Reply to: #30 绫波丽
+
+B站播放收益太低，现在那些up主基本都靠妙界、转转广告挣钱。
+
+## #36 well (@well)
+
+Created: 2026-05-13T09:39:45.713Z
+Updated: 2026-05-13T09:39:45.713Z
+Reply to: #34 西风之歌
+
+前排兜售瓜子花生八宝粥 啤酒饮料矿泉水了
+
+坐等始皇亲临啊
+
