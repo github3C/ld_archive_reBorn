@@ -6,12 +6,35 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2165337",
     "title": "再更一下后续",
-    "currentVersionId": "v1",
-    "currentHash": "7f512e1f06c4cacd3497bb9b75b0211b675c2905215847452bf7bf9a58fe3181",
-    "postCount": 3,
+    "currentVersionId": "v2",
+    "currentHash": "b98b578a2f817bf8a0e285c30c6059f63fb16cf5651e1dd703625d3613d1decc",
+    "postCount": 6,
     "missingPostNumbers": []
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2165337,
+      "sourceUrl": "https://linux.do/t/topic/2165337",
+      "contentHash": "b98b578a2f817bf8a0e285c30c6059f63fb16cf5651e1dd703625d3613d1decc",
+      "postCount": 6,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          4,
+          5,
+          6
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2165337,
@@ -25,5 +48,21 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        4,
+        5,
+        6
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  ]
 }
