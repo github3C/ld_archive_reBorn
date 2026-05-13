@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diff v10...v11 - HUB站bug 充值不到账</title>
+  <link rel="stylesheet" href="../../../assets/site.css">
+</head>
+<body>
+  <main class="site-shell">
+    <header class="site-header">
+      <p><a href="../index.html">Topic versions</a></p>
+      <h1>HUB站bug 充值不到账</h1>
+      <p><code>v10</code> ... <code>v11</code></p>
+      <p>12 added, 0 changed, 0 removed, 0 newly missing, 0 restored.</p>
+    </header>
+    <section class="diff-summary-grid">
+      
+      <div class="diff-metric">
+        <strong>12</strong>
+        <span>Added</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Changed</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Removed</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Newly missing</span>
+      </div>
+    
+      
+      <div class="diff-metric">
+        <strong>0</strong>
+        <span>Restored</span>
+      </div>
+    
+    </section>
+    
+      <section class="diff-section">
+        <h2>Added Posts</h2>
+        
+          <article class="diff-post">
+            <h3>#78 老白 <span>@laobaile</span></h3>
+            <p>你一直在强调是别的佬友通过hub站请求了你的渠道,但日志总不会骗人吧,只有你的ip请求,别的佬友就算是请求,也得先请求到hub站才能请求你的渠道吧…那你认真想想为什么只有你的ip请求过来的记录呢??? 你有没有想过,整个请求记录都是你自己设计的无限闭环造成了同一请求被放大了N次呢</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#79 老白 <span>@laobaile</span></h3>
+            <p>你一直在强调是别的佬友通过hub站请求了你的渠道,但日志总不会骗人吧,只有你的ip请求,别的佬友就算是请求,也得先请求到hub站才能请求你的渠道吧…那你认真想想为什么只有你的ip请求过来的记录呢??? 你有没有想过,整个请求记录都是你自己设计的无限闭环造成了同一请求被放大了N次呢 看看ldm2060佬友的记录图片,同样的431token的请求,单单一个页面里就有很多次响应 image690×308 40.9 KB</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#80 lhDream <span>@lhDream</span></h3>
+            <p>首先我说明过了, 设计不是无限闭环,hub上的key排除了我自己的渠道, 也就是说从我这里调用hub不会导致无限循环(有循环那说明是hub上有bug,排除失效), 其次,我给的日志也明明白白显示着 大量通过cf代理来的请求 这位lao给的日志没有问题,我又没有否则我平台对hub以及他的渠道产生了很多请求 这里我们先达成一个共识, 你们是否还认为我是故意刷他或者hub呢? 接着我们可以继续聊技术问题..</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#81 老白 <span>@laobaile</span></h3>
+            <p>lhDream: 大量通过cf代理来的请求 我这里的日志就表明了,这些请求都是你自己的闭环请求造成的 hub站有bug,这个确实是,我前面也说了,等我忙完单位的事,再一一解决 到此为止,我没那么多时间一直给你掰扯这些,后续不再回复</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#82 lhDream <span>@lhDream</span></h3>
+            <p>再贴一组证据: 4.24-4.28 期间, 请求都是来自这个ip, 这个ip应该是来自hub的了吧? lhDream2026-05-1314-41-23994×258 58.7 KB 从4.29开始 224.40的ip请求减少, 变成大量来自cf中转的请求, lhDream2026-05-1314-42-57942×195 42.9 KB 4.30开始 224.40的请求完全没了,全部变成了来自cf代理的请求 lhDream2026-05-1314-44-28919×261 46.3 KB 据我所知 4.29 h...</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#83 ldm2060 <span>@ldm2060</span></h3>
+            <p>ldm2060: 在2026年5月10日 16:10:00~16:11:00，你向我一共请求了303次 额，你的渠道那时候的被请求记录只有一次，你怎么解释呢？</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#84 lhDream <span>@lhDream</span></h3>
+            <p>请你贴证据, 其次就是循环也不会导致他的额度爆刷, 肯定是有来源的, 因为就算循环,循环到他那里也到循环的终点了 不可能我们俩之间互相循环调用,然后他被请求了多次, 只要请求到他那里,这个链路就已经完成一次了</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#85 lhDream <span>@lhDream</span></h3>
+            <p>查看我nginx的日志, 这一分钟,我收到了来自cf代理的请求约 1975次(包含失败请求) lhDream2026-05-1314-53-501566×1039 423 KB 同时10号这一天,我收到来自cf代理的请求约 90w次</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#86 KuYun <span>@qq85310660</span></h3>
+            <p>想知道HUB到底是怎么定义的，按理说，有些用户把渠道放进去卖成了LDC，LDC又可以在士多买各种服务卡券，等同于RMB，这不就是还是买卖的问题吗</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#87 RyanVan <span>@RyanVan</span></h3>
+            <p>有没有课代表，完全没看懂在吵什么 草履虫表示大脑过载</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#88 ldm2060 <span>@ldm2060</span></h3>
+            <p>我都不说我这个是免费的，LDC是给那些没有渠道的人的一个充余额方式，充进去又不能提的，算什么买卖</p>
+          </article>
+        
+
+          <article class="diff-post">
+            <h3>#89 ldm2060 <span>@ldm2060</span></h3>
+            <p>好，那我就等着你们2位的说法了，看这一秒十次的请求究竟是Hub站过来的还是你的</p>
+          </article>
+        
+      </section>
+    
+    
+    
+    
+    
+  </main>
+</body>
+</html>

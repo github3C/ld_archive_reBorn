@@ -6,12 +6,44 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2153819",
     "title": "HUB站bug 充值不到账",
-    "currentVersionId": "v10",
-    "currentHash": "dbf51aa152e063253eda522c35872c42943b619947a63b9b8260f3f8b6248585",
-    "postCount": 77,
+    "currentVersionId": "v11",
+    "currentHash": "4a2641bf7e6621bec1d9a5fd61e497a483d85a3952ce93c7aec9a2ee7bdb18d1",
+    "postCount": 89,
     "missingPostNumbers": []
   },
   "versions": [
+    {
+      "id": "v11",
+      "topicId": 2153819,
+      "sourceUrl": "https://linux.do/t/topic/2153819",
+      "contentHash": "4a2641bf7e6621bec1d9a5fd61e497a483d85a3952ce93c7aec9a2ee7bdb18d1",
+      "postCount": 89,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "id": "v10...v11",
+        "previousVersionId": "v10",
+        "currentVersionId": "v11",
+        "addedPostNumbers": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "12 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v10",
       "topicId": 2153819,
@@ -399,6 +431,30 @@
       "newlyMissingPostNumbers": [],
       "restoredPostNumbers": [],
       "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    },
+    {
+      "id": "v10...v11",
+      "previousVersionId": "v10",
+      "currentVersionId": "v11",
+      "addedPostNumbers": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "12 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
     }
   ]
 }
