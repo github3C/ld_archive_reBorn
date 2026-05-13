@@ -6,14 +6,61 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2168842",
     "title": "直接露l站二级的帖子，是个狠入",
-    "currentVersionId": "v1",
-    "currentHash": "9346da761d77c2dcca636d75141d7174deb31a4a21a337ff8412d22047b61943",
-    "postCount": 35,
+    "currentVersionId": "v2",
+    "currentHash": "b487caf3e9a50faae465be42e96c662e684b098c4045cb6c1f666374a70fe6c8",
+    "postCount": 60,
     "missingPostNumbers": [
       18
     ]
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2168842,
+      "sourceUrl": "https://linux.do/t/topic/2168842",
+      "contentHash": "b487caf3e9a50faae465be42e96c662e684b098c4045cb6c1f666374a70fe6c8",
+      "postCount": 60,
+      "missingPostNumbers": [
+        18
+      ],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "25 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2168842,
@@ -29,5 +76,43 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "25 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  ]
 }
