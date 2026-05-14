@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2174303,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2174303",
+    "title": "《孙子从美国来》",
+    "currentVersionId": "v1",
+    "currentHash": "53aaf0c16fbf39cd0b341d5767f5c50c26ede89915bbad44184a5fbb54566a8f",
+    "postCount": 12,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2174303,
+      "sourceUrl": "https://linux.do/t/topic/2174303",
+      "contentHash": "53aaf0c16fbf39cd0b341d5767f5c50c26ede89915bbad44184a5fbb54566a8f",
+      "postCount": 12,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 12 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
