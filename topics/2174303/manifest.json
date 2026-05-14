@@ -6,14 +6,44 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2174303",
     "title": "《孙子从美国来》 假的消息",
-    "currentVersionId": "v2",
-    "currentHash": "84a8683a624d8f335669f133fd31486b028ece4ef48b88fc27314c76eacf3ddc",
-    "postCount": 16,
+    "currentVersionId": "v3",
+    "currentHash": "c3fc3e45ac8f80bb7645783419ef4d04b6bc872a12b9cb0c5b8505e231982651",
+    "postCount": 18,
     "missingPostNumbers": [
-      14
+      14,
+      19
     ]
   },
   "versions": [
+    {
+      "id": "v3",
+      "topicId": 2174303,
+      "sourceUrl": "https://linux.do/t/topic/2174303",
+      "contentHash": "c3fc3e45ac8f80bb7645783419ef4d04b6bc872a12b9cb0c5b8505e231982651",
+      "postCount": 18,
+      "missingPostNumbers": [
+        14,
+        19
+      ],
+      "changeSummary": {
+        "id": "v2...v3",
+        "previousVersionId": "v2",
+        "currentVersionId": "v3",
+        "addedPostNumbers": [
+          18,
+          20
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [
+          1
+        ],
+        "newlyMissingPostNumbers": [
+          19
+        ],
+        "restoredPostNumbers": [],
+        "message": "2 added, 1 changed, 0 removed, 1 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v2",
       "topicId": 2174303,
@@ -77,6 +107,24 @@
       ],
       "restoredPostNumbers": [],
       "message": "4 added, 1 changed, 0 removed, 1 newly missing, 0 restored."
+    },
+    {
+      "id": "v2...v3",
+      "previousVersionId": "v2",
+      "currentVersionId": "v3",
+      "addedPostNumbers": [
+        18,
+        20
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [
+        1
+      ],
+      "newlyMissingPostNumbers": [
+        19
+      ],
+      "restoredPostNumbers": [],
+      "message": "2 added, 1 changed, 0 removed, 1 newly missing, 0 restored."
     }
   ]
 }
