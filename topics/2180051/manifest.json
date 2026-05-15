@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2180051,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2180051",
+    "title": "关于三级区内容外泄问题的一点建议",
+    "currentVersionId": "v1",
+    "currentHash": "9d1d9f2c6abe83ec0a9ee17e11b9a65175cce70e92ff1d96f0e7eb686c96f9df",
+    "postCount": 20,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2180051,
+      "sourceUrl": "https://linux.do/t/topic/2180051",
+      "contentHash": "9d1d9f2c6abe83ec0a9ee17e11b9a65175cce70e92ff1d96f0e7eb686c96f9df",
+      "postCount": 20,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 20 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
