@@ -6,12 +6,35 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2175137",
     "title": "HUB站惊现10X缓存读取的Deepseek v4 pro",
-    "currentVersionId": "v1",
-    "currentHash": "c03389bee0c64cf9d73dad85b044911b87e02c17f86f47f721ba9bc29d973c39",
-    "postCount": 39,
+    "currentVersionId": "v2",
+    "currentHash": "334598ddae22074610174c4895e9ce48307ec482deb84e4c94ab85a51242596c",
+    "postCount": 42,
     "missingPostNumbers": []
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2175137,
+      "sourceUrl": "https://linux.do/t/topic/2175137",
+      "contentHash": "334598ddae22074610174c4895e9ce48307ec482deb84e4c94ab85a51242596c",
+      "postCount": 42,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          40,
+          41,
+          42
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2175137,
@@ -25,5 +48,21 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        40,
+        41,
+        42
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "3 added, 0 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  ]
 }
