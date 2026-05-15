@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2179016,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2179016",
+    "title": "准备当老赖了，有没有什么好的建议？",
+    "currentVersionId": "v1",
+    "currentHash": "a92458f8b31fb7c6cbbde7ce4db66ab3adb0113099e86c227c443295d3fe539c",
+    "postCount": 78,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2179016,
+      "sourceUrl": "https://linux.do/t/topic/2179016",
+      "contentHash": "a92458f8b31fb7c6cbbde7ce4db66ab3adb0113099e86c227c443295d3fe539c",
+      "postCount": 78,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 78 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
