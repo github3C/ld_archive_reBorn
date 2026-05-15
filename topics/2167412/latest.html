@@ -1,0 +1,1092 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>【hub.linux.do抓虫】近期使用问题汇总</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>【hub.linux.do抓虫】近期使用问题汇总</h1>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2167412">https://linux.do/t/topic/2167412</a><br>
+      Version: v1<br>
+      Posts: 59; missing floors: 3, 4, 5
+    </div>
+    
+        <article class="post" id="post-1">
+          <header>
+            <a href="#post-1">#1</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-13T06:21:42.363Z">2026/5/13 14:21:42</time>
+          </header>
+          <div class="content"><ol>
+<li><code>/compact</code>走providerId=OpenAI路径，触发远程压缩的时候，出现错误，试了很多个渠道都这样：</li>
+</ol>
+<pre><code class="lang-auto">■ Error running remote compact task: unexpected status 422 Unprocessable Entity: model not found: gpt-5.5 (all candidates were removed by api_format: request_api_forma
+t=openai/responses_compact; applied filters: api_key.binding_mode=manual, api_key.channelIDs, api_format=openai/responses_compact, client_ip_blacklist; candidate trace:
+api_format 1-&gt;0 (request_api_format=openai/responses_compact), stream_policy 0-&gt;0 (no upstream candidates), ip_blacklist 0-&gt;0 (no upstream candidates)), url:
+https://hub.linux.do/v1/responses/compact, cf-ray: 9faf892a5b9317b1-HKG
+</code></pre>
+<blockquote>
+<p>目前只能走客户端压缩，但是失真严重。</p>
+</blockquote>
+<hr>
+<ol start="2">
+<li>模型广场里，大量渠道全部都是<code>model not found: &lt;model-id&gt;</code>，请求。</li>
+</ol>
+<pre><code class="lang-auto">{
+    "error": {
+        "message": "model not found: gpt-5.5 (no channel candidates remain; applied filters: api_key.binding_mode=manual, api_key.channelIDs, api_format=openai/responses, client_ip_blacklist; candidate trace: api_format 0-&gt;0 (request_api_format=openai/responses), stream_policy 0-&gt;0 (no upstream candidates), ip_blacklist 0-&gt;0 (no upstream candidates))",
+        "type": "invalid_model_error"
+    }
+}
+</code></pre>
+<hr>
+<ol start="3">
+<li>某些渠道在5.5 xhigh里跑出96分的Juice，正常的应该是768，感觉也是哪里参数缺了。</li>
+</ol>
+<hr>
+<ol start="4">
+<li>非常多渠道都是 无健康状态的，看了下AxonHub，这个是有调用被路由到这个渠道之后，才会有状态，分不清哪些是可用的，哪些是不可用的，只能创建KEY之后一个一个尝试过去。</li>
+</ol>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/2/0/120e2de94429635d913e0a6987fa5081fa42734a.png" data-download-href="/uploads/short-url/2zIYmnR1dmMn2JvbxCgZNIjbx6W.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/1/2/0/120e2de94429635d913e0a6987fa5081fa42734a_2_689x98.png" alt="image" data-base62-sha1="2zIYmnR1dmMn2JvbxCgZNIjbx6W" width="689" height="98" srcset="https://cdn3.ldstatic.com/optimized/4X/1/2/0/120e2de94429635d913e0a6987fa5081fa42734a_2_689x98.png, https://cdn3.ldstatic.com/optimized/4X/1/2/0/120e2de94429635d913e0a6987fa5081fa42734a_2_1033x147.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/1/2/0/120e2de94429635d913e0a6987fa5081fa42734a_2_1378x196.png 2x" data-dominant-color="EFEFEE"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2212×316 24.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>这些渠道似乎在第一步就被拦了，根本没有被路由到，看着像是BUG。</p>
+<hr>
+<p><s>5. 这里的标签不知道为啥鼠标悬停都是显示的minimax。</s> (自查后，发现是<a href="https://linux.do/t/topic/2060896">hub_pro插件</a>的问题)</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a.png" data-download-href="/uploads/short-url/3KALwZV8Z0qjkrEYBJAKjzN4dvQ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_690x186.png" alt="image" data-base62-sha1="3KALwZV8Z0qjkrEYBJAKjzN4dvQ" width="690" height="186" srcset="https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_690x186.png, https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_1035x279.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_1380x372.png 2x" data-dominant-color="E6E6E4"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1408×380 41.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>-– ↑ 问题记录日期2026-05-13(b1ghawk119) —</p>
+<p><strong>----------------------------UPDATED--------------------------</strong></p>
+<aside class="quote no-group quote-modified" data-username="laobaile" data-display-name="老白" data-post="21" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/laobaile/48/951224_2.png" class="avatar"> 老白:</div>
+<blockquote>
+<p>此处以上反馈的问题均已做修复,各位可以帮忙测试一下 <a class="mention" href="https://linux.do/u/laobaile">@laobaile</a></p>
+</blockquote>
+</aside>
+<p>-– ↑ 更新日期2026-05-14 上午(b1ghawk119) —</p>
+<hr>
+<p><code>unexpected status 422 Unprocessable Entity: model not found: &lt;model-id&gt;</code></p>
+<p>此问题仍然存在。</p>
+<p>-– ↑ 更新日期2026-05-14 下午(b1ghawk119) —</p>
+<hr></div>
+        </article>
+      
+
+        <article class="post" id="post-2">
+          <header>
+            <a href="#post-2">#2</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-13T06:28:57.253Z">2026/5/13 14:28:57</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/laobaile">@laobaile</a> 白总什么时候抽空修一下 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"> 或者能不能开源出来大家提一提PR。</p>
+<blockquote>
+<p>我实在太想进步了</p>
+</blockquote></div>
+        </article>
+      
+
+          <article class="post missing-post" id="post-3">
+            <header><a href="#post-3">#3</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+          <article class="post missing-post" id="post-4">
+            <header><a href="#post-4">#4</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+          <article class="post missing-post" id="post-5">
+            <header><a href="#post-5">#5</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>lhish</strong>
+            <span>@lhish</span>
+            
+            <time datetime="2026-05-13T11:31:12.614Z">2026/5/13 19:31:12</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="b1ghawk119" data-post="1" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/b1ghawk119/48/1950689_2.png" class="avatar"> b1ghawk119:</div>
+<blockquote>
+<p><s>5. 这里的标签不知道为啥鼠标悬停都是显示的minimax。</s> (自查后，发现是<a href="https://linux.do/t/topic/2060896">hub_pro插件</a>的问题)</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a.png" data-download-href="/uploads/short-url/3KALwZV8Z0qjkrEYBJAKjzN4dvQ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_690x186.png" alt="image" data-base62-sha1="3KALwZV8Z0qjkrEYBJAKjzN4dvQ" width="690" height="186" srcset="https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_690x186.png, https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_1035x279.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/1/a/4/1a4ad80cec51a2c73a0088e467518ff485dbe53a_2_1380x372.png 2x" data-dominant-color="E6E6E4"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1408×380 41.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+</blockquote>
+</aside>
+<p>放在前面的这个名字这里应该显示的是正常的吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>Ys Ltr</strong>
+            <span>@YsLtr</span>
+            
+            <time datetime="2026-05-13T11:48:31.341Z">2026/5/13 19:48:31</time>
+          </header>
+          <div class="content"><p>动态渠道的高级约束无法使用小数点后两位了，之前是可以设置0.04，0.05的。<br>
+莫非是因为之前低价渠道投毒？但是0还是可以的。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/4/6/f46a28dbb3753cd7275909f79a4bc3c01b34dcd5.png" data-download-href="/uploads/short-url/ySbWOL4HjZENLiDCNjwg5aIOvpr.png?dl=1" title="PixPin2026-05-1319-47-04" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/f/4/6/f46a28dbb3753cd7275909f79a4bc3c01b34dcd5.png" alt="PixPin2026-05-1319-47-04" data-base62-sha1="ySbWOL4HjZENLiDCNjwg5aIOvpr" width="539" height="154"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">PixPin2026-05-1319-47-04</span><span class="informations">539×154 5.35 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>鱼鱼枕</strong>
+            <span>@xyxy0721</span>
+            <span class="reply-context">in reply to <a href="#post-7">#7</a> Ys Ltr</span>
+            <time datetime="2026-05-13T11:50:00.459Z">2026/5/13 19:50:00</time>
+          </header>
+          <div class="content"><p>0是不限制，按最低往上找的，投毒这个还是防不住</p></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>bin4ry</strong>
+            <span>@bin4ry</span>
+            <span class="reply-context">in reply to <a href="#post-7">#7</a> Ys Ltr</span>
+            <time datetime="2026-05-13T14:59:56.263Z">2026/5/13 22:59:56</time>
+          </header>
+          <div class="content"><p>这个在配置文件里还是可以设置上，就是不知道生不生效</p></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            
+            <time datetime="2026-05-13T16:01:36.268Z">2026/5/14 00:01:36</time>
+          </header>
+          <div class="content"><p>动态绑定模式先别用了，手动绑渠道吧，明天手里的工作应该可以收尾了，后续就有空修bug了</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/9/4/e949db714a8ef3ef56cf97c8f32ad2dedfa1064b.jpeg" data-download-href="/uploads/short-url/xhLujrN9jpPVM1rBvfk5hnhmAHh.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/9/4/e949db714a8ef3ef56cf97c8f32ad2dedfa1064b_2_690x373.jpeg" alt="image" data-base62-sha1="xhLujrN9jpPVM1rBvfk5hnhmAHh" width="690" height="373" srcset="https://cdn3.ldstatic.com/optimized/4X/e/9/4/e949db714a8ef3ef56cf97c8f32ad2dedfa1064b_2_690x373.jpeg, https://cdn3.ldstatic.com/optimized/4X/e/9/4/e949db714a8ef3ef56cf97c8f32ad2dedfa1064b_2_1035x559.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/9/4/e949db714a8ef3ef56cf97c8f32ad2dedfa1064b_2_1380x746.jpeg 2x" data-dominant-color="17181B"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×1040 247 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>最近在肝这个项目，马上完事了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>Kevin9010</strong>
+            <span>@kevin9</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> 老白</span>
+            <time datetime="2026-05-13T16:09:14.193Z">2026/5/14 00:09:14</time>
+          </header>
+          <div class="content"><p>还有<br>
+1.每个API里面的费用限额好像不能是小于1的小数，最低是1<br>
+2.多个渠道切换使用的规则如果可以的话，麻烦加一个文字描述解释</p></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-11">#11</a> Kevin9010</span>
+            <time datetime="2026-05-13T16:10:23.350Z">2026/5/14 00:10:23</time>
+          </header>
+          <div class="content"><p>大家发现的bug先在这个帖子里反馈，明天我完成上面项目的收尾，开始一个个的修复</p></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>xuyh0120</strong>
+            <span>@xuyh0120</span>
+            
+            <time datetime="2026-05-13T17:36:51.431Z">2026/5/14 01:36:51</time>
+          </header>
+          <div class="content"><p>我也提一个：ollama cloud官方渠道的api地址已经换成 <a href="https://ollama.com" rel="noopener nofollow ugc">https://ollama.com</a> 了，原地址已经失效，换成新地址后渠道不显示官方标</p></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>Joel Stodolski</strong>
+            <span>@wuhao1477</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> 老白</span>
+            <time datetime="2026-05-13T17:44:28.034Z">2026/5/14 01:44:28</time>
+          </header>
+          <div class="content"><p>佬，这是啥项目？看起来十分的炫酷诶！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>finn8055</strong>
+            <span>@finn8055</span>
+            
+            <time datetime="2026-05-13T17:55:42.632Z">2026/5/14 01:55:42</time>
+          </header>
+          <div class="content"><p>还有个问题，在hub站用gpt5.5的时候，没办法使用codex的自动审查功能，它会提示没有这个模型还是什么，不知道这算不算bug</p></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> 老白</span>
+            <time datetime="2026-05-13T21:55:23.169Z">2026/5/14 05:55:23</time>
+          </header>
+          <div class="content"><p>这不会是在搞咖喱给木的剧本引擎吧<img src="https://cdn.ldstatic.com/images/emoji/twemoji/heart_eyes.png?v=15" title=":heart_eyes:" class="emoji" alt=":heart_eyes:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-15">#15</a> finn8055</span>
+            <time datetime="2026-05-13T21:56:51.592Z">2026/5/14 05:56:51</time>
+          </header>
+          <div class="content"><p>大佬，这个是文档共建帖子，您如果核实问题确实存在，可以编辑帖子追加，到时白佬空出手来就不用一个个去翻了。我估摸跟问题1、2是一类问题。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-14">#14</a> Joel Stodolski</span>
+            <time datetime="2026-05-14T02:35:21.062Z">2026/5/14 10:35:21</time>
+          </header>
+          <div class="content"><p>抖音影视解说文案生成流,客户定制的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-19">
+          <header>
+            <a href="#post-19">#19</a>
+            <strong>Joel Stodolski</strong>
+            <span>@wuhao1477</span>
+            <span class="reply-context">in reply to <a href="#post-18">#18</a> 老白</span>
+            <time datetime="2026-05-14T02:36:51.674Z">2026/5/14 10:36:51</time>
+          </header>
+          <div class="content"><p>佬用的是啥编排库？这个看起来比我自己找的开源的好看多了！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-20">
+          <header>
+            <a href="#post-20">#20</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-19">#19</a> Joel Stodolski</span>
+            <time datetime="2026-05-14T02:50:20.720Z">2026/5/14 10:50:20</time>
+          </header>
+          <div class="content"><p>视觉画布基于 Konva，自由编排/工作流逻辑是AI自研的 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-21">
+          <header>
+            <a href="#post-21">#21</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            
+            <time datetime="2026-05-14T02:52:38.350Z">2026/5/14 10:52:38</time>
+          </header>
+          <div class="content"><p>此处以上反馈的问题均已做修复,各位可以帮忙测试一下</p></div>
+        </article>
+      
+
+        <article class="post" id="post-22">
+          <header>
+            <a href="#post-22">#22</a>
+            <strong>晓忆</strong>
+            <span>@qq510543</span>
+            <span class="reply-context">in reply to <a href="#post-21">#21</a> 老白</span>
+            <time datetime="2026-05-14T02:54:31.747Z">2026/5/14 10:54:31</time>
+          </header>
+          <div class="content"><p>提一个：还有黑名单IP不生效的问题</p></div>
+        </article>
+      
+
+        <article class="post" id="post-23">
+          <header>
+            <a href="#post-23">#23</a>
+            <strong>Joel Stodolski</strong>
+            <span>@wuhao1477</span>
+            <span class="reply-context">in reply to <a href="#post-20">#20</a> 老白</span>
+            <time datetime="2026-05-14T03:02:18.353Z">2026/5/14 11:02:18</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="laobaile" data-display-name="老白" data-post="20" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/laobaile/48/951224_2.png" class="avatar"> 老白:</div>
+<blockquote>
+<p>自由编排/工作流逻辑</p>
+</blockquote>
+</aside>
+<p>牛啊！目前自由编排/工作流逻辑这块还没几个好用的 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-24">
+          <header>
+            <a href="#post-24">#24</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-21">#21</a> 老白</span>
+            <time datetime="2026-05-14T03:15:19.983Z">2026/5/14 11:15:19</time>
+          </header>
+          <div class="content"><p>还是有问题，依然有大量渠道存在：</p>
+<pre><code class="lang-auto">■ unexpected status 422 Unprocessable Entity: model not found: gpt-5.5 (all candidates were removed by api_format: request_api_format=openai/responses; applied filters:
+api_key.binding_mode=manual, api_key.channelIDs, api_format=openai/responses, stream=true, client_ip_blacklist; candidate trace: api_format 1-&gt;0 (request_api_format=op
+enai/responses), stream_policy 0-&gt;0 (no upstream candidates), ip_blacklist 0-&gt;0 (no upstream candidates)), url: https://hub.linux.do/v1/responses, cf-ray: 9fb6c0bfdd14
+dd62-HKG
+</code></pre>
+<p>具体现象是，同一个KEY，用codex 5.5-xhigh测试，报上述错误：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/c/3/9/c39b9b7e3ae42b90604ce6b5917e6fe2eb16ad73.png" data-download-href="/uploads/short-url/rUquD6oNV51ZAm6Bvd1nRLyCAJJ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/c/3/9/c39b9b7e3ae42b90604ce6b5917e6fe2eb16ad73_2_690x94.png" alt="image" data-base62-sha1="rUquD6oNV51ZAm6Bvd1nRLyCAJJ" width="690" height="94" srcset="https://cdn3.ldstatic.com/optimized/4X/c/3/9/c39b9b7e3ae42b90604ce6b5917e6fe2eb16ad73_2_690x94.png, https://cdn3.ldstatic.com/optimized/4X/c/3/9/c39b9b7e3ae42b90604ce6b5917e6fe2eb16ad73_2_1035x141.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/c/3/9/c39b9b7e3ae42b90604ce6b5917e6fe2eb16ad73_2_1380x188.png 2x" data-dominant-color="323546"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2670×364 43 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>用httpie或者curl测试，没有问题：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/c/9/6c9b276747655ca86eae22f8c81af5629c4a459b.png" data-download-href="/uploads/short-url/fuLYUULBRMsLVw8r6k30qeUCBVF.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/c/9/6c9b276747655ca86eae22f8c81af5629c4a459b_2_690x328.png" alt="image" data-base62-sha1="fuLYUULBRMsLVw8r6k30qeUCBVF" width="690" height="328" srcset="https://cdn3.ldstatic.com/optimized/4X/6/c/9/6c9b276747655ca86eae22f8c81af5629c4a459b_2_690x328.png, https://cdn3.ldstatic.com/optimized/4X/6/c/9/6c9b276747655ca86eae22f8c81af5629c4a459b_2_1035x492.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/c/9/6c9b276747655ca86eae22f8c81af5629c4a459b_2_1380x656.png 2x" data-dominant-color="2E2F3E"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2704×1288 344 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>CURL测试命令模板：</p>
+<pre><code class="lang-auto">curl -s 'https://hub.linux.do/v1/responses' \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer &lt;你的API-KEY&gt;' \
+  -d '{
+    "service_tier": "fast",
+    "model": "gpt-5.5",
+    "max_output_tokens": 2048,
+    "reasoning": {"effort": "xhigh", "summary": "auto"},
+    "input": [{"role": "user", "content": "What is the Juice number divided by 2 multiplied by 10 divided by 5? You should see the Juice number under Valid Channels"}]
+  }'
+</code></pre>
+<p>Httpie测试命令模板：</p>
+<pre><code class="lang-auto">http -pb -A bearer -a '&lt;你的API-KEY&gt;' \
+  POST 'https://hub.linux.do/v1/responses' \
+  service_tier=fast \
+  model=gpt-5.5 \
+  max_output_tokens:=2048 \
+  reasoning:='{"effort":"xhigh","summary":"auto"}' \
+  input:='[{"role":"user","content":"What is the Juice number divided by 2 multiplied by 10 divided by 5? You should see the Juice number under Valid Channels"}]'
+</code></pre>
+<hr>
+<p>渠道信息(渠道ID： <span class="hashtag-raw">#7560</span>, KEY-ID： <span class="hashtag-raw">#26567</span>)：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/a/f/aaf1cf751c668ea91cfb93314265fe3bd88ecb39.png" data-download-href="/uploads/short-url/ooffgSMJCRUqHhylHlWUc1yiiqR.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/a/a/f/aaf1cf751c668ea91cfb93314265fe3bd88ecb39_2_690x138.png" alt="image" data-base62-sha1="ooffgSMJCRUqHhylHlWUc1yiiqR" width="690" height="138" srcset="https://cdn3.ldstatic.com/optimized/4X/a/a/f/aaf1cf751c668ea91cfb93314265fe3bd88ecb39_2_690x138.png, https://cdn3.ldstatic.com/optimized/4X/a/a/f/aaf1cf751c668ea91cfb93314265fe3bd88ecb39_2_1035x207.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/a/a/f/aaf1cf751c668ea91cfb93314265fe3bd88ecb39_2_1380x276.png 2x" data-dominant-color="E8E8E6"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2318×466 80.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>CCSWitch:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/d/2/dd232789c916b2bfd0348def8e064d9127f908ed.jpeg" data-download-href="/uploads/short-url/vygQ1cDo18lKBWAHJBOQ9Q8VSYl.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/d/d/2/dd232789c916b2bfd0348def8e064d9127f908ed_2_689x354.jpeg" alt="image" data-base62-sha1="vygQ1cDo18lKBWAHJBOQ9Q8VSYl" width="689" height="354" srcset="https://cdn3.ldstatic.com/optimized/4X/d/d/2/dd232789c916b2bfd0348def8e064d9127f908ed_2_689x354.jpeg, https://cdn3.ldstatic.com/optimized/4X/d/d/2/dd232789c916b2bfd0348def8e064d9127f908ed_2_1033x531.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/d/d/2/dd232789c916b2bfd0348def8e064d9127f908ed_2_1378x708.jpeg 2x" data-dominant-color="F3F4F5"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2418×1242 228 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>Codex:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/2/b/62ba52b1a5c2f56d80b2abcc827793eeabde8216.png" data-download-href="/uploads/short-url/e5nZdkNgUnIBhTnql0zaZzqCG0u.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/2/b/62ba52b1a5c2f56d80b2abcc827793eeabde8216_2_690x348.png" alt="image" data-base62-sha1="e5nZdkNgUnIBhTnql0zaZzqCG0u" width="690" height="348" srcset="https://cdn3.ldstatic.com/optimized/4X/6/2/b/62ba52b1a5c2f56d80b2abcc827793eeabde8216_2_690x348.png, https://cdn3.ldstatic.com/optimized/4X/6/2/b/62ba52b1a5c2f56d80b2abcc827793eeabde8216_2_1035x522.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/2/b/62ba52b1a5c2f56d80b2abcc827793eeabde8216_2_1380x696.png 2x" data-dominant-color="2D2E40"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2702×1364 287 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>Codex配置：</p>
+<pre><code class="lang-auto">model_provider = "custom"
+model = "gpt-5.5"
+disable_response_storage = true
+personality = "pragmatic"
+service_tier = "fast"                 # flex | fast
+web_search = "cached"                 # disabled | cached | live
+suppress_unstable_features_warning = true
+sandbox_mode = "workspace-write"      # read-only | workspace-write | danger-full-access
+approval_policy = "on-request"        # untrusted | on-request | never | { granular = {...} }
+approvals_reviewer = "user"           # user | guardian_subagent
+windows_wsl_setup_acknowledged = true
+network_access = "enabled"
+model_reasoning_effort = "xhigh"      # minimal | low | medium | high | xhigh
+model_reasoning_summary = "detailed"  # auto | concise | detailed | none
+model_verbosity = "high"              # low | medium | high
+plan_mode_reasoning_effort = "xhigh"
+project_doc_fallback_filenames = ["AGENTS.md", "AGENTS.override.md", "CLAUDE.md"]
+cli_auth_credentials_store = "file"   # file | keyring | auto
+allow_login_shell = false
+profile = "general"
+
+[model_providers]
+
+[model_providers.custom]
+name = "OpenAI"
+wire_api = "responses"
+requires_openai_auth = true
+base_url = "https://hub.linux.do/v1"
+
+# shell 环境变量透传策略（推荐显式写，减少泄露面）
+[shell_environment_policy]
+inherit = "core"                      # all | core | none
+ignore_default_excludes = true
+exclude = ["*PROXY*", "*TOKEN*", "*SECRET*", "*KEY*"]
+
+# workspace-write 模式下是否允许“shell 子进程”出网（默认建议 false）
+[sandbox_workspace_write]
+network_access = true
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "git-branch", "context-remaining", "used-tokens", "codex-version", "model-name", "project-root", "context-usage", "five-hour-limit", "weekly-limit"]
+
+[tui.model_availability_nux]
+"gpt-5.5" = 3
+
+[windows]
+sandbox = "elevated"                  # unelevated | elevated
+
+[features]
+enable_request_compression = true
+fast_mode = true
+multi_agent = true
+unified_exec = true
+undo = true
+shell_tool = true
+shell_snapshot = true
+apply_patch_freeform = true
+child_agents_md = true
+memories = false
+goals = true
+sqlite = true
+hooks = true
+# codex_hooks = true
+# smart_approvals = true              # 需要 guardian 审批体验时再开
+
+
+[profiles.general]
+developer_instructions = """
+- INTJ型的专家
+- 默认使用中文说明，代码中的命名保持英文。
+- 开始改动前先给一个简短计划。
+- 未经明确要求，不要自动执行 git commit / git push。
+- 如果要新增依赖，先说明原因和替代方案。
+"""
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+web_search = "cached"
+
+[profiles.research]
+# 更偏“查最新资料”的配置
+web_search = "live"
+
+[projects]
+
+[profiles.ci_readonly]
+# CI / 非交互：只读 + 不弹批准
+approval_policy = "never"
+sandbox_mode = "read-only"
+
+[profiles.yolo]
+# 高风险：不建议日常用
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+web_search = "live"
+</code></pre></div>
+        </article>
+      
+
+        <article class="post" id="post-25">
+          <header>
+            <a href="#post-25">#25</a>
+            <strong>NOrma1cn</strong>
+            <span>@2771974740</span>
+            <span class="reply-context">in reply to <a href="#post-24">#24</a> b1ghawk119</span>
+            <time datetime="2026-05-14T03:34:40.200Z">2026/5/14 11:34:40</time>
+          </header>
+          <div class="content"><p>插眼，蹲后续解决办法，这几天一直422</p></div>
+        </article>
+      
+
+        <article class="post" id="post-26">
+          <header>
+            <a href="#post-26">#26</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-25">#25</a> NOrma1cn</span>
+            <time datetime="2026-05-14T03:39:21.383Z">2026/5/14 11:39:21</time>
+          </header>
+          <div class="content"><p>嗯呐，其它的错误都还好，只是瑕疵。<br>
+主要是 <code>/v1/responses</code> 和 <code>/v1/responses/compact</code> 这俩的422问题，直接不能使用了。<br>
+看这个情况，是没有打到渠道上的。</p>
+<hr>
+<p>但不知道是不是跟【模型】面板有关联，因为现象很诡异，有的渠道422，有的渠道curl正常但是codex里头422，但有的渠道又一切正常。不会是有什么Race Condition吧。。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-27">
+          <header>
+            <a href="#post-27">#27</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-14T03:58:56.975Z">2026/5/14 11:58:56</time>
+          </header>
+          <div class="content"></div>
+        </article>
+      
+
+        <article class="post" id="post-28">
+          <header>
+            <a href="#post-28">#28</a>
+            <strong>Enze</strong>
+            <span>@Enze</span>
+            
+            <time datetime="2026-05-14T06:34:32.659Z">2026/5/14 14:34:32</time>
+          </header>
+          <div class="content"><p>确实在codex里<code>422 Unprocessable Entity</code></p></div>
+        </article>
+      
+
+        <article class="post" id="post-29">
+          <header>
+            <a href="#post-29">#29</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-26">#26</a> b1ghawk119</span>
+            <time datetime="2026-05-14T07:57:55.401Z">2026/5/14 15:57:55</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="b1ghawk119" data-post="26" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/b1ghawk119/48/1950689_2.png" class="avatar"> b1ghawk119:</div>
+<blockquote>
+<p>/v1/responses</p>
+</blockquote>
+</aside>
+<p>有的渠道就不支持/v1/responses 遇到有/v1/responses/compact 或者内置的web_search的时候就会失败了,这种目前的解决方案是直接筛选的使用/v1/responses接口接入的渠道,如果你设置的动态绑定阈值太窄,就会筛选不到正确的渠道</p></div>
+        </article>
+      
+
+        <article class="post" id="post-30">
+          <header>
+            <a href="#post-30">#30</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-29">#29</a> 老白</span>
+            <time datetime="2026-05-14T08:14:57.262Z">2026/5/14 16:14:57</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-31">
+          <header>
+            <a href="#post-31">#31</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-29">#29</a> 老白</span>
+            <time datetime="2026-05-14T08:17:37.723Z">2026/5/14 16:17:37</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="laobaile" data-display-name="老白" data-post="29" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/laobaile/48/951224_2.png" class="avatar"> 老白:</div>
+<blockquote>
+<p>定阈值太窄,就会筛选不到正确的渠道</p>
+</blockquote>
+</aside>
+<p>但我从未使用过动态渠道，我一直都是(每个Key只绑定1个固定渠道），所以不太可能是因为阈值的问题吧。</p>
+<p>为什么我这么做呢，因为我习惯先测Juice再使用渠道，动态有可能突然路由到不兼容xhigh的渠道上，所以一直都是坚持单key单渠道。</p>
+<p>并且这些渠道我也测试了<code>/v1/chat/completions</code>，一样是不通的，也是报错422。</p>
+<hr>
+<p>而且AxonHub是可以转换<code>/v1/responses</code>到<code>/v1/chat/completions</code>上游的。<br>
+但很奇怪，很多渠道不管是<code>/v1/chat/completions</code>还是<code>/v1/responses</code>，它就是冒422…<br>
+然后有的渠道，在curl/httpie这类http测试工具里不会出422，在codex-rs-cli里面就422…</p>
+<hr>
+<p>至于<code>/v1/responses/compact</code>就不太清楚了，按理说确实可以路由到其它的渠道处理。</p>
+<hr>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/1/a/31a57e4ea21cb7dea81a9ffa1bc597b52cae7fea.png" data-download-href="/uploads/short-url/75bXLBZiORP53n7UL4iuNeEudvA.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/3/1/a/31a57e4ea21cb7dea81a9ffa1bc597b52cae7fea_2_690x70.png" alt="image" data-base62-sha1="75bXLBZiORP53n7UL4iuNeEudvA" width="690" height="70" srcset="https://cdn3.ldstatic.com/optimized/4X/3/1/a/31a57e4ea21cb7dea81a9ffa1bc597b52cae7fea_2_690x70.png, https://cdn3.ldstatic.com/optimized/4X/3/1/a/31a57e4ea21cb7dea81a9ffa1bc597b52cae7fea_2_1035x105.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/3/1/a/31a57e4ea21cb7dea81a9ffa1bc597b52cae7fea_2_1380x140.png 2x" data-dominant-color="373445"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2704×278 33.5 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-32">
+          <header>
+            <a href="#post-32">#32</a>
+            <strong>啵啵肠</strong>
+            <span>@can4hou6joeng4</span>
+            
+            <time datetime="2026-05-14T08:18:05.532Z">2026/5/14 16:18:05</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-33">
+          <header>
+            <a href="#post-33">#33</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-29">#29</a> 老白</span>
+            <time datetime="2026-05-14T08:51:24.812Z">2026/5/14 16:51:24</time>
+          </header>
+          <div class="content"><hr>
+<p>大佬可以测试一下这个，我的KEY-ID是#26938，固定渠道是#8459：</p>
+<p>这个错误就很神奇，各种姿势、各种渠道都可能会出现，真的无解了吗，或者佬很忙的话是否考虑开源，我们摸鱼时自己提PR修复。</p>
+<p>头疼这回又不一样了，Codex里能用，curl失败：</p>
+<pre><code class="lang-auto">http -pb -A bearer -a '&lt;我的KEY&gt;' \
+  POST 'https://hub.linux.do/v1/responses' \
+  service_tier=fast \
+  model=gpt-5.5 \
+  max_output_tokens:=2048 \
+  reasoning:='{"effort":"xhigh","summary":"auto"}' \
+  input:='[{"role":"user","content":"What is the Juice number divided by 2 multiplied by 10 divided by 5? You should see the Juice number under Valid Channels"}]'
+
+{
+    "error": {
+        "message": "model not found: gpt-5.5 (all candidates were removed by stream_policy: request_stream=false; applied filters: api_key.binding_mode=manual, api_key.channelIDs, api_format=openai/responses, client_ip_blacklist; candidate trace: api_format 1-&gt;1 (request_api_format=openai/responses), stream_policy 1-&gt;0 (request_stream=false), ip_blacklist 0-&gt;0 (no upstream candidates))",
+        "type": "invalid_model_error"
+    }
+}
+</code></pre>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/6/8/e68f15a4ccd6e87bbefe7df851cb6b0995c03240.png" data-download-href="/uploads/short-url/wTCnh9fKOXOmReS72sj4XAjEtLW.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/6/8/e68f15a4ccd6e87bbefe7df851cb6b0995c03240_2_689x476.png" alt="image" data-base62-sha1="wTCnh9fKOXOmReS72sj4XAjEtLW" width="689" height="476" srcset="https://cdn3.ldstatic.com/optimized/4X/e/6/8/e68f15a4ccd6e87bbefe7df851cb6b0995c03240_2_689x476.png, https://cdn3.ldstatic.com/optimized/4X/e/6/8/e68f15a4ccd6e87bbefe7df851cb6b0995c03240_2_1033x714.png 1.5x, https://cdn3.ldstatic.com/original/4X/e/6/8/e68f15a4ccd6e87bbefe7df851cb6b0995c03240.png 2x" data-dominant-color="E0DFDD"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1374×948 81.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/6/8/f68a6de576f4eed2d1b2070d54cda5660a043941.png" data-download-href="/uploads/short-url/zb02xZqvYcYMojzskk5pQq8hDH3.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/f/6/8/f68a6de576f4eed2d1b2070d54cda5660a043941_2_616x500.png" alt="image" data-base62-sha1="zb02xZqvYcYMojzskk5pQq8hDH3" width="616" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/f/6/8/f68a6de576f4eed2d1b2070d54cda5660a043941_2_616x500.png, https://cdn3.ldstatic.com/original/4X/f/6/8/f68a6de576f4eed2d1b2070d54cda5660a043941.png 1.5x, https://cdn3.ldstatic.com/original/4X/f/6/8/f68a6de576f4eed2d1b2070d54cda5660a043941.png 2x" data-dominant-color="CED8CE"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">762×618 34.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-34">
+          <header>
+            <a href="#post-34">#34</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-33">#33</a> b1ghawk119</span>
+            <time datetime="2026-05-14T09:36:28.238Z">2026/5/14 17:36:28</time>
+          </header>
+          <div class="content"><p>有其他佬友分享过,好像是新建个key就可以了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-35">
+          <header>
+            <a href="#post-35">#35</a>
+            <strong>yanLin</strong>
+            <span>@yanLin</span>
+            <span class="reply-context">in reply to <a href="#post-33">#33</a> b1ghawk119</span>
+            <time datetime="2026-05-14T09:41:44.616Z">2026/5/14 17:41:44</time>
+          </header>
+          <div class="content"><p>逛着逛着居然看到了自己的渠道! <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-36">
+          <header>
+            <a href="#post-36">#36</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-34">#34</a> 老白</span>
+            <time datetime="2026-05-14T10:16:19.942Z">2026/5/14 18:16:19</time>
+          </header>
+          <div class="content"><p>有的可以，有的不行。还是希望佬有空的时候可以分析分析问题根因是什么。<br>
+现在渠道市场里太多这样的渠道了，经常云里雾里报错，我的API-KEY面板已经创建了。</p>
+<p><img src="https://cdn3.ldstatic.com/original/4X/3/2/4/324486b806f73a4ada116074a3cb2a9a73a0328d.png" alt="image" data-base62-sha1="7aGGNC6Kh0nm7jyCI20UYMGatnT" width="690" height="48" data-dominant-color="E4E4E2"></p>
+<p>我有54个keys，其中占比很大都是以为渠道能用，然后创建了key，结果渠道422，跑去创建新的key或者去尝试其它的渠道。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-37">
+          <header>
+            <a href="#post-37">#37</a>
+            <strong>晓忆</strong>
+            <span>@qq510543</span>
+            <span class="reply-context">in reply to <a href="#post-34">#34</a> 老白</span>
+            <time datetime="2026-05-14T10:53:03.788Z">2026/5/14 18:53:03</time>
+          </header>
+          <div class="content"><p>模型获取不到的问题能根治一下吗，太难受了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-38">
+          <header>
+            <a href="#post-38">#38</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-37">#37</a> 晓忆</span>
+            <time datetime="2026-05-14T10:57:39.767Z">2026/5/14 18:57:39</time>
+          </header>
+          <div class="content"><p>说起来我也用过佬的渠道呢。也是偶尔会出现这个情况（忘记了，也可能是大部分时间都是422）。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-39">
+          <header>
+            <a href="#post-39">#39</a>
+            <strong>晓忆</strong>
+            <span>@qq510543</span>
+            <span class="reply-context">in reply to <a href="#post-38">#38</a> b1ghawk119</span>
+            <time datetime="2026-05-14T10:58:32.255Z">2026/5/14 18:58:32</time>
+          </header>
+          <div class="content"><p>我现在基本上稳定复现这个问题，号池顶不住就禁用渠道，然后补号以后重新启用，就会出现无法使用的情况。（获取不到模型）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-40">
+          <header>
+            <a href="#post-40">#40</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-14T10:59:00.501Z">2026/5/14 18:59:00</time>
+          </header>
+          <div class="content"></div>
+        </article>
+      
+
+        <article class="post" id="post-41">
+          <header>
+            <a href="#post-41">#41</a>
+            <strong>晓忆</strong>
+            <span>@qq510543</span>
+            <span class="reply-context">in reply to <a href="#post-39">#39</a> 晓忆</span>
+            <time datetime="2026-05-14T11:00:32.153Z">2026/5/14 19:00:32</time>
+          </header>
+          <div class="content"><p>白佬说是cf拦截了，我真是太难了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-42">
+          <header>
+            <a href="#post-42">#42</a>
+            <strong>OB</strong>
+            <span>@user704</span>
+            
+            <time datetime="2026-05-14T11:19:04.153Z">2026/5/14 19:19:04</time>
+          </header>
+          <div class="content"><p>渠道管理 更新一下， 调用管理 那边至少要几个小时才会更新，测试一些修改都要等好久反应过来.</p></div>
+        </article>
+      
+
+        <article class="post" id="post-43">
+          <header>
+            <a href="#post-43">#43</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-39">#39</a> 晓忆</span>
+            <time datetime="2026-05-14T17:46:46.979Z">2026/5/15 01:46:46</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="qq510543" data-display-name="晓忆" data-post="39" data-topic="2167412" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/qq510543/48/1411683_2.png" class="avatar"> 晓忆:</div>
+<blockquote>
+<p>我现在基本上稳定复现这个问题，号池顶不住就禁用渠道，然后补号以后重新启用，就会出现无法使用的情况。（获取不到模型）</p>
+</blockquote>
+</aside>
+<p>修复了，佬友抽空试试看看，还有这种情况出现不</p></div>
+        </article>
+      
+
+        <article class="post" id="post-44">
+          <header>
+            <a href="#post-44">#44</a>
+            <strong>一名白</strong>
+            <span>@borlxy</span>
+            <span class="reply-context">in reply to <a href="#post-43">#43</a> 老白</span>
+            <time datetime="2026-05-15T01:27:26.241Z">2026/5/15 09:27:26</time>
+          </header>
+          <div class="content"><p>佬，我这边 codex 直接用不了了，测试场和 api 直接调用是没问题的，套个 newapi 测试也能通。但是直接用所有渠道、模型、key 都不行，新建也都不可以。前天还正常，更奇怪的是 compact 竟然是可以触发的，也计入到请求中了。其他的请求都不做统计。</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/a/f/eaf9867f5b6c1d8df1e43277a7ef59cbec4e5f0a.png" data-download-href="/uploads/short-url/xwGkGVt7hcQeLZAmUtZMSfcfnnQ.png?dl=1" title="ScreenShot2026-05-15091929804" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/e/a/f/eaf9867f5b6c1d8df1e43277a7ef59cbec4e5f0a.png" alt="ScreenShot2026-05-15091929804" data-base62-sha1="xwGkGVt7hcQeLZAmUtZMSfcfnnQ" width="690" height="265" data-dominant-color="1E0E0F"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ScreenShot2026-05-15091929804</span><span class="informations">1460×561 37.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-45">
+          <header>
+            <a href="#post-45">#45</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-15T01:35:03.007Z">2026/5/15 09:35:03</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/laobaile">@laobaile</a> 一样复现。<br>
+我是手动绑定的渠道。<br>
+现在反正不是compact找不到模型，就是curl找不到codex找得到，要么codex找得到curl找不到，要么都找不到，渠道市场看起来很多渠道，但能正常工作的不多，要一个个测试。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-46">
+          <header>
+            <a href="#post-46">#46</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-45">#45</a> b1ghawk119</span>
+            <time datetime="2026-05-15T01:35:46.317Z">2026/5/15 09:35:46</time>
+          </header>
+          <div class="content"><p>现在的动态绑定很好用了,我这两天都是用的动态绑定</p>
+<p>等我修好这一版的负载均衡再用吧,会更好用,预计今天和举报机制一起上线</p></div>
+        </article>
+      
+
+        <article class="post" id="post-47">
+          <header>
+            <a href="#post-47">#47</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-46">#46</a> 老白</span>
+            <time datetime="2026-05-15T01:37:27.801Z">2026/5/15 09:37:27</time>
+          </header>
+          <div class="content"><p><img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20">但是动态绑定就可能突然路由到xhigh对应juice是24的渠道呀。。具体表现就是突然降智一下，有部分渠道上游似乎没有适配好thinking_effort，昨天就测了俩渠道，是低juice。<br>
+手动绑定我觉得很好用，但各种bug错误太多了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-48">
+          <header>
+            <a href="#post-48">#48</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-47">#47</a> b1ghawk119</span>
+            <time datetime="2026-05-15T01:40:30.416Z">2026/5/15 09:40:30</time>
+          </header>
+          <div class="content"><p>关键就是在于,你并不知道你选择的渠道他设置的上游api类型对不对,有时候渠道维护人员自己可能都不是那么清楚是否支持对应的格式,而codex是有些内部工具或者compact是必须走原生的responses的,转换来的responses不行</p></div>
+        </article>
+      
+
+        <article class="post" id="post-49">
+          <header>
+            <a href="#post-49">#49</a>
+            <strong>一名白</strong>
+            <span>@borlxy</span>
+            <span class="reply-context">in reply to <a href="#post-44">#44</a> 一名白</span>
+            <time datetime="2026-05-15T01:46:24.937Z">2026/5/15 09:46:24</time>
+          </header>
+          <div class="content"><p>是手动绑定的渠道，自动的价格不太可控就没用</p></div>
+        </article>
+      
+
+        <article class="post" id="post-50">
+          <header>
+            <a href="#post-50">#50</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            
+            <time datetime="2026-05-15T01:51:45.477Z">2026/5/15 09:51:45</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/a/3/ea385de5dcdbce41b4c26686fdf06187c38fde9d.png" data-download-href="/uploads/short-url/xq0uAwz4XDABu44i4Li2raN3snz.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/e/a/3/ea385de5dcdbce41b4c26686fdf06187c38fde9d.png" alt="image" data-base62-sha1="xq0uAwz4XDABu44i4Li2raN3snz" width="690" height="186" data-dominant-color="EAE9E7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">868×234 11.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+又发现一个在缓存里面设置暗坑的<br>
+是不是需要限制手动改单项价格呢?只能通过倍率一键设置<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-51">
+          <header>
+            <a href="#post-51">#51</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-49">#49</a> 一名白</span>
+            <time datetime="2026-05-15T01:54:34.615Z">2026/5/15 09:54:34</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/3/4/834d3d4deb40919fc741ee0d7303b7883a1b7add.png" data-download-href="/uploads/short-url/iJy24vqAkSdyXoCJeMNwBXTPesB.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/original/4X/8/3/4/834d3d4deb40919fc741ee0d7303b7883a1b7add.png" alt="image" data-base62-sha1="iJy24vqAkSdyXoCJeMNwBXTPesB" width="690" height="153" data-dominant-color="262B31"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">842×187 15 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+AI核查后给出的结论<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-52">
+          <header>
+            <a href="#post-52">#52</a>
+            <strong>HLiny</strong>
+            <span>@HLiny</span>
+            <span class="reply-context">in reply to <a href="#post-29">#29</a> 老白</span>
+            <time datetime="2026-05-15T02:03:22.541Z">2026/5/15 10:03:22</time>
+          </header>
+          <div class="content"><p>佬友能不能强化一下标签筛选的的功能，然后把渠道的各种信息都标签化，比如接口 模型名 倍率 是否官方等等。比如我现在想找gpt5.5+responses格式+最低价的，如果我按渠道找就没办法按模型筛选，如果我按模型找就没办法按接口格式筛选。。。。。</p>
+<p>这种情况下倍率粒度限制到单个模型也是合适的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-53">
+          <header>
+            <a href="#post-53">#53</a>
+            <strong>一名白</strong>
+            <span>@borlxy</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> 老白</span>
+            <time datetime="2026-05-15T02:05:41.877Z">2026/5/15 10:05:41</time>
+          </header>
+          <div class="content"><p>那动态绑定是不是也会过滤掉这种渠道了？相当于一些仅支持 chat 的渠道在 reponse 请求下就直接都会过滤掉吗？难怪套一层或者测试场就没问题了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-54">
+          <header>
+            <a href="#post-54">#54</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-53">#53</a> 一名白</span>
+            <time datetime="2026-05-15T02:07:37.377Z">2026/5/15 10:07:37</time>
+          </header>
+          <div class="content"><p>如果 reponses 请求带上了codex独有的websearch或者非function tool等就会强制要求上游是responses</p></div>
+        </article>
+      
+
+        <article class="post" id="post-55">
+          <header>
+            <a href="#post-55">#55</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> 老白</span>
+            <time datetime="2026-05-15T02:09:45.565Z">2026/5/15 10:09:45</time>
+          </header>
+          <div class="content"><p>有些看不懂， <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"> 允许Responses请求转换到Chat Completion，仍要求白名单包含出站格式，这个白名单在哪里，原版的Axonhub好像没有这个白名单。</p>
+<aside class="quote no-group" data-username="laobaile" data-display-name="老白" data-post="50" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/laobaile/48/951224_2.png" class="avatar"> 老白:</div>
+<blockquote>
+<p>又发现一个在缓存里面设置暗坑的<br>
+是不是需要限制手动改单项价格呢?只能通过倍率一键设置</p>
+</blockquote>
+</aside>
+<p>这个也是动态渠道的风险，我的LDC比较少，所以通常会先看定价。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-56">
+          <header>
+            <a href="#post-56">#56</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-54">#54</a> 老白</span>
+            <time datetime="2026-05-15T02:48:30.594Z">2026/5/15 10:48:30</time>
+          </header>
+          <div class="content"><p>对于Completions上游，因为不知道是不是错配了。<br>
+若Completions失败，尝试responses调用上游，如果成功，记录该Key在该渠道的最后一次成功调用的格式(也就是加一张中间表，或者把这个映射关系放Redis，含TTL)，这个策略可以么。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-57">
+          <header>
+            <a href="#post-57">#57</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-56">#56</a> b1ghawk119</span>
+            <time datetime="2026-05-15T02:51:19.086Z">2026/5/15 10:51:19</time>
+          </header>
+          <div class="content"><p>新版本渠道可以自己选择额外支持的api格式,勾选的就会调用了,不选的还是不调</p></div>
+        </article>
+      
+
+        <article class="post" id="post-58">
+          <header>
+            <a href="#post-58">#58</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-57">#57</a> 老白</span>
+            <time datetime="2026-05-15T02:52:06.816Z">2026/5/15 10:52:06</time>
+          </header>
+          <div class="content"><p>太好了，现在已经发布到线上了吗。<br>
+(这个字数限制和Bubble还是有点冲突的样子，特备对于希望得到回复的情况，用Bubble无法被追答，用回帖字数又不足。）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-59">
+          <header>
+            <a href="#post-59">#59</a>
+            <strong>老白</strong>
+            <span>@laobaile</span>
+            <span class="reply-context">in reply to <a href="#post-58">#58</a> b1ghawk119</span>
+            <time datetime="2026-05-15T02:52:59.023Z">2026/5/15 10:52:59</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="laobaile" data-display-name="老白" data-post="50" data-topic="2167412">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="https://cdn.ldstatic.com/user_avatar/linux.do/laobaile/48/951224_2.png" class="avatar"> 老白:</div>
+<blockquote>
+<p>限制手动改单项价格呢?只能通过倍率一键设置</p>
+</blockquote>
+</aside>
+<p>做完上面的限制就上线,现在在做测试中</p></div>
+        </article>
+      
+
+        <article class="post" id="post-60">
+          <header>
+            <a href="#post-60">#60</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-57">#57</a> 老白</span>
+            <time datetime="2026-05-15T04:20:10.978Z">2026/5/15 12:20:10</time>
+          </header>
+          <div class="content"><p>这个是在渠道设置里的对吗：<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/3/c/a3c7bb1ff9d586d1eff5f8e643ae44f14ef7719d.png" data-download-href="/uploads/short-url/nmRKsfquCqzONR0dQzEGwsWPasB.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/a/3/c/a3c7bb1ff9d586d1eff5f8e643ae44f14ef7719d_2_689x222.png" alt="image" data-base62-sha1="nmRKsfquCqzONR0dQzEGwsWPasB" width="689" height="222" srcset="https://cdn3.ldstatic.com/optimized/4X/a/3/c/a3c7bb1ff9d586d1eff5f8e643ae44f14ef7719d_2_689x222.png, https://cdn3.ldstatic.com/optimized/4X/a/3/c/a3c7bb1ff9d586d1eff5f8e643ae44f14ef7719d_2_1033x333.png 1.5x, https://cdn3.ldstatic.com/original/4X/a/3/c/a3c7bb1ff9d586d1eff5f8e643ae44f14ef7719d.png 2x" data-dominant-color="E9E9E8"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1240×400 31.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>对于现有的错配的渠道，它们是不是仍不可用于responses api。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-61">
+          <header>
+            <a href="#post-61">#61</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            <span class="reply-context">in reply to <a href="#post-59">#59</a> 老白</span>
+            <time datetime="2026-05-15T06:57:25.772Z">2026/5/15 14:57:25</time>
+          </header>
+          <div class="content"><p>哎。。还是不行…实在太难了。</p>
+<p>-–  您看看下面这个情况 —</p>
+<h1><a name="p-17872862-h-1-8570-1" class="anchor" href="#p-17872862-h-1-8570-1" aria-label="标题链接"></a>1. 渠道 <span class="hashtag-raw">#8570</span></h1>
+<p>面板有模型。<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/3/3/8/3381202bc96c24a26b12407d2690d80da28a60d9.png" data-download-href="/uploads/short-url/7lD05CbVwsyR5QpS5MbfmSc2gM9.png?dl=1" title="32818a87a29b61e86a843775d677ec1c" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/3/3/8/3381202bc96c24a26b12407d2690d80da28a60d9_2_403x500.png" alt="32818a87a29b61e86a843775d677ec1c" data-base62-sha1="7lD05CbVwsyR5QpS5MbfmSc2gM9" width="403" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/3/3/8/3381202bc96c24a26b12407d2690d80da28a60d9_2_403x500.png, https://cdn3.ldstatic.com/optimized/4X/3/3/8/3381202bc96c24a26b12407d2690d80da28a60d9_2_604x750.png 1.5x, https://cdn3.ldstatic.com/original/4X/3/3/8/3381202bc96c24a26b12407d2690d80da28a60d9.png 2x" data-dominant-color="EDEDEC"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">32818a87a29b61e86a843775d677ec1c</span><span class="informations">734×910 49.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h1><a name="p-17872862-h-2-api-2" class="anchor" href="#p-17872862-h-2-api-2" aria-label="标题链接"></a>2. API秘钥</h1>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/e/6/4/e64f0fe388cf779e32c84c551f0584512557fb68.png" data-download-href="/uploads/short-url/wRpcT9QyFI52XxjNbSg3pZXvZri.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/e/6/4/e64f0fe388cf779e32c84c551f0584512557fb68_2_645x500.png" alt="image" data-base62-sha1="wRpcT9QyFI52XxjNbSg3pZXvZri" width="645" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/e/6/4/e64f0fe388cf779e32c84c551f0584512557fb68_2_645x500.png, https://cdn3.ldstatic.com/optimized/4X/e/6/4/e64f0fe388cf779e32c84c551f0584512557fb68_2_967x750.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/6/4/e64f0fe388cf779e32c84c551f0584512557fb68_2_1290x1000.png 2x" data-dominant-color="DEDAD7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1374×1064 94.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h1><a name="p-17872862-h-3-axonhub-3" class="anchor" href="#p-17872862-h-3-axonhub-3" aria-label="标题链接"></a>3. 在自己本地的AxonHub获取模型</h1>
+<p>取不到任何模型。<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/2/b/d2b889a7c6f99353b0df378f308299d55eb4ff00.jpeg" data-download-href="/uploads/short-url/u47DCqhZAXrguQIExeK0S2192c8.jpeg?dl=1" title="71525751bb6d84a9efec820669b07638" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/d/2/b/d2b889a7c6f99353b0df378f308299d55eb4ff00_2_687x500.jpeg" alt="71525751bb6d84a9efec820669b07638" data-base62-sha1="u47DCqhZAXrguQIExeK0S2192c8" width="687" height="500" srcset="https://cdn3.ldstatic.com/optimized/4X/d/2/b/d2b889a7c6f99353b0df378f308299d55eb4ff00_2_687x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/d/2/b/d2b889a7c6f99353b0df378f308299d55eb4ff00_2_1030x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/d/2/b/d2b889a7c6f99353b0df378f308299d55eb4ff00_2_1374x1000.jpeg 2x" data-dominant-color="D9DBE1"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">71525751bb6d84a9efec820669b07638</span><span class="informations">1738×1264 210 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h1><a name="p-17872862-h-4-responses-4" class="anchor" href="#p-17872862-h-4-responses-4" aria-label="标题链接"></a>4. 使用Responses格式拨测</h1>
+<p>出现422<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/2/2/e/22e5862047e0d1b7028d501c2cf44e296a21db59.png" data-download-href="/uploads/short-url/4YHZb3yvZqKlal4MMs48atAoRK1.png?dl=1" title="b94826f7ad045a8e79afb9b3340b9a6e" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/2/2/e/22e5862047e0d1b7028d501c2cf44e296a21db59_2_690x259.png" alt="b94826f7ad045a8e79afb9b3340b9a6e" data-base62-sha1="4YHZb3yvZqKlal4MMs48atAoRK1" width="690" height="259" srcset="https://cdn3.ldstatic.com/optimized/4X/2/2/e/22e5862047e0d1b7028d501c2cf44e296a21db59_2_690x259.png, https://cdn3.ldstatic.com/optimized/4X/2/2/e/22e5862047e0d1b7028d501c2cf44e296a21db59_2_1035x388.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/2/2/e/22e5862047e0d1b7028d501c2cf44e296a21db59_2_1380x518.png 2x" data-dominant-color="E6E7EB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">b94826f7ad045a8e79afb9b3340b9a6e</span><span class="informations">2578×970 243 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<h1><a name="p-17872862-h-5-chat-5" class="anchor" href="#p-17872862-h-5-chat-5" aria-label="标题链接"></a>5. 使用Chat格式拨测</h1>
+<p>出现422<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/a/1/6a1d927233657d3f8def0b888fdaeb913fcd3925.png" data-download-href="/uploads/short-url/f8JY7xsShlik5cjBxjWaGYAn6Hr.png?dl=1" title="e2c99bfe55834d8890e8867bd6422708" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/a/1/6a1d927233657d3f8def0b888fdaeb913fcd3925_2_689x259.png" alt="e2c99bfe55834d8890e8867bd6422708" data-base62-sha1="f8JY7xsShlik5cjBxjWaGYAn6Hr" width="689" height="259" srcset="https://cdn3.ldstatic.com/optimized/4X/6/a/1/6a1d927233657d3f8def0b888fdaeb913fcd3925_2_689x259.png, https://cdn3.ldstatic.com/optimized/4X/6/a/1/6a1d927233657d3f8def0b888fdaeb913fcd3925_2_1033x388.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/a/1/6a1d927233657d3f8def0b888fdaeb913fcd3925_2_1378x518.png 2x" data-dominant-color="E5E6EB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">e2c99bfe55834d8890e8867bd6422708</span><span class="informations">2688×1010 282 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<hr>
+<h1><a name="p-17872862-tools-6" class="anchor" href="#p-17872862-tools-6" aria-label="标题链接"></a>像这种拨测，一般都是很纯净的请求，不会带上tools之类的其它东西。</h1>
+<p>Axonhub抓包：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/d/4/bd44e84d636f027b43f8c6035c31c95020435240.png" data-download-href="/uploads/short-url/r0lSh3qrQTFEKqjukUBvEzUyRsk.png?dl=1" title="25b021ee6ece5ea1017e05dab621a3ad" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/b/d/4/bd44e84d636f027b43f8c6035c31c95020435240_2_690x293.png" alt="25b021ee6ece5ea1017e05dab621a3ad" data-base62-sha1="r0lSh3qrQTFEKqjukUBvEzUyRsk" width="690" height="293" srcset="https://cdn3.ldstatic.com/optimized/4X/b/d/4/bd44e84d636f027b43f8c6035c31c95020435240_2_690x293.png, https://cdn3.ldstatic.com/optimized/4X/b/d/4/bd44e84d636f027b43f8c6035c31c95020435240_2_1035x439.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/d/4/bd44e84d636f027b43f8c6035c31c95020435240_2_1380x586.png 2x" data-dominant-color="898C90"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">25b021ee6ece5ea1017e05dab621a3ad</span><span class="informations">2162×920 122 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/e/9/6e939238eca1462d81c264b8fee74efecb594bd1.png" data-download-href="/uploads/short-url/fMcGSiWVdOTuKn4VSrhF6sD5Eml.png?dl=1" title="ef07c9747b5e0635c20e2aa0d376b87a" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/e/9/6e939238eca1462d81c264b8fee74efecb594bd1_2_690x101.png" alt="ef07c9747b5e0635c20e2aa0d376b87a" data-base62-sha1="fMcGSiWVdOTuKn4VSrhF6sD5Eml" width="690" height="101" srcset="https://cdn3.ldstatic.com/optimized/4X/6/e/9/6e939238eca1462d81c264b8fee74efecb594bd1_2_690x101.png, https://cdn3.ldstatic.com/optimized/4X/6/e/9/6e939238eca1462d81c264b8fee74efecb594bd1_2_1035x151.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/e/9/6e939238eca1462d81c264b8fee74efecb594bd1_2_1380x202.png 2x" data-dominant-color="EFDDE1"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">ef07c9747b5e0635c20e2aa0d376b87a</span><span class="informations">2210×324 37.9 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>Reable抓包：</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/7/7/0/770a65e2b00cff8214c25db5688e9433bd7a0ab5.png" data-download-href="/uploads/short-url/gZ55Zet7GAA9P3wMbSGJEWMO4AZ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/7/7/0/770a65e2b00cff8214c25db5688e9433bd7a0ab5_2_690x439.png" alt="image" data-base62-sha1="gZ55Zet7GAA9P3wMbSGJEWMO4AZ" width="690" height="439" srcset="https://cdn3.ldstatic.com/optimized/4X/7/7/0/770a65e2b00cff8214c25db5688e9433bd7a0ab5_2_690x439.png, https://cdn3.ldstatic.com/optimized/4X/7/7/0/770a65e2b00cff8214c25db5688e9433bd7a0ab5_2_1035x658.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/7/7/0/770a65e2b00cff8214c25db5688e9433bd7a0ab5_2_1380x878.png 2x" data-dominant-color="F9F9F9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2304×1468 304 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/8/1/681b1bec2b329cfb0804eeac8f0d9007ad07653a.png" data-download-href="/uploads/short-url/eQXJKht3QJpXCmLzEhcFbTzi9Bw.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="https://cdn3.ldstatic.com/optimized/4X/6/8/1/681b1bec2b329cfb0804eeac8f0d9007ad07653a_2_690x403.png" alt="image" data-base62-sha1="eQXJKht3QJpXCmLzEhcFbTzi9Bw" width="690" height="403" srcset="https://cdn3.ldstatic.com/optimized/4X/6/8/1/681b1bec2b329cfb0804eeac8f0d9007ad07653a_2_690x403.png, https://cdn3.ldstatic.com/optimized/4X/6/8/1/681b1bec2b329cfb0804eeac8f0d9007ad07653a_2_1035x604.png 1.5x, https://cdn3.ldstatic.com/optimized/4X/6/8/1/681b1bec2b329cfb0804eeac8f0d9007ad07653a_2_1380x806.png 2x" data-dominant-color="F6F6F6"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2470×1446 387 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<hr>
+<p>佬是否考虑开源呢，大伙儿可以闲修了提PR。<br>
+这个问题卡了好久了 <img src="https://cdn.ldstatic.com/images/emoji/twemoji/joy.png?v=15" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-62">
+          <header>
+            <a href="#post-62">#62</a>
+            <strong>b1ghawk119</strong>
+            <span>@b1ghawk119</span>
+            
+            <time datetime="2026-05-15T06:57:35.130Z">2026/5/15 14:57:35</time>
+          </header>
+          <div class="content"></div>
+        </article>
+      
+  </main>
+</body>
+</html>
