@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2193538,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2193538",
+    "title": "这两个公益站怎么登录不上了",
+    "currentVersionId": "v1",
+    "currentHash": "925d73c7d6e75851723496414335021760ca4de1e1f7c94352efb7eccb58a924",
+    "postCount": 8,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2193538,
+      "sourceUrl": "https://linux.do/t/topic/2193538",
+      "contentHash": "925d73c7d6e75851723496414335021760ca4de1e1f7c94352efb7eccb58a924",
+      "postCount": 8,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 8 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
