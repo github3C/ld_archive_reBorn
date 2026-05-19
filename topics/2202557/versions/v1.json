@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2202557,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2202557",
+    "title": "一帮吃不到葡萄说葡萄酸的人笑死了",
+    "createdAt": "2026-05-19T00:21:23.021Z",
+    "currentVersionId": "v1",
+    "currentHash": "81d00c0a9db5f449052d4f0cfbd69c596bfbcc544b28936b59ee892556f92479"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2202557,
+    "sourceUrl": "https://linux.do/t/topic/2202557",
+    "contentHash": "81d00c0a9db5f449052d4f0cfbd69c596bfbcc544b28936b59ee892556f92479",
+    "postCount": 10,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 10 visible posts with 0 missing floors."
+    }
+  },
+  "posts": [
+    {
+      "id": 17985234,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Chiway",
+      "displayName": "红豆",
+      "createdAt": "2026-05-19T00:21:23.156Z",
+      "updatedAt": "2026-05-19T00:21:23.156Z",
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88.jpeg\" data-download-href=\"/uploads/short-url/y5IXDxm6VZOOIkSayxkKr5mEo7S.jpeg?dl=1\" title=\"screenshot_20260519_082003_com.ss.hm.ugc.aweme.jpg\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88_2_237x500.jpeg\" alt=\"screenshot_20260519_082003_com.ss.hm.ugc.aweme.jpg\" data-base62-sha1=\"y5IXDxm6VZOOIkSayxkKr5mEo7S\" width=\"237\" height=\"500\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88_2_237x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88_2_355x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88_2_474x1000.jpeg 2x\" data-dominant-color=\"E4E4E4\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">screenshot_20260519_082003_com.ss.hm.ugc.aweme.jpg</span><span class=\"informations\">1280×2691 343 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>",
+      "normalizedText": "screenshot_20260519_082003_com.ss.hm.ugc.aweme.jpg1280×2691 343 KB",
+      "contentHash": "511068678a353a7bb9d6de92b25ca7b8602648e7883d369f46d8bc76f07fb182"
+    },
+    {
+      "id": 17985245,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "xiaoG233",
+      "displayName": "yx",
+      "createdAt": "2026-05-19T00:23:12.411Z",
+      "updatedAt": "2026-05-19T00:23:12.411Z",
+      "cookedHtml": "<p>不做评价，反正我觉得每个人都有自己的看法</p>",
+      "normalizedText": "不做评价，反正我觉得每个人都有自己的看法",
+      "contentHash": "a45d71b2a355fed01712a26fac2606c3931c71d003d05f5c64ba585e3cdb3938"
+    },
+    {
+      "id": 17985257,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "jiujiula99",
+      "displayName": "jiujiula99",
+      "createdAt": "2026-05-19T00:24:13.177Z",
+      "updatedAt": "2026-05-19T00:24:13.177Z",
+      "cookedHtml": "<p>你发个送邀请的看多少人私信你，哈哈<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "你发个送邀请的看多少人私信你，哈哈",
+      "contentHash": "d6cce9ae847a57042fbb18513916f2475a1ae250bb8a27b654e9c8351621ba11"
+    },
+    {
+      "id": 17985331,
+      "postNumber": 4,
+      "replyToPostNumber": 3,
+      "replyToPostId": 17985257,
+      "replyToUsername": "jiujiula99",
+      "replyToDisplayName": "jiujiula99",
+      "username": "kun775",
+      "displayName": "Haskey",
+      "createdAt": "2026-05-19T00:27:57.874Z",
+      "updatedAt": "2026-05-19T00:27:57.874Z",
+      "cookedHtml": "<p>就是啊，平时标榜自己精英啥的，看不起三瓜两枣，一有评论送各种东西的帖子，回复永远100+，双标罢了</p>",
+      "normalizedText": "就是啊，平时标榜自己精英啥的，看不起三瓜两枣，一有评论送各种东西的帖子，回复永远100+，双标罢了",
+      "contentHash": "663c15d94e6da81dfbf7221e11fe9236ffabdd34ed06b88b233c64853c0552c2"
+    },
+    {
+      "id": 17985365,
+      "postNumber": 5,
+      "replyToPostNumber": 2,
+      "replyToPostId": 17985245,
+      "replyToUsername": "xiaoG233",
+      "replyToDisplayName": "yx",
+      "username": "Chiway",
+      "displayName": "红豆",
+      "createdAt": "2026-05-19T00:29:43.194Z",
+      "updatedAt": "2026-05-19T00:29:43.194Z",
+      "cookedHtml": "<p>其实有想法是正常的，但是拉踩L站吹捧V2和ns就搞笑</p>",
+      "normalizedText": "其实有想法是正常的，但是拉踩L站吹捧V2和ns就搞笑",
+      "contentHash": "c0c6133f75d637c45e5d0cef40e4de98b5989ade40b0483ece65e86d6a21fd3d"
+    },
+    {
+      "id": 17985388,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "nszg",
+      "displayName": "nszg",
+      "createdAt": "2026-05-19T00:31:25.051Z",
+      "updatedAt": "2026-05-19T00:31:25.051Z",
+      "cookedHtml": "<p>精准推送嘛，我刚刚才刷到这条视频 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "精准推送嘛，我刚刚才刷到这条视频",
+      "contentHash": "928de45ea8f9ab57e4afc60a143df9960bfce0690b2c6b9e3a696f20fc7d4a11"
+    },
+    {
+      "id": 17985404,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "840814743",
+      "displayName": "时牧",
+      "createdAt": "2026-05-19T00:32:34.736Z",
+      "updatedAt": "2026-05-19T00:35:16.923Z",
+      "cookedHtml": "<p>觉得v2稍微好一点<br>\n竟然是因为那里可以自由键政嘛</p>",
+      "normalizedText": "觉得v2稍微好一点 竟然是因为那里可以自由键政嘛",
+      "contentHash": "5cbbdfc612a0bcb821d61195f758c7b334bc1311200f57a748820333fd8255c1"
+    },
+    {
+      "id": 17985415,
+      "postNumber": 8,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "kkk2",
+      "displayName": "黑格尔",
+      "createdAt": "2026-05-19T00:33:28.888Z",
+      "updatedAt": "2026-05-19T00:33:28.888Z",
+      "cookedHtml": "<p>为什么这么多人说 l站土皇帝/独权社区？我从2024加入，这是我唯一刷了还刷的论坛</p>",
+      "normalizedText": "为什么这么多人说 l站土皇帝/独权社区？我从2024加入，这是我唯一刷了还刷的论坛",
+      "contentHash": "61f9a5cf7402d313c0b1064da2e0c92931cd5dcf27eeed570e32269c418fbc53"
+    },
+    {
+      "id": 17985427,
+      "postNumber": 9,
+      "replyToPostNumber": 8,
+      "replyToPostId": 17985415,
+      "replyToUsername": "kkk2",
+      "replyToDisplayName": "黑格尔",
+      "username": "Chiway",
+      "displayName": "红豆",
+      "createdAt": "2026-05-19T00:34:15.429Z",
+      "updatedAt": "2026-05-19T00:34:15.429Z",
+      "cookedHtml": "<p>说土皇帝的，自己干了啥谁知道呢<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15\" title=\":laughing:\" class=\"emoji\" alt=\":laughing:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "说土皇帝的，自己干了啥谁知道呢",
+      "contentHash": "5d2c92d424bb383b11b66ce4b48d62520f6aa82d9b426c67d5cd6382b2397c0a"
+    },
+    {
+      "id": 17985468,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "prades",
+      "displayName": "野生资深大明白",
+      "createdAt": "2026-05-19T00:35:48.913Z",
+      "updatedAt": "2026-05-19T00:35:48.913Z",
+      "cookedHtml": "<p>我就感觉特别奇怪，怎么会有这样的人呢。明明这里的帖子和交流很高质量，大家素质也都很高，怎么就被说成这样了呢。</p>",
+      "normalizedText": "我就感觉特别奇怪，怎么会有这样的人呢。明明这里的帖子和交流很高质量，大家素质也都很高，怎么就被说成这样了呢。",
+      "contentHash": "bb909754c8b705422c1f8a51636b4c8d73fd05c783393bdaa7f7b34e8897c4c9"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 0,
+    "resources": [
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/e/e/e/eeef979abe49b8468583c2af5680fbca3e4bbf88_2_237x500.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "",
+        "status": "unsupported",
+        "sizeBytes": null,
+        "contentType": "",
+        "sha256": "",
+        "reason": "Only linux.do-hosted resources are mirrored."
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          3,
+          6
+        ],
+        "mirroredPath": "",
+        "status": "unsupported",
+        "sizeBytes": null,
+        "contentType": "",
+        "sha256": "",
+        "reason": "Only linux.do-hosted resources are mirrored."
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          9
+        ],
+        "mirroredPath": "",
+        "status": "unsupported",
+        "sizeBytes": null,
+        "contentType": "",
+        "sha256": "",
+        "reason": "Only linux.do-hosted resources are mirrored."
+      }
+    ]
+  }
+}
