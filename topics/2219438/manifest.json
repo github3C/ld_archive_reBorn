@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2219438,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2219438",
+    "title": "发现个爬L站的网站，大家可以玩玩",
+    "currentVersionId": "v1",
+    "currentHash": "1b087f3391680284609c4b799e787e7e042a4d03276dcfe79caeaed27a21b7fa",
+    "postCount": 46,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2219438,
+      "sourceUrl": "https://linux.do/t/topic/2219438",
+      "archivedAt": "2026-05-21T07:38:21.376Z",
+      "contentHash": "1b087f3391680284609c4b799e787e7e042a4d03276dcfe79caeaed27a21b7fa",
+      "postCount": 46,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 46 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
