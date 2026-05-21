@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2219724,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2219724",
+    "title": "刚才有一个举报爬L站的网站的帖子怎么不见了？",
+    "createdAt": "2026-05-21T08:03:23.036Z",
+    "currentVersionId": "v1",
+    "currentHash": "03dff32a55d796cdb80bc2ff7f8a40a8df32c451c4d544b225df2865f13f903a"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2219724,
+    "sourceUrl": "https://linux.do/t/topic/2219724",
+    "archivedAt": "2026-05-21T08:32:43.878Z",
+    "contentHash": "03dff32a55d796cdb80bc2ff7f8a40a8df32c451c4d544b225df2865f13f903a",
+    "postCount": 6,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 6 visible posts with 0 missing floors."
+    }
+  },
+  "posts": [
+    {
+      "id": 18084139,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "RimuruTempest",
+      "displayName": "RimuruTempest",
+      "createdAt": "2026-05-21T08:03:23.637Z",
+      "updatedAt": "2026-05-21T08:03:23.637Z",
+      "cookedHtml": "<p><img src=\"https://cdn3.ldstatic.com/original/4X/7/3/4/734d8ace27d4c68de8149e6e8526f2a069910582.png\" alt=\"image\" data-base62-sha1=\"gs12DqRL4rkqUFsCiq2H4DBRNmy\" width=\"425\" height=\"25\"><br>\n如图</p>",
+      "normalizedText": "如图",
+      "contentHash": "e9c9ad4d7712eb9ab8cb35bf0f5c625389c1c0c771e5f4c52e888acf4b918028"
+    },
+    {
+      "id": 18084521,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "yqyan",
+      "displayName": "Grogu",
+      "createdAt": "2026-05-21T08:11:11.715Z",
+      "updatedAt": "2026-05-21T08:11:11.715Z",
+      "cookedHtml": "<p>被举报了，发帖佬友又发了一个帖，好像又被举报了</p>",
+      "normalizedText": "被举报了，发帖佬友又发了一个帖，好像又被举报了",
+      "contentHash": "b7609c7fc05a0746ea7b719683d9577125e1b9200ec64c0a5f316915f42834c0"
+    },
+    {
+      "id": 18084577,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "afsum",
+      "displayName": "213小蟹",
+      "createdAt": "2026-05-21T08:12:43.881Z",
+      "updatedAt": "2026-05-21T08:12:43.881Z",
+      "cookedHtml": "<p>这爬L站不吃举报就有鬼了吧，有时候用户多了，我们正常访问的都有可能卡，他这体量一来了会变成啥样 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "这爬L站不吃举报就有鬼了吧，有时候用户多了，我们正常访问的都有可能卡，他这体量一来了会变成啥样",
+      "contentHash": "e8a977d8be1e01a3c0a5a3a27dc4ca0cae2b3c568706456cebc55a8b5cd38cc9"
+    },
+    {
+      "id": 18084759,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Maru_sec",
+      "displayName": "【失业客服喵】",
+      "createdAt": "2026-05-21T08:16:38.005Z",
+      "updatedAt": "2026-05-21T08:16:38.005Z",
+      "cookedHtml": "<p>本来论坛就不让引流别的论坛呀，这不骑脸</p>\n<p>更何况是爬的l站ovo始皇说过别理这种人，你越发关于他的东西他越兴奋</p>",
+      "normalizedText": "本来论坛就不让引流别的论坛呀，这不骑脸 更何况是爬的l站ovo始皇说过别理这种人，你越发关于他的东西他越兴奋",
+      "contentHash": "10459f3c71dc4064af94796c993a63b5dfd853ba22a43de3404d12b2432e48b5"
+    },
+    {
+      "id": 18085191,
+      "postNumber": 5,
+      "replyToPostNumber": 4,
+      "replyToPostId": 18084759,
+      "replyToUsername": "Maru_sec",
+      "replyToDisplayName": "【失业客服喵】",
+      "username": "RimuruTempest",
+      "displayName": "RimuruTempest",
+      "createdAt": "2026-05-21T08:27:03.210Z",
+      "updatedAt": "2026-05-21T08:27:03.210Z",
+      "cookedHtml": "<p>主要是这个涉及到L3了，这不是引不引流的问题，这时触发另一个红线了。</p>",
+      "normalizedText": "主要是这个涉及到L3了，这不是引不引流的问题，这时触发另一个红线了。",
+      "contentHash": "3cb6faf6e38ffd4a04dd113c5824cec76ce8536f62a2c6c9fb19c9fc1434c5b4"
+    },
+    {
+      "id": 18085357,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Suiying",
+      "displayName": "Suiying",
+      "createdAt": "2026-05-21T08:30:40.557Z",
+      "updatedAt": "2026-05-21T08:30:40.557Z",
+      "cookedHtml": "<aside class=\"quote quote-modified\" data-post=\"1\" data-topic=\"2219664\">\n  <div class=\"title\">\n    <div class=\"quote-controls\"></div>\n    <img alt=\"\" width=\"24\" height=\"24\" src=\"https://cdn.ldstatic.com/user_avatar/linux.do/suiying/48/1694639_2.png\" class=\"avatar\">\n    <div class=\"quote-title__text-content\">\n      <a href=\"https://linux.do/t/topic/2219664\">佬说：要有佬</a> <a class=\"badge-category__wrapper \" href=\"https://linux.do/c/gossip/11\"><span data-category-id=\"11\" style=\"--category-badge-color: #3AB54A; --category-badge-text-color: #000000;\" data-drop-close=\"true\" class=\"badge-category --style-icon \" title=\"闲聊吹水的板块。不得讨论政治、色情等违规内容。\"><svg class=\"fa d-icon svg-icon svg-node\" aria-hidden=\"true\"><svg id=\"droplet\" viewBox=\"0 0 384 512\">\n  <path d=\"M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0l1.8 0c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z\"></path>\n</svg></svg>\n<span class=\"badge-category__name\">搞七捻三</span></span></a>\n    </div>\n  </div>\n  <blockquote>\n    我将在佬说出现，回应佬的号召，拥护佬直至佬的永生 \n—————————————————————— \n不是他不搬搞七捻三啊，这发癫帖子也不敢放别的分区 \n—————————————————————— \n斗胆换了几秒分区，精彩 \n <a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/9/b/f/9bf06395ca3aa66085ceb7389b4cd09feb68ef61.png\" data-download-href=\"/uploads/short-url/mfv2pRuvALYOgGBm3X11SwzTg6R.png?dl=1\" title=\"微信图片2026052116202449465\" rel=\"noopener nofollow ugc\">[微信图片2026052116202449465]</a>\n  </blockquote>\n</aside>\n",
+      "normalizedText": "佬说：要有佬 搞七捻三 我将在佬说出现，回应佬的号召，拥护佬直至佬的永生 —————————————————————— 不是他不搬搞七捻三啊，这发癫帖子也不敢放别的分区 —————————————————————— 斗胆换了几秒分区，精彩 [微信图片2026052116202449465]",
+      "contentHash": "099cbe94abfc1c2d552a7c46969eb8ea1f8fd999e6f6b3b4c8c0c60d7bcd1beb"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 4891,
+    "resources": [
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/original/4X/7/3/4/734d8ace27d4c68de8149e6e8526f2a069910582.png",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "assets/mirrored/64/64369aa623d9304776c9a0110785152440494184e774ee63861bdfad70334622.png",
+        "status": "mirrored",
+        "sizeBytes": 2526,
+        "contentType": "image/png",
+        "sha256": "64369aa623d9304776c9a0110785152440494184e774ee63861bdfad70334622",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          3
+        ],
+        "mirroredPath": "assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png",
+        "status": "mirrored",
+        "sizeBytes": 994,
+        "contentType": "image/png",
+        "sha256": "7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/user_avatar/linux.do/suiying/48/1694639_2.png",
+        "kind": "image",
+        "postNumbers": [
+          6
+        ],
+        "mirroredPath": "assets/mirrored/9e/9e37dcc3e21e65b8fc6d557d85e28e8839c187006fd00a71baf82f22c1dab084.png",
+        "status": "mirrored",
+        "sizeBytes": 1371,
+        "contentType": "image/jpeg",
+        "sha256": "9e37dcc3e21e65b8fc6d557d85e28e8839c187006fd00a71baf82f22c1dab084",
+        "reason": ""
+      }
+    ]
+  }
+}
