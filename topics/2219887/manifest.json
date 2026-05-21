@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2219887,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2219887",
+    "title": "继续公益站投毒一说",
+    "currentVersionId": "v1",
+    "currentHash": "fbe9b5c6e04ded53919fb22b429e69429b854ae38119c18d39d819a1e60de27c",
+    "postCount": 25,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2219887,
+      "sourceUrl": "https://linux.do/t/topic/2219887",
+      "archivedAt": "2026-05-21T08:56:52.914Z",
+      "contentHash": "fbe9b5c6e04ded53919fb22b429e69429b854ae38119c18d39d819a1e60de27c",
+      "postCount": 25,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 25 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
