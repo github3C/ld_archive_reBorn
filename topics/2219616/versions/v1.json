@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2219616,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2219616",
+    "title": "被举报了，尴尬.....",
+    "createdAt": "2026-05-21T07:46:43.023Z",
+    "currentVersionId": "v1",
+    "currentHash": "38b0abe457c4287bcecf37e8af639116a7ab92bcafffc7d2025d3b3ef1842228"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2219616,
+    "sourceUrl": "https://linux.do/t/topic/2219616",
+    "archivedAt": "2026-05-21T07:50:31.647Z",
+    "contentHash": "38b0abe457c4287bcecf37e8af639116a7ab92bcafffc7d2025d3b3ef1842228",
+    "postCount": 7,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 7 visible posts with 0 missing floors."
+    }
+  },
+  "posts": [
+    {
+      "id": 18083418,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "qcbigma",
+      "displayName": "qcbigma",
+      "createdAt": "2026-05-21T07:46:43.511Z",
+      "updatedAt": "2026-05-21T07:46:43.511Z",
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/2/3/b/23b3b766b5165d319f3635e7338e28c183864521.png\" data-download-href=\"/uploads/short-url/55PKD4zJQ4IA1WfVRTjX7EcIcSZ.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/2/3/b/23b3b766b5165d319f3635e7338e28c183864521.png\" alt=\"image\" data-base62-sha1=\"55PKD4zJQ4IA1WfVRTjX7EcIcSZ\" width=\"690\" height=\"256\" data-dominant-color=\"F4F4F5\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">962×358 23.3 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619.jpeg\" data-download-href=\"/uploads/short-url/zrzwYNJ8mJ3hzoyo8Y60Jq1jX73.jpeg?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619_2_690x172.jpeg\" alt=\"image\" data-base62-sha1=\"zrzwYNJ8mJ3hzoyo8Y60Jq1jX73\" width=\"690\" height=\"172\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619_2_690x172.jpeg, https://cdn3.ldstatic.com/optimized/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619_2_1035x258.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619_2_1380x344.jpeg 2x\" data-dominant-color=\"E8E9E9\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">1777×445 164 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>",
+      "normalizedText": "image962×358 23.3 KB image1777×445 164 KB",
+      "contentHash": "afb2430c23606af3eceeeaf9befe50047d59e748a1006ac8c3340f3370cf1776"
+    },
+    {
+      "id": 18083467,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Gianthard",
+      "displayName": "呵呵",
+      "createdAt": "2026-05-21T07:47:48.222Z",
+      "updatedAt": "2026-05-21T07:47:48.222Z",
+      "cookedHtml": "<p>这是自爆了吗？马上查一下举报人。</p>",
+      "normalizedText": "这是自爆了吗？马上查一下举报人。",
+      "contentHash": "7ebff77871fb2bc336199ab976ce154b26e13481b8718520098b2f4b009434fd"
+    },
+    {
+      "id": 18083483,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Carl_19",
+      "displayName": "Carl_19",
+      "createdAt": "2026-05-21T07:48:10.961Z",
+      "updatedAt": "2026-05-21T07:48:26.556Z",
+      "cookedHtml": "<p>太正常了，分享渠道都能被举报，我以为是放了链接，但是我看其他帖子一堆放链接的。</p>\n<p>就真是奇葩。真的是人工审核吗？</p>",
+      "normalizedText": "太正常了，分享渠道都能被举报，我以为是放了链接，但是我看其他帖子一堆放链接的。 就真是奇葩。真的是人工审核吗？",
+      "contentHash": "ac37fdf9a5fb130c91e14e0134cdd46fcb85f3732a9c2f96d80203c4add126c1"
+    },
+    {
+      "id": 18083504,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "USD",
+      "displayName": "刀哥",
+      "createdAt": "2026-05-21T07:48:36.341Z",
+      "updatedAt": "2026-05-21T07:48:36.341Z",
+      "cookedHtml": "<p>刚还看着呢，划着划着突然没了，这都举报，怕不是隔壁站内鬼 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "刚还看着呢，划着划着突然没了，这都举报，怕不是隔壁站内鬼",
+      "contentHash": "a97e7a276e5676565f4fd0e92661d052c1f90282b0ec98bd164751651d5fb6ec"
+    },
+    {
+      "id": 18083559,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "qcbigma",
+      "displayName": "qcbigma",
+      "createdAt": "2026-05-21T07:49:44.587Z",
+      "updatedAt": "2026-05-21T07:49:44.587Z",
+      "cookedHtml": "<p>要不我再切切图？ 别漏出来名字。你们再底下发出来？</p>",
+      "normalizedText": "要不我再切切图？ 别漏出来名字。你们再底下发出来？",
+      "contentHash": "c99fcbf06034b7f53441763c49a60efdb06ed95ebfa45c909006e8d245438d4f"
+    },
+    {
+      "id": 18083562,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "switch996",
+      "displayName": "lili",
+      "createdAt": "2026-05-21T07:49:50.342Z",
+      "updatedAt": "2026-05-21T07:49:50.342Z",
+      "cookedHtml": "<p>如果举报是真人的话，那百分之10086这个人不干净，但凡看了0.1s帖子都知道是不是推广</p>",
+      "normalizedText": "如果举报是真人的话，那百分之10086这个人不干净，但凡看了0.1s帖子都知道是不是推广",
+      "contentHash": "ddaf217050a83ee376bab1b30f4e34681636c22a5dfe258e38bc5d49b9f9ceeb"
+    },
+    {
+      "id": 18083582,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "memor221",
+      "displayName": "回忆",
+      "createdAt": "2026-05-21T07:50:24.812Z",
+      "updatedAt": "2026-05-21T07:50:24.812Z",
+      "cookedHtml": "<p>看着看着就没了，也可能是想先静悄悄找出来，不暴露 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15\" title=\":thinking:\" class=\"emoji\" alt=\":thinking:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "看着看着就没了，也可能是想先静悄悄找出来，不暴露",
+      "contentHash": "4dd059a603715722ff8b3ee5598e68545ea94ec1165349e7a65a9c3b95fa3b8a"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 68132,
+    "resources": [
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/original/4X/2/3/b/23b3b766b5165d319f3635e7338e28c183864521.png",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "assets/mirrored/34/3475c1fa6c1a8b162c934b085e29fcdfedff29f5ec591fcdb4e8c272bfd9a0d1.png",
+        "status": "mirrored",
+        "sizeBytes": 23886,
+        "contentType": "image/png",
+        "sha256": "3475c1fa6c1a8b162c934b085e29fcdfedff29f5ec591fcdb4e8c272bfd9a0d1",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/f/8/6/f86a01d4b1ac0a440958c39521685e77db04f619_2_690x172.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "assets/mirrored/3d/3db2ea2ae27152291d9f5c6fae569d738f9fe5101f3fd34bfcbd27ed0720846d.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 42224,
+        "contentType": "image/jpeg",
+        "sha256": "3db2ea2ae27152291d9f5c6fae569d738f9fe5101f3fd34bfcbd27ed0720846d",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          4
+        ],
+        "mirroredPath": "assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png",
+        "status": "mirrored",
+        "sizeBytes": 994,
+        "contentType": "image/png",
+        "sha256": "7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/thinking.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          7
+        ],
+        "mirroredPath": "assets/mirrored/51/5116f7d07677f06785887c0af23c189b541a306d6b792d605ffaf3ed9f0e912d.png",
+        "status": "mirrored",
+        "sizeBytes": 1028,
+        "contentType": "image/png",
+        "sha256": "5116f7d07677f06785887c0af23c189b541a306d6b792d605ffaf3ed9f0e912d",
+        "reason": ""
+      }
+    ]
+  }
+}
