@@ -5,13 +5,87 @@
     "topicId": 2225381,
     "slug": "topic",
     "url": "https://linux.do/t/topic/2225381",
-    "title": "CPA的作者要去吃免费饭了吗？ 有好事的群友去举报了",
-    "currentVersionId": "v1",
-    "currentHash": "1120f32f18248d0665b1e71c83852e878d5644bb3be92841b8b95e99741fa6df",
-    "postCount": 19,
-    "missingPostNumbers": []
+    "title": "CPA 的作者要去吃免费饭了吗？ 有好事的群友去举报了",
+    "currentVersionId": "v2",
+    "currentHash": "53db3206b8e3572336c7b6432b61e3202707eccea041e72a221ab8f92d535351",
+    "postCount": 41,
+    "missingPostNumbers": [
+      1,
+      25
+    ]
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2225381,
+      "sourceUrl": "https://linux.do/t/topic/2225381",
+      "archivedAt": "2026-05-22T10:41:37.141Z",
+      "contentHash": "53db3206b8e3572336c7b6432b61e3202707eccea041e72a221ab8f92d535351",
+      "postCount": 41,
+      "missingPostNumbers": [
+        1,
+        25
+      ],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "removedPostNumbers": [
+          1
+        ],
+        "changedPostNumbers": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "newlyMissingPostNumbers": [
+          1,
+          25
+        ],
+        "restoredPostNumbers": [],
+        "message": "23 added, 18 changed, 1 removed, 2 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2225381,
@@ -26,5 +100,65 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "removedPostNumbers": [
+        1
+      ],
+      "changedPostNumbers": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "newlyMissingPostNumbers": [
+        1,
+        25
+      ],
+      "restoredPostNumbers": [],
+      "message": "23 added, 18 changed, 1 removed, 2 newly missing, 0 restored."
+    }
+  ]
 }
