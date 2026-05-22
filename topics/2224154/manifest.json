@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2224154,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2224154",
+    "title": "请给个解释，实锤【一叶知秋】挂羊头卖狗肉，7.2k 浏览量的帖子直接被删了，甚至都没有通知，背景如此强大吗？",
+    "currentVersionId": "v1",
+    "currentHash": "71eac3c141e33f6741fcb08cd25d3da6c583fa9cb1882848339c9c4d8b585ac0",
+    "postCount": 16,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2224154,
+      "sourceUrl": "https://linux.do/t/topic/2224154",
+      "archivedAt": "2026-05-22T03:52:24.406Z",
+      "contentHash": "71eac3c141e33f6741fcb08cd25d3da6c583fa9cb1882848339c9c4d8b585ac0",
+      "postCount": 16,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 16 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
