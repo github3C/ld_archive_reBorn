@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2225381,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2225381",
+    "title": "CPA的作者要去吃免费饭了吗？ 有好事的群友去举报了",
+    "currentVersionId": "v1",
+    "currentHash": "1120f32f18248d0665b1e71c83852e878d5644bb3be92841b8b95e99741fa6df",
+    "postCount": 19,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2225381,
+      "sourceUrl": "https://linux.do/t/topic/2225381",
+      "archivedAt": "2026-05-22T06:57:25.911Z",
+      "contentHash": "1120f32f18248d0665b1e71c83852e878d5644bb3be92841b8b95e99741fa6df",
+      "postCount": 19,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 19 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
