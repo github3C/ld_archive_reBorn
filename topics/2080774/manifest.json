@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2080774,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2080774",
+    "title": "站内【一叶知秋】az claude严重掺假，出来解释下",
+    "currentVersionId": "v1",
+    "currentHash": "63c5b78c80a7cad149dcbbd45098dc40b5099961b53b43325206a3723a705dd8",
+    "postCount": 173,
+    "missingPostNumbers": [
+      40,
+      94
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2080774,
+      "sourceUrl": "https://linux.do/t/topic/2080774",
+      "archivedAt": "2026-05-22T03:56:57.909Z",
+      "contentHash": "63c5b78c80a7cad149dcbbd45098dc40b5099961b53b43325206a3723a705dd8",
+      "postCount": 173,
+      "missingPostNumbers": [
+        40,
+        94
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 173 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
