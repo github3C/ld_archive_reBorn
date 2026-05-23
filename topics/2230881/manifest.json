@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2230881,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2230881",
+    "title": "丢个女装来（",
+    "currentVersionId": "v1",
+    "currentHash": "7b8807746ea5bae86904d313a6e3e6687d76d189002e80a68aa0c5c0b972bc83",
+    "postCount": 2,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2230881,
+      "sourceUrl": "https://linux.do/t/topic/2230881",
+      "archivedAt": "2026-05-23T07:01:44.652Z",
+      "contentHash": "7b8807746ea5bae86904d313a6e3e6687d76d189002e80a68aa0c5c0b972bc83",
+      "postCount": 2,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 2 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2230881,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2230881",
+    "title": "丢个女装来（",
+    "createdAt": "2026-05-23T06:51:14.372Z",
+    "currentVersionId": "v1",
+    "currentHash": "7b8807746ea5bae86904d313a6e3e6687d76d189002e80a68aa0c5c0b972bc83"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2230881,
+    "sourceUrl": "https://linux.do/t/topic/2230881",
+    "archivedAt": "2026-05-23T07:01:44.652Z",
+    "contentHash": "7b8807746ea5bae86904d313a6e3e6687d76d189002e80a68aa0c5c0b972bc83",
+    "postCount": 2,
+    "missingPostNumbers": [],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 2 visible posts with 0 missing floors."
+    }
+  },
+  "capture": {
+    "source": "api",
+    "capturedAt": "2026-05-23T07:01:44.651Z",
+    "capturedPostCount": 2
+  },
+  "posts": [
+    {
+      "id": 18150989,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "mazhichen8780",
+      "displayName": "莹酱",
+      "createdAt": "2026-05-23T06:51:14.497Z",
+      "updatedAt": "2026-05-23T06:51:14.497Z",
+      "cookedHtml": "<details>\n<summary>\n总结</summary>\n<div class=\"spoiler\">\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b.jpeg\" data-download-href=\"/uploads/short-url/thsULaHRWkXLF2sI9MAEcbQwVzd.jpeg?dl=1\" title=\"IMG20260516165644\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b_2_281x375.jpeg\" alt=\"IMG20260516165644\" data-base62-sha1=\"thsULaHRWkXLF2sI9MAEcbQwVzd\" width=\"281\" height=\"375\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b_2_281x375.jpeg, https://cdn3.ldstatic.com/optimized/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b_2_421x562.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b_2_562x750.jpeg 2x\" data-dominant-color=\"685A67\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">IMG20260516165644</span><span class=\"informations\">1920×2560 753 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>\n</div>\n</details>\n<p>又一张（</p>",
+      "normalizedText": "总结 IMG202605161656441920×2560 753 KB 又一张（",
+      "contentHash": "06cf46bbcb3208bc9212dc090112a3d3d111e1e3b36df14db21dfafb84beb260"
+    },
+    {
+      "id": 18151219,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "StellaFortuna",
+      "displayName": "欣欣|林可欣",
+      "createdAt": "2026-05-23T06:58:43.488Z",
+      "updatedAt": "2026-05-23T06:58:43.488Z",
+      "cookedHtml": "<p>还有库存环节<br>\n先吃一口 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/face_savoring_food.png?v=15\" title=\":face_savoring_food:\" class=\"emoji\" alt=\":face_savoring_food:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>\n<p>依旧可爱喵</p>",
+      "normalizedText": "还有库存环节 先吃一口 依旧可爱喵",
+      "contentHash": "6c71081cc82a3aadb53179e7601bdb68713c8913b5143ce2066536b247b054d9"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 25158,
+    "resources": [
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/c/d/3/cd387e031ece59e98344e9b2fcaca29b070df44b_2_281x375.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "assets/mirrored/71/7179d3d16c58cd3509b5bd862de29756c22bfab23564626fdd288ae4231e42fd.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 24218,
+        "contentType": "image/jpeg",
+        "sha256": "7179d3d16c58cd3509b5bd862de29756c22bfab23564626fdd288ae4231e42fd",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/face_savoring_food.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          2
+        ],
+        "mirroredPath": "assets/mirrored/d8/d8cb622d4c4edfeebcfed51dfc1dd883c5e5ec35e93292f976b6575ee31c8f62.png",
+        "status": "mirrored",
+        "sizeBytes": 940,
+        "contentType": "image/png",
+        "sha256": "d8cb622d4c4edfeebcfed51dfc1dd883c5e5ec35e93292f976b6575ee31c8f62",
+        "reason": ""
+      }
+    ]
+  }
+}
