@@ -1,0 +1,394 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2216287,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2216287",
+    "title": "这一天终究还是（）",
+    "createdAt": "2026-05-20T15:32:36.201Z",
+    "currentVersionId": "v1",
+    "currentHash": "b4f9c5c1827f772be779c3c947305d2fabd6d183341fa8b1330d336e53fdd26b"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2216287,
+    "sourceUrl": "https://linux.do/t/topic/2216287",
+    "archivedAt": "2026-05-23T07:03:27.534Z",
+    "contentHash": "b4f9c5c1827f772be779c3c947305d2fabd6d183341fa8b1330d336e53fdd26b",
+    "postCount": 17,
+    "missingPostNumbers": [
+      2,
+      12,
+      18
+    ],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 17 visible posts with 3 missing floors."
+    }
+  },
+  "capture": {
+    "source": "api",
+    "capturedAt": "2026-05-23T07:03:27.528Z",
+    "capturedPostCount": 17
+  },
+  "posts": [
+    {
+      "id": 18063079,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "mazhichen8780",
+      "displayName": "莹酱",
+      "createdAt": "2026-05-20T15:32:38.356Z",
+      "updatedAt": "2026-05-21T14:25:24.599Z",
+      "cookedHtml": "<p>从 <a href=\"https://linux.do/t/topic/1425396\" class=\"inline-onebox\">三级了...要女装吗(x</a></p>\n<details>\n<summary>\n真的要打开么</summary>\n<details>\n<summary>\n这里什么都没有</summary>\n<div class=\"spoiler\">\n<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc.jpeg\" data-download-href=\"/uploads/short-url/vFq2DVKnfULGU6XGExZWBgXapAw.jpeg?dl=1\" title=\"MVIMG20260516170258\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc_2_375x500.jpeg\" alt=\"MVIMG20260516170258\" data-base62-sha1=\"vFq2DVKnfULGU6XGExZWBgXapAw\" width=\"375\" height=\"500\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc_2_375x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc_2_562x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc_2_750x1000.jpeg 2x\" data-dominant-color=\"7A7A79\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">MVIMG20260516170258</span><span class=\"informations\">1920×2560 809 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>\n</div>\n</details>\n</details>",
+      "normalizedText": "从 三级了...要女装吗(x 真的要打开么 这里什么都没有 MVIMG202605161702581920×2560 809 KB",
+      "contentHash": "a710f6800616dfeedf99635ce1deb7153efa2c78679076d4b5af58ea171297d1"
+    },
+    {
+      "id": 18063170,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "ddddx",
+      "displayName": "ddddx",
+      "createdAt": "2026-05-20T15:36:03.954Z",
+      "updatedAt": "2026-05-20T15:36:03.954Z",
+      "cookedHtml": "<p>挑在520这一天发，佬是真的想找到真爱啊<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "挑在520这一天发，佬是真的想找到真爱啊",
+      "contentHash": "761660ee2bd2d72441fe0ccc576cb57732efb3613a6a584bbefd03fc83422378"
+    },
+    {
+      "id": 18063216,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Amazing1_2",
+      "displayName": "WeirdOldman",
+      "createdAt": "2026-05-20T15:37:29.039Z",
+      "updatedAt": "2026-05-20T15:37:29.039Z",
+      "cookedHtml": "<p>感觉手感有点丝滑吧，真想上手试试<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/drooling_face.png?v=15\" title=\":drooling_face:\" class=\"emoji\" alt=\":drooling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "感觉手感有点丝滑吧，真想上手试试",
+      "contentHash": "dcaa3fd28871a97fd7db27cb0f170a98803c197621c08646972237cedb10ded5"
+    },
+    {
+      "id": 18063257,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "wem",
+      "displayName": "wem",
+      "createdAt": "2026-05-20T15:38:57.906Z",
+      "updatedAt": "2026-05-20T15:38:57.906Z",
+      "cookedHtml": "<p>婷婷，这是初二？佬友们这得挨不少电。</p>",
+      "normalizedText": "婷婷，这是初二？佬友们这得挨不少电。",
+      "contentHash": "1be7c24a426dff53bf422ea1a6a5c3553aaf89f36e422db34f0ee2ace62d87ab"
+    },
+    {
+      "id": 18063340,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "March7th",
+      "displayName": "三月七",
+      "createdAt": "2026-05-20T15:41:53.659Z",
+      "updatedAt": "2026-05-20T15:41:53.659Z",
+      "cookedHtml": "<p>交出郊狼码，我来让你好好爽一爽。</p>",
+      "normalizedText": "交出郊狼码，我来让你好好爽一爽。",
+      "contentHash": "c95ee52f8ef9ff209bb3be4de8de254ae37139ffd4791284579fac314f717b9d"
+    },
+    {
+      "id": 18063388,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "I-was-here",
+      "displayName": "佛克斯",
+      "createdAt": "2026-05-20T15:43:23.887Z",
+      "updatedAt": "2026-05-20T15:43:23.887Z",
+      "cookedHtml": "<p><img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15\" title=\":laughing:\" class=\"emoji\" alt=\":laughing:\" loading=\"lazy\" width=\"20\" height=\"20\"> 我看佬打小就是个学计算机的好料子说是</p>",
+      "normalizedText": "我看佬打小就是个学计算机的好料子说是",
+      "contentHash": "fc96e8ec3540ce8f7d149a5b2801748c47b70d69144ba7acc6e4a791cc19136e"
+    },
+    {
+      "id": 18063522,
+      "postNumber": 8,
+      "replyToPostNumber": 7,
+      "replyToPostId": 18063388,
+      "replyToUsername": "I-was-here",
+      "replyToDisplayName": "佛克斯",
+      "username": "wuming",
+      "displayName": "wm（猫猫头大帅哥的饲主）",
+      "createdAt": "2026-05-20T15:48:40.266Z",
+      "updatedAt": "2026-05-20T15:48:40.266Z",
+      "cookedHtml": "<p>图灵的圈圈套套啊，这就是计算机的归宿</p>",
+      "normalizedText": "图灵的圈圈套套啊，这就是计算机的归宿",
+      "contentHash": "03927ef43d92e919cf2b3c3454106bc3ae0fac6c4783a6065b1a4a132bc59d10"
+    },
+    {
+      "id": 18063571,
+      "postNumber": 9,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "I-was-here",
+      "displayName": "佛克斯",
+      "createdAt": "2026-05-20T15:50:53.323Z",
+      "updatedAt": "2026-05-20T15:50:53.323Z",
+      "cookedHtml": "<p><a class=\"mention\" href=\"https://linux.do/u/march7th\">@March7th</a> 虽然我也在学计算机,但我以后走的是人工智能放下,路不同(确信)说是</p>",
+      "normalizedText": "@March7th 虽然我也在学计算机,但我以后走的是人工智能放下,路不同(确信)说是",
+      "contentHash": "c77e871b64e5e49b0e675b2924286b548d22957df1fd1fa33bbed31c1e03b755"
+    },
+    {
+      "id": 18064019,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "KIVINXU",
+      "displayName": "甘尼克斯",
+      "createdAt": "2026-05-20T16:08:59.473Z",
+      "updatedAt": "2026-05-20T16:08:59.473Z",
+      "cookedHtml": "<p>哇哦！好白好修长，要穿着睡觉吗？ <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/hugs.png?v=15\" title=\":hugs:\" class=\"emoji\" alt=\":hugs:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "哇哦！好白好修长，要穿着睡觉吗？",
+      "contentHash": "604a3a8c76a46da95fe4d3f1f323d59e00b4d9b63da25dcdf5189d1e9bf3eba5"
+    },
+    {
+      "id": 18064144,
+      "postNumber": 11,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "26803",
+      "displayName": "KuYomi",
+      "createdAt": "2026-05-20T16:15:55.534Z",
+      "updatedAt": "2026-05-20T16:15:55.534Z",
+      "cookedHtml": "<p>欸我去，行啊，藏挺深！还好我提前关注了 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/heart_eyes.png?v=15\" title=\":heart_eyes:\" class=\"emoji\" alt=\":heart_eyes:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "欸我去，行啊，藏挺深！还好我提前关注了",
+      "contentHash": "1e17d7bacc81941d833a8b914bb0f389909b64db500772e0744ac4593d57b47d"
+    },
+    {
+      "id": 18066380,
+      "postNumber": 13,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Nniuma",
+      "displayName": "Niuma",
+      "createdAt": "2026-05-20T23:49:00.906Z",
+      "updatedAt": "2026-05-20T23:49:00.906Z",
+      "cookedHtml": "<p>还好我点了关注~~但是上班点开还是一激灵，观察了下周围没人窥屏~</p>",
+      "normalizedText": "还好我点了关注~~但是上班点开还是一激灵，观察了下周围没人窥屏~",
+      "contentHash": "4e48381931cdcb0750d81f2cc07b650a5ac1999450dd3dcc4947506289462b99"
+    },
+    {
+      "id": 18069124,
+      "postNumber": 14,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "arsenal4ever",
+      "displayName": "阿森纳",
+      "createdAt": "2026-05-21T01:39:29.150Z",
+      "updatedAt": "2026-05-21T01:39:29.150Z",
+      "cookedHtml": "<p>一般来说，酱不就是女生的意思么，然后女装不一般说的是男扮女装么，我有点confused了</p>",
+      "normalizedText": "一般来说，酱不就是女生的意思么，然后女装不一般说的是男扮女装么，我有点confused了",
+      "contentHash": "5b3bd4791718c064027c807ce30bcc180bd55fd9a8f712302da2c3f6c0ff1e8b"
+    },
+    {
+      "id": 18070405,
+      "postNumber": 15,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Techpigeon",
+      "displayName": "昭告天下",
+      "createdAt": "2026-05-21T02:09:57.287Z",
+      "updatedAt": "2026-05-21T02:09:57.287Z",
+      "cookedHtml": "<p>是可爱的佬友，让蜀黍来试试手感怎么样 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/drooling_face.png?v=15\" title=\":drooling_face:\" class=\"emoji\" alt=\":drooling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "是可爱的佬友，让蜀黍来试试手感怎么样",
+      "contentHash": "3e5924a8c76c6670bf12c0608c6d725acf42f7e031a0e96d2318f8d5ee6a4a78"
+    },
+    {
+      "id": 18070504,
+      "postNumber": 16,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "wzpeace",
+      "displayName": "wzpeace",
+      "createdAt": "2026-05-21T02:12:08.591Z",
+      "updatedAt": "2026-05-21T02:12:08.591Z",
+      "cookedHtml": "<p>哎呦，还是女装带劲，不知道佬友会不会上瘾</p>",
+      "normalizedText": "哎呦，还是女装带劲，不知道佬友会不会上瘾",
+      "contentHash": "fb7bfcb697365fb67f0ae66df87cb67584d9184c8486f6d7c87403d77f20081d"
+    },
+    {
+      "id": 18070591,
+      "postNumber": 17,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "peacehope",
+      "displayName": "peacehope",
+      "createdAt": "2026-05-21T02:14:19.102Z",
+      "updatedAt": "2026-05-21T02:14:19.102Z",
+      "cookedHtml": "<p>看着好丝滑啊，佬友最终归宿还是女装</p>",
+      "normalizedText": "看着好丝滑啊，佬友最终归宿还是女装",
+      "contentHash": "af32dcf5084ab06e8b290fef245856602cb27311c7688af922d820fcb54349bc"
+    },
+    {
+      "id": 18076377,
+      "postNumber": 19,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "dext7r",
+      "displayName": "Xdext7r",
+      "createdAt": "2026-05-21T04:38:31.103Z",
+      "updatedAt": "2026-05-21T04:38:31.103Z",
+      "cookedHtml": "<p>啊这<br>\n</p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2.jpeg\" data-download-href=\"/uploads/short-url/gSk2MvkAWPXMDfxj6oQb92fbOJs.jpeg?dl=1\" title=\"409f406617fcf777fc70cba713bcc967\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2_2_507x500.jpeg\" alt=\"409f406617fcf777fc70cba713bcc967\" data-base62-sha1=\"gSk2MvkAWPXMDfxj6oQb92fbOJs\" width=\"507\" height=\"500\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2_2_507x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2_2_760x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2_2_1014x1000.jpeg 2x\" data-dominant-color=\"B6B4B4\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">409f406617fcf777fc70cba713bcc967</span><span class=\"informations\">1024×1009 125 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>",
+      "normalizedText": "啊这 409f406617fcf777fc70cba713bcc9671024×1009 125 KB",
+      "contentHash": "d4651890a85256efe26c7d3e090dfedd679deac3ac710066915025cb6811a47a"
+    },
+    {
+      "id": 18080592,
+      "postNumber": 20,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Yeliaoyuan",
+      "displayName": "夜寮原",
+      "createdAt": "2026-05-21T06:42:02.239Z",
+      "updatedAt": "2026-05-21T06:42:02.239Z",
+      "cookedHtml": "<p>我靠 秒吃一口香香软软的佬友（探头</p>",
+      "normalizedText": "我靠 秒吃一口香香软软的佬友（探头",
+      "contentHash": "6f5a9f590d28a0e4c7a16760587e8b862019ae5e6b37b8db048d35f23ff10f56"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 73766,
+    "resources": [
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/d/d/f/ddf204ab0a551c4239ee78a75135aa9513b89edc_2_375x500.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          1
+        ],
+        "mirroredPath": "assets/mirrored/01/01104b51ddca1ca3d36255cc365a81254c23f8851c6bfc298760f564678e587a.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 28199,
+        "contentType": "image/jpeg",
+        "sha256": "01104b51ddca1ca3d36255cc365a81254c23f8851c6bfc298760f564678e587a",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          3
+        ],
+        "mirroredPath": "assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png",
+        "status": "mirrored",
+        "sizeBytes": 1294,
+        "contentType": "image/png",
+        "sha256": "4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/drooling_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          4,
+          15
+        ],
+        "mirroredPath": "assets/mirrored/f7/f7f0f51026ca6bc33cef1646545156f7d8d1a201d62f19873b64a1fe8e08bf68.png",
+        "status": "mirrored",
+        "sizeBytes": 810,
+        "contentType": "image/png",
+        "sha256": "f7f0f51026ca6bc33cef1646545156f7d8d1a201d62f19873b64a1fe8e08bf68",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/laughing.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          7
+        ],
+        "mirroredPath": "assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png",
+        "status": "mirrored",
+        "sizeBytes": 913,
+        "contentType": "image/png",
+        "sha256": "0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/hugs.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          10
+        ],
+        "mirroredPath": "assets/mirrored/75/75051001faed2bddddb6c9e67ee6b62f4f6e72395d2effcaa017bd4e6970b29f.png",
+        "status": "mirrored",
+        "sizeBytes": 1262,
+        "contentType": "image/png",
+        "sha256": "75051001faed2bddddb6c9e67ee6b62f4f6e72395d2effcaa017bd4e6970b29f",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/heart_eyes.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          11
+        ],
+        "mirroredPath": "assets/mirrored/5a/5a7924460934304b95f95f8ffe9c9df8e42c5213e9eb90ecfcb02afcc97ae7ce.png",
+        "status": "mirrored",
+        "sizeBytes": 967,
+        "contentType": "image/png",
+        "sha256": "5a7924460934304b95f95f8ffe9c9df8e42c5213e9eb90ecfcb02afcc97ae7ce",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/7/6/4/7646ce998fa99e85d8f61df029e45484fedabbe2_2_507x500.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          19
+        ],
+        "mirroredPath": "assets/mirrored/cb/cb1b4b589daf124f9899431d1481e71ca50890ef0789d27e83f60bfcb5d284a0.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 40321,
+        "contentType": "image/jpeg",
+        "sha256": "cb1b4b589daf124f9899431d1481e71ca50890ef0789d27e83f60bfcb5d284a0",
+        "reason": ""
+      }
+    ]
+  }
+}

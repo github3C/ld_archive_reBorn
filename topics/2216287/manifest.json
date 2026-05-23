@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2216287,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2216287",
+    "title": "这一天终究还是（）",
+    "currentVersionId": "v1",
+    "currentHash": "b4f9c5c1827f772be779c3c947305d2fabd6d183341fa8b1330d336e53fdd26b",
+    "postCount": 17,
+    "missingPostNumbers": [
+      2,
+      12,
+      18
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2216287,
+      "sourceUrl": "https://linux.do/t/topic/2216287",
+      "archivedAt": "2026-05-23T07:03:27.534Z",
+      "contentHash": "b4f9c5c1827f772be779c3c947305d2fabd6d183341fa8b1330d336e53fdd26b",
+      "postCount": 17,
+      "missingPostNumbers": [
+        2,
+        12,
+        18
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 17 visible posts with 3 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
