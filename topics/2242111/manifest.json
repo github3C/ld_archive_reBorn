@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2242111,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2242111",
+    "title": "[避坑]Windsurf退订遥遥无期，诈骗产品！！！",
+    "currentVersionId": "v1",
+    "currentHash": "bd9876037adc2473e403f8f9f5d48f804733e57eb0fc2258bbd3200cbd337350",
+    "postCount": 14,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2242111,
+      "sourceUrl": "https://linux.do/t/topic/2242111",
+      "archivedAt": "2026-05-25T08:35:48.466Z",
+      "contentHash": "bd9876037adc2473e403f8f9f5d48f804733e57eb0fc2258bbd3200cbd337350",
+      "postCount": 14,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 14 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
