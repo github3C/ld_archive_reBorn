@@ -1,0 +1,660 @@
+# [求助] LD士多平台发生的积分盗刷问题
+
+Source: https://linux.do/t/topic/2243089
+Version: v1
+Posts: 72
+Missing floors: none
+
+## #1 wuyinrui (@wuyinrui)
+
+Created: 2026-05-25T09:24:27.209Z
+Updated: 2026-05-25T09:24:27.209Z
+
+我的LDC积分被盗刷, 怎么排查问题和追回积分?
+
+我完全没在 “LD士多” 上买过东西, 但出现了很多消费订单
+
+盗刷的时间是 05-22 ~ 05-25
+
+[![image](https://linux.do/assets/mirrored/3e/3ea6a59defabfe22a5a20c9c39e7cd86e55d01533a496b1f4aec738dc2076441.png)image1903×1219 146 KB](https://cdn3.ldstatic.com/original/4X/a/b/5/ab5052638641ea003c6394cd109117b9d1539738.png)
+
+## #2 卡里姆•汗 (@fgozxy)
+
+Created: 2026-05-25T09:25:26.781Z
+Updated: 2026-05-25T09:25:26.781Z
+
+还能盗刷的吗，支付密码加账户授权，不应该啊
+
+## #3 opzc (@zsq9)
+
+Created: 2026-05-25T09:25:38.117Z
+Updated: 2026-05-25T09:25:38.117Z
+
+ld士多支付不是要密码吗，他怎么知道密码的
+
+## #4 KSAMNI (@yancj)
+
+Created: 2026-05-25T09:26:27.201Z
+Updated: 2026-05-25T09:26:27.201Z
+
+这是怎么盗取到你的账号的，而且不是有支付密码吗
+
+## #5 同沐霜雪 (@xinjianya)
+
+Created: 2026-05-25T09:26:35.111Z
+Updated: 2026-05-25T09:26:35.111Z
+
+看看详情里面转给谁了，肯定会查到人的
+
+## #6 singularity (@singularity)
+
+Created: 2026-05-25T09:26:54.296Z
+Updated: 2026-05-25T09:26:54.296Z
+
+估计账号被盗了吧
+
+吓得我赶紧去看了眼自己的积分还在不在![:joy:](https://linux.do/assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png)
+
+## #7 Hodge (@Hodge)
+
+Created: 2026-05-25T09:28:00.478Z
+Updated: 2026-05-25T09:28:00.478Z
+
+是不是用了什么浏览器插件，把你ldc盗取了
+
+## #8 puppywang (@puppywang)
+
+Created: 2026-05-25T09:28:30.829Z
+Updated: 2026-05-25T09:28:30.829Z
+
+去credit的活动界面看下交易记录， 一笔一笔的， 看看买啥了，如果是买的中转站，可以联系站长看看有没有被使用，没有使用可以让站长退回，然后赶紧修改密码
+
+## #9 kevinkelly (@kevinkelly4)
+
+Created: 2026-05-25T09:28:57.446Z
+Updated: 2026-05-25T09:28:57.446Z
+
+商家应该可以查得到是谁用的兑换码吧，你去问问这几个
+
+## #10 wuyinrui (@wuyinrui)
+
+Created: 2026-05-25T09:29:19.092Z
+Updated: 2026-05-25T09:29:19.092Z
+Reply to: #5 同沐霜雪
+
+LD士多把积分划转给商家, 今天联系到一位商家, 使用激活码的邮箱和我完全不相干
+
+[![image](https://linux.do/assets/mirrored/ff/ffcfb176b0a6767336b71b32be45b5b01fff1ff72c13a87f31f067533baaf381.jpeg)image2475×280 85.4 KB](https://cdn3.ldstatic.com/original/4X/6/2/0/62081fea51c9953317432ad0d6834fc291c3ce39.jpeg)
+
+## #11 opzc (@zsq9)
+
+Created: 2026-05-25T09:29:24.318Z
+Updated: 2026-05-25T09:29:24.318Z
+
+你先看他买了什么东西，去联系商家，ldc是可以发起争议的。
+
+## #12 monaicc (@zzqqa1.6)
+
+Created: 2026-05-25T09:29:46.426Z
+Updated: 2026-05-25T09:30:43.641Z
+
+[![image](https://linux.do/assets/mirrored/5e/5e113f8ab3869842f4045f5fa60c23a3575e6a5cb27ebfac32c8d89f998c8a7a.png)image3536×920 338 KB](https://cdn3.ldstatic.com/original/4X/7/0/b/70bfd7cfb6bde9b57b5a7f8d0c7f7f12eb8e2004.png)
+
+[![image](https://linux.do/assets/mirrored/a9/a99043326ba35e976d7e91ad6ed23c883f15862d8b261852805d23f11189f2e2.png)image1272×978 67.6 KB](https://cdn3.ldstatic.com/original/4X/2/2/1/2216c30b85ae969aa3936ba880fa19b703a60eab.png)
+
+冲过hub？
+
+## #13 pink (@pink)
+
+Created: 2026-05-25T09:29:58.913Z
+Updated: 2026-05-25T09:29:58.913Z
+
+太可恶了，盗刷的都敢盯上L站了。
+
+## #14 同沐霜雪 (@xinjianya)
+
+Created: 2026-05-25T09:31:15.530Z
+Updated: 2026-05-25T09:32:51.339Z
+Reply to: #10 wuyinrui
+
+passwd
+
+查询到是这个人，私信问问ta？
+
+[![image](https://linux.do/assets/mirrored/22/22632c3dbeb4885e8f181f6304e88578b62b16a54d8a4459037221c7c1b9939e.png)image625×216 16.7 KB](https://linux.do/assets/mirrored/22/22632c3dbeb4885e8f181f6304e88578b62b16a54d8a4459037221c7c1b9939e.png)
+
+## #15 wuyinrui (@wuyinrui)
+
+Created: 2026-05-25T09:31:59.264Z
+Updated: 2026-05-25T09:31:59.264Z
+Reply to: #12 monaicc
+
+hub站很久之前打开过, 今天没冲过
+
+## #16 时牧 (@840814743)
+
+Created: 2026-05-25T09:32:46.743Z
+Updated: 2026-05-25T09:33:13.533Z
+
+有点吓人，没想到连这个都有盗刷风险啊
+
+## #17 梦影 (@dreamhadow)
+
+Created: 2026-05-25T09:32:51.436Z
+Updated: 2026-05-25T09:32:51.436Z
+Reply to: #10 wuyinrui
+
+联系一下管理，能关联到账号一起封禁了最好
+
+## #18 wuyinrui (@wuyinrui)
+
+Created: 2026-05-25T09:32:52.279Z
+Updated: 2026-05-25T09:32:52.279Z
+Reply to: #8 puppywang
+
+22 号发现有订单后就改密码, 结果这两天还是有新订单
+
+## #19 monaicc (@zzqqa1.6)
+
+Created: 2026-05-25T09:32:55.438Z
+Updated: 2026-05-25T09:35:06.346Z
+
+你看看hub里面有余额不呢
+
+  
+      ![](https://linux.do/assets/mirrored/dc/dc74c4e6270aa9b02316ab636860a4e8ccaaf4d32a7f9a90d12a5a47f4111ea3.jpeg)
+
+      [hub.linux.do](https://hub.linux.do/wallet)
+  
+
+  
+    
+
+[Loading...](https://hub.linux.do/wallet)
+
+  AI development platform.
+
+  
+
+  
+    
+    
+  
+
+  
+
+我搞错了，只在ld士多，不纠结hub
+
+## #20 诺曼底企鹅 (@normandy)
+
+Created: 2026-05-25T09:34:20.627Z
+Updated: 2026-05-25T09:34:20.627Z
+
+secret 泄露了吧，这种东西只要有的你完整 key secret 应该随便操作的
+
+## #21 opzc (@zsq9)
+
+Created: 2026-05-25T09:35:18.611Z
+Updated: 2026-05-25T09:35:18.611Z
+Reply to: #18 wuyinrui
+
+都找到人了直接联系始皇不久可以了。
+
+## #22 wuyinrui (@wuyinrui)
+
+Created: 2026-05-25T09:35:20.938Z
+Updated: 2026-05-25T09:35:20.938Z
+Reply to: #19 monaicc
+
+[![image](https://linux.do/assets/mirrored/27/27b8b84b39abeeb650124c5d3e6bd01167c6362719dd73779b5573cb1f1599f6.png)image2215×823 71.8 KB](https://cdn3.ldstatic.com/original/4X/4/4/2/4423308009180c6904a3a6510bb4000b6177de26.png)
+
+## #23 opzc (@zsq9)
+
+Created: 2026-05-25T09:36:05.063Z
+Updated: 2026-05-25T09:36:05.063Z
+Reply to: #22 wuyinrui
+
+他应该是冲到他的账户里了，这个应该可以找回
+
+## #24 梦影 (@dreamhadow)
+
+Created: 2026-05-25T09:36:16.395Z
+Updated: 2026-05-25T09:36:16.395Z
+Reply to: #10 wuyinrui
+
+联系一下这个人吧[https://linux.do/u/passwd/summary](https://linux.do/u/passwd/summary)
+
+## #25 老路 (@luhaichang)
+
+Created: 2026-05-25T09:37:55.457Z
+Updated: 2026-05-25T09:38:11.238Z
+
+![:joy:](https://linux.do/assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png)听起来有点哈人啦,这都能被盗?蹲一个后续
+
+## #26 同沐霜雪 (@xinjianya)
+
+Created: 2026-05-25T09:38:30.790Z
+Updated: 2026-05-25T09:38:30.790Z
+Reply to: #10 wuyinrui
+
+[@passwd](https://linux.do/u/passwd) 你怎么说，你曾经发过这个邮箱
+
+[![image](https://linux.do/assets/mirrored/aa/aa52db5ac6ee20f607894f9136c2c26f5500de28e9180c32766db50915e26d2e.png)image648×207 8.19 KB](https://linux.do/assets/mirrored/aa/aa52db5ac6ee20f607894f9136c2c26f5500de28e9180c32766db50915e26d2e.png)
+
+## #27 opzc (@zsq9)
+
+Created: 2026-05-25T09:40:01.825Z
+Updated: 2026-05-25T09:40:01.825Z
+
+佬友对了应该截图保留证据，不然他删除了
+
+## #28 tomatoEat (@tomatoEat)
+
+Created: 2026-05-25T09:40:34.313Z
+Updated: 2026-05-25T09:40:34.313Z
+
+Chenyme 佬友应该是查日志去了，刚才还看到他在回复中..
+
+## #29 冰 (@uton88)
+
+Created: 2026-05-25T09:43:13.350Z
+Updated: 2026-05-25T09:43:13.350Z
+
+[![image](https://linux.do/assets/mirrored/d2/d2dc034cb10d778e95da499ee98762bd8d193c525e24ad4cffcb4498b9748be7.png)image1936×281 36.1 KB](https://cdn3.ldstatic.com/original/4X/b/2/9/b29dba36a0d7b36616229052e8d57de70924105c.png)
+
+此账号在冰站创建一个key，后此key有hub站请求头信息，若多方关联我相信可以找到幕后黑手
+
+## #30 时牧 (@840814743)
+
+Created: 2026-05-25T09:49:14.903Z
+Updated: 2026-05-25T09:49:14.903Z
+Reply to: #29 冰
+
+好家伙，这么说来最近开门的公益站可能都会…
+
+## #31 海木 (@cyc333)
+
+Created: 2026-05-25T09:50:49.405Z
+Updated: 2026-05-25T09:50:49.405Z
+
+佬的页面好高级 是怎么进去看的，可否给个地址入口
+
+## #32 sgvv (@sgvv)
+
+Created: 2026-05-25T09:51:44.416Z
+Updated: 2026-05-25T09:51:44.416Z
+
+我嘞个豆 这个有点吓人的啊 赶紧看看自己的
+
+## #33 小木公菜奈 (@WuliJonC)
+
+Created: 2026-05-25T09:51:57.933Z
+Updated: 2026-05-25T09:51:57.933Z
+Reply to: #30 时牧
+
+啊，为什么啊 ![:tieba_004:](https://linux.do/assets/mirrored/ff/ff781a5e0c90d08c745d7ba4e3e851853df1a77cb9fb09e0e01bc4a3cd08941f.png)
+
+这是什么原理呢？
+
+## #34 monaicc (@zzqqa1.6)
+
+Created: 2026-05-25T09:52:48.274Z
+Updated: 2026-05-25T09:52:48.274Z
+Reply to: #31 海木
+
+![](https://linux.do/assets/mirrored/c6/c683037cf9f3c95888d39bd8101fec33e2b1fc3ea0bdfd7b4191b0bbd8507a4b.png)
+
+      [credit.linux.do](https://credit.linux.do/)
+  
+
+  
+    
+
+[LINUX DO Credit](https://credit.linux.do/)
+
+  Linux Do 社区积分服务平台
+
+  
+
+  
+    
+    
+  
+
+  
+
+这个？
+
+## #35 Charles (@Charles)
+
+Created: 2026-05-25T10:02:20.555Z
+Updated: 2026-05-25T10:02:20.555Z
+
+[![image](https://linux.do/assets/mirrored/66/666a12a53de66f28db2f70b5f3ef80be67bbea8cc882ea50d65c2fb43202c084.png)image454×143 10.4 KB](https://linux.do/assets/mirrored/66/666a12a53de66f28db2f70b5f3ef80be67bbea8cc882ea50d65c2fb43202c084.png)
+
+我今天积分站还有这个提示，我都没有怎么访问，怪吓人的 ![:sob:](https://linux.do/assets/mirrored/c2/c22c89c24607d04f39094af2216b611d1d033055b31afafbc6a185990982b844.png)
+
+## #36 yijima925 (@yijima925)
+
+Created: 2026-05-25T10:03:15.470Z
+Updated: 2026-05-25T10:03:15.470Z
+
+我天，赶紧看一下邮箱又没有给你提示，这是大事啊
+
+## #37 白泽 (@Trinix)
+
+Created: 2026-05-25T10:04:59.664Z
+Updated: 2026-05-25T10:04:59.664Z
+Reply to: #35 Charles
+
+这应该是机场ip导致的风控提示，我用宝可梦也会这样，换我的自建节点就好了
+
+## #38 myouo (@myouo)
+
+Created: 2026-05-25T10:05:21.533Z
+Updated: 2026-05-25T10:05:21.533Z
+Reply to: #5 同沐霜雪
+
+居然还是购买的邀请码吗？该不会是拿出去卖的闲鱼商贩吧？
+
+## #39 ius (@ius)
+
+Created: 2026-05-25T10:05:29.758Z
+Updated: 2026-05-25T10:05:29.758Z
+
+这有点可怕了，蹲蹲后续，在线吃瓜 ![:tieba_004:](https://linux.do/assets/mirrored/ff/ff781a5e0c90d08c745d7ba4e3e851853df1a77cb9fb09e0e01bc4a3cd08941f.png)
+
+## #40 同沐霜雪 (@xinjianya)
+
+Created: 2026-05-25T10:07:47.965Z
+Updated: 2026-05-25T10:07:47.965Z
+Reply to: #38 myouo
+
+应该是自己用了，贪小便宜的
+
+看这个人大部分回复都是薅羊毛的信息
+
+## #41 海木 (@cyc333)
+
+Created: 2026-05-25T10:16:01.455Z
+Updated: 2026-05-25T10:16:01.455Z
+Reply to: #34 monaicc
+
+我进去了，左侧资源那边要点 more  然后能看到积分站。。。。刚才个人信息那边找了好久。我才400多个积分，哈哈，不够买一个邀请码的
+
+## #42 我张三 (@wzs)
+
+Created: 2026-05-25T10:28:11.675Z
+Updated: 2026-05-25T10:28:11.675Z
+
+24/25两天顶着限额把积分花光，
+
+应该不是误操作、bug之类的。真盗啊。
+
+话说是楼主不小心泄露自己密钥了，还是LDC有什么漏洞
+
+## #43 澪雨 (@lingyus)
+
+Created: 2026-05-25T10:31:46.076Z
+Updated: 2026-05-25T10:31:46.076Z
+
+我去发生了什么事情，怎么还能盗刷积分的
+
+## #44 退堂鼓演奏家 (@kestrel)
+
+Created: 2026-05-25T10:34:25.006Z
+Updated: 2026-05-25T10:34:25.006Z
+
+这怎么盗刷的 皇帝能查到登陆设备之类的吧
+
+## #45 散装江苏 (@is_hp)
+
+Created: 2026-05-25T10:35:18.988Z
+Updated: 2026-05-25T10:35:18.988Z
+
+看了下，如果走分发接口就不可能走LD士多购买商品了
+
+所以最大的可能是账号被别人用了，至于怎么用的……cookie？密码？公用设备？不知道……
+
+## #46 KuYun (@qq85310660)
+
+Created: 2026-05-25T10:36:46.146Z
+Updated: 2026-05-25T10:36:46.146Z
+
+[![image](https://linux.do/assets/mirrored/8c/8ca5afa62dcdaaf4d251047bea8ee825966033ec30e127186bb8dce933734b0a.png)image1087×120 10.6 KB](https://cdn3.ldstatic.com/original/4X/d/6/8/d6809d0ffa7e0938b9ef7b7944eb3cd05f92e5cd.png)
+
+为啥不回复捏，当事人
+
+## #47 奎因 (@Ellery)
+
+Created: 2026-05-25T10:38:04.401Z
+Updated: 2026-05-25T10:38:04.401Z
+Reply to: #40 同沐霜雪
+
+还是比较好奇他怎么盗刷的，印象里还是第一次见到盗刷的情况 ![:distorted_face:](https://linux.do/assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png)
+
+## #48 好好好 (@Keyi66)
+
+Created: 2026-05-25T10:47:46.805Z
+Updated: 2026-05-25T10:47:46.805Z
+
+![](https://linux.do/assets/mirrored/2d/2d018e315b05efdbaa3850c3dc44c6cd08ca5efa748382d4bb8247eb36e65a5a.png) 梦影:
+
+> [https://linux.do/u/passwd/summary](https://linux.do/u/passwd/summary)
+
+怎么被盗刷的啊，太坏了吧，当事人在线还不回应
+
+让始皇来看看吧 [@neo](https://linux.do/u/neo)
+
+## #49 Kyrie (@Kyrie)
+
+Created: 2026-05-25T10:52:54.845Z
+Updated: 2026-05-25T10:52:54.845Z
+
+还是不明白怎么会被盗刷，不是需要关联L站账号+输入密码吗，就算是弱密码，也需要L站账号信息吧？
+
+## #50 梦影 (@dreamhadow)
+
+Created: 2026-05-25T10:56:16.770Z
+Updated: 2026-05-25T10:56:16.770Z
+Reply to: #48 好好好
+
+刚刚看到他准备回复这个帖子的，又取消了 ![:laughing:](https://linux.do/assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png)
+
+## #51 admin (@passwd)
+
+Created: 2026-05-25T10:56:31.714Z
+Updated: 2026-05-25T10:56:31.714Z
+Reply to: #48 好好好
+
+[iirmiex@gmail.com](mailto:iirmiex@gmail.com) 这是我室友的邮箱, 当时他说他没有L站的号,想让我帮他上车那个GPT Team plus, 我就帮他了. 后来他说提出可以给我免费提供服务器, 但作为交换要我贡献公益站帐号建一个axonhub, 然后我们共用, 我就同意了.
+
+然后这是才是我自己的邮箱:
+
+[![image](https://linux.do/assets/mirrored/a4/a417dbc9d53ae516ca243e5fd98c1ff9bd3e28330ed43e42a861f311ea895bef.png)image1325×1179 56.5 KB](https://cdn3.ldstatic.com/original/4X/1/3/b/13b151ae7bec892b53861e98589f6acbad4ae067.png)
+
+## #52 梦影 (@dreamhadow)
+
+Created: 2026-05-25T10:59:15.034Z
+Updated: 2026-05-25T10:59:15.034Z
+Reply to: #51 admin
+
+[@uton88](https://linux.do/u/uton88) 冰佬看看他说这个邮箱
+
+## #53 卡里姆•汗 (@fgozxy)
+
+Created: 2026-05-25T11:18:13.455Z
+Updated: 2026-05-25T11:18:13.455Z
+Reply to: #51 admin
+
+你应该清楚，勿外借、买卖账号，避免因此导致的账号封禁，这个是社区规定，你已经涉及违反社区规定了
+
+## #54 admin (@passwd)
+
+Created: 2026-05-25T11:23:20.272Z
+Updated: 2026-05-25T11:23:20.272Z
+Reply to: #53 卡里姆•汗
+
+唉, 谁能想到他整个大的 ![:smiling_face_with_tear:](https://linux.do/assets/mirrored/ad/ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b.png), 当时想着只是两个人共用,我没有直接把号给它, 但是api key都存在上面, 大家按需共同调用的.
+
+## #55 chone (@chone)
+
+Created: 2026-05-25T11:25:06.703Z
+Updated: 2026-05-25T11:25:06.703Z
+Reply to: #51 admin
+
+快问问你室友前几天怎么买的那个邀请码。
+
+吃瓜吃瓜。
+
+## #56 老路 (@luhaichang)
+
+Created: 2026-05-25T11:25:51.130Z
+Updated: 2026-05-25T11:25:51.130Z
+Reply to: #54 admin
+
+快把你室友拉来对线 ![:melting_face:](https://linux.do/assets/mirrored/9e/9e93fb8c3bb4ac119d8c84cb34d4024b41c1a12dc76b847b91a1f04a328705d9.png)
+
+还是种子用户呢
+
+可惜了
+
+## #57 gitday (@didiaodidiao260)
+
+Created: 2026-05-25T11:26:02.238Z
+Updated: 2026-05-25T11:29:22.710Z
+
+这么吓人吗？都有安全码和l站登录的限制了都能盗刷的吗？蹲下后续
+
+## #58 monaicc (@zzqqa1.6)
+
+Created: 2026-05-25T11:26:44.919Z
+Updated: 2026-05-25T11:26:44.919Z
+
+问题是，这怎么能刷到其他佬的号上的 ![:melting_face:](https://linux.do/assets/mirrored/9e/9e93fb8c3bb4ac119d8c84cb34d4024b41c1a12dc76b847b91a1f04a328705d9.png)太吓人了
+
+## #59 fromxiaobai (@1263403710)
+
+Created: 2026-05-25T11:28:40.800Z
+Updated: 2026-05-25T11:28:40.800Z
+
+期待后续ing，话说credit那个佬还没查完日志吗
+
+## #60 CloseAI (@Fuck_0penAI)
+
+Created: 2026-05-25T11:31:12.630Z
+Updated: 2026-05-25T11:31:12.630Z
+
+后排吃瓜，吃完饭了，来点饭后水果
+
+## #61 彦祖 (@mj_0729)
+
+Created: 2026-05-25T11:31:16.883Z
+Updated: 2026-05-25T11:31:16.883Z
+
+蹲后续，这个行为太恶劣了，建议严查
+
+## #62 鱼雨 (@pixelrain255)
+
+Created: 2026-05-25T11:38:52.590Z
+Updated: 2026-05-25T11:38:52.590Z
+
+吃吃瓜，这怎么盗刷的，有点好奇了 ![:face_without_mouth:](https://linux.do/assets/mirrored/e1/e14f0ccf56e8c7c123e4da42b3578b18a4d03231de63c592a9a83d038465818e.png)
+
+## #63 CodeAtlantis (@CodeAtlantis)
+
+Created: 2026-05-25T11:42:01.749Z
+Updated: 2026-05-25T11:42:01.749Z
+
+话说这些支付系统的cookie不容易拿来作为攻击啊
+
+而且没有出现大范围的情况，是不是你密码被爆破了？
+
+## #64 stefan啦啦啦 (@stefan_lalala)
+
+Created: 2026-05-25T12:06:42.104Z
+Updated: 2026-05-25T12:06:42.104Z
+
+真能盗刷的吗,有点吓人了,蹲一个结果
+
+## #65 admin (@passwd)
+
+Created: 2026-05-25T12:27:37.227Z
+Updated: 2026-05-25T12:27:37.227Z
+
+依旧装死, 应该是不打算回信息了…
+
+有没有可能是你的密码是不是泄漏过, 被人撞库了?
+
+他盗刷了你多少LDC? 我现在有点内疚, 多少有点认人不淑的责任, 要不你联系商家, 能退就退, 退不了的话, 我这里只有580LDC, 看看够不够补上吧, 不够我再慢慢攒点陪给你吧.
+
+主要是它找到实习搬出去租房住了, 没告诉我地址, 6月15号毕业典礼的时候我再找他当面对峙, 问个清楚.
+
+## #66 诺曼底企鹅 (@normandy)
+
+Created: 2026-05-25T12:29:29.875Z
+Updated: 2026-05-25T12:29:29.875Z
+
+你把 hub 号借他用跟他盗刷别人的 LDC 有什么关系？
+
+他为啥能盗刷才是重点
+
+## #67 同沐霜雪 (@xinjianya)
+
+Created: 2026-05-25T12:56:16.956Z
+Updated: 2026-05-25T12:56:16.956Z
+Reply to: #65 admin
+
+大概学了点技术，看上linuxdo的资源了，不干正道
+
+## #68 11037 (@11037)
+
+Created: 2026-05-25T13:00:58.818Z
+Updated: 2026-05-25T13:01:58.388Z
+
+所以为什么把号借给别人能够盗刷另一位不相干的佬友的ldc?有什么漏洞吗？ldc每次支付都要输六位数字密码的呀 ![:distorted_face:](https://linux.do/assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png) 这个咋会泄露
+
+## #69 一只橘子🍊 (@Orange4664)
+
+Created: 2026-05-25T13:08:52.517Z
+Updated: 2026-05-25T13:08:52.517Z
+
+咋做到的，也是离谱啊，话说共用账号也违反规则了吧。…?
+
+哦不好意思没看见是共了axonhub apikey
+
+那这样盗用不是更离谱了） ![:distorted_face:](https://linux.do/assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png)
+
+## #70 和宇宙的温柔并联 (@XCJX302010918)
+
+Created: 2026-05-25T13:11:01.625Z
+Updated: 2026-05-25T13:11:01.625Z
+Reply to: #24 梦影
+
+![](https://linux.do/assets/mirrored/8c/8cbb334ef2e1faf9052da0a52555b158c4c275507a4732c8a23f04c81ed475a4.png) admin:
+
+> 依旧装死, 应该是不打算回信息了…
+> 
+> 有没有可能是你的密码是不是泄漏过, 被人撞库了?
+> 
+> 他盗刷了你多少LDC? 我现在有点内疚, 多少有点认人不淑的责任, 要不你联系商家, 能退就退, 退不了的话, 我这里只有580LDC, 看看够不够补上吧, 不够我再慢慢攒点陪给你吧.
+> 
+> 主要是它找到实习搬出去租房住了, 没告诉我地址, 6月15号毕业典礼的时候我再找他当面对峙, 问个清楚.
+
+他不是刚刚评论了？我前来来吃瓜。
+
+## #71 陈皮 (@chenpipi)
+
+Created: 2026-05-25T13:13:38.303Z
+Updated: 2026-05-25T13:13:38.303Z
+
+不行不行，赶紧改一下密码，虽然只有100多，可这也是我的全部积蓄了 ![:rofl:](https://linux.do/assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png)
+
+## #72 KuYun (@qq85310660)
+
+Created: 2026-05-25T13:18:03.997Z
+Updated: 2026-05-25T13:18:03.997Z
+Reply to: #65 admin
+
+你们的聊天记录呢，放出来看看是咋回事
+

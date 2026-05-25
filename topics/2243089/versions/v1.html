@@ -1,0 +1,1094 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[求助] LD士多平台发生的积分盗刷问题</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .page-nav { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0 0 18px; }
+    .page-nav a, .floor-jump button { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--panel); color: var(--text); text-decoration: none; }
+    .source-warning { border: 1px solid #bf8700; border-radius: 8px; padding: 12px 14px; margin: 0 0 18px; background: #fff8c5; color: #3b2300; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .floor-jump { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 18px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); }
+    .floor-jump label { color: var(--muted); }
+    .floor-jump input { width: 8ch; min-height: 34px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; background: var(--bg); color: var(--text); font: inherit; }
+    .floor-jump button { min-height: 34px; cursor: pointer; font: inherit; }
+    .floor-jump-status { color: var(--muted); }
+    .floor-jump-status[data-state="error"] { color: #cf222e; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post { scroll-margin-top: 86px; }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    
+    <nav class="page-nav" aria-label="Archive navigation">
+      <a href="../index.html">Topic versions</a>
+      <a href="../../../index.html">Archive index</a>
+      <a href="https://linux.do/t/topic/2243089">Source topic</a>
+    </nav>
+    <h1>[求助] LD士多平台发生的积分盗刷问题</h1>
+    
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2243089">https://linux.do/t/topic/2243089</a><br>
+      Version: v1<br>
+      Posts: 72; missing floors: none
+    </div>
+    <form class="floor-jump" data-floor-jump>
+      <label for="floor-jump-input">Jump to floor</label>
+      <input id="floor-jump-input" name="floor" type="number" min="1" max="72" inputmode="numeric" autocomplete="off">
+      <button type="submit">Go</button>
+      <span class="floor-jump-status" data-floor-jump-status aria-live="polite"></span>
+    </form>
+    
+        <article class="post" id="post-1">
+          <header>
+            <a href="#post-1">#1</a>
+            <strong>wuyinrui</strong>
+            <span>@wuyinrui</span>
+            
+            <time datetime="2026-05-25T09:24:27.209Z">25/5/2026 下午5:24:27</time>
+          </header>
+          <div class="content"><p>我的LDC积分被盗刷, 怎么排查问题和追回积分?</p>
+<p>我完全没在 “LD士多” 上买过东西, 但出现了很多消费订单<br>
+盗刷的时间是 05-22 ~ 05-25</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/b/5/ab5052638641ea003c6394cd109117b9d1539738.png" data-download-href="/uploads/short-url/orvJDRqpyHwwvKh13xn2cApSfna.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/3e/3ea6a59defabfe22a5a20c9c39e7cd86e55d01533a496b1f4aec738dc2076441.png" alt="image" data-base62-sha1="orvJDRqpyHwwvKh13xn2cApSfna" width="690" height="441" data-dominant-color="0F1113"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1903×1219 146 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-2">
+          <header>
+            <a href="#post-2">#2</a>
+            <strong>卡里姆•汗</strong>
+            <span>@fgozxy</span>
+            
+            <time datetime="2026-05-25T09:25:26.781Z">25/5/2026 下午5:25:26</time>
+          </header>
+          <div class="content"><p>还能盗刷的吗，支付密码加账户授权，不应该啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-3">
+          <header>
+            <a href="#post-3">#3</a>
+            <strong>opzc</strong>
+            <span>@zsq9</span>
+            
+            <time datetime="2026-05-25T09:25:38.117Z">25/5/2026 下午5:25:38</time>
+          </header>
+          <div class="content"><p>ld士多支付不是要密码吗，他怎么知道密码的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-4">
+          <header>
+            <a href="#post-4">#4</a>
+            <strong>KSAMNI</strong>
+            <span>@yancj</span>
+            
+            <time datetime="2026-05-25T09:26:27.201Z">25/5/2026 下午5:26:27</time>
+          </header>
+          <div class="content"><p>这是怎么盗取到你的账号的，而且不是有支付密码吗</p></div>
+        </article>
+      
+
+        <article class="post" id="post-5">
+          <header>
+            <a href="#post-5">#5</a>
+            <strong>同沐霜雪</strong>
+            <span>@xinjianya</span>
+            
+            <time datetime="2026-05-25T09:26:35.111Z">25/5/2026 下午5:26:35</time>
+          </header>
+          <div class="content"><p>看看详情里面转给谁了，肯定会查到人的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>singularity</strong>
+            <span>@singularity</span>
+            
+            <time datetime="2026-05-25T09:26:54.296Z">25/5/2026 下午5:26:54</time>
+          </header>
+          <div class="content"><p>估计账号被盗了吧</p>
+<p>吓得我赶紧去看了眼自己的积分还在不在<img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>Hodge</strong>
+            <span>@Hodge</span>
+            
+            <time datetime="2026-05-25T09:28:00.478Z">25/5/2026 下午5:28:00</time>
+          </header>
+          <div class="content"><p>是不是用了什么浏览器插件，把你ldc盗取了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>puppywang</strong>
+            <span>@puppywang</span>
+            
+            <time datetime="2026-05-25T09:28:30.829Z">25/5/2026 下午5:28:30</time>
+          </header>
+          <div class="content"><p>去credit的活动界面看下交易记录， 一笔一笔的， 看看买啥了，如果是买的中转站，可以联系站长看看有没有被使用，没有使用可以让站长退回，然后赶紧修改密码</p></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>kevinkelly</strong>
+            <span>@kevinkelly4</span>
+            
+            <time datetime="2026-05-25T09:28:57.446Z">25/5/2026 下午5:28:57</time>
+          </header>
+          <div class="content"><p>商家应该可以查得到是谁用的兑换码吧，你去问问这几个</p></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>wuyinrui</strong>
+            <span>@wuyinrui</span>
+            <span class="reply-context">in reply to <a href="#post-5">#5</a> 同沐霜雪</span>
+            <time datetime="2026-05-25T09:29:19.092Z">25/5/2026 下午5:29:19</time>
+          </header>
+          <div class="content"><p>LD士多把积分划转给商家, 今天联系到一位商家, 使用激活码的邮箱和我完全不相干<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/2/0/62081fea51c9953317432ad0d6834fc291c3ce39.jpeg" data-download-href="/uploads/short-url/dZeclrE5a28htATlm14LsDT5NLH.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/ff/ffcfb176b0a6767336b71b32be45b5b01fff1ff72c13a87f31f067533baaf381.jpeg" alt="image" data-base62-sha1="dZeclrE5a28htATlm14LsDT5NLH" width="690" height="78" data-dominant-color="E9EFF5"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2475×280 85.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>opzc</strong>
+            <span>@zsq9</span>
+            
+            <time datetime="2026-05-25T09:29:24.318Z">25/5/2026 下午5:29:24</time>
+          </header>
+          <div class="content"><p>你先看他买了什么东西，去联系商家，ldc是可以发起争议的。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>monaicc</strong>
+            <span>@zzqqa1.6</span>
+            
+            <time datetime="2026-05-25T09:29:46.426Z">25/5/2026 下午5:29:46</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/7/0/b/70bfd7cfb6bde9b57b5a7f8d0c7f7f12eb8e2004.png" data-download-href="/uploads/short-url/g5quU2HSXvnKCWohqdEEXznafu4.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/5e/5e113f8ab3869842f4045f5fa60c23a3575e6a5cb27ebfac32c8d89f998c8a7a.png" alt="image" data-base62-sha1="g5quU2HSXvnKCWohqdEEXznafu4" width="690" height="179" data-dominant-color="171A18"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">3536×920 338 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/2/2/1/2216c30b85ae969aa3936ba880fa19b703a60eab.png" data-download-href="/uploads/short-url/4Rz04lbirSuIb2fW11zjNcM2kd5.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/a9/a99043326ba35e976d7e91ad6ed23c883f15862d8b261852805d23f11189f2e2.png" alt="image" data-base62-sha1="4Rz04lbirSuIb2fW11zjNcM2kd5" width="650" height="500" data-dominant-color="282523"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1272×978 67.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>冲过hub？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>pink</strong>
+            <span>@pink</span>
+            
+            <time datetime="2026-05-25T09:29:58.913Z">25/5/2026 下午5:29:58</time>
+          </header>
+          <div class="content"><p>太可恶了，盗刷的都敢盯上L站了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>同沐霜雪</strong>
+            <span>@xinjianya</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:31:15.530Z">25/5/2026 下午5:31:15</time>
+          </header>
+          <div class="content"><p>passwd<br>
+查询到是这个人，私信问问ta？<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/22/22632c3dbeb4885e8f181f6304e88578b62b16a54d8a4459037221c7c1b9939e.png" data-download-href="/uploads/short-url/hYOZrlCI4F55Sq7ToaeCcpziahv.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/22/22632c3dbeb4885e8f181f6304e88578b62b16a54d8a4459037221c7c1b9939e.png" alt="image" data-base62-sha1="hYOZrlCI4F55Sq7ToaeCcpziahv" width="625" height="216"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">625×216 16.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>wuyinrui</strong>
+            <span>@wuyinrui</span>
+            <span class="reply-context">in reply to <a href="#post-12">#12</a> monaicc</span>
+            <time datetime="2026-05-25T09:31:59.264Z">25/5/2026 下午5:31:59</time>
+          </header>
+          <div class="content"><p>hub站很久之前打开过, 今天没冲过</p></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>时牧</strong>
+            <span>@840814743</span>
+            
+            <time datetime="2026-05-25T09:32:46.743Z">25/5/2026 下午5:32:46</time>
+          </header>
+          <div class="content"><p>有点吓人，没想到连这个都有盗刷风险啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>梦影</strong>
+            <span>@dreamhadow</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:32:51.436Z">25/5/2026 下午5:32:51</time>
+          </header>
+          <div class="content"><p>联系一下管理，能关联到账号一起封禁了最好</p></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>wuyinrui</strong>
+            <span>@wuyinrui</span>
+            <span class="reply-context">in reply to <a href="#post-8">#8</a> puppywang</span>
+            <time datetime="2026-05-25T09:32:52.279Z">25/5/2026 下午5:32:52</time>
+          </header>
+          <div class="content"><p>22 号发现有订单后就改密码, 结果这两天还是有新订单</p></div>
+        </article>
+      
+
+        <article class="post" id="post-19">
+          <header>
+            <a href="#post-19">#19</a>
+            <strong>monaicc</strong>
+            <span>@zzqqa1.6</span>
+            
+            <time datetime="2026-05-25T09:32:55.438Z">25/5/2026 下午5:32:55</time>
+          </header>
+          <div class="content"><p>你看看hub里面有余额不呢</p><aside class="onebox allowlistedgeneric" data-onebox-src="https://hub.linux.do/wallet">
+  <header class="source">
+      <img src="../../../assets/mirrored/dc/dc74c4e6270aa9b02316ab636860a4e8ccaaf4d32a7f9a90d12a5a47f4111ea3.jpeg" class="site-icon" alt="" data-dominant-color="AACCD1" width="500" height="500">
+
+      <a href="https://hub.linux.do/wallet" target="_blank" rel="noopener">hub.linux.do</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://hub.linux.do/wallet" target="_blank" rel="noopener">Loading...</a></h3>
+
+  <p>AI development platform.</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+
+<p>我搞错了，只在ld士多，不纠结hub</p></div>
+        </article>
+      
+
+        <article class="post" id="post-20">
+          <header>
+            <a href="#post-20">#20</a>
+            <strong>诺曼底企鹅</strong>
+            <span>@normandy</span>
+            
+            <time datetime="2026-05-25T09:34:20.627Z">25/5/2026 下午5:34:20</time>
+          </header>
+          <div class="content"><p>secret 泄露了吧，这种东西只要有的你完整 key secret 应该随便操作的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-21">
+          <header>
+            <a href="#post-21">#21</a>
+            <strong>opzc</strong>
+            <span>@zsq9</span>
+            <span class="reply-context">in reply to <a href="#post-18">#18</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:35:18.611Z">25/5/2026 下午5:35:18</time>
+          </header>
+          <div class="content"><p>都找到人了直接联系始皇不久可以了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-22">
+          <header>
+            <a href="#post-22">#22</a>
+            <strong>wuyinrui</strong>
+            <span>@wuyinrui</span>
+            <span class="reply-context">in reply to <a href="#post-19">#19</a> monaicc</span>
+            <time datetime="2026-05-25T09:35:20.938Z">25/5/2026 下午5:35:20</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/4/2/4423308009180c6904a3a6510bb4000b6177de26.png" data-download-href="/uploads/short-url/9ILRnRGkVNnKO8ZGIVX3sK1nVBQ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/27/27b8b84b39abeeb650124c5d3e6bd01167c6362719dd73779b5573cb1f1599f6.png" alt="image" data-base62-sha1="9ILRnRGkVNnKO8ZGIVX3sK1nVBQ" width="689" height="256" data-dominant-color="212730"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2215×823 71.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-23">
+          <header>
+            <a href="#post-23">#23</a>
+            <strong>opzc</strong>
+            <span>@zsq9</span>
+            <span class="reply-context">in reply to <a href="#post-22">#22</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:36:05.063Z">25/5/2026 下午5:36:05</time>
+          </header>
+          <div class="content"><p>他应该是冲到他的账户里了，这个应该可以找回</p></div>
+        </article>
+      
+
+        <article class="post" id="post-24">
+          <header>
+            <a href="#post-24">#24</a>
+            <strong>梦影</strong>
+            <span>@dreamhadow</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:36:16.395Z">25/5/2026 下午5:36:16</time>
+          </header>
+          <div class="content"><p>联系一下这个人吧<a href="https://linux.do/u/passwd/summary">https://linux.do/u/passwd/summary</a></p></div>
+        </article>
+      
+
+        <article class="post" id="post-25">
+          <header>
+            <a href="#post-25">#25</a>
+            <strong>老路</strong>
+            <span>@luhaichang</span>
+            
+            <time datetime="2026-05-25T09:37:55.457Z">25/5/2026 下午5:37:55</time>
+          </header>
+          <div class="content"><p><img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20">听起来有点哈人啦,这都能被盗?蹲一个后续</p></div>
+        </article>
+      
+
+        <article class="post" id="post-26">
+          <header>
+            <a href="#post-26">#26</a>
+            <strong>同沐霜雪</strong>
+            <span>@xinjianya</span>
+            <span class="reply-context">in reply to <a href="#post-10">#10</a> wuyinrui</span>
+            <time datetime="2026-05-25T09:38:30.790Z">25/5/2026 下午5:38:30</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/passwd">@passwd</a> 你怎么说，你曾经发过这个邮箱<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/aa/aa52db5ac6ee20f607894f9136c2c26f5500de28e9180c32766db50915e26d2e.png" data-download-href="/uploads/short-url/ulbQ7Bebpct4kUXhJ7PJXOBlQy7.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/aa/aa52db5ac6ee20f607894f9136c2c26f5500de28e9180c32766db50915e26d2e.png" alt="image" data-base62-sha1="ulbQ7Bebpct4kUXhJ7PJXOBlQy7" width="648" height="207"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">648×207 8.19 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-27">
+          <header>
+            <a href="#post-27">#27</a>
+            <strong>opzc</strong>
+            <span>@zsq9</span>
+            
+            <time datetime="2026-05-25T09:40:01.825Z">25/5/2026 下午5:40:01</time>
+          </header>
+          <div class="content"><p>佬友对了应该截图保留证据，不然他删除了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-28">
+          <header>
+            <a href="#post-28">#28</a>
+            <strong>tomatoEat</strong>
+            <span>@tomatoEat</span>
+            
+            <time datetime="2026-05-25T09:40:34.313Z">25/5/2026 下午5:40:34</time>
+          </header>
+          <div class="content"><p>Chenyme 佬友应该是查日志去了，刚才还看到他在回复中..</p></div>
+        </article>
+      
+
+        <article class="post" id="post-29">
+          <header>
+            <a href="#post-29">#29</a>
+            <strong>冰</strong>
+            <span>@uton88</span>
+            
+            <time datetime="2026-05-25T09:43:13.350Z">25/5/2026 下午5:43:13</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/2/9/b29dba36a0d7b36616229052e8d57de70924105c.png" data-download-href="/uploads/short-url/pu6UZ7OsXX1YU8AC4MPnv5okXJa.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/d2/d2dc034cb10d778e95da499ee98762bd8d193c525e24ad4cffcb4498b9748be7.png" alt="image" data-base62-sha1="pu6UZ7OsXX1YU8AC4MPnv5okXJa" width="690" height="100" data-dominant-color="F7F8F9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1936×281 36.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+此账号在冰站创建一个key，后此key有hub站请求头信息，若多方关联我相信可以找到幕后黑手<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-30">
+          <header>
+            <a href="#post-30">#30</a>
+            <strong>时牧</strong>
+            <span>@840814743</span>
+            <span class="reply-context">in reply to <a href="#post-29">#29</a> 冰</span>
+            <time datetime="2026-05-25T09:49:14.903Z">25/5/2026 下午5:49:14</time>
+          </header>
+          <div class="content"><p>好家伙，这么说来最近开门的公益站可能都会…</p></div>
+        </article>
+      
+
+        <article class="post" id="post-31">
+          <header>
+            <a href="#post-31">#31</a>
+            <strong>海木</strong>
+            <span>@cyc333</span>
+            
+            <time datetime="2026-05-25T09:50:49.405Z">25/5/2026 下午5:50:49</time>
+          </header>
+          <div class="content"><p>佬的页面好高级 是怎么进去看的，可否给个地址入口</p></div>
+        </article>
+      
+
+        <article class="post" id="post-32">
+          <header>
+            <a href="#post-32">#32</a>
+            <strong>sgvv</strong>
+            <span>@sgvv</span>
+            
+            <time datetime="2026-05-25T09:51:44.416Z">25/5/2026 下午5:51:44</time>
+          </header>
+          <div class="content"><p>我嘞个豆 这个有点吓人的啊 赶紧看看自己的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-33">
+          <header>
+            <a href="#post-33">#33</a>
+            <strong>小木公菜奈</strong>
+            <span>@WuliJonC</span>
+            <span class="reply-context">in reply to <a href="#post-30">#30</a> 时牧</span>
+            <time datetime="2026-05-25T09:51:57.933Z">25/5/2026 下午5:51:57</time>
+          </header>
+          <div class="content"><p>啊，为什么啊 <img src="../../../assets/mirrored/ff/ff781a5e0c90d08c745d7ba4e3e851853df1a77cb9fb09e0e01bc4a3cd08941f.png" title=":tieba_004:" class="emoji emoji-custom" alt=":tieba_004:" loading="lazy" width="20" height="20"><br>
+这是什么原理呢？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-34">
+          <header>
+            <a href="#post-34">#34</a>
+            <strong>monaicc</strong>
+            <span>@zzqqa1.6</span>
+            <span class="reply-context">in reply to <a href="#post-31">#31</a> 海木</span>
+            <time datetime="2026-05-25T09:52:48.274Z">25/5/2026 下午5:52:48</time>
+          </header>
+          <div class="content"><aside class="onebox allowlistedgeneric" data-onebox-src="https://credit.linux.do/">
+  <header class="source">
+      <img src="../../../assets/mirrored/c6/c683037cf9f3c95888d39bd8101fec33e2b1fc3ea0bdfd7b4191b0bbd8507a4b.png" class="site-icon" alt="" data-dominant-color="CABB9B" width="500" height="500">
+
+      <a href="https://credit.linux.do/" target="_blank" rel="noopener">credit.linux.do</a>
+  </header>
+
+  <article class="onebox-body">
+    
+
+<h3><a href="https://credit.linux.do/" target="_blank" rel="noopener">LINUX DO Credit</a></h3>
+
+  <p>Linux Do 社区积分服务平台</p>
+
+
+  </article>
+
+  <div class="onebox-metadata">
+    
+    
+  </div>
+
+  <div style="clear: both"></div>
+</aside>
+<p>
+这个？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-35">
+          <header>
+            <a href="#post-35">#35</a>
+            <strong>Charles</strong>
+            <span>@Charles</span>
+            
+            <time datetime="2026-05-25T10:02:20.555Z">25/5/2026 下午6:02:20</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/66/666a12a53de66f28db2f70b5f3ef80be67bbea8cc882ea50d65c2fb43202c084.png" data-download-href="/uploads/short-url/sqCyK2K8gJZAT8ucVL76AdmqH8v.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/66/666a12a53de66f28db2f70b5f3ef80be67bbea8cc882ea50d65c2fb43202c084.png" alt="image" data-base62-sha1="sqCyK2K8gJZAT8ucVL76AdmqH8v" width="454" height="143"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">454×143 10.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+我今天积分站还有这个提示，我都没有怎么访问，怪吓人的 <img src="../../../assets/mirrored/c2/c22c89c24607d04f39094af2216b611d1d033055b31afafbc6a185990982b844.png" title=":sob:" class="emoji" alt=":sob:" loading="lazy" width="20" height="20"><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-36">
+          <header>
+            <a href="#post-36">#36</a>
+            <strong>yijima925</strong>
+            <span>@yijima925</span>
+            
+            <time datetime="2026-05-25T10:03:15.470Z">25/5/2026 下午6:03:15</time>
+          </header>
+          <div class="content"><p>我天，赶紧看一下邮箱又没有给你提示，这是大事啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-37">
+          <header>
+            <a href="#post-37">#37</a>
+            <strong>白泽</strong>
+            <span>@Trinix</span>
+            <span class="reply-context">in reply to <a href="#post-35">#35</a> Charles</span>
+            <time datetime="2026-05-25T10:04:59.664Z">25/5/2026 下午6:04:59</time>
+          </header>
+          <div class="content"><p>这应该是机场ip导致的风控提示，我用宝可梦也会这样，换我的自建节点就好了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-38">
+          <header>
+            <a href="#post-38">#38</a>
+            <strong>myouo</strong>
+            <span>@myouo</span>
+            <span class="reply-context">in reply to <a href="#post-5">#5</a> 同沐霜雪</span>
+            <time datetime="2026-05-25T10:05:21.533Z">25/5/2026 下午6:05:21</time>
+          </header>
+          <div class="content"><p>居然还是购买的邀请码吗？该不会是拿出去卖的闲鱼商贩吧？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-39">
+          <header>
+            <a href="#post-39">#39</a>
+            <strong>ius</strong>
+            <span>@ius</span>
+            
+            <time datetime="2026-05-25T10:05:29.758Z">25/5/2026 下午6:05:29</time>
+          </header>
+          <div class="content"><p>这有点可怕了，蹲蹲后续，在线吃瓜 <img src="../../../assets/mirrored/ff/ff781a5e0c90d08c745d7ba4e3e851853df1a77cb9fb09e0e01bc4a3cd08941f.png" title=":tieba_004:" class="emoji emoji-custom" alt=":tieba_004:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-40">
+          <header>
+            <a href="#post-40">#40</a>
+            <strong>同沐霜雪</strong>
+            <span>@xinjianya</span>
+            <span class="reply-context">in reply to <a href="#post-38">#38</a> myouo</span>
+            <time datetime="2026-05-25T10:07:47.965Z">25/5/2026 下午6:07:47</time>
+          </header>
+          <div class="content"><p>应该是自己用了，贪小便宜的<br>
+看这个人大部分回复都是薅羊毛的信息</p></div>
+        </article>
+      
+
+        <article class="post" id="post-41">
+          <header>
+            <a href="#post-41">#41</a>
+            <strong>海木</strong>
+            <span>@cyc333</span>
+            <span class="reply-context">in reply to <a href="#post-34">#34</a> monaicc</span>
+            <time datetime="2026-05-25T10:16:01.455Z">25/5/2026 下午6:16:01</time>
+          </header>
+          <div class="content"><p>我进去了，左侧资源那边要点 more  然后能看到积分站。。。。刚才个人信息那边找了好久。我才400多个积分，哈哈，不够买一个邀请码的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-42">
+          <header>
+            <a href="#post-42">#42</a>
+            <strong>我张三</strong>
+            <span>@wzs</span>
+            
+            <time datetime="2026-05-25T10:28:11.675Z">25/5/2026 下午6:28:11</time>
+          </header>
+          <div class="content"><p>24/25两天顶着限额把积分花光，<br>
+应该不是误操作、bug之类的。真盗啊。</p>
+<p>话说是楼主不小心泄露自己密钥了，还是LDC有什么漏洞</p></div>
+        </article>
+      
+
+        <article class="post" id="post-43">
+          <header>
+            <a href="#post-43">#43</a>
+            <strong>澪雨</strong>
+            <span>@lingyus</span>
+            
+            <time datetime="2026-05-25T10:31:46.076Z">25/5/2026 下午6:31:46</time>
+          </header>
+          <div class="content"><p>我去发生了什么事情，怎么还能盗刷积分的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-44">
+          <header>
+            <a href="#post-44">#44</a>
+            <strong>退堂鼓演奏家</strong>
+            <span>@kestrel</span>
+            
+            <time datetime="2026-05-25T10:34:25.006Z">25/5/2026 下午6:34:25</time>
+          </header>
+          <div class="content"><p>这怎么盗刷的 皇帝能查到登陆设备之类的吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-45">
+          <header>
+            <a href="#post-45">#45</a>
+            <strong>散装江苏</strong>
+            <span>@is_hp</span>
+            
+            <time datetime="2026-05-25T10:35:18.988Z">25/5/2026 下午6:35:18</time>
+          </header>
+          <div class="content"><p>看了下，如果走分发接口就不可能走LD士多购买商品了<br>
+所以最大的可能是账号被别人用了，至于怎么用的……cookie？密码？公用设备？不知道……</p></div>
+        </article>
+      
+
+        <article class="post" id="post-46">
+          <header>
+            <a href="#post-46">#46</a>
+            <strong>KuYun</strong>
+            <span>@qq85310660</span>
+            
+            <time datetime="2026-05-25T10:36:46.146Z">25/5/2026 下午6:36:46</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/d/6/8/d6809d0ffa7e0938b9ef7b7944eb3cd05f92e5cd.png" data-download-href="/uploads/short-url/uBzJnm8LNCnjpBjX3O1efGAhPbv.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/8c/8ca5afa62dcdaaf4d251047bea8ee825966033ec30e127186bb8dce933734b0a.png" alt="image" data-base62-sha1="uBzJnm8LNCnjpBjX3O1efGAhPbv" width="690" height="76" data-dominant-color="F9F9F9"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1087×120 10.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+为啥不回复捏，当事人<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-47">
+          <header>
+            <a href="#post-47">#47</a>
+            <strong>奎因</strong>
+            <span>@Ellery</span>
+            <span class="reply-context">in reply to <a href="#post-40">#40</a> 同沐霜雪</span>
+            <time datetime="2026-05-25T10:38:04.401Z">25/5/2026 下午6:38:04</time>
+          </header>
+          <div class="content"><p>还是比较好奇他怎么盗刷的，印象里还是第一次见到盗刷的情况 <img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-48">
+          <header>
+            <a href="#post-48">#48</a>
+            <strong>好好好</strong>
+            <span>@Keyi66</span>
+            
+            <time datetime="2026-05-25T10:47:46.805Z">25/5/2026 下午6:47:46</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="dreamhadow" data-display-name="梦影" data-post="24" data-topic="2243089">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/2d/2d018e315b05efdbaa3850c3dc44c6cd08ca5efa748382d4bb8247eb36e65a5a.png" class="avatar"> 梦影:</div>
+<blockquote>
+<p><a href="https://linux.do/u/passwd/summary">https://linux.do/u/passwd/summary</a></p>
+</blockquote>
+</aside>
+<p>怎么被盗刷的啊，太坏了吧，当事人在线还不回应<br>
+让始皇来看看吧 <a class="mention" href="https://linux.do/u/neo">@neo</a></p></div>
+        </article>
+      
+
+        <article class="post" id="post-49">
+          <header>
+            <a href="#post-49">#49</a>
+            <strong>Kyrie</strong>
+            <span>@Kyrie</span>
+            
+            <time datetime="2026-05-25T10:52:54.845Z">25/5/2026 下午6:52:54</time>
+          </header>
+          <div class="content"><p>还是不明白怎么会被盗刷，不是需要关联L站账号+输入密码吗，就算是弱密码，也需要L站账号信息吧？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-50">
+          <header>
+            <a href="#post-50">#50</a>
+            <strong>梦影</strong>
+            <span>@dreamhadow</span>
+            <span class="reply-context">in reply to <a href="#post-48">#48</a> 好好好</span>
+            <time datetime="2026-05-25T10:56:16.770Z">25/5/2026 下午6:56:16</time>
+          </header>
+          <div class="content"><p>刚刚看到他准备回复这个帖子的，又取消了 <img src="../../../assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-51">
+          <header>
+            <a href="#post-51">#51</a>
+            <strong>admin</strong>
+            <span>@passwd</span>
+            <span class="reply-context">in reply to <a href="#post-48">#48</a> 好好好</span>
+            <time datetime="2026-05-25T10:56:31.714Z">25/5/2026 下午6:56:31</time>
+          </header>
+          <div class="content"><p><a href="mailto:iirmiex@gmail.com">iirmiex@gmail.com</a> 这是我室友的邮箱, 当时他说他没有L站的号,想让我帮他上车那个GPT Team plus, 我就帮他了. 后来他说提出可以给我免费提供服务器, 但作为交换要我贡献公益站帐号建一个axonhub, 然后我们共用, 我就同意了.</p>
+<p>然后这是才是我自己的邮箱:<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/1/3/b/13b151ae7bec892b53861e98589f6acbad4ae067.png" data-download-href="/uploads/short-url/2OcYwRuyV4161B5jtL0XBAThGrd.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/a4/a417dbc9d53ae516ca243e5fd98c1ff9bd3e28330ed43e42a861f311ea895bef.png" alt="image" data-base62-sha1="2OcYwRuyV4161B5jtL0XBAThGrd" width="561" height="500" data-dominant-color="24282A"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1325×1179 56.5 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-52">
+          <header>
+            <a href="#post-52">#52</a>
+            <strong>梦影</strong>
+            <span>@dreamhadow</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> admin</span>
+            <time datetime="2026-05-25T10:59:15.034Z">25/5/2026 下午6:59:15</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/uton88">@uton88</a> 冰佬看看他说这个邮箱</p></div>
+        </article>
+      
+
+        <article class="post" id="post-53">
+          <header>
+            <a href="#post-53">#53</a>
+            <strong>卡里姆•汗</strong>
+            <span>@fgozxy</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> admin</span>
+            <time datetime="2026-05-25T11:18:13.455Z">25/5/2026 下午7:18:13</time>
+          </header>
+          <div class="content"><p>你应该清楚，<strong>勿外借、买卖账号，避免因此导致的账号封禁</strong>，这个是社区规定，你已经涉及违反社区规定了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-54">
+          <header>
+            <a href="#post-54">#54</a>
+            <strong>admin</strong>
+            <span>@passwd</span>
+            <span class="reply-context">in reply to <a href="#post-53">#53</a> 卡里姆•汗</span>
+            <time datetime="2026-05-25T11:23:20.272Z">25/5/2026 下午7:23:20</time>
+          </header>
+          <div class="content"><p>唉, 谁能想到他整个大的 <img src="../../../assets/mirrored/ad/ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b.png" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20">, 当时想着只是两个人共用,我没有直接把号给它, 但是api key都存在上面, 大家按需共同调用的.</p></div>
+        </article>
+      
+
+        <article class="post" id="post-55">
+          <header>
+            <a href="#post-55">#55</a>
+            <strong>chone</strong>
+            <span>@chone</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> admin</span>
+            <time datetime="2026-05-25T11:25:06.703Z">25/5/2026 下午7:25:06</time>
+          </header>
+          <div class="content"><p>快问问你室友前几天怎么买的那个邀请码。</p>
+<p>吃瓜吃瓜。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-56">
+          <header>
+            <a href="#post-56">#56</a>
+            <strong>老路</strong>
+            <span>@luhaichang</span>
+            <span class="reply-context">in reply to <a href="#post-54">#54</a> admin</span>
+            <time datetime="2026-05-25T11:25:51.130Z">25/5/2026 下午7:25:51</time>
+          </header>
+          <div class="content"><p>快把你室友拉来对线 <img src="../../../assets/mirrored/9e/9e93fb8c3bb4ac119d8c84cb34d4024b41c1a12dc76b847b91a1f04a328705d9.png" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20"></p>
+<p>还是种子用户呢</p>
+<p>可惜了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-57">
+          <header>
+            <a href="#post-57">#57</a>
+            <strong>gitday</strong>
+            <span>@didiaodidiao260</span>
+            
+            <time datetime="2026-05-25T11:26:02.238Z">25/5/2026 下午7:26:02</time>
+          </header>
+          <div class="content"><p>这么吓人吗？都有安全码和l站登录的限制了都能盗刷的吗？蹲下后续</p></div>
+        </article>
+      
+
+        <article class="post" id="post-58">
+          <header>
+            <a href="#post-58">#58</a>
+            <strong>monaicc</strong>
+            <span>@zzqqa1.6</span>
+            
+            <time datetime="2026-05-25T11:26:44.919Z">25/5/2026 下午7:26:44</time>
+          </header>
+          <div class="content"><p>问题是，这怎么能刷到其他佬的号上的 <img src="../../../assets/mirrored/9e/9e93fb8c3bb4ac119d8c84cb34d4024b41c1a12dc76b847b91a1f04a328705d9.png" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20">太吓人了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-59">
+          <header>
+            <a href="#post-59">#59</a>
+            <strong>fromxiaobai</strong>
+            <span>@1263403710</span>
+            
+            <time datetime="2026-05-25T11:28:40.800Z">25/5/2026 下午7:28:40</time>
+          </header>
+          <div class="content"><p>期待后续ing，话说credit那个佬还没查完日志吗</p></div>
+        </article>
+      
+
+        <article class="post" id="post-60">
+          <header>
+            <a href="#post-60">#60</a>
+            <strong>CloseAI</strong>
+            <span>@Fuck_0penAI</span>
+            
+            <time datetime="2026-05-25T11:31:12.630Z">25/5/2026 下午7:31:12</time>
+          </header>
+          <div class="content"><p>后排吃瓜，吃完饭了，来点饭后水果</p></div>
+        </article>
+      
+
+        <article class="post" id="post-61">
+          <header>
+            <a href="#post-61">#61</a>
+            <strong>彦祖</strong>
+            <span>@mj_0729</span>
+            
+            <time datetime="2026-05-25T11:31:16.883Z">25/5/2026 下午7:31:16</time>
+          </header>
+          <div class="content"><p>蹲后续，这个行为太恶劣了，建议严查</p></div>
+        </article>
+      
+
+        <article class="post" id="post-62">
+          <header>
+            <a href="#post-62">#62</a>
+            <strong>鱼雨</strong>
+            <span>@pixelrain255</span>
+            
+            <time datetime="2026-05-25T11:38:52.590Z">25/5/2026 下午7:38:52</time>
+          </header>
+          <div class="content"><p>吃吃瓜，这怎么盗刷的，有点好奇了 <img src="../../../assets/mirrored/e1/e14f0ccf56e8c7c123e4da42b3578b18a4d03231de63c592a9a83d038465818e.png" title=":face_without_mouth:" class="emoji" alt=":face_without_mouth:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-63">
+          <header>
+            <a href="#post-63">#63</a>
+            <strong>CodeAtlantis</strong>
+            <span>@CodeAtlantis</span>
+            
+            <time datetime="2026-05-25T11:42:01.749Z">25/5/2026 下午7:42:01</time>
+          </header>
+          <div class="content"><p>话说这些支付系统的cookie不容易拿来作为攻击啊</p>
+<p>而且没有出现大范围的情况，是不是你密码被爆破了？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-64">
+          <header>
+            <a href="#post-64">#64</a>
+            <strong>stefan啦啦啦</strong>
+            <span>@stefan_lalala</span>
+            
+            <time datetime="2026-05-25T12:06:42.104Z">25/5/2026 下午8:06:42</time>
+          </header>
+          <div class="content"><p>真能盗刷的吗,有点吓人了,蹲一个结果</p></div>
+        </article>
+      
+
+        <article class="post" id="post-65">
+          <header>
+            <a href="#post-65">#65</a>
+            <strong>admin</strong>
+            <span>@passwd</span>
+            
+            <time datetime="2026-05-25T12:27:37.227Z">25/5/2026 下午8:27:37</time>
+          </header>
+          <div class="content"><p>依旧装死, 应该是不打算回信息了…<br>
+有没有可能是你的密码是不是泄漏过, 被人撞库了?<br>
+他盗刷了你多少LDC? 我现在有点内疚, 多少有点认人不淑的责任, 要不你联系商家, 能退就退, 退不了的话, 我这里只有580LDC, 看看够不够补上吧, 不够我再慢慢攒点陪给你吧.<br>
+主要是它找到实习搬出去租房住了, 没告诉我地址, 6月15号毕业典礼的时候我再找他当面对峙, 问个清楚.</p></div>
+        </article>
+      
+
+        <article class="post" id="post-66">
+          <header>
+            <a href="#post-66">#66</a>
+            <strong>诺曼底企鹅</strong>
+            <span>@normandy</span>
+            
+            <time datetime="2026-05-25T12:29:29.875Z">25/5/2026 下午8:29:29</time>
+          </header>
+          <div class="content"><p>你把 hub 号借他用跟他盗刷别人的 LDC 有什么关系？<br>
+他为啥能盗刷才是重点</p></div>
+        </article>
+      
+
+        <article class="post" id="post-67">
+          <header>
+            <a href="#post-67">#67</a>
+            <strong>同沐霜雪</strong>
+            <span>@xinjianya</span>
+            <span class="reply-context">in reply to <a href="#post-65">#65</a> admin</span>
+            <time datetime="2026-05-25T12:56:16.956Z">25/5/2026 下午8:56:16</time>
+          </header>
+          <div class="content"><p>大概学了点技术，看上linuxdo的资源了，不干正道</p></div>
+        </article>
+      
+
+        <article class="post" id="post-68">
+          <header>
+            <a href="#post-68">#68</a>
+            <strong>11037</strong>
+            <span>@11037</span>
+            
+            <time datetime="2026-05-25T13:00:58.818Z">25/5/2026 下午9:00:58</time>
+          </header>
+          <div class="content"><p>所以为什么把号借给别人能够盗刷另一位不相干的佬友的ldc?有什么漏洞吗？ldc每次支付都要输六位数字密码的呀 <img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"> 这个咋会泄露</p></div>
+        </article>
+      
+
+        <article class="post" id="post-69">
+          <header>
+            <a href="#post-69">#69</a>
+            <strong>一只橘子🍊</strong>
+            <span>@Orange4664</span>
+            
+            <time datetime="2026-05-25T13:08:52.517Z">25/5/2026 下午9:08:52</time>
+          </header>
+          <div class="content"><p>咋做到的，也是离谱啊，话说共用账号也违反规则了吧。…?<br>
+哦不好意思没看见是共了axonhub apikey<br>
+那这样盗用不是更离谱了） <img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-70">
+          <header>
+            <a href="#post-70">#70</a>
+            <strong>和宇宙的温柔并联</strong>
+            <span>@XCJX302010918</span>
+            <span class="reply-context">in reply to <a href="#post-24">#24</a> 梦影</span>
+            <time datetime="2026-05-25T13:11:01.625Z">25/5/2026 下午9:11:01</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="passwd" data-display-name="admin" data-post="65" data-topic="2243089" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/8c/8cbb334ef2e1faf9052da0a52555b158c4c275507a4732c8a23f04c81ed475a4.png" class="avatar"> admin:</div>
+<blockquote>
+<p>依旧装死, 应该是不打算回信息了…<br>
+有没有可能是你的密码是不是泄漏过, 被人撞库了?<br>
+他盗刷了你多少LDC? 我现在有点内疚, 多少有点认人不淑的责任, 要不你联系商家, 能退就退, 退不了的话, 我这里只有580LDC, 看看够不够补上吧, 不够我再慢慢攒点陪给你吧.<br>
+主要是它找到实习搬出去租房住了, 没告诉我地址, 6月15号毕业典礼的时候我再找他当面对峙, 问个清楚.</p>
+</blockquote>
+</aside>
+<p>他不是刚刚评论了？我前来来吃瓜。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-71">
+          <header>
+            <a href="#post-71">#71</a>
+            <strong>陈皮</strong>
+            <span>@chenpipi</span>
+            
+            <time datetime="2026-05-25T13:13:38.303Z">25/5/2026 下午9:13:38</time>
+          </header>
+          <div class="content"><p>不行不行，赶紧改一下密码，虽然只有100多，可这也是我的全部积蓄了 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-72">
+          <header>
+            <a href="#post-72">#72</a>
+            <strong>KuYun</strong>
+            <span>@qq85310660</span>
+            <span class="reply-context">in reply to <a href="#post-65">#65</a> admin</span>
+            <time datetime="2026-05-25T13:18:03.997Z">25/5/2026 下午9:18:03</time>
+          </header>
+          <div class="content"><p>你们的聊天记录呢，放出来看看是咋回事</p></div>
+        </article>
+      
+  </main>
+  <script>
+(function () {
+  var form = document.querySelector("[data-floor-jump]");
+  if (!form) {
+    return;
+  }
+  var input = form.querySelector("input[name='floor']");
+  var status = document.querySelector("[data-floor-jump-status]");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    jumpToFloor(input ? input.value : "");
+  });
+
+  normalizeInitialHash();
+
+  function normalizeInitialHash() {
+    var rawHash = decodeURIComponent(window.location.hash || "");
+    var match = rawHash.match(/^#(\d+)$/);
+    if (!match) {
+      return;
+    }
+    window.setTimeout(function () {
+      jumpToFloor(match[1], true);
+    }, 0);
+  }
+
+  function jumpToFloor(value, replaceHash) {
+    var floor = Number.parseInt(String(value || "").trim(), 10);
+    if (!Number.isFinite(floor) || floor < 1) {
+      setStatus("Enter a valid floor number.", "error");
+      return;
+    }
+    var targetId = "post-" + floor;
+    var target = document.getElementById(targetId);
+    if (!target) {
+      setStatus("Floor #" + floor + " is not in this archive.", "error");
+      return;
+    }
+    setStatus("");
+    if (input) {
+      input.value = String(floor);
+    }
+    var nextHash = "#" + targetId;
+    try {
+      if (replaceHash) {
+        window.history.replaceState(null, "", nextHash);
+      } else {
+        window.history.pushState(null, "", nextHash);
+      }
+    } catch (_error) {
+      window.location.hash = nextHash;
+    }
+    target.scrollIntoView({ block: "start" });
+  }
+
+  function setStatus(message, state) {
+    if (!status) {
+      return;
+    }
+    status.textContent = message || "";
+    if (state) {
+      status.dataset.state = state;
+    } else {
+      delete status.dataset.state;
+    }
+  }
+})();
+</script>
+</body>
+</html>

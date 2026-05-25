@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2243089,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2243089",
+    "title": "[求助] LD士多平台发生的积分盗刷问题",
+    "currentVersionId": "v1",
+    "currentHash": "9fee818b7f70c4007a12cff91332b8b7b3b704fd6c449180705b12fc108c8d58",
+    "postCount": 72,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2243089,
+      "sourceUrl": "https://linux.do/t/topic/2243089",
+      "archivedAt": "2026-05-25T13:19:47.520Z",
+      "contentHash": "9fee818b7f70c4007a12cff91332b8b7b3b704fd6c449180705b12fc108c8d58",
+      "postCount": 72,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 72 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
