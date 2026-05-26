@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2246473,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2246473",
+    "title": "我已经厌倦了每天打开L站都是如何如何白嫖某某模型了",
+    "currentVersionId": "v1",
+    "currentHash": "90a9536de8a906c95ef1993a8b4febe4eb9bbb04b80e6666fa4bbccd18f1b916",
+    "postCount": 30,
+    "missingPostNumbers": [
+      3,
+      13
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2246473,
+      "sourceUrl": "https://linux.do/t/topic/2246473",
+      "archivedAt": "2026-05-26T02:52:47.407Z",
+      "contentHash": "90a9536de8a906c95ef1993a8b4febe4eb9bbb04b80e6666fa4bbccd18f1b916",
+      "postCount": 30,
+      "missingPostNumbers": [
+        3,
+        13
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 30 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
