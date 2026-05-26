@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2246253,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2246253",
+    "title": "公司300多人组团进L站可行吗",
+    "currentVersionId": "v1",
+    "currentHash": "695f2cedc8e7dfebd55664906640161259153d41c393affb023fdee9dd4cdf8a",
+    "postCount": 115,
+    "missingPostNumbers": [
+      90
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2246253,
+      "sourceUrl": "https://linux.do/t/topic/2246253",
+      "archivedAt": "2026-05-26T03:08:15.360Z",
+      "contentHash": "695f2cedc8e7dfebd55664906640161259153d41c393affb023fdee9dd4cdf8a",
+      "postCount": 115,
+      "missingPostNumbers": [
+        90
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 115 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
