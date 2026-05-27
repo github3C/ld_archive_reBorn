@@ -6,14 +6,64 @@
     "slug": "topic",
     "url": "https://linux.do/t/topic/2256629",
     "title": "世界是个巨大的草台班子。",
-    "currentVersionId": "v1",
-    "currentHash": "3a72a184ea8e83269f493a42b6540df944af6ff982d86c796ff66ae719ab8c99",
-    "postCount": 42,
+    "currentVersionId": "v2",
+    "currentHash": "3ebf1290d64020de226d4a7d2d732ab043f1638f13bff8635431144c2ab9e609",
+    "postCount": 67,
     "missingPostNumbers": [
       2
     ]
   },
   "versions": [
+    {
+      "id": "v2",
+      "topicId": 2256629,
+      "sourceUrl": "https://linux.do/t/topic/2256629",
+      "archivedAt": "2026-05-27T14:35:02.742Z",
+      "contentHash": "3ebf1290d64020de226d4a7d2d732ab043f1638f13bff8635431144c2ab9e609",
+      "postCount": 67,
+      "missingPostNumbers": [
+        2
+      ],
+      "changeSummary": {
+        "id": "v1...v2",
+        "previousVersionId": "v1",
+        "currentVersionId": "v2",
+        "addedPostNumbers": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "removedPostNumbers": [],
+        "changedPostNumbers": [
+          1
+        ],
+        "newlyMissingPostNumbers": [],
+        "restoredPostNumbers": [],
+        "message": "25 added, 1 changed, 0 removed, 0 newly missing, 0 restored."
+      }
+    },
     {
       "id": "v1",
       "topicId": 2256629,
@@ -30,5 +80,45 @@
       }
     }
   ],
-  "diffs": []
+  "diffs": [
+    {
+      "id": "v1...v2",
+      "previousVersionId": "v1",
+      "currentVersionId": "v2",
+      "addedPostNumbers": [
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ],
+      "removedPostNumbers": [],
+      "changedPostNumbers": [
+        1
+      ],
+      "newlyMissingPostNumbers": [],
+      "restoredPostNumbers": [],
+      "message": "25 added, 1 changed, 0 removed, 0 newly missing, 0 restored."
+    }
+  ]
 }
