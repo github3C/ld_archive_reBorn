@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2255758,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2255758",
+    "title": "大聪明的止纷争之法",
+    "currentVersionId": "v1",
+    "currentHash": "aad107b32106a9b1bc73aefbccdd48208b187d0ddc9e5e1f2b26e01eb1a4ae45",
+    "postCount": 149,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2255758,
+      "sourceUrl": "https://linux.do/t/topic/2255758",
+      "archivedAt": "2026-05-27T13:59:28.107Z",
+      "contentHash": "aad107b32106a9b1bc73aefbccdd48208b187d0ddc9e5e1f2b26e01eb1a4ae45",
+      "postCount": 149,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 149 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
