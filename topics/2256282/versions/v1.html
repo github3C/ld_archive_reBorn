@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>开到最新内测功能了，你们小心点</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .page-nav { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0 0 18px; }
+    .page-nav a, .floor-jump button { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--panel); color: var(--text); text-decoration: none; }
+    .source-warning { border: 1px solid #bf8700; border-radius: 8px; padding: 12px 14px; margin: 0 0 18px; background: #fff8c5; color: #3b2300; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .floor-jump { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 18px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); }
+    .floor-jump label { color: var(--muted); }
+    .floor-jump input { width: 8ch; min-height: 34px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; background: var(--bg); color: var(--text); font: inherit; }
+    .floor-jump button { min-height: 34px; cursor: pointer; font: inherit; }
+    .floor-jump-status { color: var(--muted); }
+    .floor-jump-status[data-state="error"] { color: #cf222e; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post { scroll-margin-top: 86px; }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    
+    <nav class="page-nav" aria-label="Archive navigation">
+      <a href="../index.html">Topic versions</a>
+      <a href="../../../index.html">Archive index</a>
+      <a href="https://linux.do/t/topic/2256282">Source topic</a>
+    </nav>
+    <h1>开到最新内测功能了，你们小心点</h1>
+    
+    <aside class="source-warning">
+      Visible-page recovery archive. This version was recovered from the browser-rendered page and may include only posts the browser could render during scrolling.
+    </aside>
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2256282">https://linux.do/t/topic/2256282</a><br>
+      Version: v1<br>
+      Posts: 17; missing floors: 1
+    </div>
+    <form class="floor-jump" data-floor-jump>
+      <label for="floor-jump-input">Jump to floor</label>
+      <input id="floor-jump-input" name="floor" type="number" min="1" max="18" inputmode="numeric" autocomplete="off">
+      <button type="submit">Go</button>
+      <span class="floor-jump-status" data-floor-jump-status aria-live="polite"></span>
+    </form>
+    
+          <article class="post missing-post" id="post-1">
+            <header><a href="#post-1">#1</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-2">
+          <header>
+            <a href="#post-2">#2</a>
+            <strong>阿黄</strong>
+            <span>@Pon</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">有道理，不能吃着碗里的还掀桌子，哈哈</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-3">
+          <header>
+            <a href="#post-3">#3</a>
+            <strong>yehuoshun</strong>
+            <span>@yehuoshun</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">有赞助了，会有更多的免费 token 发放吗</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-4">
+          <header>
+            <a href="#post-4">#4</a>
+            <strong>小林康娜</strong>
+            <span>@xiaolinkangna</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">道友请留步是吧<br>
+通通炼化成温暖的的 + 10 丹</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-5">
+          <header>
+            <a href="#post-5">#5</a>
+            <strong>Angel</strong>
+            <span>@HatsuneMiku</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">金不金主无所谓 把站里当吵架圣地的直接干掉倒是真的有用<img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><br>
+</p><div class="lightbox-wrapper" dir="auto"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3.jpeg" data-download-href="/uploads/short-url/r7aaYUW5EDYqQZEVi4pkpYF2PIv.jpeg?dl=1" title="1000471210.jpg" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/8e/8efa116893ce4cc3fd1ae6c2ea81ec09bfb5cc90cfd3f9efebfff70a16f7bd43.jpeg" alt="1000471210.jpg" data-base62-sha1="r7aaYUW5EDYqQZEVi4pkpYF2PIv" width="225" height="500" data-dominant-color="292423" style="aspect-ratio: 225 / 500;" loading="lazy"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">1000471210.jpg</span><span class="informations">1440×3200 261 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+不是？<img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><p></p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>niubiPlus1</strong>
+            <span>@niubiPlus1</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">感觉并不需要强调金主，一个谩骂够举报的了</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>时牧</strong>
+            <span>@840814743</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">你不认同我？你是哪家的粉丝<img src="../../../assets/mirrored/f6/f65d755195cfb95f5c3e38a33d5ccd935236ff2869a720cdbcb8ac667c073e7e.png" title=":enraged_face:" class="emoji" alt=":enraged_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"><br>
+哦我知道了你肯定是 x 粉<br>
+等等什么叫全部都赞助了你</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>文月</strong>
+            <span>@Fumizuki</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><aside class="quote" data-post="1" data-topic="2255758" role="none" data-expanded="false">
+    
+  <div class="title" data-has-quote-controls="" data-can-toggle-quote="">
+    
+    <img alt="" width="24" height="24" src="../../../assets/mirrored/04/04faa363bfffb14b547443203596867f456c71f4ebd0caeaa1124280e3a016e9.png" class="avatar">
+    <div class="quote-title__text-content">
+      <a href="https://linux.do/t/topic/2255758">大聪明的止纷争之法</a> <a class="badge-category__wrapper " href="https://linux.do/c/gossip/11"><span data-category-id="11" style="--category-badge-color: #3AB54A; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-icon " title="闲聊吹水的板块。不得讨论政治、色情等违规内容。"><svg class="fa d-icon svg-icon svg-node" aria-hidden="true"><svg id="droplet" viewBox="0 0 384 512">
+  <path d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0l1.8 0c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z"></path>
+</svg></svg>
+<span class="badge-category__name">搞七捻三</span></span></a>
+    </div>
+  <div class="quote-controls"><button class="btn no-text btn-flat quote-toggle" aria-controls="quote-id-2255758-1-0" aria-expanded="false" title="展开" aria-label="展开" type="button">
+<!----><!---->
+<svg class="fa d-icon d-icon-chevron-down svg-icon fa-width-auto svg-string" width="1em" height="1em" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><use href="#chevron-down"></use></svg>
+
+<!----></button><!----></div></div>
+  <blockquote id="quote-id-2255758-1-0"><div class="post__contents-cooked-quote">
+    要说互联网上最容易吵起来的话题，涉及某 *、某 *、某 *、某 * 的话题绝对拥有姓名。我们发现不管是手机、汽车还是大模型，只要一发出来，很快就能吵起来。 
+大聪明冥思苦想良久，终于想到一个止纷争的好办法。现在我们宣布：L 站已同时接受某 *、某 *、某 *、某 * 的投资！ 
+所谓不看僧面看佛面，都客气点，再攻击、抹黑某 *、某 *、某 *、某 *，我们可就不客气了。 
+到底投没投，你别管；具体是哪些公司，你猜。
+  </div><!----></blockquote>
+</aside>
+
+<p dir="auto">难道是联动这个帖子的？所有水军可以全都扬了</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>karx</strong>
+            <span>@karx</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">为什么我没有诶，难道只有举报标兵才可以内测到</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>ZRainbow</strong>
+            <span>@ZRainbow</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">真的假的？ <a class="mention" href="https://linux.do/u/neo">@neo<span class="user-status-message-wrapper">    <span class="fk-d-tooltip__trigger user-status-message" role="button" data-identifier="user-status-message-tooltip" data-trigger="" aria-expanded="false" id="ember1627">
+  <span class="fk-d-tooltip__trigger-container">
+      <img width="20" height="20" src="../../../assets/mirrored/43/43c7effabca3b06e4ed7ed334d23938b296fcd63e010aa1bf941f629b48841ff.png" alt="lollipop" class="emoji">
+<!---->    </span></span><!---->
+
+</span><!----></a><br>
+造谣的话都得进去哦</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>GwIhViEte</strong>
+            <span>@GwIhViEte</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">不是？到底是哪些厂商啊？一脸懵逼的进来一脸懵逼的出去……<br>
+我看他们说什么看早上的帖子，来个仙人指路行不行……</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>MoZiiBai</strong>
+            <span>@MoZiiBai</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">就是涉及到手机厂商的一些就容易立马吵起来</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>GwIhViEte</strong>
+            <span>@GwIhViEte</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">这种话题我一般是去<code>小黑盒</code>上面准备好两套说辞，然后看评论区风向决定发哪个 <img src="../../../assets/mirrored/d6/d62c07b3176f768fde3a6b181fef0780a20ca6cc54d462f0956528056fd4ac7b.png" title=":zany_face:" class="emoji" alt=":zany_face:" loading="lazy" width="20" height="20" style="aspect-ratio: 20 / 20;"></p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>MoZiiBai</strong>
+            <span>@MoZiiBai</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">我觉得实用主义就好，不参与骂战，也不做第一批买家，等其他用户踩坑完了我才会考虑下单</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>Hello ladies and lads</strong>
+            <span>@snk</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">这是发生了什么？突然又更新版本了</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>PlayGenshin</strong>
+            <span>@PlayGenshin</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">也没啥，单纯涉及到一些厂家的时候，L 友往往会战个痛快。你可以看看 neo 新发的那个 "大聪明" 话题。</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>撸起裙子加油干</strong>
+            <span>@kkb</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p dir="auto">我是新人，我看不懂你怎么在聊什么</p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>sse</strong>
+            <span>@sse</span>
+            
+            <time datetime=""></time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper" dir="auto"><a class="lightbox" href="../../../assets/mirrored/8b/8b68ed44bbbfb7a26bff6c4ffb3ac3cc17968c247c15221a45accc2beebc752d.jpeg" data-download-href="/uploads/short-url/yTPhiZTujStTG2pd9509j3KcvuM.jpeg?dl=1" title="谁赢他们帮谁" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/8b/8b68ed44bbbfb7a26bff6c4ffb3ac3cc17968c247c15221a45accc2beebc752d.jpeg" alt="谁赢他们帮谁" data-base62-sha1="yTPhiZTujStTG2pd9509j3KcvuM" width="474" height="311" style="aspect-ratio: 474 / 311;" loading="lazy"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">谁赢他们帮谁</span><span class="informations"> 474×311 27.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p><div class="cooked-selection-barrier" aria-hidden="true"><br></div></div>
+        </article>
+      
+  </main>
+  <script>
+(function () {
+  var form = document.querySelector("[data-floor-jump]");
+  if (!form) {
+    return;
+  }
+  var input = form.querySelector("input[name='floor']");
+  var status = document.querySelector("[data-floor-jump-status]");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    jumpToFloor(input ? input.value : "");
+  });
+
+  normalizeInitialHash();
+
+  function normalizeInitialHash() {
+    var rawHash = decodeURIComponent(window.location.hash || "");
+    var match = rawHash.match(/^#(\d+)$/);
+    if (!match) {
+      return;
+    }
+    window.setTimeout(function () {
+      jumpToFloor(match[1], true);
+    }, 0);
+  }
+
+  function jumpToFloor(value, replaceHash) {
+    var floor = Number.parseInt(String(value || "").trim(), 10);
+    if (!Number.isFinite(floor) || floor < 1) {
+      setStatus("Enter a valid floor number.", "error");
+      return;
+    }
+    var targetId = "post-" + floor;
+    var target = document.getElementById(targetId);
+    if (!target) {
+      setStatus("Floor #" + floor + " is not in this archive.", "error");
+      return;
+    }
+    setStatus("");
+    if (input) {
+      input.value = String(floor);
+    }
+    var nextHash = "#" + targetId;
+    try {
+      if (replaceHash) {
+        window.history.replaceState(null, "", nextHash);
+      } else {
+        window.history.pushState(null, "", nextHash);
+      }
+    } catch (_error) {
+      window.location.hash = nextHash;
+    }
+    target.scrollIntoView({ block: "start" });
+  }
+
+  function setStatus(message, state) {
+    if (!status) {
+      return;
+    }
+    status.textContent = message || "";
+    if (state) {
+      status.dataset.state = state;
+    } else {
+      delete status.dataset.state;
+    }
+  }
+})();
+</script>
+</body>
+</html>

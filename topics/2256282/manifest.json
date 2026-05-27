@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2256282,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2256282",
+    "title": "开到最新内测功能了，你们小心点",
+    "currentVersionId": "v1",
+    "currentHash": "55f9c3e2b5273ef52a9d71116972aa1ff4224ab1248c6ad3d7594be73a9c7ea4",
+    "postCount": 17,
+    "missingPostNumbers": [
+      1
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2256282,
+      "sourceUrl": "https://linux.do/t/topic/2256282",
+      "archivedAt": "2026-05-27T14:06:45.671Z",
+      "contentHash": "55f9c3e2b5273ef52a9d71116972aa1ff4224ab1248c6ad3d7594be73a9c7ea4",
+      "postCount": 17,
+      "missingPostNumbers": [
+        1
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 17 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2256282,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2256282",
+    "title": "开到最新内测功能了，你们小心点",
+    "createdAt": null,
+    "currentVersionId": "v1",
+    "currentHash": "55f9c3e2b5273ef52a9d71116972aa1ff4224ab1248c6ad3d7594be73a9c7ea4"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2256282,
+    "sourceUrl": "https://linux.do/t/topic/2256282",
+    "archivedAt": "2026-05-27T14:06:45.671Z",
+    "contentHash": "55f9c3e2b5273ef52a9d71116972aa1ff4224ab1248c6ad3d7594be73a9c7ea4",
+    "postCount": 17,
+    "missingPostNumbers": [
+      1
+    ],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 17 visible posts with 1 missing floors."
+    }
+  },
+  "capture": {
+    "source": "visible-page",
+    "capturedAt": "2026-05-27T14:06:45.660Z",
+    "capturedPostCount": 17,
+    "warning": "Recovered from the browser-rendered page. It may include only posts the browser could render during scrolling."
+  },
+  "posts": [
+    {
+      "id": 18310859,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Pon",
+      "displayName": "阿黄",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">有道理，不能吃着碗里的还掀桌子，哈哈</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "有道理，不能吃着碗里的还掀桌子，哈哈",
+      "contentHash": "f6317583aa10c3854f93b3efa284a3a47cda1f5e048d6ed4bb2cee0844d7df5e"
+    },
+    {
+      "id": 18310914,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "yehuoshun",
+      "displayName": "yehuoshun",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">有赞助了，会有更多的免费 token 发放吗</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "有赞助了，会有更多的免费 token 发放吗",
+      "contentHash": "223b840dfac9c4732b9be24abcbaca76c12ab95c2d82ed9063e43cffbf8e0e4d"
+    },
+    {
+      "id": 18310925,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "xiaolinkangna",
+      "displayName": "小林康娜",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">道友请留步是吧<br>\n通通炼化成温暖的的 + 10 丹</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "道友请留步是吧 通通炼化成温暖的的 + 10 丹",
+      "contentHash": "a43bb62232a343a383083b552d1537bb16c02adb0bdf21efa75f33ed796be3aa"
+    },
+    {
+      "id": 18311031,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "HatsuneMiku",
+      "displayName": "Angel",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">金不金主无所谓 把站里当吵架圣地的直接干掉倒是真的有用<img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><br>\n</p><div class=\"lightbox-wrapper\" dir=\"auto\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3.jpeg\" data-download-href=\"/uploads/short-url/r7aaYUW5EDYqQZEVi4pkpYF2PIv.jpeg?dl=1\" title=\"1000471210.jpg\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3_2_225x500.jpeg\" alt=\"1000471210.jpg\" data-base62-sha1=\"r7aaYUW5EDYqQZEVi4pkpYF2PIv\" width=\"225\" height=\"500\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3_2_225x500.jpeg, https://cdn3.ldstatic.com/optimized/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3_2_337x750.jpeg 1.5x, https://cdn3.ldstatic.com/optimized/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3_2_450x1000.jpeg 2x\" data-dominant-color=\"292423\" style=\"aspect-ratio: 225 / 500;\" loading=\"lazy\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">1000471210.jpg</span><span class=\"informations\">1440×3200 261 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n不是？<img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><p></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "金不金主无所谓 把站里当吵架圣地的直接干掉倒是真的有用 1000471210.jpg1440×3200 261 KB 不是？",
+      "contentHash": "f40f488d5db829b96a72fe4c43c4edf95ec7b786e98b0b8f3ea19d13e64b414d"
+    },
+    {
+      "id": 18311549,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "niubiPlus1",
+      "displayName": "niubiPlus1",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">感觉并不需要强调金主，一个谩骂够举报的了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "感觉并不需要强调金主，一个谩骂够举报的了",
+      "contentHash": "67af15c5c6a6a938a61ce0e8fdd63b4ccbc38041fb61eacf9929d32397df365d"
+    },
+    {
+      "id": 18311660,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "840814743",
+      "displayName": "时牧",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">你不认同我？你是哪家的粉丝<img src=\"https://cdn.ldstatic.com/images/emoji/twitter/enraged_face.png?v=15\" title=\":enraged_face:\" class=\"emoji\" alt=\":enraged_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><br>\n哦我知道了你肯定是 x 粉<br>\n等等什么叫全部都赞助了你</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "你不认同我？你是哪家的粉丝 哦我知道了你肯定是 x 粉 等等什么叫全部都赞助了你",
+      "contentHash": "3b1ec8171eee9eadd9825f600b4c5c365669e63424e8e8352de2c9ede3ac1806"
+    },
+    {
+      "id": 18311783,
+      "postNumber": 8,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Fumizuki",
+      "displayName": "文月",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<aside class=\"quote\" data-post=\"1\" data-topic=\"2255758\" role=\"none\" data-expanded=\"false\">\n    \n  <div class=\"title\" data-has-quote-controls=\"\" data-can-toggle-quote=\"\">\n    \n    <img alt=\"\" width=\"24\" height=\"24\" src=\"https://cdn.ldstatic.com/user_avatar/linux.do/neo/48/12_2.png\" class=\"avatar\">\n    <div class=\"quote-title__text-content\">\n      <a href=\"https://linux.do/t/topic/2255758\">大聪明的止纷争之法</a> <a class=\"badge-category__wrapper \" href=\"https://linux.do/c/gossip/11\"><span data-category-id=\"11\" style=\"--category-badge-color: #3AB54A; --category-badge-text-color: #000000;\" data-drop-close=\"true\" class=\"badge-category --style-icon \" title=\"闲聊吹水的板块。不得讨论政治、色情等违规内容。\"><svg class=\"fa d-icon svg-icon svg-node\" aria-hidden=\"true\"><svg id=\"droplet\" viewBox=\"0 0 384 512\">\n  <path d=\"M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0l1.8 0c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z\"></path>\n</svg></svg>\n<span class=\"badge-category__name\">搞七捻三</span></span></a>\n    </div>\n  <div class=\"quote-controls\"><button class=\"btn no-text btn-flat quote-toggle\" aria-controls=\"quote-id-2255758-1-0\" aria-expanded=\"false\" title=\"展开\" aria-label=\"展开\" type=\"button\">\n<!----><!---->\n<svg class=\"fa d-icon d-icon-chevron-down svg-icon fa-width-auto svg-string\" width=\"1em\" height=\"1em\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\"><use href=\"#chevron-down\"></use></svg>\n\n<!----></button><!----></div></div>\n  <blockquote id=\"quote-id-2255758-1-0\"><div class=\"post__contents-cooked-quote\">\n    要说互联网上最容易吵起来的话题，涉及某 *、某 *、某 *、某 * 的话题绝对拥有姓名。我们发现不管是手机、汽车还是大模型，只要一发出来，很快就能吵起来。 \n大聪明冥思苦想良久，终于想到一个止纷争的好办法。现在我们宣布：L 站已同时接受某 *、某 *、某 *、某 * 的投资！ \n所谓不看僧面看佛面，都客气点，再攻击、抹黑某 *、某 *、某 *、某 *，我们可就不客气了。 \n到底投没投，你别管；具体是哪些公司，你猜。\n  </div><!----></blockquote>\n</aside>\n\n<p dir=\"auto\">难道是联动这个帖子的？所有水军可以全都扬了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "大聪明的止纷争之法 搞七捻三 要说互联网上最容易吵起来的话题，涉及某 *、某 *、某 *、某 * 的话题绝对拥有姓名。我们发现不管是手机、汽车还是大模型，只要一发出来，很快就能吵起来。 大聪明冥思苦想良久，终于想到一个止纷争的好办法。现在我们宣布：L 站已同时接受某 *、某 *、某 *、某 * 的投资！ 所谓不看僧面看佛面，都客气点，再攻击、抹黑某 *、某 *、某 *、某 *，我们可就不客气了。 到底投没投，你别管；具体是哪些公司，你猜。 难道是联动这个帖子的？所有水军可以全都扬了",
+      "contentHash": "6d4365ab289f43665158a03536205c12c9729b31a40d9bad75c29e820df7ae80"
+    },
+    {
+      "id": 18311897,
+      "postNumber": 9,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "karx",
+      "displayName": "karx",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">为什么我没有诶，难道只有举报标兵才可以内测到</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "为什么我没有诶，难道只有举报标兵才可以内测到",
+      "contentHash": "bf9a040fcbf0d3bf4a388a0c0fc7a7138a1ee32f5e352e6be81e655cb0f4adb8"
+    },
+    {
+      "id": 18312079,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "ZRainbow",
+      "displayName": "ZRainbow",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">真的假的？ <a class=\"mention\" href=\"https://linux.do/u/neo\">@neo<span class=\"user-status-message-wrapper\">    <span class=\"fk-d-tooltip__trigger user-status-message\" role=\"button\" data-identifier=\"user-status-message-tooltip\" data-trigger=\"\" aria-expanded=\"false\" id=\"ember1627\">\n  <span class=\"fk-d-tooltip__trigger-container\">\n      <img width=\"20\" height=\"20\" src=\"https://cdn.ldstatic.com/images/emoji/twitter/lollipop.png?v=15\" alt=\"lollipop\" class=\"emoji\">\n<!---->    </span></span><!---->\n\n</span><!----></a><br>\n造谣的话都得进去哦</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "真的假的？ @neo 造谣的话都得进去哦",
+      "contentHash": "aa13c8829e2795b029cc732e73a1a66cbb70c883cb1acb45b9de154b3af9db30"
+    },
+    {
+      "id": 18312149,
+      "postNumber": 11,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "GwIhViEte",
+      "displayName": "GwIhViEte",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">不是？到底是哪些厂商啊？一脸懵逼的进来一脸懵逼的出去……<br>\n我看他们说什么看早上的帖子，来个仙人指路行不行……</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "不是？到底是哪些厂商啊？一脸懵逼的进来一脸懵逼的出去…… 我看他们说什么看早上的帖子，来个仙人指路行不行……",
+      "contentHash": "ca0cb0cadd6b6283284aebbcbe8bcff84bf640acafe539e4f5e277a2871962ab"
+    },
+    {
+      "id": 18312234,
+      "postNumber": 12,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "MoZiiBai",
+      "displayName": "MoZiiBai",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">就是涉及到手机厂商的一些就容易立马吵起来</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "就是涉及到手机厂商的一些就容易立马吵起来",
+      "contentHash": "e6356f2a38d75287c49a1a064045aa5887b339db6441fc6b646490f5450de60b"
+    },
+    {
+      "id": 18312311,
+      "postNumber": 13,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "GwIhViEte",
+      "displayName": "GwIhViEte",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">这种话题我一般是去<code>小黑盒</code>上面准备好两套说辞，然后看评论区风向决定发哪个 <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/zany_face.png?v=15\" title=\":zany_face:\" class=\"emoji\" alt=\":zany_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "这种话题我一般是去小黑盒上面准备好两套说辞，然后看评论区风向决定发哪个",
+      "contentHash": "69aad5d3528060c2708c8f65fa76851fe474e0a99b95617188eb4e9563100f25"
+    },
+    {
+      "id": 18312381,
+      "postNumber": 14,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "MoZiiBai",
+      "displayName": "MoZiiBai",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我觉得实用主义就好，不参与骂战，也不做第一批买家，等其他用户踩坑完了我才会考虑下单</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我觉得实用主义就好，不参与骂战，也不做第一批买家，等其他用户踩坑完了我才会考虑下单",
+      "contentHash": "349d33f1fe1e5b2e2c29737fb319437b736d5a2c87e5716e373641895502ad80"
+    },
+    {
+      "id": 18312392,
+      "postNumber": 15,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "snk",
+      "displayName": "Hello ladies and lads",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">这是发生了什么？突然又更新版本了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "这是发生了什么？突然又更新版本了",
+      "contentHash": "f247524511352ecdde324c0aab992c249bfb8147b3db8ef65f49d636ba35beee"
+    },
+    {
+      "id": 18312607,
+      "postNumber": 16,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "PlayGenshin",
+      "displayName": "PlayGenshin",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">也没啥，单纯涉及到一些厂家的时候，L 友往往会战个痛快。你可以看看 neo 新发的那个 \"大聪明\" 话题。</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "也没啥，单纯涉及到一些厂家的时候，L 友往往会战个痛快。你可以看看 neo 新发的那个 \"大聪明\" 话题。",
+      "contentHash": "507cdc3c758784cc620ad02dece34818a0fd5e76f965975328c271e0ca533495"
+    },
+    {
+      "id": 18312654,
+      "postNumber": 17,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "kkb",
+      "displayName": "撸起裙子加油干",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我是新人，我看不懂你怎么在聊什么</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我是新人，我看不懂你怎么在聊什么",
+      "contentHash": "0ba08817a9670e81738e5a7e1f5ea36b65225a886141f169a230decf5362f4b4"
+    },
+    {
+      "id": 18313661,
+      "postNumber": 18,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "sse",
+      "displayName": "sse",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\" dir=\"auto\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/f/4/9/f499748af138a7f4853ca27048b59c31a22fed50.jpeg\" data-download-href=\"/uploads/short-url/yTPhiZTujStTG2pd9509j3KcvuM.jpeg?dl=1\" title=\"谁赢他们帮谁\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/f/4/9/f499748af138a7f4853ca27048b59c31a22fed50.jpeg\" alt=\"谁赢他们帮谁\" data-base62-sha1=\"yTPhiZTujStTG2pd9509j3KcvuM\" width=\"474\" height=\"311\" style=\"aspect-ratio: 474 / 311;\" loading=\"lazy\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">谁赢他们帮谁</span><span class=\"informations\"> 474×311 27.1 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "谁赢他们帮谁 474×311 27.1 KB",
+      "contentHash": "84ecdc0e9c904d9a24a8f68c4f9653f81593845cfdc89045609375323a3b0722"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 55592,
+    "resources": [
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          5
+        ],
+        "mirroredPath": "assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png",
+        "status": "mirrored",
+        "sizeBytes": 3405,
+        "contentType": "image/png",
+        "sha256": "8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/b/e/0/be0a03ece22df7f1665c6cf42feba329956eaed3_2_225x500.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          5
+        ],
+        "mirroredPath": "assets/mirrored/8e/8efa116893ce4cc3fd1ae6c2ea81ec09bfb5cc90cfd3f9efebfff70a16f7bd43.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 20023,
+        "contentType": "image/jpeg",
+        "sha256": "8efa116893ce4cc3fd1ae6c2ea81ec09bfb5cc90cfd3f9efebfff70a16f7bd43",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/enraged_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          7
+        ],
+        "mirroredPath": "assets/mirrored/f6/f65d755195cfb95f5c3e38a33d5ccd935236ff2869a720cdbcb8ac667c073e7e.png",
+        "status": "mirrored",
+        "sizeBytes": 683,
+        "contentType": "image/png",
+        "sha256": "f65d755195cfb95f5c3e38a33d5ccd935236ff2869a720cdbcb8ac667c073e7e",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/user_avatar/linux.do/neo/48/12_2.png",
+        "kind": "image",
+        "postNumbers": [
+          8
+        ],
+        "mirroredPath": "assets/mirrored/04/04faa363bfffb14b547443203596867f456c71f4ebd0caeaa1124280e3a016e9.png",
+        "status": "mirrored",
+        "sizeBytes": 1194,
+        "contentType": "image/jpeg",
+        "sha256": "04faa363bfffb14b547443203596867f456c71f4ebd0caeaa1124280e3a016e9",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/lollipop.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          10
+        ],
+        "mirroredPath": "assets/mirrored/43/43c7effabca3b06e4ed7ed334d23938b296fcd63e010aa1bf941f629b48841ff.png",
+        "status": "mirrored",
+        "sizeBytes": 1358,
+        "contentType": "image/png",
+        "sha256": "43c7effabca3b06e4ed7ed334d23938b296fcd63e010aa1bf941f629b48841ff",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/zany_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          13
+        ],
+        "mirroredPath": "assets/mirrored/d6/d62c07b3176f768fde3a6b181fef0780a20ca6cc54d462f0956528056fd4ac7b.png",
+        "status": "mirrored",
+        "sizeBytes": 1175,
+        "contentType": "image/png",
+        "sha256": "d62c07b3176f768fde3a6b181fef0780a20ca6cc54d462f0956528056fd4ac7b",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/original/4X/f/4/9/f499748af138a7f4853ca27048b59c31a22fed50.jpeg",
+        "kind": "image",
+        "postNumbers": [
+          18
+        ],
+        "mirroredPath": "assets/mirrored/8b/8b68ed44bbbfb7a26bff6c4ffb3ac3cc17968c247c15221a45accc2beebc752d.jpeg",
+        "status": "mirrored",
+        "sizeBytes": 27754,
+        "contentType": "image/jpeg",
+        "sha256": "8b68ed44bbbfb7a26bff6c4ffb3ac3cc17968c247c15221a45accc2beebc752d",
+        "reason": ""
+      }
+    ]
+  }
+}
