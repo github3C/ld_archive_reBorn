@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2273388,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2273388",
+    "title": "【没挂人，已全部打码】某些中转站用起来真是高血压",
+    "currentVersionId": "v1",
+    "currentHash": "13c36cccf1889ffa99c0be71070f718f64202cfdd45dc5d9327e3e1f10b67498",
+    "postCount": 95,
+    "missingPostNumbers": [
+      2,
+      4,
+      16,
+      17,
+      73
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2273388,
+      "sourceUrl": "https://linux.do/t/topic/2273388",
+      "archivedAt": "2026-05-30T14:42:53.340Z",
+      "contentHash": "13c36cccf1889ffa99c0be71070f718f64202cfdd45dc5d9327e3e1f10b67498",
+      "postCount": 95,
+      "missingPostNumbers": [
+        2,
+        4,
+        16,
+        17,
+        73
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 95 visible posts with 5 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
