@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2282249,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2282249",
+    "title": "【胡思乱想】如果始皇年龄大了，没那么多精力维护L站了，那L站不就像当年的天涯一样散了吗",
+    "currentVersionId": "v1",
+    "currentHash": "85ca0b1086f42ecaabfc373b59bbc79723c94c15eb096d39f1aa5cf546977380",
+    "postCount": 111,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2282249,
+      "sourceUrl": "https://linux.do/t/topic/2282249",
+      "archivedAt": "2026-06-01T03:36:34.965Z",
+      "contentHash": "85ca0b1086f42ecaabfc373b59bbc79723c94c15eb096d39f1aa5cf546977380",
+      "postCount": 111,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 111 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
