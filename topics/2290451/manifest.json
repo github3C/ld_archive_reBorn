@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2290451,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2290451",
+    "title": "奥特曼你不仁别怪我不义 OpenAI我跟你并了",
+    "currentVersionId": "v1",
+    "currentHash": "10b5f047cfd3264fdd707ec6df836f4fd700a1c77f5ed8d94dfe12dfacf4f1d7",
+    "postCount": 37,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2290451,
+      "sourceUrl": "https://linux.do/t/topic/2290451",
+      "archivedAt": "2026-06-02T06:06:01.345Z",
+      "contentHash": "10b5f047cfd3264fdd707ec6df836f4fd700a1c77f5ed8d94dfe12dfacf4f1d7",
+      "postCount": 37,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 37 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
