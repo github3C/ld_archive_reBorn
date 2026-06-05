@@ -1,0 +1,1047 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>关于公益站的疑问</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .page-nav { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0 0 18px; }
+    .page-nav a, .floor-jump button { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--panel); color: var(--text); text-decoration: none; }
+    .source-warning { border: 1px solid #bf8700; border-radius: 8px; padding: 12px 14px; margin: 0 0 18px; background: #fff8c5; color: #3b2300; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .floor-jump { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 18px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); }
+    .floor-jump label { color: var(--muted); }
+    .floor-jump input { width: 8ch; min-height: 34px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; background: var(--bg); color: var(--text); font: inherit; }
+    .floor-jump button { min-height: 34px; cursor: pointer; font: inherit; }
+    .floor-jump-status { color: var(--muted); }
+    .floor-jump-status[data-state="error"] { color: #cf222e; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post { scroll-margin-top: 86px; }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    
+    <nav class="page-nav" aria-label="Archive navigation">
+      <a href="../index.html">Topic versions</a>
+      <a href="../../../index.html">Archive index</a>
+      <a href="https://linux.do/t/topic/2282352">Source topic</a>
+    </nav>
+    <h1>关于公益站的疑问</h1>
+    
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2282352">https://linux.do/t/topic/2282352</a><br>
+      Version: v1<br>
+      Posts: 67; missing floors: 32, 35
+    </div>
+    <form class="floor-jump" data-floor-jump>
+      <label for="floor-jump-input">Jump to floor</label>
+      <input id="floor-jump-input" name="floor" type="number" min="1" max="69" inputmode="numeric" autocomplete="off">
+      <button type="submit">Go</button>
+      <span class="floor-jump-status" data-floor-jump-status aria-live="polite"></span>
+    </form>
+    
+        <article class="post" id="post-1">
+          <header>
+            <a href="#post-1">#1</a>
+            <strong>xk128</strong>
+            <span>@xk128</span>
+            
+            <time datetime="2026-06-01T02:15:36.301Z">2026/6/1 10:15:36</time>
+          </header>
+          <div class="content"><p>越来越多公益站开始花里胡哨了不知道各位有没有感觉？</p>
+<p>首先是各种内置小游戏，有没有站长出来反馈一下到底有多少用户在玩这些小游戏，日活怎么样</p>
+<p>其次是使用 linux do 登录后还要再绑定一个邮箱，我不知道是不是 sub2api 的原因导致的，一般都是 sub2api 框架。 那我用 linux do 登录与邮箱登录有什么区别，我使用 linux do登录就是不想用邮箱登录啊（不想暴露邮箱另说）</p>
+<p><code>LINUX DO 登录后还必须绑定邮箱</code>，是否与 <a href="https://linux.do/guidelines">社区准则</a> 里面的</p>
+<blockquote>
+<ul>
+<li>如果推广方网站、程序需要登录，必须接入 <a href="https://connect.linux.do/">LINUX DO Connect</a> 且可直接登录。</li>
+</ul>
+</blockquote>
+<blockquote>
+<ul>
+<li>不得在本社区引流另一个社区、社群，此视为骑脸行为</li>
+</ul>
+</blockquote>
+<p>冲突呢</p>
+<p>最近感觉各种"逼氪"行为也越来越多了，我支持使用LDC换额度，但是你大可大大方方的说，渠道不足了，关闭一下签到功能需要的用户可以用LDC换。怎么我还看到有引流跳转微信小程序看广告签到的。。。</p>
+<p><code>跳转微信小程序看广告签到</code> 与 <strong>公益模板</strong>里的 <code>我的项目不存在非运营必要的网站引流：是</code>或者 <code>我的项目是免费使用的，无收费（变相收费、赞助）部分：是</code> 是否冲突呢？</p>
+<aside class="quote" data-post="67" data-topic="2282352">
+  <div class="title">
+    <div class="quote-controls"></div>
+    <img alt="" width="24" height="24" src="../../../assets/mirrored/22/22ac32a19e05c9bfd869ef7607f8f790f3b62bf9e798a683b5dfc27fa1873761.png" class="avatar">
+    <div class="quote-title__text-content">
+      <a href="https://linux.do/t/topic/2282352/67">关于公益站的疑问</a> <a class="badge-category__wrapper " href="https://linux.do/c/gossip/11"><span data-category-id="11" style="--category-badge-color: #3AB54A; --category-badge-text-color: #000000;" data-drop-close="true" class="badge-category --style-icon " title="闲聊吹水的板块。不得讨论政治、色情等违规内容。"><svg class="fa d-icon svg-icon svg-node" aria-hidden="true"><svg id="droplet" viewBox="0 0 384 512">
+  <path d="M192 512C86 512 0 426 0 320C0 228.8 130.2 57.7 166.6 11.7C172.6 4.2 181.5 0 191.1 0l1.8 0c9.6 0 18.5 4.2 24.5 11.7C253.8 57.7 384 228.8 384 320c0 106-86 192-192 192zM96 336c0-8.8-7.2-16-16-16s-16 7.2-16 16c0 61.9 50.1 112 112 112c8.8 0 16-7.2 16-16s-7.2-16-16-16c-44.2 0-80-35.8-80-80z"></path>
+</svg></svg>
+<span class="badge-category__name">搞七捻三</span></span></a>
+    </div>
+  </div>
+  <blockquote>
+    不是，为什么帖子下面的评论变成了 某 被封禁的站点的讨论区了 <img width="20" height="20" src="../../../assets/mirrored/94/947a28843cbeaea66f64c6bb8ea2ec62ccf26bba20110442c9309cc7ac2f33d2.png" title="upside_down_face" alt="upside_down_face" class="emoji"> 
+这就是直接挂名的问题，反而给它引流了
+  </blockquote>
+</aside>
+</div>
+        </article>
+      
+
+        <article class="post" id="post-2">
+          <header>
+            <a href="#post-2">#2</a>
+            <strong>Frieren</strong>
+            <span>@Fernweh</span>
+            
+            <time datetime="2026-06-01T02:18:14.832Z">2026/6/1 10:18:14</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="xk128" data-post="1" data-topic="2282352">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/22/22ac32a19e05c9bfd869ef7607f8f790f3b62bf9e798a683b5dfc27fa1873761.png" class="avatar"> xk128:</div>
+<blockquote>
+<p>引流跳转微信小程序看广告签到</p>
+</blockquote>
+</aside>
+<p>这种的不算完全的公益站了我觉得，应该和完全的公益站做区分。。。或者可以叫做免费商业站？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-3">
+          <header>
+            <a href="#post-3">#3</a>
+            <strong>冰</strong>
+            <span>@uton88</span>
+            
+            <time datetime="2026-06-01T02:18:22.969Z">2026/6/1 10:18:22</time>
+          </header>
+          <div class="content"><p>什么？还有看广告签到的说法呢。。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-4">
+          <header>
+            <a href="#post-4">#4</a>
+            <strong>Eins</strong>
+            <span>@Eins</span>
+            
+            <time datetime="2026-06-01T02:18:36.082Z">2026/6/1 10:18:36</time>
+          </header>
+          <div class="content"><p>你这么一说好像还真是那回事。我大概知道你说的是哪个公益站 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-5">
+          <header>
+            <a href="#post-5">#5</a>
+            <strong>Frieren</strong>
+            <span>@Fernweh</span>
+            <span class="reply-context">in reply to <a href="#post-3">#3</a> 冰</span>
+            <time datetime="2026-06-01T02:19:21.333Z">2026/6/1 10:19:21</time>
+          </header>
+          <div class="content"><p>捉一个冰佬，看看能不能爆装备 <img src="../../../assets/mirrored/b5/b513ae58db533e68f23ef901db51c074d64ad16bc2c9ecbb84528a13dbf81ee8.png" title=":bili_063:" class="emoji emoji-custom" alt=":bili_063:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>kingsley9527</strong>
+            <span>@kingsley9527</span>
+            <span class="reply-context">in reply to <a href="#post-4">#4</a> Eins</span>
+            <time datetime="2026-06-01T02:20:37.414Z">2026/6/1 10:20:37</time>
+          </header>
+          <div class="content"><p>哈哈哈哈，想去看看，是什么公益站</p></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>甘棠</strong>
+            <span>@guji0823</span>
+            
+            <time datetime="2026-06-01T02:20:39.223Z">2026/6/1 10:20:39</time>
+          </header>
+          <div class="content"><p>能不能告诉我哪个站，我想要炼化它。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>思维建筑工</strong>
+            <span>@SWJZG</span>
+            
+            <time datetime="2026-06-01T02:20:53.296Z">2026/6/1 10:20:53</time>
+          </header>
+          <div class="content"><p>这很明显是违规推广了，好多都是中转站的小号以公益站的名义拉一波客源的。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>213小蟹</strong>
+            <span>@afsum</span>
+            <span class="reply-context">in reply to <a href="#post-3">#3</a> 冰</span>
+            <time datetime="2026-06-01T02:20:54.006Z">2026/6/1 10:20:54</time>
+          </header>
+          <div class="content"><p>冰佬，这坏的玩意儿咱可别学啊！！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>djx30103</strong>
+            <span>@djx30103</span>
+            
+            <time datetime="2026-06-01T02:21:01.844Z">2026/6/1 10:21:01</time>
+          </header>
+          <div class="content"><p>我今天也发现了， <span class="spoiler">小程序能量站</span>吗 哈哈哈哈哈</p></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>Wills</strong>
+            <span>@Will22</span>
+            
+            <time datetime="2026-06-01T02:21:22.924Z">2026/6/1 10:21:22</time>
+          </header>
+          <div class="content"><p>emm今早签到才看到， （原来不能直接说，小白见谅。。）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>小亮</strong>
+            <span>@smileXL</span>
+            <span class="reply-context">in reply to <a href="#post-3">#3</a> 冰</span>
+            <time datetime="2026-06-01T02:21:28.939Z">2026/6/1 10:21:28</time>
+          </header>
+          <div class="content"><p>有，今天发有个挺大的公益站，签到需要去程序里了，果断没去签</p></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>柑蕉桔梨萝柚</strong>
+            <span>@cwung</span>
+            
+            <time datetime="2026-06-01T02:21:32.957Z">2026/6/1 10:21:32</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="xk128" data-post="1" data-topic="2282352">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/22/22ac32a19e05c9bfd869ef7607f8f790f3b62bf9e798a683b5dfc27fa1873761.png" class="avatar"> xk128:</div>
+<blockquote>
+<p>微信小程序看广告签到</p>
+</blockquote>
+</aside>
+<p>这个是哪一家啊，直接说出来举报送走啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>【失业客服喵】</strong>
+            <span>@Maru_sec</span>
+            
+            <time datetime="2026-06-01T02:21:54.247Z">2026/6/1 10:21:54</time>
+          </header>
+          <div class="content"><p>广告有收入吧，感觉属于变向收费，能直接@始皇来封杀这个公益站了</p>
+<p>出于规则还是打个码，不过ZB缩写的应该没别的，属于无效打码了（）</p>
+<div class="d-image-grid">
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/8/c/a/8ca19cef432711afe5c7ddfc414a3c098d9c5641.jpeg" data-download-href="/uploads/short-url/k456d4et0lK0ZlW0cJv3zaAJdxT.jpeg?dl=1" title="IMG_2711" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/3c/3ca4d366f834af095825b082f904f7595867cf7d78dbc43aa87a84bade6d04fd.jpeg" alt="IMG_2711" data-base62-sha1="k456d4et0lK0ZlW0cJv3zaAJdxT" width="690" height="309" data-dominant-color="37383D"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG_2711</span><span class="informations">2141×959 231 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+</div>
+<p><a class="mention" href="https://linux.do/u/neo">@neo</a> 来看看，看广告属于变相收费么</p></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>按e喷火</strong>
+            <span>@eeeee</span>
+            
+            <time datetime="2026-06-01T02:22:36.489Z">2026/6/1 10:22:36</time>
+          </header>
+          <div class="content"><p>真有这种事你还不抓紧把他挂出来<br>
+送他去错误的地方阿</p></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>xk128</strong>
+            <span>@xk128</span>
+            <span class="reply-context">in reply to <a href="#post-13">#13</a> 柑蕉桔梨萝柚</span>
+            <time datetime="2026-06-01T02:23:17.596Z">2026/6/1 10:23:17</time>
+          </header>
+          <div class="content"><p><img src="../../../assets/mirrored/94/947a28843cbeaea66f64c6bb8ea2ec62ccf26bba20110442c9309cc7ac2f33d2.png" title=":upside_down_face:" class="emoji" alt=":upside_down_face:" loading="lazy" width="20" height="20">不太敢挂人家，等会说我挂人就不好了，不过应该只有我发现了吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>大橘</strong>
+            <span>@cattie</span>
+            <span class="reply-context">in reply to <a href="#post-14">#14</a> 【失业客服喵】</span>
+            <time datetime="2026-06-01T02:23:53.215Z">2026/6/1 10:23:53</time>
+          </header>
+          <div class="content"><p>这个属于引流了吧，举报了会处理的 w）</p>
+<p>记得之前说是账户封号，域名拉黑的说 w）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>NumPy</strong>
+            <span>@626</span>
+            
+            <time datetime="2026-06-01T02:25:58.627Z">2026/6/1 10:25:58</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="xk128" data-post="1" data-topic="2282352">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/22/22ac32a19e05c9bfd869ef7607f8f790f3b62bf9e798a683b5dfc27fa1873761.png" class="avatar"> xk128:</div>
+<blockquote>
+<p>其次是使用 linux do 登录后还要再绑定一个邮箱，我不知道是不是 sub2api 的原因导致的</p>
+</blockquote>
+</aside>
+<p>终于有人吐槽这个了，我真的懒得管理一堆邮箱登录的，L站登录真的爽</p></div>
+        </article>
+      
+
+        <article class="post" id="post-19">
+          <header>
+            <a href="#post-19">#19</a>
+            <strong>Geo</strong>
+            <span>@hyruur</span>
+            
+            <time datetime="2026-06-01T02:26:27.964Z">2026/6/1 10:26:27</time>
+          </header>
+          <div class="content"><p>我今天才发现某bug站需要调整到小程序签到</p></div>
+        </article>
+      
+
+        <article class="post" id="post-20">
+          <header>
+            <a href="#post-20">#20</a>
+            <strong>柑蕉桔梨萝柚</strong>
+            <span>@cwung</span>
+            <span class="reply-context">in reply to <a href="#post-14">#14</a> 【失业客服喵】</span>
+            <time datetime="2026-06-01T02:27:33.918Z">2026/6/1 10:27:33</time>
+          </header>
+          <div class="content"><p>这个是为自己的小程序引流打广告了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-21">
+          <header>
+            <a href="#post-21">#21</a>
+            <strong>Neo</strong>
+            <span>@neo</span>
+            
+            <time datetime="2026-06-01T02:27:47.583Z">2026/6/1 10:27:47</time>
+          </header>
+          <div class="content"><p>玩这些花花场子，直接举报，拉黑。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-22">
+          <header>
+            <a href="#post-22">#22</a>
+            <strong>古明地恋</strong>
+            <span>@shino0</span>
+            
+            <time datetime="2026-06-01T02:28:16.419Z">2026/6/1 10:28:16</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/03/03dadeeca290441bd6f757f3ae21a08048cc5c01e21df941e04af98acda18878.png" data-download-href="/uploads/short-url/3jmR0f7gs5fSrT8SQoWJGKUAZv4.png?dl=1" title="d1534f6f266f174f79cb48fe62e5c678" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/03/03dadeeca290441bd6f757f3ae21a08048cc5c01e21df941e04af98acda18878.png" alt="d1534f6f266f174f79cb48fe62e5c678" data-base62-sha1="3jmR0f7gs5fSrT8SQoWJGKUAZv4" width="690" height="274" data-dominant-color="EDEEEF"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">d1534f6f266f174f79cb48fe62e5c678</span><span class="informations">1119×445 27.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p>怎么说呢，这个站我也用过，比较稳定的那一批了，不知道怎么突然做这个决定（）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-23">
+          <header>
+            <a href="#post-23">#23</a>
+            <strong>去码头整点海鸥</strong>
+            <span>@stonele</span>
+            <span class="reply-context">in reply to <a href="#post-22">#22</a> 古明地恋</span>
+            <time datetime="2026-06-01T02:29:55.286Z">2026/6/1 10:29:55</time>
+          </header>
+          <div class="content"><p><img src="../../../assets/mirrored/b5/b5053bbded7f95078a12bc73c8f2c462abb6d0e3e31e2b8ca95136ca9b5a2d66.png" title=":tieba_087:" class="emoji emoji-custom" alt=":tieba_087:" loading="lazy" width="20" height="20">上周我还在用呢，之前余额不足还会补充到50，但。。。 唉</p></div>
+        </article>
+      
+
+        <article class="post" id="post-24">
+          <header>
+            <a href="#post-24">#24</a>
+            <strong>gitday</strong>
+            <span>@didiaodidiao260</span>
+            
+            <time datetime="2026-06-01T02:30:39.484Z">2026/6/1 10:30:39</time>
+          </header>
+          <div class="content"><p>引流微信小程序签到的那个站我都签到好久了，前两天签到的时候跳个微信小程序二维码后就没签到了 <img src="../../../assets/mirrored/9e/9e93fb8c3bb4ac119d8c84cb34d4024b41c1a12dc76b847b91a1f04a328705d9.png" title=":melting_face:" class="emoji" alt=":melting_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-25">
+          <header>
+            <a href="#post-25">#25</a>
+            <strong>linduanyu</strong>
+            <span>@linduanyu</span>
+            
+            <time datetime="2026-06-01T02:33:37.296Z">2026/6/1 10:33:37</time>
+          </header>
+          <div class="content"><p>看了一下，楼上几位的神操作我完全看不明白 <img src="../../../assets/mirrored/4b/4b04c983a904c9c4b416fe749d38cc4ee0396018549f2f1ad694fdfad6af5b59.png" title=":expressionless_face:" class="emoji" alt=":expressionless_face:" loading="lazy" width="20" height="20"></p>
+<p>为啥一个个说这事，始皇真来了又打码也不说是谁，那要始皇怎么处理？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-26">
+          <header>
+            <a href="#post-26">#26</a>
+            <strong>Aerxz</strong>
+            <span>@Aerxz</span>
+            
+            <time datetime="2026-06-01T02:34:03.901Z">2026/6/1 10:34:03</time>
+          </header>
+          <div class="content"><p>公益站罢了，大家的玩心还是不错的，又不是真金白银。玩玩小游戏得额度也是挺好的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-27">
+          <header>
+            <a href="#post-27">#27</a>
+            <strong>NumPy</strong>
+            <span>@626</span>
+            <span class="reply-context">in reply to <a href="#post-25">#25</a> linduanyu</span>
+            <time datetime="2026-06-01T02:35:48.397Z">2026/6/1 10:35:48</time>
+          </header>
+          <div class="content"><p>多了去公益站没那么“合规”，但真要合规也少了一些便利性<br>
+所以就处在阴阳之间，不说为好</p>
+<p>等下真要封禁了也用不上了不是么</p>
+<p>只是吐槽以下行为，让收敛一点</p></div>
+        </article>
+      
+
+        <article class="post" id="post-28">
+          <header>
+            <a href="#post-28">#28</a>
+            <strong>甘棠</strong>
+            <span>@guji0823</span>
+            <span class="reply-context">in reply to <a href="#post-25">#25</a> linduanyu</span>
+            <time datetime="2026-06-01T02:37:12.119Z">2026/6/1 10:37:12</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/6/8/f/68f25f6228b56244f00c9674927b27aa5e54a890.jpeg" data-download-href="/uploads/short-url/eYoW8WbrTkCwvKVP13v16MPH8n6.jpeg?dl=1" title="4c282911c4f537fc3359f2ace8815118" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/9c/9c7fb7a7d56b0b9d7f4fc3462385435295e7b5083dd02ac8c9888e0a42704886.jpeg" alt="4c282911c4f537fc3359f2ace8815118" data-base62-sha1="eYoW8WbrTkCwvKVP13v16MPH8n6" width="690" height="458" data-dominant-color="7B7E80"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">4c282911c4f537fc3359f2ace8815118</span><span class="informations">1448×962 94.8 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-29">
+          <header>
+            <a href="#post-29">#29</a>
+            <strong>gitday</strong>
+            <span>@didiaodidiao260</span>
+            
+            <time datetime="2026-06-01T02:43:17.626Z">2026/6/1 10:43:17</time>
+          </header>
+          <div class="content"><p>去看了下公益主贴已经被删了，始皇的速度还真是快啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-30">
+          <header>
+            <a href="#post-30">#30</a>
+            <strong>213小蟹</strong>
+            <span>@afsum</span>
+            <span class="reply-context">in reply to <a href="#post-22">#22</a> 古明地恋</span>
+            <time datetime="2026-06-01T02:43:19.729Z">2026/6/1 10:43:19</time>
+          </header>
+          <div class="content"><p>哇，这个处理的真的快，刚刚看到的帖子已经全木有了<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/2/6/9/2699f6b2206ab45474c9370451664292e5de1bce.png" data-download-href="/uploads/short-url/5vu0AtaA3RgEu077d96ZPlpUfJY.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/ec/ec85056752b47de95968be2cfdb6b11eaafa1fa25cff1e6d7b76e3642d1928b3.png" alt="image" data-base62-sha1="5vu0AtaA3RgEu077d96ZPlpUfJY" width="690" height="388" data-dominant-color="F5FAFC"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1745×983 113 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-31">
+          <header>
+            <a href="#post-31">#31</a>
+            <strong>某人</strong>
+            <span>@abao</span>
+            
+            <time datetime="2026-06-01T02:44:15.918Z">2026/6/1 10:44:15</time>
+          </header>
+          <div class="content"><p>小程序签到在L站肯定算引流啊，但是别的站长搞的游戏拿签到额度，这挺正常吧也是分发额度一种方法。</p></div>
+        </article>
+      
+
+          <article class="post missing-post" id="post-32">
+            <header><a href="#post-32">#32</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-33">
+          <header>
+            <a href="#post-33">#33</a>
+            <strong>TSINGHUA</strong>
+            <span>@Tsinghua8</span>
+            
+            <time datetime="2026-06-01T03:03:11.849Z">2026/6/1 11:03:11</time>
+          </header>
+          <div class="content"><p>我们的zero bug真变为zero了 <img src="../../../assets/mirrored/1d/1d0e55c008c1a15c23febec93ab694d0058213f1ff0cf2f8540e495b22cc77fd.png" title=":lark_171:" class="emoji emoji-custom" alt=":lark_171:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-34">
+          <header>
+            <a href="#post-34">#34</a>
+            <strong>besty</strong>
+            <span>@besty0606</span>
+            
+            <time datetime="2026-06-01T04:19:30.783Z">2026/6/1 12:19:30</time>
+          </header>
+          <div class="content"><p>玩游戏分发额度很正常，有时候分发额度太多是要调整的，通过小游戏进行再分配，避免过于通货膨胀，而且不引流的情况下也没关系。</p></div>
+        </article>
+      
+
+          <article class="post missing-post" id="post-35">
+            <header><a href="#post-35">#35</a> <span>Missing or inaccessible</span></header>
+            <p>This floor was not visible when the archive was created.</p>
+          </article>
+        
+
+        <article class="post" id="post-36">
+          <header>
+            <a href="#post-36">#36</a>
+            <strong>111zaka</strong>
+            <span>@111zaka</span>
+            <span class="reply-context">in reply to <a href="#post-21">#21</a> Neo</span>
+            <time datetime="2026-06-01T04:39:09.451Z">2026/6/1 12:39:09</time>
+          </header>
+          <div class="content"><p>我自己觉得如果接入小程序视频广告，送的额度还可以的话，其实也还好，但是违反了linuxdo的规则。这些公益站的大佬也不能用爱发电吧，长期没有反馈也很累的，还要处理这么多报错和维护。  始皇也可以考虑一下像qq音乐免费听那种接入广告啥的，最后公益站和L站分成，搞一个半公益性质，让大家用上能用上token，这些公益站的佬也不用天天用爱发电。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-37">
+          <header>
+            <a href="#post-37">#37</a>
+            <strong>JsonSong89</strong>
+            <span>@JsonSong89</span>
+            
+            <time datetime="2026-06-01T13:21:42.104Z">2026/6/1 21:21:42</time>
+          </header>
+          <div class="content"><p>我觉得有些公益站长不要有什么压力<br>
+首先自己贴钱大可不必,其次大家都能理解羊毛渠道的不稳定性.<br>
+开不了就停,额度放多了就洗,反正不收钱都无所谓.</p></div>
+        </article>
+      
+
+        <article class="post" id="post-38">
+          <header>
+            <a href="#post-38">#38</a>
+            <strong>Coeeshu</strong>
+            <span>@Coee</span>
+            <span class="reply-context">in reply to <a href="#post-36">#36</a> 111zaka</span>
+            <time datetime="2026-06-01T22:26:02.822Z">2026/6/2 06:26:02</time>
+          </header>
+          <div class="content"><p>没有半公益的说法 要么纯公益 要么纯收费 一个半字 能容纳太多太多灰色地带了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-39">
+          <header>
+            <a href="#post-39">#39</a>
+            <strong>lando</strong>
+            <span>@lando</span>
+            
+            <time datetime="2026-06-01T22:29:20.842Z">2026/6/2 06:29:20</time>
+          </header>
+          <div class="content"><p>很明显，这是变相引流，变现呢？不是公益站了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-40">
+          <header>
+            <a href="#post-40">#40</a>
+            <strong>空空</strong>
+            <span>@bybit</span>
+            
+            <time datetime="2026-06-02T04:52:11.381Z">2026/6/2 12:52:11</time>
+          </header>
+          <div class="content"><p>我只想知道他买的谁的key， 我也想去， 毕竟撑起这么大公益需求，肯定便宜</p></div>
+        </article>
+      
+
+        <article class="post" id="post-41">
+          <header>
+            <a href="#post-41">#41</a>
+            <strong>zhangbuyi2026</strong>
+            <span>@zhangbuyi2026</span>
+            
+            <time datetime="2026-06-02T07:36:22.062Z">2026/6/2 15:36:22</time>
+          </header>
+          <div class="content"><p>有没有知道这个公益站怎么用呀，我的url还是哪里感觉一直出错用不了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-42">
+          <header>
+            <a href="#post-42">#42</a>
+            <strong>遐蝶</strong>
+            <span>@Castorice</span>
+            <span class="reply-context">in reply to <a href="#post-40">#40</a> 空空</span>
+            <time datetime="2026-06-02T08:27:30.022Z">2026/6/2 16:27:30</time>
+          </header>
+          <div class="content"><p>这稳定是稳定 但是限制太狠了 完全用不了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-43">
+          <header>
+            <a href="#post-43">#43</a>
+            <strong>空空</strong>
+            <span>@bybit</span>
+            <span class="reply-context">in reply to <a href="#post-42">#42</a> 遐蝶</span>
+            <time datetime="2026-06-03T07:48:00.737Z">2026/6/3 15:48:00</time>
+          </header>
+          <div class="content"><p>啥限制， 你有他渠道联系方式不？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-44">
+          <header>
+            <a href="#post-44">#44</a>
+            <strong>elite</strong>
+            <span>@elite</span>
+            <span class="reply-context">in reply to <a href="#post-41">#41</a> zhangbuyi2026</span>
+            <time datetime="2026-06-03T08:49:07.039Z">2026/6/3 16:49:07</time>
+          </header>
+          <div class="content"><p>已经关站了，用不了就用不了吧，可以找找其他的付费站</p></div>
+        </article>
+      
+
+        <article class="post" id="post-45">
+          <header>
+            <a href="#post-45">#45</a>
+            <strong>Dulton</strong>
+            <span>@ctw7321</span>
+            <span class="reply-context">in reply to <a href="#post-37">#37</a> JsonSong89</span>
+            <time datetime="2026-06-03T23:30:46.566Z">2026/6/4 07:30:46</time>
+          </header>
+          <div class="content"><p>确实,有羊毛的时候,有能力的能薅的薅点,自己贴钱确实没必要,<br>
+有羊毛能跑就开一会,封的紧跑不了就先躺着.等着复活赛<br>
+别把公益站做成自己的负担</p></div>
+        </article>
+      
+
+        <article class="post" id="post-46">
+          <header>
+            <a href="#post-46">#46</a>
+            <strong>小明同学</strong>
+            <span>@athland</span>
+            <span class="reply-context">in reply to <a href="#post-3">#3</a> 冰</span>
+            <time datetime="2026-06-04T08:11:55.742Z">2026/6/4 16:11:55</time>
+          </header>
+          <div class="content"><p>佬，别学啊佬！尔康手！！！这广告真的受不鸟</p></div>
+        </article>
+      
+
+        <article class="post" id="post-47">
+          <header>
+            <a href="#post-47">#47</a>
+            <strong>小明同学</strong>
+            <span>@athland</span>
+            <span class="reply-context">in reply to <a href="#post-33">#33</a> TSINGHUA</span>
+            <time datetime="2026-06-04T08:12:34.465Z">2026/6/4 16:12:34</time>
+          </header>
+          <div class="content"><p>这小程序进去签到直接给我弹广告我遭不住了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-48">
+          <header>
+            <a href="#post-48">#48</a>
+            <strong>ginkgoyuchen</strong>
+            <span>@ginkgoyuchen</span>
+            
+            <time datetime="2026-06-05T01:07:29.345Z">2026/6/5 09:07:29</time>
+          </header>
+          <div class="content"><p>是啊 越来越离谱了，这里点名zero bug哈哈，说实话想笑，一步一步带领我们看广告</p></div>
+        </article>
+      
+
+        <article class="post" id="post-49">
+          <header>
+            <a href="#post-49">#49</a>
+            <strong>doSth</strong>
+            <span>@doSth</span>
+            
+            <time datetime="2026-06-05T01:46:51.498Z">2026/6/5 09:46:51</time>
+          </header>
+          <div class="content"><p>离离原上谱，点名Zero Bug，小程序引流就算了，还带广告</p></div>
+        </article>
+      
+
+        <article class="post" id="post-50">
+          <header>
+            <a href="#post-50">#50</a>
+            <strong>Webber2621</strong>
+            <span>@Webber2621</span>
+            
+            <time datetime="2026-06-05T02:04:07.754Z">2026/6/5 10:04:07</time>
+          </header>
+          <div class="content"><p>离谱了，前两天刚引流到小程序的时候，不用看广告，直接点就能签到，今天看到本帖，刚刚又打开小程序去看了一眼，直接开摆了，不看广告不给签到。公益站主页也直接开始引流付费商业站了。 <img src="../../../assets/mirrored/d5/d53a5cc99503eef10566549182cddcb19961226e2eea1c41021843a32c6b72d7.png" title=":bili_017:" class="emoji emoji-custom" alt=":bili_017:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-51">
+          <header>
+            <a href="#post-51">#51</a>
+            <strong>初衷.</strong>
+            <span>@miniBoll</span>
+            <span class="reply-context">in reply to <a href="#post-50">#50</a> Webber2621</span>
+            <time datetime="2026-06-05T02:05:22.475Z">2026/6/5 10:05:22</time>
+          </header>
+          <div class="content"><p>主要是还报错。广告看完了，点签到或者抽奖它报错了。白看广告了<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/b2/b25ce3804a60c75128f3b79b8ae9b13a353095ea143c638f24a9d0478df734a5.png" data-download-href="/uploads/short-url/x8gfLlmfylfFwqTXhWQoOryXKZ.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/b2/b25ce3804a60c75128f3b79b8ae9b13a353095ea143c638f24a9d0478df734a5.png" alt="image" data-base62-sha1="x8gfLlmfylfFwqTXhWQoOryXKZ" width="275" height="226"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">275×226 31 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-52">
+          <header>
+            <a href="#post-52">#52</a>
+            <strong>Webber2621</strong>
+            <span>@Webber2621</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> 初衷.</span>
+            <time datetime="2026-06-05T02:06:35.786Z">2026/6/5 10:06:35</time>
+          </header>
+          <div class="content"><p><img src="../../../assets/mirrored/41/41ebf0b3357f5e93c7509ddc3998e518c8ca9aaf69e3674924f4d1e5d46429e2.png" title=":bili_038:" class="emoji emoji-custom" alt=":bili_038:" loading="lazy" width="20" height="20"> 绷不住了，我看到弹广告直接关了，这到不签也罢</p></div>
+        </article>
+      
+
+        <article class="post" id="post-53">
+          <header>
+            <a href="#post-53">#53</a>
+            <strong>NumPy</strong>
+            <span>@626</span>
+            <span class="reply-context">in reply to <a href="#post-50">#50</a> Webber2621</span>
+            <time datetime="2026-06-05T02:08:02.567Z">2026/6/5 10:08:02</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="Webber2621" data-post="50" data-topic="2282352">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/9b/9b70345b6ae453bd90dc5effbc3b4bf85e3fe14ed904ee9f31b89250191c1faa.png" class="avatar"> Webber2621:</div>
+<blockquote>
+<p>公益站主页也直接开始引流付费商业站了</p>
+</blockquote>
+</aside>
+<p>实际上抛开公益站的属性不谈</p>
+<p>这个站长还挺会玩的，行动力也不错<br>
+这个白嫖转化还是可以的</p>
+<p>付费玩家氪金，免费玩家看广告</p></div>
+        </article>
+      
+
+        <article class="post" id="post-54">
+          <header>
+            <a href="#post-54">#54</a>
+            <strong>awemagisi</strong>
+            <span>@awemagisi</span>
+            <span class="reply-context">in reply to <a href="#post-52">#52</a> Webber2621</span>
+            <time datetime="2026-06-05T02:22:41.972Z">2026/6/5 10:22:41</time>
+          </header>
+          <div class="content"><p>看来两个广告，弹出来中了谢谢参与。。本来还想着签到没啥的，但是这个就太过分了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-55">
+          <header>
+            <a href="#post-55">#55</a>
+            <strong>fredzhang</strong>
+            <span>@fredzhang</span>
+            
+            <time datetime="2026-06-05T05:49:19.680Z">2026/6/5 13:49:19</time>
+          </header>
+          <div class="content"><p>Zero Bug 好像不支持linuxdo登录了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-56">
+          <header>
+            <a href="#post-56">#56</a>
+            <strong>Cora Tracy</strong>
+            <span>@Cora_Tracy</span>
+            
+            <time datetime="2026-06-05T05:54:42.307Z">2026/6/5 13:54:42</time>
+          </header>
+          <div class="content"><p>刚好爬完楼，这真的离谱啊。还有跳转小程序的(｀Δ´)!</p></div>
+        </article>
+      
+
+        <article class="post" id="post-57">
+          <header>
+            <a href="#post-57">#57</a>
+            <strong>辰</strong>
+            <span>@yechen</span>
+            
+            <time datetime="2026-06-05T06:00:08.296Z">2026/6/5 14:00:08</time>
+          </header>
+          <div class="content"><p>我想知道，一个用户完整看完一个广告的话，能给多少<img src="../../../assets/mirrored/35/356cbaf73b1793d3073c3f153e9b80e6e93793f7dca9e620094ca9abccc8f401.png" title=":money_bag:" class="emoji" alt=":money_bag:" loading="lazy" width="20" height="20">啊？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-58">
+          <header>
+            <a href="#post-58">#58</a>
+            <strong>picpi</strong>
+            <span>@picpi</span>
+            
+            <time datetime="2026-06-05T06:09:26.274Z">2026/6/5 14:09:26</time>
+          </header>
+          <div class="content"><p>sub2的Linuxdo登录有bug，每次都好多人卡在邮箱这一步。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-59">
+          <header>
+            <a href="#post-59">#59</a>
+            <strong>NumPy</strong>
+            <span>@626</span>
+            <span class="reply-context">in reply to <a href="#post-57">#57</a> 辰</span>
+            <time datetime="2026-06-05T06:11:20.148Z">2026/6/5 14:11:20</time>
+          </header>
+          <div class="content"><p>这个是坑的点，就给一点点，然后站内倍率老高，看了基本没啥用</p></div>
+        </article>
+      
+
+        <article class="post" id="post-60">
+          <header>
+            <a href="#post-60">#60</a>
+            <strong>涂山缈</strong>
+            <span>@tushanmiao</span>
+            
+            <time datetime="2026-06-05T06:12:07.702Z">2026/6/5 14:12:07</time>
+          </header>
+          <div class="content"><p>Zero Bug 是不是把我的号给封了  Linux do登不上去了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-61">
+          <header>
+            <a href="#post-61">#61</a>
+            <strong>茶霏猫猫</strong>
+            <span>@QSweetcat</span>
+            
+            <time datetime="2026-06-05T06:13:52.924Z">2026/6/5 14:13:52</time>
+          </header>
+          <div class="content"><p>爬完楼了，我知道你说的是哪个，好像是今天开始的？昨天还没有</p></div>
+        </article>
+      
+
+        <article class="post" id="post-62">
+          <header>
+            <a href="#post-62">#62</a>
+            <strong>22husky</strong>
+            <span>@22husky</span>
+            <span class="reply-context">in reply to <a href="#post-60">#60</a> 涂山缈</span>
+            <time datetime="2026-06-05T06:15:18.701Z">2026/6/5 14:15:18</time>
+          </header>
+          <div class="content"><p>+1 我也登不上去了，使用LinuxDO登录显示unauthorized_client</p></div>
+        </article>
+      
+
+        <article class="post" id="post-63">
+          <header>
+            <a href="#post-63">#63</a>
+            <strong>stanly</strong>
+            <span>@stanly</span>
+            <span class="reply-context">in reply to <a href="#post-60">#60</a> 涂山缈</span>
+            <time datetime="2026-06-05T06:15:21.254Z">2026/6/5 14:15:21</time>
+          </header>
+          <div class="content"><p>这个公益站违规了，引流去微信上签到，所以这个站被封了，不是号的问题</p></div>
+        </article>
+      
+
+        <article class="post" id="post-64">
+          <header>
+            <a href="#post-64">#64</a>
+            <strong>金金咩</strong>
+            <span>@1220839812</span>
+            <span class="reply-context">in reply to <a href="#post-63">#63</a> stanly</span>
+            <time datetime="2026-06-05T07:04:42.549Z">2026/6/5 15:04:42</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/57/575ab4e1d0778fa7c821efdcbbc15aee6c95fbaf8ae5e3b2750ac78bc54fbcc3.png" data-download-href="/uploads/short-url/68Zvuxr6B9YxHMlDYpf8vTgxhgx.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/57/575ab4e1d0778fa7c821efdcbbc15aee6c95fbaf8ae5e3b2750ac78bc54fbcc3.png" alt="image" data-base62-sha1="68Zvuxr6B9YxHMlDYpf8vTgxhgx" width="690" height="411" data-dominant-color="F2F2F2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">958×571 10.6 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+没绑邮箱啊 是不是以后登录不上了 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-65">
+          <header>
+            <a href="#post-65">#65</a>
+            <strong>Gnn</strong>
+            <span>@Gnn</span>
+            <span class="reply-context">in reply to <a href="#post-51">#51</a> 初衷.</span>
+            <time datetime="2026-06-05T07:09:02.037Z">2026/6/5 15:09:02</time>
+          </header>
+          <div class="content"><p>我还以为是我的鸿蒙系统不完善的问题导致的（因为鸿蒙系统看不了广告，自动跳过拿取奖励的）。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-66">
+          <header>
+            <a href="#post-66">#66</a>
+            <strong>superdadhobo</strong>
+            <span>@superdadhobo</span>
+            <span class="reply-context">in reply to <a href="#post-61">#61</a> 茶霏猫猫</span>
+            <time datetime="2026-06-05T07:20:04.854Z">2026/6/5 15:20:04</time>
+          </header>
+          <div class="content"><p>引流小程序有几天了，昨天开始有页面广告，今天开始必须看完广告才能签到<img src="../../../assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-67">
+          <header>
+            <a href="#post-67">#67</a>
+            <strong>xk128</strong>
+            <span>@xk128</span>
+            
+            <time datetime="2026-06-05T07:21:39.531Z">2026/6/5 15:21:39</time>
+          </header>
+          <div class="content"><p>不是，为什么帖子下面的评论变成了 某 被封禁的站点的讨论区了 <img src="../../../assets/mirrored/94/947a28843cbeaea66f64c6bb8ea2ec62ccf26bba20110442c9309cc7ac2f33d2.png" title=":upside_down_face:" class="emoji" alt=":upside_down_face:" loading="lazy" width="20" height="20"></p>
+<p>这就是直接挂名的问题，反而给它引流了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-68">
+          <header>
+            <a href="#post-68">#68</a>
+            <strong>jiakaiqiang</strong>
+            <span>@jiakaiqiang</span>
+            
+            <time datetime="2026-06-05T07:24:08.513Z">2026/6/5 15:24:08</time>
+          </header>
+          <div class="content"><p>应该是L站不让给他授权了   然后就登录不上去了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-69">
+          <header>
+            <a href="#post-69">#69</a>
+            <strong>欧阳淇淇</strong>
+            <span>@ouyangqiqi</span>
+            
+            <time datetime="2026-06-05T07:28:33.575Z">2026/6/5 15:28:33</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="xk128" data-post="1" data-topic="2282352">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/22/22ac32a19e05c9bfd869ef7607f8f790f3b62bf9e798a683b5dfc27fa1873761.png" class="avatar"> xk128:</div>
+<blockquote>
+<p>各种内置小游戏，有没有站长出来反馈一下到底有多少用户在玩这些小游戏，日活怎么样</p>
+</blockquote>
+</aside>
+<p>唔，反正我站日活什么的都挺高的2333333333<br>
+游戏什么的只是希望各位佬友有些更有乐趣的方式获得额度，而不是单纯的每天签到之类的，不过这个因人而异，有些人确实不喜欢玩单纯只是想白嫖，也能理解。</p>
+<p>不过确实要求去小程序看广告签到什么的有点恶心了……</p>
+<p>日活我展示有些bug，反正放一张周活和月活吧<br>
+（我站用户目前是1w4，月活50%，也是很感谢各位佬友愿意捧场来玩了）<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/27/2780a0ad6118d6592d42c3cd8a95b4424aaab5af31adcf21f3be1496130c0fd2.jpeg" data-download-href="/uploads/short-url/uWu0OJrQrU5UDyE3TTJo6RMrpOP.jpeg?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/27/2780a0ad6118d6592d42c3cd8a95b4424aaab5af31adcf21f3be1496130c0fd2.jpeg" alt="image" data-base62-sha1="uWu0OJrQrU5UDyE3TTJo6RMrpOP" width="310" height="95"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">620×190 25.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+  </main>
+  <script>
+(function () {
+  var form = document.querySelector("[data-floor-jump]");
+  if (!form) {
+    return;
+  }
+  var input = form.querySelector("input[name='floor']");
+  var status = document.querySelector("[data-floor-jump-status]");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    jumpToFloor(input ? input.value : "");
+  });
+
+  normalizeInitialHash();
+
+  function normalizeInitialHash() {
+    var rawHash = decodeURIComponent(window.location.hash || "");
+    var match = rawHash.match(/^#(\d+)$/);
+    if (!match) {
+      return;
+    }
+    window.setTimeout(function () {
+      jumpToFloor(match[1], true);
+    }, 0);
+  }
+
+  function jumpToFloor(value, replaceHash) {
+    var floor = Number.parseInt(String(value || "").trim(), 10);
+    if (!Number.isFinite(floor) || floor < 1) {
+      setStatus("Enter a valid floor number.", "error");
+      return;
+    }
+    var targetId = "post-" + floor;
+    var target = document.getElementById(targetId);
+    if (!target) {
+      setStatus("Floor #" + floor + " is not in this archive.", "error");
+      return;
+    }
+    setStatus("");
+    if (input) {
+      input.value = String(floor);
+    }
+    var nextHash = "#" + targetId;
+    try {
+      if (replaceHash) {
+        window.history.replaceState(null, "", nextHash);
+      } else {
+        window.history.pushState(null, "", nextHash);
+      }
+    } catch (_error) {
+      window.location.hash = nextHash;
+    }
+    target.scrollIntoView({ block: "start" });
+  }
+
+  function setStatus(message, state) {
+    if (!status) {
+      return;
+    }
+    status.textContent = message || "";
+    if (state) {
+      status.dataset.state = state;
+    } else {
+      delete status.dataset.state;
+    }
+  }
+})();
+</script>
+</body>
+</html>

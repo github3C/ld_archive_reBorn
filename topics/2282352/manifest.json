@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2282352,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2282352",
+    "title": "关于公益站的疑问",
+    "currentVersionId": "v1",
+    "currentHash": "54506c8566bab672b5b363ae55786c2be892a78170d78226819641e1223df65e",
+    "postCount": 67,
+    "missingPostNumbers": [
+      32,
+      35
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2282352,
+      "sourceUrl": "https://linux.do/t/topic/2282352",
+      "archivedAt": "2026-06-05T07:41:59.248Z",
+      "contentHash": "54506c8566bab672b5b363ae55786c2be892a78170d78226819641e1223df65e",
+      "postCount": 67,
+      "missingPostNumbers": [
+        32,
+        35
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 67 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
