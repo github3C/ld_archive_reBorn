@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2355326,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2355326",
+    "title": "某公众号diss发文linux do",
+    "currentVersionId": "v1",
+    "currentHash": "34014f3a5f12835a57099b82d6f46a9b8e22394082404c24240f2bc26f3af431",
+    "postCount": 58,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2355326,
+      "sourceUrl": "https://linux.do/t/topic/2355326",
+      "archivedAt": "2026-06-10T02:37:59.634Z",
+      "contentHash": "34014f3a5f12835a57099b82d6f46a9b8e22394082404c24240f2bc26f3af431",
+      "postCount": 58,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 58 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
