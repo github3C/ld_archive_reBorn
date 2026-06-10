@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2362268,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2362268",
+    "title": "吐槽下某个\"富可敌国\"的中转站，倍率按官网API正价算，玩文字游戏，各位佬友擦亮眼。",
+    "currentVersionId": "v1",
+    "currentHash": "c4f29a48f49c1a60ddc0e32518e7b915de51e5f5934bd09c458b07be362a64f9",
+    "postCount": 135,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2362268,
+      "sourceUrl": "https://linux.do/t/topic/2362268",
+      "archivedAt": "2026-06-10T06:06:06.172Z",
+      "contentHash": "c4f29a48f49c1a60ddc0e32518e7b915de51e5f5934bd09c458b07be362a64f9",
+      "postCount": 135,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 135 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
