@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2385417,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2385417",
+    "title": "GitHub5 年号进来的兄弟注意了，原住民有点变态",
+    "createdAt": null,
+    "currentVersionId": "v1",
+    "currentHash": "aa80ee9bb0cca272cd3f3794df1361e04980ceb831b99f0e39df4a53d1240576"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 2385417,
+    "sourceUrl": "https://linux.do/t/topic/2385417",
+    "archivedAt": "2026-06-12T07:52:38.537Z",
+    "contentHash": "aa80ee9bb0cca272cd3f3794df1361e04980ceb831b99f0e39df4a53d1240576",
+    "postCount": 17,
+    "missingPostNumbers": [
+      1,
+      15
+    ],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 17 visible posts with 2 missing floors."
+    }
+  },
+  "capture": {
+    "source": "visible-page",
+    "capturedAt": "2026-06-12T07:52:38.525Z",
+    "capturedPostCount": 17,
+    "warning": "Recovered from the browser-rendered page. It may include only posts the browser could render during scrolling."
+  },
+  "posts": [
+    {
+      "id": 19033300,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "qiaoba",
+      "displayName": "qiaoba",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我原住民也因为一次抽奖被举报了，真服了，这个风气改改改了。（抽奖是自己手打的字，我当时在二楼，一楼二楼我俩都被举报了）</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我原住民也因为一次抽奖被举报了，真服了，这个风气改改改了。（抽奖是自己手打的字，我当时在二楼，一楼二楼我俩都被举报了）",
+      "contentHash": "7a67677c7f9b48be180e4d2b5c28bb83b5202534538405d4addab459152705dc"
+    },
+    {
+      "id": 19033314,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "arch_linux",
+      "displayName": "过期绿坝粮",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\"><s>太恐怖了 LinuxDo</s></p>\n<p dir=\"auto\">所以不读抽奖规则的吗，我记得新用户会有通知的</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "太恐怖了 LinuxDo 所以不读抽奖规则的吗，我记得新用户会有通知的",
+      "contentHash": "888a643524c1423e3412d5fa87083db5e7640676e6f82ca2352dc4eaa8bf3dbb"
+    },
+    {
+      "id": 19033327,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "03w22",
+      "displayName": "八八六十四克",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">依旧捞鱼，我们 l 站是也有自己的规则怪谈了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "依旧捞鱼，我们 l 站是也有自己的规则怪谈了",
+      "contentHash": "47593a8d33817c7237e31c759177fc4478439164eeec9eeb6c80d249bae07436"
+    },
+    {
+      "id": 19033342,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Madlifer",
+      "displayName": "Madlifer",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">本质鼓励互相举报罢了  L 站就这点不好 干货还是有的</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "本质鼓励互相举报罢了 L 站就这点不好 干货还是有的",
+      "contentHash": "76e5210b80dde2d37ce0d44184337dddf376f0c160ed346b9ba848964dc3742d"
+    },
+    {
+      "id": 19033385,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "flowphp",
+      "displayName": "X DO",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">看到抽奖新规以后，我都不看抽奖帖</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "看到抽奖新规以后，我都不看抽奖帖",
+      "contentHash": "be58d132b2aa233348b4079d5797b80914b4169e36c24e6ccf0f9c8ecab2cb22"
+    },
+    {
+      "id": 19033389,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "3zs",
+      "displayName": "null",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">哈哈哈，看到抽奖帖子不要去碰就行了。我吃过亏</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "哈哈哈，看到抽奖帖子不要去碰就行了。我吃过亏",
+      "contentHash": "0640857d8b2a01bb209ebe770789dfcd4ae3fac8c95de72037e530506ff93605"
+    },
+    {
+      "id": 19033401,
+      "postNumber": 8,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "kkeyon",
+      "displayName": "kkeyon",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">始皇有明确说过非必要不抽奖，不过这个必要的度真的非常非常不好把握 <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/smiling_face_with_tear.png?v=15\" title=\":smiling_face_with_tear:\" class=\"emoji\" alt=\":smiling_face_with_tear:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "始皇有明确说过非必要不抽奖，不过这个必要的度真的非常非常不好把握",
+      "contentHash": "f27cd1531b467ca1f46bec652e19ca7691710666bd901f1494e0e707561ef90e"
+    },
+    {
+      "id": 19033406,
+      "postNumber": 9,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "LLLike27",
+      "displayName": "LLLike27",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">啥意思，咩看懂，最近没关注抽奖，咋了？ <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/zipper_mouth_face.png?v=15\" title=\":zipper_mouth_face:\" class=\"emoji\" alt=\":zipper_mouth_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "啥意思，咩看懂，最近没关注抽奖，咋了？",
+      "contentHash": "e68805dae121184fd29aae9b72b22c47e80392a11e75f0d9237a998f1bf04a9d"
+    },
+    {
+      "id": 19033426,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "LoopOuroboros",
+      "displayName": "LoopOuroboros",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">这个跟原住民有什么关系？这不是进站必读规则里面写的内容吗？</p>\n<p dir=\"auto\">另外这个举报跟被举报已经感觉是 BOT 大战了，现在 L 站卡卡的</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "这个跟原住民有什么关系？这不是进站必读规则里面写的内容吗？ 另外这个举报跟被举报已经感觉是 BOT 大战了，现在 L 站卡卡的",
+      "contentHash": "9fa7fe5dadb549a838be2cfc56ec6e943ed06cd7e72695a20f9be3899cf566db"
+    },
+    {
+      "id": 19033455,
+      "postNumber": 11,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "lutian",
+      "displayName": "lutian",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">有个坏消息，这个帖子好像也被多次举报了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "有个坏消息，这个帖子好像也被多次举报了",
+      "contentHash": "323e1b668cac86e9c3b0c0984dc5c6d7b057332ff45880ac6481ca68a3519f62"
+    },
+    {
+      "id": 19033480,
+      "postNumber": 12,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "sonyfulula59",
+      "displayName": "sonyfulula59",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">现在的问题不是不管符不符合规则都会有一大堆人举报吗，不过还好我从不抽奖，啥论坛都一样，我觉得抽不到我，有什么我真需要的东西我也不会通过抽奖来解决</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "现在的问题不是不管符不符合规则都会有一大堆人举报吗，不过还好我从不抽奖，啥论坛都一样，我觉得抽不到我，有什么我真需要的东西我也不会通过抽奖来解决",
+      "contentHash": "24f33ba32f5068dae3728c0226f862e790acecb49ff4f296fe26573563be2d70"
+    },
+    {
+      "id": 19033487,
+      "postNumber": 13,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "admin10086",
+      "displayName": "何人重赋清景",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">有没有可能所谓原住民去抽奖也会被举报，抽奖帖下面哪有什么新老之分全都被拿去炼化 + 10 了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "有没有可能所谓原住民去抽奖也会被举报，抽奖帖下面哪有什么新老之分全都被拿去炼化 + 10 了",
+      "contentHash": "9be7e31198823bb392e1604703e06b3eabaa1bf8f0a3d454d72b5d1168c8a49e"
+    },
+    {
+      "id": 19033502,
+      "postNumber": 14,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "NyxTide",
+      "displayName": "NyxTide",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">点进去看看就知道了 <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15\" title=\":distorted_face:\" class=\"emoji\" alt=\":distorted_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"><a href=\"https://linux.do/t/topic/2383926\" data-clicks=\"17\" aria-label=\"https://linux.do/t/topic/2383926 链接已点击 17 次\">https://linux.do/t/topic/2383926</a></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "点进去看看就知道了 https://linux.do/t/topic/2383926",
+      "contentHash": "5c6f444a017996f14788a86ea4106928256ce6b16599c71721526021eee4ddba"
+    },
+    {
+      "id": 19033551,
+      "postNumber": 16,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "LoopOuroboros",
+      "displayName": "LoopOuroboros",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">隔壁一个抽奖帖已经完全变成炼丹炉了，任何一个回复哪怕是正规恢复内容都会被举报</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "隔壁一个抽奖帖已经完全变成炼丹炉了，任何一个回复哪怕是正规恢复内容都会被举报",
+      "contentHash": "c1c409a2279a3a623b6e82426fac14385e7da61d33d4d469012366174d289180"
+    },
+    {
+      "id": 19033564,
+      "postNumber": 17,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "letr",
+      "displayName": "letr",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">始皇以前解释过，矫枉必须过正，如果你认为举报是在维护社区环境呢，鼓励的是维护社区环境，并因此给予 ldc 作为奖励，而不是鼓励猜疑，那么举报是不是就很平常了<img src=\"https://cdn.ldstatic.com/images/emoji/twitter/upside_down_face.png?v=15\" title=\":upside_down_face:\" class=\"emoji\" alt=\":upside_down_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "始皇以前解释过，矫枉必须过正，如果你认为举报是在维护社区环境呢，鼓励的是维护社区环境，并因此给予 ldc 作为奖励，而不是鼓励猜疑，那么举报是不是就很平常了",
+      "contentHash": "e61e80546d1ab2cd7da17ef0d6c5d5f19b841abb7b143aaa7c0423691e12cfd6"
+    },
+    {
+      "id": 19033603,
+      "postNumber": 18,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "AsherL1n",
+      "displayName": "林语尘",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">很遗憾，你这个帖子看样子也要被干掉了<img src=\"https://cdn.ldstatic.com/images/emoji/twitter/thinking.png?v=15\" title=\":thinking:\" class=\"emoji\" alt=\":thinking:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "很遗憾，你这个帖子看样子也要被干掉了",
+      "contentHash": "54d7cb17b124036d36707dea3d5de74c590f8548ba249e492b91116742e43a08"
+    },
+    {
+      "id": 19033689,
+      "postNumber": 19,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "luqiaoyu",
+      "displayName": "莱茵河",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我还没看到内容呢就没了，今天我已经点了至少 3 个帖子了，一进去无了</p>\n<p dir=\"auto\">又一个佬被顷刻炼化了 <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/rofl.png?v=15\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我还没看到内容呢就没了，今天我已经点了至少 3 个帖子了，一进去无了 又一个佬被顷刻炼化了",
+      "contentHash": "4b1fe5500a63f93f07a5abc661110ba2ff1fe37b4b115597e156b8e365f959a2"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 8031,
+    "resources": [
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/smiling_face_with_tear.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          8
+        ],
+        "mirroredPath": "assets/mirrored/ad/ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b.png",
+        "status": "mirrored",
+        "sizeBytes": 777,
+        "contentType": "image/png",
+        "sha256": "ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/zipper_mouth_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          9
+        ],
+        "mirroredPath": "assets/mirrored/4e/4e228f9b42c1add6661a0c5f28766fd11462c0d14b94cfb0297738d0253a76aa.png",
+        "status": "mirrored",
+        "sizeBytes": 883,
+        "contentType": "image/png",
+        "sha256": "4e228f9b42c1add6661a0c5f28766fd11462c0d14b94cfb0297738d0253a76aa",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/distorted_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          14
+        ],
+        "mirroredPath": "assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png",
+        "status": "mirrored",
+        "sizeBytes": 3405,
+        "contentType": "image/png",
+        "sha256": "8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/upside_down_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          17
+        ],
+        "mirroredPath": "assets/mirrored/94/947a28843cbeaea66f64c6bb8ea2ec62ccf26bba20110442c9309cc7ac2f33d2.png",
+        "status": "mirrored",
+        "sizeBytes": 644,
+        "contentType": "image/png",
+        "sha256": "947a28843cbeaea66f64c6bb8ea2ec62ccf26bba20110442c9309cc7ac2f33d2",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/thinking.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          18
+        ],
+        "mirroredPath": "assets/mirrored/51/5116f7d07677f06785887c0af23c189b541a306d6b792d605ffaf3ed9f0e912d.png",
+        "status": "mirrored",
+        "sizeBytes": 1028,
+        "contentType": "image/png",
+        "sha256": "5116f7d07677f06785887c0af23c189b541a306d6b792d605ffaf3ed9f0e912d",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/rofl.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          19
+        ],
+        "mirroredPath": "assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png",
+        "status": "mirrored",
+        "sizeBytes": 1294,
+        "contentType": "image/png",
+        "sha256": "4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5",
+        "reason": ""
+      }
+    ]
+  }
+}

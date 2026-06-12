@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2385417,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2385417",
+    "title": "GitHub5 年号进来的兄弟注意了，原住民有点变态",
+    "currentVersionId": "v1",
+    "currentHash": "aa80ee9bb0cca272cd3f3794df1361e04980ceb831b99f0e39df4a53d1240576",
+    "postCount": 17,
+    "missingPostNumbers": [
+      1,
+      15
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2385417,
+      "sourceUrl": "https://linux.do/t/topic/2385417",
+      "archivedAt": "2026-06-12T07:52:38.537Z",
+      "contentHash": "aa80ee9bb0cca272cd3f3794df1361e04980ceb831b99f0e39df4a53d1240576",
+      "postCount": 17,
+      "missingPostNumbers": [
+        1,
+        15
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 17 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
