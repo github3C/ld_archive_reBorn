@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 1700945,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/1700945",
+    "title": "完蛋，我被富婆包养了",
+    "currentVersionId": "v1",
+    "currentHash": "bf6a90794e079637f89bf038914c5e394fd0efc1c313aa78767ea98760e041a5",
+    "postCount": 57,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 1700945,
+      "sourceUrl": "https://linux.do/t/topic/1700945",
+      "archivedAt": "2026-06-12T13:10:00.541Z",
+      "contentHash": "bf6a90794e079637f89bf038914c5e394fd0efc1c313aa78767ea98760e041a5",
+      "postCount": 57,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 57 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
