@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2384733,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2384733",
+    "title": "新来的小伙伴们真是头铁呀，还在前仆后继",
+    "currentVersionId": "v1",
+    "currentHash": "3400f74edbdc21c9bd7d6da385a217566cce0db5d2206d791cc2f710cf73f314",
+    "postCount": 31,
+    "missingPostNumbers": [
+      1
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2384733,
+      "sourceUrl": "https://linux.do/t/topic/2384733",
+      "archivedAt": "2026-06-12T08:58:32.778Z",
+      "contentHash": "3400f74edbdc21c9bd7d6da385a217566cce0db5d2206d791cc2f710cf73f314",
+      "postCount": 31,
+      "missingPostNumbers": [
+        1
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 31 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
