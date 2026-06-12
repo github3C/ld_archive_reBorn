@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2388000,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2388000",
+    "title": "完蛋，富婆要被拐跑了",
+    "currentVersionId": "v1",
+    "currentHash": "39624c34ac3e5e2e2632e9c6d78259305621f66a9476f039a574d21fe617040c",
+    "postCount": 36,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2388000,
+      "sourceUrl": "https://linux.do/t/topic/2388000",
+      "archivedAt": "2026-06-12T12:27:09.657Z",
+      "contentHash": "39624c34ac3e5e2e2632e9c6d78259305621f66a9476f039a574d21fe617040c",
+      "postCount": 36,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 36 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
