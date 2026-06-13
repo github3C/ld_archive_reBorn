@@ -1,0 +1,1930 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>对不起，虽然你订阅了不限额度的日卡，但是我真没办法给你履约服务了</title>
+  <style>
+    :root { color-scheme: light dark; --line: #d8dee4; --muted: #57606a; --bg: #ffffff; --panel: #f6f8fa; --text: #24292f; }
+    @media (prefers-color-scheme: dark) { :root { --line: #30363d; --muted: #8b949e; --bg: #0d1117; --panel: #161b22; --text: #e6edf3; } }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { max-width: 920px; margin: 0 auto; padding: 32px 20px 64px; }
+    h1 { font-size: 28px; line-height: 1.25; margin: 0 0 12px; }
+    .page-nav { display: flex; flex-wrap: wrap; gap: 8px 12px; margin: 0 0 18px; }
+    .page-nav a, .floor-jump button { border: 1px solid var(--line); border-radius: 6px; padding: 6px 10px; background: var(--panel); color: var(--text); text-decoration: none; }
+    .source-warning { border: 1px solid #bf8700; border-radius: 8px; padding: 12px 14px; margin: 0 0 18px; background: #fff8c5; color: #3b2300; }
+    .meta { color: var(--muted); margin-bottom: 28px; }
+    .floor-jump { position: sticky; top: 0; z-index: 10; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin: 0 0 18px; padding: 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); background: color-mix(in srgb, var(--panel) 92%, transparent); backdrop-filter: blur(8px); }
+    .floor-jump label { color: var(--muted); }
+    .floor-jump input { width: 8ch; min-height: 34px; box-sizing: border-box; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; background: var(--bg); color: var(--text); font: inherit; }
+    .floor-jump button { min-height: 34px; cursor: pointer; font: inherit; }
+    .floor-jump-status { color: var(--muted); }
+    .floor-jump-status[data-state="error"] { color: #cf222e; }
+    .post { border: 1px solid var(--line); border-radius: 8px; margin: 16px 0; padding: 16px; background: var(--bg); }
+    .post { scroll-margin-top: 86px; }
+    .post header { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 14px; }
+    .post header a { color: inherit; font-weight: 700; text-decoration: none; }
+    .post header strong { color: var(--text); }
+    .reply-context { color: var(--muted); }
+    .reply-context a { font-weight: 600; }
+    .missing-post { background: var(--panel); }
+    .content img { max-width: 100%; height: auto; }
+    .content pre { overflow: auto; padding: 12px; background: var(--panel); border-radius: 6px; }
+    .content code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .content blockquote { margin-left: 0; padding-left: 16px; border-left: 4px solid var(--line); color: var(--muted); }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <main>
+    
+    <nav class="page-nav" aria-label="Archive navigation">
+      <a href="../index.html">Topic versions</a>
+      <a href="../../../index.html">Archive index</a>
+      <a href="https://linux.do/t/topic/2391112">Source topic</a>
+    </nav>
+    <h1>对不起，虽然你订阅了不限额度的日卡，但是我真没办法给你履约服务了</h1>
+    
+    <div class="meta">
+      Source: <a href="https://linux.do/t/topic/2391112">https://linux.do/t/topic/2391112</a><br>
+      Version: v1<br>
+      Posts: 140; missing floors: none
+    </div>
+    <form class="floor-jump" data-floor-jump>
+      <label for="floor-jump-input">Jump to floor</label>
+      <input id="floor-jump-input" name="floor" type="number" min="1" max="140" inputmode="numeric" autocomplete="off">
+      <button type="submit">Go</button>
+      <span class="floor-jump-status" data-floor-jump-status aria-live="polite"></span>
+    </form>
+    
+        <article class="post" id="post-1">
+          <header>
+            <a href="#post-1">#1</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            
+            <time datetime="2026-06-13T01:31:10.406Z">2026/6/13 09:31:10</time>
+          </header>
+          <div class="content"><p>即日起小鸡毛公益API站规则调整：<br>
+1、用户单日请求量超过3000次将调整至限流分组（1RPM）<br>
+2、SVIP不限量套餐下架（我是真没想到有狠人可以一晚上蹬1W+请求的，是我大意了）<br>
+3、会增加并发限制：普通用户2并发，VIP订阅4并发（正在让CODEX搓代码）<br>
+针对下方用户，目前已解封，但临时加入了限流分组，号池可用度超过整个号池50%的时候解除限制<br>
+我应该学电信运营商的，之前所谓的不限量套餐，弄个小字整个达量限速 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/5/a/b/5ab68bc248a302e276140b9a2ddbb4f0e65b2bc3.png" data-download-href="/uploads/short-url/cWu4F3XHoQWOfKruSJM6m5BDo5R.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/6a/6ad8b9ec4f0e5c7d9cbd68dc4e9465030e9e1b6bb7393f30a07e4e83a52bf4b8.png" alt="image" data-base62-sha1="cWu4F3XHoQWOfKruSJM6m5BDo5R" width="690" height="397" data-dominant-color="FDFDFD"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1802×1039 54.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+我很不明白，你有这个token量的需求<br>
+为什么要选择公益站<br>
+我承认是我不自量力弄了个588LDC的SVIP不限量日卡<br>
+一个plus账号满打满算5小时也就提供150次左右的请求<br>
+你这一天干了1W次请求，14亿token（一个PRO X20订阅一周也才17亿用量）<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/f/e/a/feaa377dabaa0aaa0304ef8e861007866aa2df5f.png" data-download-href="/uploads/short-url/AkRXQjJCP04ReOmSI3WdCyNcxqv.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/e2/e273a2b4dd628adad7283066e140154408192ad586486dc3a313433968dd0875.png" alt="image" data-base62-sha1="AkRXQjJCP04ReOmSI3WdCyNcxqv" width="690" height="385" data-dominant-color="D4DEE2"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1848×1032 61.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/8/b/a8b06ff5a4cb9968f563ab96fc247f6f783c8d6f.png" data-download-href="/uploads/short-url/o4iehghlvKNYqRZDKet7OoklY7R.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/49/49de2478ae9d043f681b0f2e276bc948e8ec08c930b9d8cfbda3dd7f402e13a9.png" alt="image" data-base62-sha1="o4iehghlvKNYqRZDKet7OoklY7R" width="690" height="327" data-dominant-color="F9F2ED"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1776×843 34.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+目前渠道已经全面拉闸，我这补号速度完全赶不上你这蹬Token的速度<br>
+很抱歉不能给你履约服务了（话说公益站好像也没有SLA保证吧，好多站说关就关了 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20">）<br>
+后续日请求超过3000次的用户都会临时调整至限流分组<br>
+也不再接受任何有大量token需求的用户注册<br>
+如果已经买了注册邀请码注册的用户准备这样高负荷使用的也麻烦申请一下退款<br>
+这位用户可以申请LDC争议退款，这个588LDC我退给你<br>
+已退款：<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/c/c/a/cca8cbdeeee26f99a8b8bcd737781a64b35cbde8.png" data-download-href="/uploads/short-url/tcv30xqYIDT09pLmRtkdzsT3Woo.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/d6/d60a9edad108d58fea83c61026c3a7899beae21e3499b21505c5236600fc136a.png" alt="image" data-base62-sha1="tcv30xqYIDT09pLmRtkdzsT3Woo" width="476" height="500" data-dominant-color="ADAEAF"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1002×1052 77 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+个人手搓号池真的顶不住这样蹬的<br>
+现在公益中转都死了一大半，我想为佬友们提供久一点服务<br>
+虽然也不知道还能走多久，自从上次openai举报信事件以后<br>
+各种渠道都半死不活的了<br>
+Gopay、美区PP、日区PP、bugteam，甚至土区正价订阅都涨价了<br>
+我也大可像一些公益站一样一声不吭关站<br>
+但是我不想这样做<br>
+且用且珍惜吧<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-2">
+          <header>
+            <a href="#post-2">#2</a>
+            <strong>momoqwq</strong>
+            <span>@momoqwq</span>
+            
+            <time datetime="2026-06-13T01:33:19.993Z">2026/6/13 09:33:19</time>
+          </header>
+          <div class="content"><p>支持佬！这么多大概率是分发的，太过分了！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-3">
+          <header>
+            <a href="#post-3">#3</a>
+            <strong>好好好</strong>
+            <span>@Keyi66</span>
+            
+            <time datetime="2026-06-13T01:33:41.569Z">2026/6/13 09:33:41</time>
+          </header>
+          <div class="content"><p>是的，要限量轻量使用</p>
+<p>不然成了他一人的专属公益站了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-4">
+          <header>
+            <a href="#post-4">#4</a>
+            <strong>Enze</strong>
+            <span>@Enze</span>
+            
+            <time datetime="2026-06-13T01:34:12.791Z">2026/6/13 09:34:12</time>
+          </header>
+          <div class="content"><p>估计是跑批处理任务吧，vibe goal很难跑这么多</p></div>
+        </article>
+      
+
+        <article class="post" id="post-5">
+          <header>
+            <a href="#post-5">#5</a>
+            <strong>遐蝶</strong>
+            <span>@Castorice</span>
+            
+            <time datetime="2026-06-13T01:34:49.844Z">2026/6/13 09:34:49</time>
+          </header>
+          <div class="content"><p>一个晚上1400刀？？赶得上群里那群大佬的用量了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-6">
+          <header>
+            <a href="#post-6">#6</a>
+            <strong>HLiny</strong>
+            <span>@HLiny</span>
+            
+            <time datetime="2026-06-13T01:34:52.098Z">2026/6/13 09:34:52</time>
+          </header>
+          <div class="content"><p>真可恶啊，一晚上1k刀怎么可能不是分发，能不能联系公益站联ban?</p></div>
+        </article>
+      
+
+        <article class="post" id="post-7">
+          <header>
+            <a href="#post-7">#7</a>
+            <strong>xhaidi</strong>
+            <span>@xhaidi</span>
+            
+            <time datetime="2026-06-13T01:34:54.540Z">2026/6/13 09:34:54</time>
+          </header>
+          <div class="content"><p>正常使用咋可能这么多，对公益资源的滥用，就是对其他普通用户资源的挤占</p></div>
+        </article>
+      
+
+        <article class="post" id="post-8">
+          <header>
+            <a href="#post-8">#8</a>
+            <strong>老兵</strong>
+            <span>@efeng5872</span>
+            <span class="reply-context">in reply to <a href="#post-4">#4</a> Enze</span>
+            <time datetime="2026-06-13T01:35:26.375Z">2026/6/13 09:35:26</time>
+          </header>
+          <div class="content"><p>公益站给大家使用的，不是给一个人使用的，建议控制用量，让更多的人可以使用</p>
+<p>哈哈，补一句，我没舍得买LDC注册，现在非相关方</p></div>
+        </article>
+      
+
+        <article class="post" id="post-9">
+          <header>
+            <a href="#post-9">#9</a>
+            <strong>俩生花不开</strong>
+            <span>@leisss</span>
+            
+            <time datetime="2026-06-13T01:35:32.423Z">2026/6/13 09:35:32</time>
+          </header>
+          <div class="content"><p>应该及早封的，正常不可能蹭的了这么多</p></div>
+        </article>
+      
+
+        <article class="post" id="post-10">
+          <header>
+            <a href="#post-10">#10</a>
+            <strong>Zhang1234456</strong>
+            <span>@zhang1234456</span>
+            
+            <time datetime="2026-06-13T01:35:56.330Z">2026/6/13 09:35:56</time>
+          </header>
+          <div class="content"><p>这也太过分了，还是得限制，正常用不了那么多的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-11">
+          <header>
+            <a href="#post-11">#11</a>
+            <strong>比奇堡传奇交易员</strong>
+            <span>@CP9</span>
+            
+            <time datetime="2026-06-13T01:37:48.796Z">2026/6/13 09:37:48</time>
+          </header>
+          <div class="content"><p>就是哪你api分发去了 建议直接封ip <img src="../../../assets/mirrored/5a/5ab79de1ba89b1176e07530b48c5864cb80914cc806c3126068f9cc76061d7f3.png" title=":face_with_symbols_on_mouth:" class="emoji" alt=":face_with_symbols_on_mouth:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-12">
+          <header>
+            <a href="#post-12">#12</a>
+            <strong>神仙</strong>
+            <span>@noshenxian</span>
+            
+            <time datetime="2026-06-13T01:40:02.752Z">2026/6/13 09:40:02</time>
+          </header>
+          <div class="content"><p>佬是个好人，记得限流、做好控制。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-13">
+          <header>
+            <a href="#post-13">#13</a>
+            <strong>floralsei</strong>
+            <span>@floralsei</span>
+            
+            <time datetime="2026-06-13T01:40:59.862Z">2026/6/13 09:40:59</time>
+          </header>
+          <div class="content"><p>瘆人都别搞啊，昨天才刚正常用上<img src="../../../assets/mirrored/0f/0fbb9ec4c4fd72374806a194e031c2f0cae4e5f91ad4b911ad1e12f0e5832fb9.png" title=":worried:" class="emoji" alt=":worried:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-14">
+          <header>
+            <a href="#post-14">#14</a>
+            <strong>若时间无垠</strong>
+            <span>@RSJWY</span>
+            
+            <time datetime="2026-06-13T01:41:26.481Z">2026/6/13 09:41:26</time>
+          </header>
+          <div class="content"><p>这妥妥号商啊！这必须得联ban！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-15">
+          <header>
+            <a href="#post-15">#15</a>
+            <strong>freeCalmcc</strong>
+            <span>@freeCalmcc</span>
+            
+            <time datetime="2026-06-13T01:41:26.806Z">2026/6/13 09:41:26</time>
+          </header>
+          <div class="content"><p>单人不太可能用这么大的量吧，还是做一些合理限制比较好</p></div>
+        </article>
+      
+
+        <article class="post" id="post-16">
+          <header>
+            <a href="#post-16">#16</a>
+            <strong>guoke2013</strong>
+            <span>@guoke2013</span>
+            
+            <time datetime="2026-06-13T01:41:34.657Z">2026/6/13 09:41:34</time>
+          </header>
+          <div class="content"><p>什么永久啦  不限量啦  不限速啦  都玩不长久的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-17">
+          <header>
+            <a href="#post-17">#17</a>
+            <strong>JinyuX</strong>
+            <span>@JinyuX</span>
+            
+            <time datetime="2026-06-13T01:42:24.483Z">2026/6/13 09:42:24</time>
+          </header>
+          <div class="content"><p>这是分发了吧？ 个人使用怎么可能这么多？ <img src="../../../assets/mirrored/84/8409bfdb50cdec5b82b1b0bc3c183a371faa3ef54f8e1252b7ce40b26233b0fb.png" title=":distorted_face:" class="emoji" alt=":distorted_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-18">
+          <header>
+            <a href="#post-18">#18</a>
+            <strong>Localhost</strong>
+            <span>@Alexander_Li</span>
+            
+            <time datetime="2026-06-13T01:42:44.503Z">2026/6/13 09:42:44</time>
+          </header>
+          <div class="content"><p>靠北，有种普通用户感觉像苦主一样的既视感</p></div>
+        </article>
+      
+
+        <article class="post" id="post-19">
+          <header>
+            <a href="#post-19">#19</a>
+            <strong>Angel_bai</strong>
+            <span>@Angel_bai</span>
+            
+            <time datetime="2026-06-13T01:43:38.097Z">2026/6/13 09:43:38</time>
+          </header>
+          <div class="content"><p>我觉得这种就应该联合封禁，所有公益站都杀了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-20">
+          <header>
+            <a href="#post-20">#20</a>
+            <strong>floralsei</strong>
+            <span>@floralsei</span>
+            
+            <time datetime="2026-06-13T01:43:53.165Z">2026/6/13 09:43:53</time>
+          </header>
+          <div class="content"><p>谁家好人凌晨写大篇幅代码啊，建议晚上进行限流措施</p></div>
+        </article>
+      
+
+        <article class="post" id="post-21">
+          <header>
+            <a href="#post-21">#21</a>
+            <strong>wouiyigedahkrf</strong>
+            <span>@wouiyigedahkrf</span>
+            
+            <time datetime="2026-06-13T01:44:01.445Z">2026/6/13 09:44:01</time>
+          </header>
+          <div class="content"><p>有人是这样的，要么是分发了，要么是有特殊需求用脚本在跑，一般人接不起，根本不是公平使用</p></div>
+        </article>
+      
+
+        <article class="post" id="post-22">
+          <header>
+            <a href="#post-22">#22</a>
+            <strong>neroZac</strong>
+            <span>@neroZac</span>
+            
+            <time datetime="2026-06-13T01:44:25.736Z">2026/6/13 09:44:25</time>
+          </header>
+          <div class="content"><p>为什么这种号商ldc这么多 ，我每天刷刷L站，各种互动，都赶不上他一点<img src="../../../assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-23">
+          <header>
+            <a href="#post-23">#23</a>
+            <strong>icelee123</strong>
+            <span>@icelee123</span>
+            <span class="reply-context">in reply to <a href="#post-4">#4</a> Enze</span>
+            <time datetime="2026-06-13T01:45:56.455Z">2026/6/13 09:45:56</time>
+          </header>
+          <div class="content"><p>我感觉这是拿出去分发售卖的了，一个人多少有点离谱了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-24">
+          <header>
+            <a href="#post-24">#24</a>
+            <strong>gitday</strong>
+            <span>@didiaodidiao260</span>
+            
+            <time datetime="2026-06-13T01:46:21.911Z">2026/6/13 09:46:21</time>
+          </header>
+          <div class="content"><p>支持，这一晚上1万的请求也太夸张了，个人使用怎么用都用不了这么多吧，真有这么高的需求应该转付费站吧，不应该逮着公益站猛猛薅</p></div>
+        </article>
+      
+
+        <article class="post" id="post-25">
+          <header>
+            <a href="#post-25">#25</a>
+            <strong>张大胆</strong>
+            <span>@RioZRon</span>
+            
+            <time datetime="2026-06-13T01:46:31.918Z">2026/6/13 09:46:31</time>
+          </header>
+          <div class="content"><p>这个时候就要学习一下小米的小字精神 <code>不限量指的是给个人用户或是伙伴间的合理额度的不限量</code></p></div>
+        </article>
+      
+
+        <article class="post" id="post-26">
+          <header>
+            <a href="#post-26">#26</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            
+            <time datetime="2026-06-13T01:47:18.272Z">2026/6/13 09:47:18</time>
+          </header>
+          <div class="content"><p>虽然你们都支持，但是我不支持，你这就属于自己商品没写清楚，你写了不限额度，那人家往死了蹬也没什么问题呀，毕竟花了ldc买的，比如当时我买的那个男人公益站的，也是600ldc一天，那我肯定买了往死了蹬。不过那个男人是有并发限制的和rpm限制的。你这出问题只能说是你自己商品没写清楚，不能怪顾客往死了嫖你。<br>
+</p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/5/9/8/5981a259a90e9344a1de31fff51a67ce26de875c.png" data-download-href="/uploads/short-url/cLOeyEpX8RDdjsIzQNaluqGBZ4U.png?dl=1" title="Hook_1781315149515" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/8f/8f25f80475472f1e5ea9472d90f46cd143ad2835c80360bdb687514427a12d37.png" alt="Hook_1781315149515" data-base62-sha1="cLOeyEpX8RDdjsIzQNaluqGBZ4U" width="690" height="410" data-dominant-color="F7F2E7"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Hook_1781315149515</span><span class="informations">1095×651 87.1 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-27">
+          <header>
+            <a href="#post-27">#27</a>
+            <strong>resurgence</strong>
+            <span>@resurgence</span>
+            
+            <time datetime="2026-06-13T01:47:53.599Z">2026/6/13 09:47:53</time>
+          </header>
+          <div class="content"><p>这种直接封啊，一晚上特么的都赶上我一个月的用量了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-28">
+          <header>
+            <a href="#post-28">#28</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-25">#25</a> 张大胆</span>
+            <time datetime="2026-06-13T01:48:01.668Z">2026/6/13 09:48:01</time>
+          </header>
+          <div class="content"><p>哈哈，我准备下架了，之前是参考那个男人整的订阅套餐，没想到是真有人订阅，我有点不自量力了 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-29">
+          <header>
+            <a href="#post-29">#29</a>
+            <strong>11037</strong>
+            <span>@11037</span>
+            
+            <time datetime="2026-06-13T01:48:57.644Z">2026/6/13 09:48:57</time>
+          </header>
+          <div class="content"><p>感觉佬还是套餐做一下限制比较好吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-30">
+          <header>
+            <a href="#post-30">#30</a>
+            <strong>111zaka</strong>
+            <span>@111zaka</span>
+            <span class="reply-context">in reply to <a href="#post-26">#26</a> vmjcv666</span>
+            <time datetime="2026-06-13T01:49:14.337Z">2026/6/13 09:49:14</time>
+          </header>
+          <div class="content"><p>你不能这样说，人家也是做公益，而且ldc也不是真实的货币，他这就算0.1倍率或者是说0.05倍率，在其他的中转站买也得50块钱-100多块钱。你就算是富可敌国的日卡，他也有限制啊，免费的还要什么自行车。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-31">
+          <header>
+            <a href="#post-31">#31</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-26">#26</a> vmjcv666</span>
+            <time datetime="2026-06-13T01:51:44.728Z">2026/6/13 09:51:44</time>
+          </header>
+          <div class="content"><p>他确实没问题，文中也是我说了，我不自量力了，我是没想到真会有人买这个订阅往死里蹬，昨天私信的时候我也要他别买了，经不起蹬<br>
+我这还是有bug team号池的情况<br>
+没BUG team早被蹬光了<br>
+我感觉是newapi没有并发限制的问题<br>
+上次那个蹬1W的也是十几个CLI并发跑</p></div>
+        </article>
+      
+
+        <article class="post" id="post-32">
+          <header>
+            <a href="#post-32">#32</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-30">#30</a> 111zaka</span>
+            <time datetime="2026-06-13T01:51:52.977Z">2026/6/13 09:51:52</time>
+          </header>
+          <div class="content"><p>怎么就免费了，主帖不是说了“588LDC的SVIP不限速日卡”，这不是588ldc吗？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-33">
+          <header>
+            <a href="#post-33">#33</a>
+            <strong>superpan</strong>
+            <span>@superpan</span>
+            
+            <time datetime="2026-06-13T01:52:23.545Z">2026/6/13 09:52:23</time>
+          </header>
+          <div class="content"><p>不会被转到中转站拿去卖了吧？<img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"> 这种无限制使用非常不可控，一定要限制短时间内，并且限制单用户的并发</p></div>
+        </article>
+      
+
+        <article class="post" id="post-34">
+          <header>
+            <a href="#post-34">#34</a>
+            <strong>zzmusic</strong>
+            <span>@zzmusic</span>
+            
+            <time datetime="2026-06-13T01:53:31.418Z">2026/6/13 09:53:31</time>
+          </header>
+          <div class="content"><p>太夸张了，这心是真的黑啊。这种用户建议联 ban</p></div>
+        </article>
+      
+
+        <article class="post" id="post-35">
+          <header>
+            <a href="#post-35">#35</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-31">#31</a> rsharecn</span>
+            <time datetime="2026-06-13T01:54:20.734Z">2026/6/13 09:54:20</time>
+          </header>
+          <div class="content"><p>要不就限制并发和RPM，我说的不支持就是，你已经推出商品了，商品没写清楚就不能怪其他人白嫖你，下架商品就好了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-36">
+          <header>
+            <a href="#post-36">#36</a>
+            <strong>龙行龘龘🇨🇳</strong>
+            <span>@Keanu_Reeves</span>
+            
+            <time datetime="2026-06-13T01:54:44.329Z">2026/6/13 09:54:44</time>
+          </header>
+          <div class="content"><p>绝对分发了而且是大量分发。。。有解释吗？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-37">
+          <header>
+            <a href="#post-37">#37</a>
+            <strong>blacksein</strong>
+            <span>@blacksein</span>
+            
+            <time datetime="2026-06-13T01:55:19.292Z">2026/6/13 09:55:19</time>
+          </header>
+          <div class="content"><p>之前看一些公益站有放出排名的 头部的几个加起来的量就很恐怖了<br>
+用量这么大确实会挤压到别人了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-38">
+          <header>
+            <a href="#post-38">#38</a>
+            <strong>Shos</strong>
+            <span>@Shos</span>
+            
+            <time datetime="2026-06-13T01:55:20.585Z">2026/6/13 09:55:20</time>
+          </header>
+          <div class="content"><p>我觉得要求公益站长在事前就考虑全所有离奇的情形也是不合理的。公益站什么性质，怎么用算是合理大家还是有一些基础共识的吧。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-39">
+          <header>
+            <a href="#post-39">#39</a>
+            <strong>consthe</strong>
+            <span>@consthe</span>
+            <span class="reply-context">in reply to <a href="#post-35">#35</a> vmjcv666</span>
+            <time datetime="2026-06-13T01:58:13.305Z">2026/6/13 09:58:13</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-40">
+          <header>
+            <a href="#post-40">#40</a>
+            <strong>111zaka</strong>
+            <span>@111zaka</span>
+            <span class="reply-context">in reply to <a href="#post-35">#35</a> vmjcv666</span>
+            <time datetime="2026-06-13T01:59:40.011Z">2026/6/13 09:59:40</time>
+          </header>
+          <div class="content"><p>是的，你说的有道理，我感觉谁做公益，谁就是老大，他这个1400刀也太恐怖了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-41">
+          <header>
+            <a href="#post-41">#41</a>
+            <strong>杏林闲渔</strong>
+            <span>@heyman007</span>
+            
+            <time datetime="2026-06-13T02:04:31.301Z">2026/6/13 10:04:31</time>
+          </header>
+          <div class="content"><p>只能说吃一堑长一智吧，总有些破坏规则的人</p></div>
+        </article>
+      
+
+        <article class="post" id="post-42">
+          <header>
+            <a href="#post-42">#42</a>
+            <strong>Kirafishy</strong>
+            <span>@Kirafishy</span>
+            
+            <time datetime="2026-06-13T02:05:36.923Z">2026/6/13 10:05:36</time>
+          </header>
+          <div class="content"><p>应该记录用户除了IP的其他指纹信息，二次分发的IP都是中转站吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-43">
+          <header>
+            <a href="#post-43">#43</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-42">#42</a> Kirafishy</span>
+            <time datetime="2026-06-13T02:06:50.821Z">2026/6/13 10:06:50</time>
+          </header>
+          <div class="content"><p>确实是个人使用，只是蹬太狠了，号池顶不住，newapi没用单用户限流，只能临时封禁了 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-44">
+          <header>
+            <a href="#post-44">#44</a>
+            <strong>Kirafishy</strong>
+            <span>@Kirafishy</span>
+            <span class="reply-context">in reply to <a href="#post-43">#43</a> rsharecn</span>
+            <time datetime="2026-06-13T02:07:36.965Z">2026/6/13 10:07:36</time>
+          </header>
+          <div class="content"><p>那确实太狠了，同时跑了一堆任务吧<img src="../../../assets/mirrored/cc/ccb4c1a6fe5a2e641e2941573ba04217dee520eb2d882aeda6d3e4fcf3ad1798.png" title=":tieba_030:" class="emoji emoji-custom" alt=":tieba_030:" loading="lazy" width="20" height="20">吃一堑长一智了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-45">
+          <header>
+            <a href="#post-45">#45</a>
+            <strong>well</strong>
+            <span>@well</span>
+            
+            <time datetime="2026-06-13T02:09:37.667Z">2026/6/13 10:09:37</time>
+          </header>
+          <div class="content"><p>佬还是取消不限流吧.个人使用,10都够了.<br>
+想高并发就去买收费的啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-46">
+          <header>
+            <a href="#post-46">#46</a>
+            <strong>刀盾</strong>
+            <span>@pp66774813</span>
+            
+            <time datetime="2026-06-13T02:10:05.443Z">2026/6/13 10:10:05</time>
+          </header>
+          <div class="content"><p>支持我佬，这么蹬，奥特曼都得闪红灯。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-47">
+          <header>
+            <a href="#post-47">#47</a>
+            <strong>yyyjjj800</strong>
+            <span>@yyyjjj800</span>
+            
+            <time datetime="2026-06-13T02:10:52.640Z">2026/6/13 10:10:52</time>
+          </header>
+          <div class="content"><p>这个必须封啊,感觉就是做中转的，正常24小时再怎么用，最多250刀都很不错了。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-48">
+          <header>
+            <a href="#post-48">#48</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-45">#45</a> well</span>
+            <time datetime="2026-06-13T02:16:52.105Z">2026/6/13 10:16:52</time>
+          </header>
+          <div class="content"><p>已经下架了订阅包了，哈哈，高估自己的实力了，我这点号池，完全供不起大佛 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-49">
+          <header>
+            <a href="#post-49">#49</a>
+            <strong>yyyjjj800</strong>
+            <span>@yyyjjj800</span>
+            <span class="reply-context">in reply to <a href="#post-48">#48</a> rsharecn</span>
+            <time datetime="2026-06-13T02:18:35.225Z">2026/6/13 10:18:35</time>
+          </header>
+          <div class="content"><p>小鸡，现在需要2级才可以申请嘛？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-50">
+          <header>
+            <a href="#post-50">#50</a>
+            <strong>itsVic</strong>
+            <span>@itsVic</span>
+            
+            <time datetime="2026-06-13T02:19:04.294Z">2026/6/13 10:19:04</time>
+          </header>
+          <div class="content"><p>查用途了吗？目测就是做分发了，一般人应该用不了这么大量吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-51">
+          <header>
+            <a href="#post-51">#51</a>
+            <strong>遐蝶</strong>
+            <span>@Castorice</span>
+            <span class="reply-context">in reply to <a href="#post-5">#5</a> 遐蝶</span>
+            <time datetime="2026-06-13T02:19:17.200Z">2026/6/13 10:19:17</time>
+          </header>
+          <div class="content"><p><a class="mention" href="https://linux.do/u/l.y">@L.y</a> 没有，其实cronjob或几个goal高并发，一晚上/一天烧1000刀随随便便的事情</p></div>
+        </article>
+      
+
+        <article class="post" id="post-52">
+          <header>
+            <a href="#post-52">#52</a>
+            <strong>wqfc09</strong>
+            <span>@wqfc09</span>
+            <span class="reply-context">in reply to <a href="#post-6">#6</a> HLiny</span>
+            <time datetime="2026-06-13T02:20:06.761Z">2026/6/13 10:20:06</time>
+          </header>
+          <div class="content"><p>感觉要不要联合几个公益站做个 linuxdo 失信名单，要给滥用的狠狠上强度!</p></div>
+        </article>
+      
+
+        <article class="post" id="post-53">
+          <header>
+            <a href="#post-53">#53</a>
+            <strong>观人</strong>
+            <span>@guanren</span>
+            
+            <time datetime="2026-06-13T02:22:42.788Z">2026/6/13 10:22:42</time>
+          </header>
+          <div class="content"><p>佬 纯个人用 能申请下注册吗,主要是做一些批处理文件生成</p></div>
+        </article>
+      
+
+        <article class="post" id="post-54">
+          <header>
+            <a href="#post-54">#54</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-52">#52</a> wqfc09</span>
+            <time datetime="2026-06-13T02:23:14.075Z">2026/6/13 10:23:14</time>
+          </header>
+          <div class="content"><p>不算滥用，只是我公益站的实力供不起哈哈，这个是正常用户来着 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-55">
+          <header>
+            <a href="#post-55">#55</a>
+            <strong>MengStar</strong>
+            <span>@MengStar</span>
+            
+            <time datetime="2026-06-13T02:26:34.958Z">2026/6/13 10:26:34</time>
+          </header>
+          <div class="content"><p>佬是对的，我往死蹬，一天也就一千请求，这上万是怎么做到的 <img src="../../../assets/mirrored/c2/c22c89c24607d04f39094af2216b611d1d033055b31afafbc6a185990982b844.png" title=":sob:" class="emoji" alt=":sob:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-56">
+          <header>
+            <a href="#post-56">#56</a>
+            <strong>佰川</strong>
+            <span>@chyendongnhanh338</span>
+            
+            <time datetime="2026-06-13T02:28:08.487Z">2026/6/13 10:28:08</time>
+          </header>
+          <div class="content"><p>建议按照</p>
+<ol>
+<li>ip</li>
+<li>会话数量</li>
+<li>qps</li>
+<li>User-Agent数</li>
+</ol>
+<p>等等进行限制，公益站不应该成为莫些人牟利的渠道</p></div>
+        </article>
+      
+
+        <article class="post" id="post-57">
+          <header>
+            <a href="#post-57">#57</a>
+            <strong>kellyiao</strong>
+            <span>@kellyiao</span>
+            <span class="reply-context">in reply to <a href="#post-8">#8</a> 老兵</span>
+            <time datetime="2026-06-13T02:28:34.217Z">2026/6/13 10:28:34</time>
+          </header>
+          <div class="content"><p>是的，一般用户都还没舍得用LDC注册呢，公益站一直想用但就是LDC不够，手头上也没有可以士多里换的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-58">
+          <header>
+            <a href="#post-58">#58</a>
+            <strong>JunYiXi</strong>
+            <span>@JunYiXi</span>
+            <span class="reply-context">in reply to <a href="#post-27">#27</a> resurgence</span>
+            <time datetime="2026-06-13T02:29:21.367Z">2026/6/13 10:29:21</time>
+          </header>
+          <div class="content"><p>如果是正常对话，不CC，半年也用不到这个量。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-59">
+          <header>
+            <a href="#post-59">#59</a>
+            <strong>Foresee</strong>
+            <span>@Foresee</span>
+            
+            <time datetime="2026-06-13T02:30:12.138Z">2026/6/13 10:30:12</time>
+          </header>
+          <div class="content"><p>我觉得 佬下次提前做好限制，这种只要说清楚，然后佬那边限制做好什么的 仍然是很有性价比的选择。</p>
+<p>这种就属于是 “描述可以无限用 那为什么不用…？” 的感觉。 对于购买方来说一样很委屈，明明描述就是这样说的，但是又要被喷… hhh</p>
+<p>同时，尽管这是公益站，但是同样也用LDC支付了吧 我觉得这就是做交易嘛。不清楚各位佬的想法是怎么样的，但是我好奇，如果现在花的是rmb支付，那现在又是谁的错呢？如果情况不一样，为什么会导致这样的变化呢？尽管LDC不是货币，但是我觉得其伴随其而来的交易价值是不可忽视的。</p>
+<p>至于这位佬到底干什么了，感觉在这里讨论也出不来结果，如何监控，限制与保护自己的号池 才是比较有效的做法啦 <img src="../../../assets/mirrored/7e/7eb7c3eaa99341213f4edb4d9081224e05741118f713b58a27dd6c76f6e090dc.png" title=":hushed_face:" class="emoji" alt=":hushed_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-60">
+          <header>
+            <a href="#post-60">#60</a>
+            <strong>achaha</strong>
+            <span>@achaha</span>
+            
+            <time datetime="2026-06-13T02:30:29.882Z">2026/6/13 10:30:29</time>
+          </header>
+          <div class="content"><p>不限量是针对个人，不是用于分发的，要是发现分发的情况果断删号了，鸡毛佬，支持你</p></div>
+        </article>
+      
+
+        <article class="post" id="post-61">
+          <header>
+            <a href="#post-61">#61</a>
+            <strong>时牧</strong>
+            <span>@840814743</span>
+            
+            <time datetime="2026-06-13T02:49:14.842Z">2026/6/13 10:49:14</time>
+          </header>
+          <div class="content"><p>被当成中转站的上游了吧，佬友… <img src="../../../assets/mirrored/fb/fb091afe8fe581def5c11daac1624ecb7025661ee23d03378084b9e185f73a82.png" title=":new_moon_face:" class="emoji" alt=":new_moon_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-62">
+          <header>
+            <a href="#post-62">#62</a>
+            <strong>爱长草的云</strong>
+            <span>@easywangzhe</span>
+            
+            <time datetime="2026-06-13T02:52:03.348Z">2026/6/13 10:52:03</time>
+          </header>
+          <div class="content"><p>这请求量肯定被薅中转了吧，佬没做并发限制吗</p></div>
+        </article>
+      
+
+        <article class="post" id="post-63">
+          <header>
+            <a href="#post-63">#63</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-62">#62</a> 爱长草的云</span>
+            <time datetime="2026-06-13T02:53:39.351Z">2026/6/13 10:53:39</time>
+          </header>
+          <div class="content"><p>没有，确实是他自用，只是经不起这样用，newapi好像没有办法并发限制</p></div>
+        </article>
+      
+
+        <article class="post" id="post-64">
+          <header>
+            <a href="#post-64">#64</a>
+            <strong>CtrlCV精英</strong>
+            <span>@user351</span>
+            <span class="reply-context">in reply to <a href="#post-63">#63</a> rsharecn</span>
+            <time datetime="2026-06-13T02:56:30.358Z">2026/6/13 10:56:30</time>
+          </header>
+          <div class="content"><p>只有分组rpm限制，没有分组内用户的rpm限制</p></div>
+        </article>
+      
+
+        <article class="post" id="post-65">
+          <header>
+            <a href="#post-65">#65</a>
+            <strong>wait</strong>
+            <span>@wait</span>
+            
+            <time datetime="2026-06-13T02:58:00.725Z">2026/6/13 10:58:00</time>
+          </header>
+          <div class="content"><p>我一个月都用不了这么多，这是准备开发肥波吗</p></div>
+        </article>
+      
+
+        <article class="post" id="post-66">
+          <header>
+            <a href="#post-66">#66</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-59">#59</a> Foresee</span>
+            <time datetime="2026-06-13T02:58:19.238Z">2026/6/13 10:58:19</time>
+          </header>
+          <div class="content"><p>我是第一次开公益站，很多不懂，我甚至对PLUS可用请求次数都不了解，我一直以为PLUS号可以用很多token，确实是我的问题，文章标题也说的很清楚，“对不起”，睡一觉醒来30+PLUS 30+ bug team都被蹬的一干二净，我才知道，PLUS提供的额度好像比我想象中少太多，这种一晚上蹬1W的确实不是我能承担的请求数</p></div>
+        </article>
+      
+
+        <article class="post" id="post-67">
+          <header>
+            <a href="#post-67">#67</a>
+            <strong>太岁在辛</strong>
+            <span>@Astraxine</span>
+            
+            <time datetime="2026-06-13T02:59:27.363Z">2026/6/13 10:59:27</time>
+          </header>
+          <div class="content"><p>是不是知道自己有问题，所以才凌晨登，怕被封啊 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-68">
+          <header>
+            <a href="#post-68">#68</a>
+            <strong>lufei688</strong>
+            <span>@lufei688</span>
+            
+            <time datetime="2026-06-13T02:59:31.730Z">2026/6/13 10:59:31</time>
+          </header>
+          <div class="content"><p>这是逮着羊毛去做分发了把，本身分发就是被禁止的没啥问题</p></div>
+        </article>
+      
+
+        <article class="post" id="post-69">
+          <header>
+            <a href="#post-69">#69</a>
+            <strong>ByteMe</strong>
+            <span>@ByteMe</span>
+            
+            <time datetime="2026-06-13T03:00:38.336Z">2026/6/13 11:00:38</time>
+          </header>
+          <div class="content"><p>公益站就应该做好流量和请求限制，可以做个日的 <img src="../../../assets/mirrored/9c/9cfc5ad34e89b6eebddcd5ec715c224a86c99ea5b9fad999407dee7e32f681b6.png" title=":grinning_face:" class="emoji" alt=":grinning_face:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-70">
+          <header>
+            <a href="#post-70">#70</a>
+            <strong>unsafetrait</strong>
+            <span>@jackliu100</span>
+            
+            <time datetime="2026-06-13T03:02:13.444Z">2026/6/13 11:02:13</time>
+          </header>
+          <div class="content"><p>这种不用看吧，拿你当上游了，现在全面拉闸我记得，很多中转在群里找公益站当上游平成本，诸位小心吧，反正挺恶心的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-71">
+          <header>
+            <a href="#post-71">#71</a>
+            <strong>长坂坡剑神</strong>
+            <span>@MarsOnly</span>
+            
+            <time datetime="2026-06-13T03:02:51.785Z">2026/6/13 11:02:51</time>
+          </header>
+          <div class="content"><p>这么大量是干了个啥体量的项目啊，我一个月都用不了1e的token​<img src="../../../assets/mirrored/ad/ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b.png" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-72">
+          <header>
+            <a href="#post-72">#72</a>
+            <strong>Foresee</strong>
+            <span>@Foresee</span>
+            <span class="reply-context">in reply to <a href="#post-66">#66</a> rsharecn</span>
+            <time datetime="2026-06-13T03:04:05.400Z">2026/6/13 11:04:05</time>
+          </header>
+          <div class="content"><p>是的 所以我说对号池做好限制之类的 同样也很重要。以及我觉得这个优化方向会更好。 我也没怪佬啊 hhh 就是说怎么做比较有效。 因为限制用户之类的，如果咱们不能实时研究这个 维护着太辛苦了 <img src="../../../assets/mirrored/5d/5dc76062acc5a80d95fdd823db908640d52dac05ad1a4899ab9e723bfa0bbbfb.png" title=":blush:" class="emoji" alt=":blush:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-73">
+          <header>
+            <a href="#post-73">#73</a>
+            <strong>三点水也</strong>
+            <span>@laucherish</span>
+            
+            <time datetime="2026-06-13T03:10:01.406Z">2026/6/13 11:10:01</time>
+          </header>
+          <div class="content"><p>如果是588人民币不限量，大部分买的人都会用这么多吧，大家只是觉得买便宜了，所以不应该用这么多吗？那你们吃自助餐，是不是价格便宜的就少吃点</p></div>
+        </article>
+      
+
+        <article class="post" id="post-74">
+          <header>
+            <a href="#post-74">#74</a>
+            <strong>yangdage</strong>
+            <span>@yangdage</span>
+            <span class="reply-context">in reply to <a href="#post-73">#73</a> 三点水也</span>
+            <time datetime="2026-06-13T03:15:42.800Z">2026/6/13 11:15:42</time>
+          </header>
+          <div class="content"><p>问题是这只是一个公益站,不是中转站</p></div>
+        </article>
+      
+
+        <article class="post" id="post-75">
+          <header>
+            <a href="#post-75">#75</a>
+            <strong>MercuryRouter</strong>
+            <span>@MercuryRouter</span>
+            
+            <time datetime="2026-06-13T03:16:56.228Z">2026/6/13 11:16:56</time>
+          </header>
+          <div class="content"><p>newapi有限制吧 为什么我测试了2过 都是一会就限限流了 一个人 正常使用 还没有使用官方的评论高</p></div>
+        </article>
+      
+
+        <article class="post" id="post-76">
+          <header>
+            <a href="#post-76">#76</a>
+            <strong>三点水也</strong>
+            <span>@laucherish</span>
+            <span class="reply-context">in reply to <a href="#post-74">#74</a> yangdage</span>
+            <time datetime="2026-06-13T03:17:33.834Z">2026/6/13 11:17:33</time>
+          </header>
+          <div class="content"><p>别人不是免费用啊，588LDC就是付费了，价格是卖家定的，如果我今天打算买，那我肯定提前写好几个prd，买了之后就开始使劲蹬</p></div>
+        </article>
+      
+
+        <article class="post" id="post-77">
+          <header>
+            <a href="#post-77">#77</a>
+            <strong>谢阿叉</strong>
+            <span>@xiexi1989</span>
+            
+            <time datetime="2026-06-13T03:19:16.074Z">2026/6/13 11:19:16</time>
+          </header>
+          <div class="content"><p>楼主还是之前没有想好，没设置好并发，要是我的话也会这样的，之前那个男人的站，深夜也是死命蹬的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-78">
+          <header>
+            <a href="#post-78">#78</a>
+            <strong>途川</strong>
+            <span>@litjohn</span>
+            
+            <time datetime="2026-06-13T03:20:52.578Z">2026/6/13 11:20:52</time>
+          </header>
+          <div class="content"><p>反悔是可行的。但声称要 ban 那个用户的我就想不明白了。</p>
+<p>既然你给出了一个不限量套餐，难道还不让人用了吗？</p>
+<p>固然的确不能要求楼主事前想明白一切，但他这不也反悔并停止对方访问了吗？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-79">
+          <header>
+            <a href="#post-79">#79</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-26">#26</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:21:20.721Z">2026/6/13 11:21:20</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-80">
+          <header>
+            <a href="#post-80">#80</a>
+            <strong>途川</strong>
+            <span>@litjohn</span>
+            <span class="reply-context">in reply to <a href="#post-79">#79</a> Root大虾</span>
+            <time datetime="2026-06-13T03:22:26.552Z">2026/6/13 11:22:26</time>
+          </header>
+          <div class="content"><p>既然知道例子不恰当了，说出来干嘛。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-81">
+          <header>
+            <a href="#post-81">#81</a>
+            <strong>yangdage</strong>
+            <span>@yangdage</span>
+            <span class="reply-context">in reply to <a href="#post-76">#76</a> 三点水也</span>
+            <time datetime="2026-06-13T03:22:56.971Z">2026/6/13 11:22:56</time>
+          </header>
+          <div class="content"><p>ldc跟免费有什么区别,又不是RMB,真有有这么大需求直接官订claude或gpt,公益站就是让大家都能用上,或者偶尔应个急,真拿免费的当生产力啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-82">
+          <header>
+            <a href="#post-82">#82</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-79">#79</a> Root大虾</span>
+            <time datetime="2026-06-13T03:23:53.439Z">2026/6/13 11:23:53</time>
+          </header>
+          <div class="content"><aside class="quote no-group quote-modified" data-username="Leon666" data-display-name="Root大虾" data-post="79" data-topic="2391112" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/bf/bf32e6598b514749344f8296a1350e4ea9b1b04aac0ecad83ee5381681bd4296.png" class="avatar"> Root大虾:</div>
+<blockquote>
+<p>你说这话，举个不恰当的例子。</p>
+<p>有小偷半夜进别人家里偷东西，怪人家门没锁？门没锁固然有点错，不小心或者别的原因，但不是小偷犯罪的理由吧？</p>
+<p>站长公益是没限制RPM和上限，你这样大批量无限制，毫无下限的行为觉得合理？还替他发声？你只能说提醒站长做好限制，提醒家人关好门。你站小偷那边？</p>
+</blockquote>
+</aside>
+<p>开门做生意，卖家定价，买家花钱买货有什么错？你怎么能把对面定义为小偷？我不理解，我吃自助餐只吃贵的，然后你怪我掏的钱少？问题是自助餐的价格是卖家定的，我也付钱了，你也说了随便吃，那就是随便吃，我就想吃贵的有错？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-83">
+          <header>
+            <a href="#post-83">#83</a>
+            <strong>三点水也</strong>
+            <span>@laucherish</span>
+            <span class="reply-context">in reply to <a href="#post-81">#81</a> yangdage</span>
+            <time datetime="2026-06-13T03:24:23.323Z">2026/6/13 11:24:23</time>
+          </header>
+          <div class="content"><p>你就说，如果你花588买了一天不限量，你准备用多少？用1000万token？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-84">
+          <header>
+            <a href="#post-84">#84</a>
+            <strong>mhrmsg</strong>
+            <span>@mhrmsg</span>
+            
+            <time datetime="2026-06-13T03:25:43.620Z">2026/6/13 11:25:43</time>
+          </header>
+          <div class="content"><p>归根究底就是不道德的事情。吃一堑长一智了，同时回来谁再开展类似的业务也能提醒提醒。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-85">
+          <header>
+            <a href="#post-85">#85</a>
+            <strong>林克</strong>
+            <span>@jbts6</span>
+            
+            <time datetime="2026-06-13T03:26:25.195Z">2026/6/13 11:26:25</time>
+          </header>
+          <div class="content"><p>我之前用的一个中转，在 bug team 时期 0 倍率RPM100供应。用量榜 1一天用了 7000 刀的额度，惊为天人。榜二才 1300 刀，榜三 400 刀</p></div>
+        </article>
+      
+
+        <article class="post" id="post-86">
+          <header>
+            <a href="#post-86">#86</a>
+            <strong>Sleoss</strong>
+            <span>@sleoss</span>
+            
+            <time datetime="2026-06-13T03:27:26.499Z">2026/6/13 11:27:26</time>
+          </header>
+          <div class="content"><p>目测是被中转站拿去当上游了，心疼下佬</p></div>
+        </article>
+      
+
+        <article class="post" id="post-87">
+          <header>
+            <a href="#post-87">#87</a>
+            <strong>yangdage</strong>
+            <span>@yangdage</span>
+            <span class="reply-context">in reply to <a href="#post-83">#83</a> 三点水也</span>
+            <time datetime="2026-06-13T03:29:27.535Z">2026/6/13 11:29:27</time>
+          </header>
+          <div class="content"><p>没有你们这种体验,理解不了,而且我也不会去选择你们这种方式,我都是直接官订,claude和gpt我都有订,况且官订也不贵吧</p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/0/8/6/086c1fd3856f313675bca78d2dda7b75756388ab.png" data-download-href="/uploads/short-url/1cvts6zMAKRT6rBEudaF1jdR3xp.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/8a/8a468409b8722356542bc9e669be3838ad9876fd7cd71b8f118d7daff1d34628.png" alt="image" data-base62-sha1="1cvts6zMAKRT6rBEudaF1jdR3xp" width="552" height="500" data-dominant-color="FBFBFB"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1005×909 20.7 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="../../../assets/mirrored/41/419450f6be589cf5cf3629de4a52f4997f21cfe2fa543fbe34221dfe479dab88.png" data-download-href="/uploads/short-url/hccc9wJpiKr3g2RDMgux3IPPTZh.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/41/419450f6be589cf5cf3629de4a52f4997f21cfe2fa543fbe34221dfe479dab88.png" alt="image" data-base62-sha1="hccc9wJpiKr3g2RDMgux3IPPTZh" width="339" height="500" data-dominant-color="28292A"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">560×825 28.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-88">
+          <header>
+            <a href="#post-88">#88</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-78">#78</a> 途川</span>
+            <time datetime="2026-06-13T03:31:31.036Z">2026/6/13 11:31:31</time>
+          </header>
+          <div class="content"><p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/4/d/3/4d355598f45953c83cdcb2641e9e821519be9b9d.png" data-download-href="/uploads/short-url/b11253QaNugT4o3GsliLCeZstB3.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/ba/ba0bd89a72b1d1fd07421b5b1b3dc45a546c804f4387e1ececae19ab908b1ab9.png" alt="image" data-base62-sha1="b11253QaNugT4o3GsliLCeZstB3" width="640" height="500" data-dominant-color="F5F4F0"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">2093×1634 485 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><br>
+这还是在我起床补了2小时PLUS号的情况<br>
+如果我不BAN他，按他蹬的速度，我现在号池已经榨干了<br>
+导致大家都用不了<br>
+不是不给他用，如果我号池足够他蹬的，我绝对不会封他<br>
+都是纯血PLUS TEAM号池<br>
+文章标题开头我就说了对不起了<br>
+文中内容也说了可以申请退款LDC<br>
+现在号池是我和用户一起共用的，不ban他最后我自己都断粮<br>
+这好像有违背我最开始开公益站的初衷<p></p></div>
+        </article>
+      
+
+        <article class="post" id="post-89">
+          <header>
+            <a href="#post-89">#89</a>
+            <strong>途川</strong>
+            <span>@litjohn</span>
+            <span class="reply-context">in reply to <a href="#post-88">#88</a> rsharecn</span>
+            <time datetime="2026-06-13T03:32:17.137Z">2026/6/13 11:32:17</time>
+          </header>
+          <div class="content"><p>所以我完全支持您反悔，退款并终止服务。</p>
+<p>公益站站长完全有决定自己服务的自由。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-90">
+          <header>
+            <a href="#post-90">#90</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-82">#82</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:33:50.760Z">2026/6/13 11:33:50</time>
+          </header>
+          <div class="content"><p>这么说吧佬，您未来做生意或者开店遇到这种人，一个人把店里全部的菜全都吃光，让别人一点都吃不到，然后再有像您这样的站在顾客那边去发声，您开心吗？</p>
+<p>站在别人的角度想想呢？你辛辛苦苦维护了号池，做个公益站想分享回馈社区，结果半夜被他一个人1w次请求，14亿的TOKEN，把号池全部打空，很明显不是正常使用的，你怎么想？</p>
+<p>再一个，你手里用的公益站，被一个人半夜全部蹬完，然后你想用的时候什么都没了，你又怎么看？</p>
+<p>说到底就是这个人没道德，拿公益去做分发了。根本就不是正常使用的，你说的自助餐，说白了能吃多少，但他这种是把自助餐的东西拿出去给别人吃，分发出去给别人吃，你觉得这还正常吗？</p>
+<p>并不是不让他吃，包括公益很多都有不限量的套餐，但没有人像他这么干的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-91">
+          <header>
+            <a href="#post-91">#91</a>
+            <strong>甘尼克斯</strong>
+            <span>@KIVINXU</span>
+            
+            <time datetime="2026-06-13T03:34:06.675Z">2026/6/13 11:34:06</time>
+          </header>
+          <div class="content"><p>到底做什么能做到这么高额度？我看是分发吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-92">
+          <header>
+            <a href="#post-92">#92</a>
+            <strong>三点水也</strong>
+            <span>@laucherish</span>
+            <span class="reply-context">in reply to <a href="#post-87">#87</a> yangdage</span>
+            <time datetime="2026-06-13T03:35:16.896Z">2026/6/13 11:35:16</time>
+          </header>
+          <div class="content"><p>我劝佬友认真想想官方订阅又不贵，为什么那多人要用公益站，肉那么好吃，何不食肉糜呢？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-93">
+          <header>
+            <a href="#post-93">#93</a>
+            <strong>途川</strong>
+            <span>@litjohn</span>
+            
+            <time datetime="2026-06-13T03:37:26.876Z">2026/6/13 11:37:26</time>
+          </header>
+          <div class="content"><p>对于声讨使用者的：我的评价是，错误必有其代价。即便是失误，也只能弥补。</p>
+<p>楼主已经采取了完全正当有效的方法弥补止损了。那么这件事情其实已经结束。不需要继续声讨使用者。即便要讨论，也应当是完善 LDC 公益站的用户协议与使用规则，让每位公益站长都能考虑周全，使得这样的事情不再发生。</p>
+<p>如果使用者有违反用户协定的二次分发，自当别论。但问题是，全场有人证实了这点吗？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-94">
+          <header>
+            <a href="#post-94">#94</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-90">#90</a> Root大虾</span>
+            <time datetime="2026-06-13T03:37:36.255Z">2026/6/13 11:37:36</time>
+          </header>
+          <div class="content"><p>首先我会合理定价，我不会开这种无限吃的自助餐。其次如果我开了，那就是我自认倒霉，我没有处理好优惠券，没有处理好定价，那是我的问题，和顾客的道德有什么关系？<br>
+其次你到底怎么定义它不是正常使用，它花"钱"了，它购买了服务，你说无限量的服务就是无限量的服务，它用还有错了？<br>
+这个事情完全扯不到顾客的道德义务，它付钱了就应该享受商品的服务。这有什么问题？一个愿意卖，一个愿意买。它怎么就吃了别人的自助餐，标注的就是无限额度，那就是店全吃光都是对的。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-95">
+          <header>
+            <a href="#post-95">#95</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-90">#90</a> Root大虾</span>
+            <time datetime="2026-06-13T03:38:17.762Z">2026/6/13 11:38:17</time>
+          </header>
+          <div class="content"><p>哪个公益有不限量套餐？你说？哪个不限量还不限制并发数？你找一个？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-96">
+          <header>
+            <a href="#post-96">#96</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-95">#95</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:40:37.295Z">2026/6/13 11:40:37</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-97">
+          <header>
+            <a href="#post-97">#97</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-96">#96</a> Root大虾</span>
+            <time datetime="2026-06-13T03:41:36.801Z">2026/6/13 11:41:36</time>
+          </header>
+          <div class="content"><p><img src="../../../assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20">又扯到我身上了。<span class="mention">@rsharecn</span> 来站长说说是不是我？要我提供ip吗</p></div>
+        </article>
+      
+
+        <article class="post" id="post-98">
+          <header>
+            <a href="#post-98">#98</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-94">#94</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:42:49.589Z">2026/6/13 11:42:49</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-99">
+          <header>
+            <a href="#post-99">#99</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-98">#98</a> Root大虾</span>
+            <time datetime="2026-06-13T03:43:54.292Z">2026/6/13 11:43:54</time>
+          </header>
+          <div class="content"><p>你到底怎么证明它分发了？前面站长自己说的没分发？要不要看看帖子。<br>
+其次它一个人就用不了这么多吗？多台设备，开goal模式，开多agent模式，你要不试试？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-100">
+          <header>
+            <a href="#post-100">#100</a>
+            <strong>mythsuica</strong>
+            <span>@mythsuica</span>
+            <span class="reply-context">in reply to <a href="#post-99">#99</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:46:58.824Z">2026/6/13 11:46:58</time>
+          </header>
+          <div class="content"><p>别跟他们讨论了，说不清楚的，我官方订阅多的时候纯白天都能用到2亿。 自助餐分发的例子都能说出来，没逻辑的 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-101">
+          <header>
+            <a href="#post-101">#101</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-94">#94</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:47:28.887Z">2026/6/13 11:47:28</time>
+          </header>
+          <div class="content"><p>哪怕是不限量的自助餐，也不会让你一个人把海鲜拿光的，明明有号池监控，明明就剩个位数可用号池了，还高并发的蹬，把号池等蹬干净大家都用不了就开心了吗，公益站本来就没有SLA，他固然没错，但我封他也是迫不得已。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-102">
+          <header>
+            <a href="#post-102">#102</a>
+            <strong>mythsuica</strong>
+            <span>@mythsuica</span>
+            <span class="reply-context">in reply to <a href="#post-98">#98</a> Root大虾</span>
+            <time datetime="2026-06-13T03:47:44.365Z">2026/6/13 11:47:44</time>
+          </header>
+          <div class="content"><p>吃到肚子里，走出店外吐出来分发吗 <img src="../../../assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png" title=":rofl:" class="emoji" alt=":rofl:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-103">
+          <header>
+            <a href="#post-103">#103</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-102">#102</a> mythsuica</span>
+            <time datetime="2026-06-13T03:48:30.224Z">2026/6/13 11:48:30</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-104">
+          <header>
+            <a href="#post-104">#104</a>
+            <strong>vmjcv666</strong>
+            <span>@vmjcv666</span>
+            <span class="reply-context">in reply to <a href="#post-101">#101</a> rsharecn</span>
+            <time datetime="2026-06-13T03:49:06.254Z">2026/6/13 11:49:06</time>
+          </header>
+          <div class="content"><p>首先站长你做公益的，的确我认为这次是没有预料到这个商品的情况导致了错误定价，并且后续的处理我认为都很得体，封号退ldc，都没有问题。<br>
+我在帖子里面争辩的核心就是你商品的定义导致用户大量使用，这和用户的道德没有关系。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-105">
+          <header>
+            <a href="#post-105">#105</a>
+            <strong>mythsuica</strong>
+            <span>@mythsuica</span>
+            <span class="reply-context">in reply to <a href="#post-103">#103</a> Root大虾</span>
+            <time datetime="2026-06-13T03:50:00.631Z">2026/6/13 11:50:00</time>
+          </header>
+          <div class="content"><p>我的意思是你的例子不恰当，哪家自助餐能端盘子出去。。。<br>
+事情很简单，不需要类比的 <img src="../../../assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-106">
+          <header>
+            <a href="#post-106">#106</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-105">#105</a> mythsuica</span>
+            <time datetime="2026-06-13T03:50:40.062Z">2026/6/13 11:50:40</time>
+          </header>
+          <div class="content"><p>（帖子已被作者删除）</p></div>
+        </article>
+      
+
+        <article class="post" id="post-107">
+          <header>
+            <a href="#post-107">#107</a>
+            <strong>mythsuica</strong>
+            <span>@mythsuica</span>
+            <span class="reply-context">in reply to <a href="#post-106">#106</a> Root大虾</span>
+            <time datetime="2026-06-13T03:51:17.619Z">2026/6/13 11:51:17</time>
+          </header>
+          <div class="content"><p>啊，就此打住，不讨论了<br>
+接不住了</p>
+<p>很简单的事情：退款，加限流措施，根本不需要什么封号</p></div>
+        </article>
+      
+
+        <article class="post" id="post-108">
+          <header>
+            <a href="#post-108">#108</a>
+            <strong>iamenn</strong>
+            <span>@iamenn</span>
+            
+            <time datetime="2026-06-13T03:55:03.733Z">2026/6/13 11:55:03</time>
+          </header>
+          <div class="content"><p>我以为大家注册公益站都是搞点小任务或者应急来的，没想到真有人就纯为了白嫖啊……</p></div>
+        </article>
+      
+
+        <article class="post" id="post-109">
+          <header>
+            <a href="#post-109">#109</a>
+            <strong>puppywang</strong>
+            <span>@puppywang</span>
+            
+            <time datetime="2026-06-13T03:56:11.102Z">2026/6/13 11:56:11</time>
+          </header>
+          <div class="content"><p>这个用量是用来翻译文档了么？就算是goal模式下也没有这么大的请求量吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-110">
+          <header>
+            <a href="#post-110">#110</a>
+            <strong>soobir</strong>
+            <span>@JupyterLu</span>
+            
+            <time datetime="2026-06-13T03:56:13.000Z">2026/6/13 11:56:13</time>
+          </header>
+          <div class="content"><p>我觉得吧，要是能证明他分发了，那可以直接封禁，都不用退款。但是如果没分发，纯自己用的，那就退款就行啊。这也没什么好争议的吧。商家当然有权拒绝提供服务，给用户退款就行。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-111">
+          <header>
+            <a href="#post-111">#111</a>
+            <strong>GGB0ND</strong>
+            <span>@GGB0ND</span>
+            <span class="reply-context">in reply to <a href="#post-43">#43</a> rsharecn</span>
+            <time datetime="2026-06-13T03:56:42.948Z">2026/6/13 11:56:42</time>
+          </header>
+          <div class="content"><p>你是怎么看出他是一个人使用的，但IP吗，如果只是单IP他完全可以在自己的服务器上再套一层中转站去分发，到你这肯定就只能看见一个IP去使用了。我感觉这个用量百分之99是分发出去用了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-112">
+          <header>
+            <a href="#post-112">#112</a>
+            <strong>ggbondneverfomo</strong>
+            <span>@ggbondneverfomo</span>
+            
+            <time datetime="2026-06-13T03:57:04.322Z">2026/6/13 11:57:04</time>
+          </header>
+          <div class="content"><p>是不是被拿走卖了啊，这么大量做啥哦</p></div>
+        </article>
+      
+
+        <article class="post" id="post-113">
+          <header>
+            <a href="#post-113">#113</a>
+            <strong>Pre</strong>
+            <span>@Pre</span>
+            
+            <time datetime="2026-06-13T03:58:03.590Z">2026/6/13 11:58:03</time>
+          </header>
+          <div class="content"><p>这使用量，估计是拿出去卖了吧。<br>
+正常使用没事，这种滥用的就该封掉。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-114">
+          <header>
+            <a href="#post-114">#114</a>
+            <strong>Root大虾</strong>
+            <span>@Leon666</span>
+            <span class="reply-context">in reply to <a href="#post-104">#104</a> vmjcv666</span>
+            <time datetime="2026-06-13T03:58:10.724Z">2026/6/13 11:58:10</time>
+          </header>
+          <div class="content"><p>刚表达的有些失误，我说的核心是用户如果分发，那是没道德。不是说所有正常用的都是没道德的，如果站长查了那人就是正常使用，那自然没问题，那就是站长自己的锅，退款了，以后加限制，有多大号池办多大事儿。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-115">
+          <header>
+            <a href="#post-115">#115</a>
+            <strong>张大胆</strong>
+            <span>@RioZRon</span>
+            
+            <time datetime="2026-06-13T04:00:19.683Z">2026/6/13 12:00:19</time>
+          </header>
+          <div class="content"><p>讨论下如何看是不是分发 能不能通过查看低缓存率的频率？</p></div>
+        </article>
+      
+
+        <article class="post" id="post-116">
+          <header>
+            <a href="#post-116">#116</a>
+            <strong>xincheng</strong>
+            <span>@xincheng</span>
+            
+            <time datetime="2026-06-13T04:00:37.582Z">2026/6/13 12:00:37</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="bdigu" data-display-name="rsharecn" data-post="1" data-topic="2391112">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/0c/0c43a5ee3c7b63e602b26586e236dfcf1e3f4f66bacda1313eded27f4522cc1c.png" class="avatar"> rsharecn:</div>
+<blockquote>
+<p></p><div class="lightbox-wrapper"><a class="lightbox" href="https://cdn3.ldstatic.com/original/4X/a/8/b/a8b06ff5a4cb9968f563ab96fc247f6f783c8d6f.png" data-download-href="/uploads/short-url/o4iehghlvKNYqRZDKet7OoklY7R.png?dl=1" title="image" rel="noopener nofollow ugc"><img src="../../../assets/mirrored/49/49de2478ae9d043f681b0f2e276bc948e8ec08c930b9d8cfbda3dd7f402e13a9.png" alt="image" data-base62-sha1="o4iehghlvKNYqRZDKet7OoklY7R" width="690" height="327" data-dominant-color="F9F2ED"><div class="meta"><svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1776×843 34.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg></div></a></div><p></p>
+</blockquote>
+</aside>
+<p>这个图片真没绷住 <img src="../../../assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20">眼演都不演了，直接超出这么多</p></div>
+        </article>
+      
+
+        <article class="post" id="post-117">
+          <header>
+            <a href="#post-117">#117</a>
+            <strong>就不告诉你</strong>
+            <span>@kkptu</span>
+            
+            <time datetime="2026-06-13T04:02:16.225Z">2026/6/13 12:02:16</time>
+          </header>
+          <div class="content"><p>L站是一片热土，但千万不要以为是世外桃源</p>
+<p>个别人真的是无底限的</p>
+<p>真顶不住</p></div>
+        </article>
+      
+
+        <article class="post" id="post-118">
+          <header>
+            <a href="#post-118">#118</a>
+            <strong>漫步者</strong>
+            <span>@kkliah</span>
+            <span class="reply-context">in reply to <a href="#post-116">#116</a> xincheng</span>
+            <time datetime="2026-06-13T04:05:00.955Z">2026/6/13 12:05:00</time>
+          </header>
+          <div class="content"><p>看到这张图真的绷不住 大幅度抛离其他人 影响了其他用户的体验 商家有最终决定权解释权 封掉就可以了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-119">
+          <header>
+            <a href="#post-119">#119</a>
+            <strong>superpan</strong>
+            <span>@superpan</span>
+            <span class="reply-context">in reply to <a href="#post-94">#94</a> vmjcv666</span>
+            <time datetime="2026-06-13T04:06:50.853Z">2026/6/13 12:06:50</time>
+          </header>
+          <div class="content"><p>这种没什么好说的，也不要去抠字眼去批判，没法用道德约束一个人的行为，只能说给站长一个教训，以后要用规则去约束这种不道德的行为！</p></div>
+        </article>
+      
+
+        <article class="post" id="post-120">
+          <header>
+            <a href="#post-120">#120</a>
+            <strong>well</strong>
+            <span>@well</span>
+            <span class="reply-context">in reply to <a href="#post-111">#111</a> GGB0ND</span>
+            <time datetime="2026-06-13T04:08:26.581Z">2026/6/13 12:08:26</time>
+          </header>
+          <div class="content"><p>佬友说的我很赞同，简单的根据ip来判断不是很准确。最简单还是加上限流吧，rpm10就完全够了。如果newapi没有(我没用过:)，可以让codex帮忙搓一个。<br>
+既然是鸡毛佬的决定，我们理解尊重就好了，没必要因为这个事情在这里争个脸红脖子粗的。毕竟人与人的价值观本来就存在偏差。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-121">
+          <header>
+            <a href="#post-121">#121</a>
+            <strong>You_Guess</strong>
+            <span>@You_Guess</span>
+            
+            <time datetime="2026-06-13T04:10:30.687Z">2026/6/13 12:10:30</time>
+          </header>
+          <div class="content"><p>我估计这位用户也开了个中转站，跑到你这里进货来了 <img src="../../../assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-122">
+          <header>
+            <a href="#post-122">#122</a>
+            <strong>lanvent</strong>
+            <span>@lanvent</span>
+            <span class="reply-context">in reply to <a href="#post-90">#90</a> Root大虾</span>
+            <time datetime="2026-06-13T04:10:34.562Z">2026/6/13 12:10:34</time>
+          </header>
+          <div class="content"><p>看着不像分发，一般几个goal跑一天也20亿tokens出去了。个人用户它在规则限制内蹬，其实没什么问题，这波只能说是站长吃了个教训没限制并发，如果遇到真号商，那多少个号都不够。</p>
+<p>1500刀在前几天渠道不紧张的时候，比如588LDC在alpha站里充294刀，0.2x倍率下约等于1470刀，和LDC的价值是匹配的（我用alpha站比较多，拿它当锚定）。但这里也说是不紧张的时候了，如果个人用户不捣鼓plus/team，他会知道现在是艰难时期和共情到吗？所以这里再次提到站长应该用定价或其它约束来限制套餐用量，指望个人共情不现实。 我尊敬每一个做公益站的佬友，祝站长在调整之后越办越好。</p>
+<p>PS：从柱状图看，凌晨（0点-8点）是500刀，所以佬友这描述“一个凌晨1W次请求”似乎有点夸大。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-123">
+          <header>
+            <a href="#post-123">#123</a>
+            <strong>仰望蓝白条纹天空</strong>
+            <span>@YWLBTWTK</span>
+            
+            <time datetime="2026-06-13T04:12:09.487Z">2026/6/13 12:12:09</time>
+          </header>
+          <div class="content"><aside class="quote no-group" data-username="bdigu" data-display-name="rsharecn" data-post="43" data-topic="2391112" data-full="true">
+<div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="24" height="24" src="../../../assets/mirrored/0c/0c43a5ee3c7b63e602b26586e236dfcf1e3f4f66bacda1313eded27f4522cc1c.png" class="avatar"> rsharecn:</div>
+<blockquote>
+<p>确实是个人使用，只是蹬太狠了，号池顶不住，newapi没用单用户限流，只能临时封禁了 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p>
+</blockquote>
+</aside>
+<p>依靠规定而不是道德，其实很烦这种无限上升的提法，佬都说一时不察没有对“无限量”做出具体的限制，而且退ldc用户也没吃亏，把tos更新就好了。自助餐也会限制不能拿着，但是也没限制不准人吃多少吧，一般都是放后厨不端上来进行软限制。用小偷作比也是有点侮辱用户了吧，我是支持站长查一下有没有分发，按规定来就好，一个“ <strong>真诚</strong>、<strong>友善</strong>、<strong>团结</strong>、<strong>专业</strong>，共建你我引以为荣之社区”需要大家一起努力 <img src="../../../assets/mirrored/8f/8f5d84f3b10de017fc906aab1ef0052ce807b87cae4f41656a168a8aa09f9c9e.png" title=":beating_heart:" class="emoji" alt=":beating_heart:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-124">
+          <header>
+            <a href="#post-124">#124</a>
+            <strong>openshell</strong>
+            <span>@openshell</span>
+            
+            <time datetime="2026-06-13T04:19:30.423Z">2026/6/13 12:19:30</time>
+          </header>
+          <div class="content"><p>庆幸自己果断入手了小鸡毛，佬辛苦了，不仅要跟奥特曼斗智斗勇，群众里面还有坏人， <img src="../../../assets/mirrored/ad/ad1dcb074a55b2b3bacd1744db2a851d6ca83decb7e232e3fcb08e5c3e37357b.png" title=":smiling_face_with_tear:" class="emoji" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20">背后捅刀子</p></div>
+        </article>
+      
+
+        <article class="post" id="post-125">
+          <header>
+            <a href="#post-125">#125</a>
+            <strong>auauau1</strong>
+            <span>@auauau1</span>
+            
+            <time datetime="2026-06-13T04:28:20.687Z">2026/6/13 12:28:20</time>
+          </header>
+          <div class="content"><p>可以限制，但是要退一罚三，我觉得这样公平</p></div>
+        </article>
+      
+
+        <article class="post" id="post-126">
+          <header>
+            <a href="#post-126">#126</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-125">#125</a> auauau1</span>
+            <time datetime="2026-06-13T04:33:48.826Z">2026/6/13 12:33:48</time>
+          </header>
+          <div class="content"><p>退一罚100吧，罚3还是少了，瞧你这话说的，那些花LDC买注册邀请码的公益站，停站是不是还得给你退三倍啊</p></div>
+        </article>
+      
+
+        <article class="post" id="post-127">
+          <header>
+            <a href="#post-127">#127</a>
+            <strong>暗夜行者</strong>
+            <span>@Blackdo</span>
+            
+            <time datetime="2026-06-13T04:38:41.851Z">2026/6/13 12:38:41</time>
+          </header>
+          <div class="content"><p>可能这个人已经赚了一把了，也无所谓了，成功套现离场 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-128">
+          <header>
+            <a href="#post-128">#128</a>
+            <strong>5674</strong>
+            <span>@5674</span>
+            
+            <time datetime="2026-06-13T04:41:20.671Z">2026/6/13 12:41:20</time>
+          </header>
+          <div class="content"><p>所以这就是为什么很多公益站甚至中转站乃至官方自己都不整固定价无限量的原因，要整还是整个一天多少多少刀到期直接没吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-129">
+          <header>
+            <a href="#post-129">#129</a>
+            <strong>MengStar</strong>
+            <span>@MengStar</span>
+            <span class="reply-context">in reply to <a href="#post-126">#126</a> rsharecn</span>
+            <time datetime="2026-06-13T04:44:31.740Z">2026/6/13 12:44:31</time>
+          </header>
+          <div class="content"><p>佬，不用跟他们吵。你是开公益站的，收的是LDC又不是RMB。花多少钱办多大事，588LDC被蹬成这样已经仁尽义至了，别因为这些人毁了好心情。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-130">
+          <header>
+            <a href="#post-130">#130</a>
+            <strong>MengStar</strong>
+            <span>@MengStar</span>
+            <span class="reply-context">in reply to <a href="#post-126">#126</a> rsharecn</span>
+            <time datetime="2026-06-13T04:46:11.114Z">2026/6/13 12:46:11</time>
+          </header>
+          <div class="content"><p>这次长个记性，之后做好限额就可以，别因为这种人毁了好心情，做公益本来是好事，被他们说的好像是你错了一样。还是那句话，花的是LDC不是RMB。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-131">
+          <header>
+            <a href="#post-131">#131</a>
+            <strong>rsharecn</strong>
+            <span>@bdigu</span>
+            <span class="reply-context">in reply to <a href="#post-129">#129</a> MengStar</span>
+            <time datetime="2026-06-13T04:53:36.138Z">2026/6/13 12:53:36</time>
+          </header>
+          <div class="content"><p>哈哈，已经给他退款了，吃一亏长一智了 <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-132">
+          <header>
+            <a href="#post-132">#132</a>
+            <strong>Foresee</strong>
+            <span>@Foresee</span>
+            <span class="reply-context">in reply to <a href="#post-130">#130</a> MengStar</span>
+            <time datetime="2026-06-13T04:54:47.179Z">2026/6/13 12:54:47</time>
+          </header>
+          <div class="content"><p>这种问题讨论来讨论去，还是发帖的佬需要自行做好限制，这是最有效的解决方式，也可以充分保护自己的号池与服务。</p>
+<p>佬，不能觉得LDC买的东西就可以不符合规则了<br>
+规定的可以无限使用，因此商家造成的损失，难道由客户承担吗？<br>
+还是说与LDC相挂钩的服务 规则效力都大打折扣，因为LDC可以免费获得呢？<br>
+如果用道德谴责购买方，同样的我们也有理由谴责商家，服务方就应当按照兑换规则和事前承诺提供相应服务。同样的，如果我在LD士多里面挂东西，质量很差，但是我宣传的很好，别人买了说货不对板。我一样不应该抵赖说LDC可以赚取，所以本质我在免费给你做公益，因此你不能对我要求太多吧。</p>
+<p>因此，客户使用行为无法事先限定的情况下，商家自行做好防护措施是最好的做法。大家都犯过错吃过亏，吃一堑长一智是很正常的</p></div>
+        </article>
+      
+
+        <article class="post" id="post-133">
+          <header>
+            <a href="#post-133">#133</a>
+            <strong>我就是柯南</strong>
+            <span>@Co-nan</span>
+            
+            <time datetime="2026-06-13T05:20:00.508Z">2026/6/13 13:20:00</time>
+          </header>
+          <div class="content"><p>14亿token，一个prox20的周限，相当于1600/4=400， <img src="../../../assets/mirrored/c2/c252a58367211c11d839155e50dc5e98551826c64b8d2e8d6267124c054ceae0.png" title=":joy:" class="emoji" alt=":joy:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-134">
+          <header>
+            <a href="#post-134">#134</a>
+            <strong>Run</strong>
+            <span>@Run</span>
+            
+            <time datetime="2026-06-13T05:35:58.348Z">2026/6/13 13:35:58</time>
+          </header>
+          <div class="content"><p>居然有人拿自助餐来比喻，这对吗？ <img src="../../../assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p>
+<p>这是公益站，还是收费中转站？</p>
+<p>如果是公益站,那就类似现实生活中的那种&lt;三元饭店&gt;，给那些有困难的群众提供低价餐，只需花 3 元就能领餐吃到饱。</p>
+<p>突然有一天，来了一个人，花了三块钱，来店里领了很多很多餐（导致店长可能吃不上饭，不过店长活该，谁叫你不做限制。 <img src="../../../assets/mirrored/0d/0d46390df7858374bd26a539915193d11a6bfb5fef11ff8e7572a1d32851b126.png" title=":laughing:" class="emoji" alt=":laughing:" loading="lazy" width="20" height="20">）</p>
+<p>佬们我这样比喻对吗？ <img src="../../../assets/mirrored/ed/ed2d1ae8dcdaf6a12e9af7d7bced25db2c3e8f38e624f930d13ff697e3285e7b.png" title=":grin:" class="emoji" alt=":grin:" loading="lazy" width="20" height="20"></p></div>
+        </article>
+      
+
+        <article class="post" id="post-135">
+          <header>
+            <a href="#post-135">#135</a>
+            <strong>Foresee</strong>
+            <span>@Foresee</span>
+            <span class="reply-context">in reply to <a href="#post-134">#134</a> Run</span>
+            <time datetime="2026-06-13T05:45:03.633Z">2026/6/13 13:45:03</time>
+          </header>
+          <div class="content"><p>佬，你的例子所反映的问题，恰好说明了公益站、低价站、积分站，如果没有限额、风控、频率限制，就可能被少数用户大量消耗资源，影响其他用户，这个问题。在资源挤占上，用户的确做的不好，用户明知会挤占公共资源还恶意薅（不过是否是恶意有待商榷），这个一定也是错误的做法，他耽误了太多其他佬的使用。</p>
+<p>但是与其比作三元领餐，既然要认为是公益站，咱们不与货币产生关系，当成发饭票来看（因为1.饭票不是现金 2.饭票有兑换价值） ：饭店发了一张饭票，写着可以换一份套餐。拿饭票去换，饭店不能说：反正饭票不是现金买的，所以我给你一份量少的饭也行。</p>
+<p>至于店长？——我觉得这篇帖子已经写得很棒了，但是必须说明的是，其中本身针对的是中转站的不合理行为，但是我想借此说的是服务与规则的重要性。说一是一，坚持规则在任何交换条件下都是很重要的。既然这样写了，用户也同意了规则，用户的使用与商家自己到底怎么样，是不是困难，不应该有任何关系，用户也不应该承担任何责任。（除非是什么破限之类的，不过这种同样商家应该优先做好防范措施，毕竟咱们谁也料不到客户会干什么）<br>
+帖子如下：<br>
+<a href="https://linux.do/t/topic/1497146">https://linux.do/t/topic/1497146</a></p></div>
+        </article>
+      
+
+        <article class="post" id="post-136">
+          <header>
+            <a href="#post-136">#136</a>
+            <strong>3979478419</strong>
+            <span>@3979478419</span>
+            
+            <time datetime="2026-06-13T06:01:40.803Z">2026/6/13 14:01:40</time>
+          </header>
+          <div class="content"><p>吃一堑，长一智，碰到这种往死里薅的确认是只能自认倒霉了，毕竟站点是你自己的，建议下次小心点。</p></div>
+        </article>
+      
+
+        <article class="post" id="post-137">
+          <header>
+            <a href="#post-137">#137</a>
+            <strong>Sunnnner</strong>
+            <span>@Sunnnner</span>
+            
+            <time datetime="2026-06-13T06:35:19.830Z">2026/6/13 14:35:19</time>
+          </header>
+          <div class="content"><p>这家伙搞分发的吧，直接ban掉就行了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-138">
+          <header>
+            <a href="#post-138">#138</a>
+            <strong>kedou</strong>
+            <span>@kedou</span>
+            
+            <time datetime="2026-06-13T06:59:12.305Z">2026/6/13 14:59:12</time>
+          </header>
+          <div class="content"><p>支持 RPM 限制但是应该合理，比如我单窗口一个任务 RPM有时候都到5左右，限制2会影响正常使用的吧</p></div>
+        </article>
+      
+
+        <article class="post" id="post-139">
+          <header>
+            <a href="#post-139">#139</a>
+            <strong>awu77369546</strong>
+            <span>@awu77369546</span>
+            
+            <time datetime="2026-06-13T07:01:20.145Z">2026/6/13 15:01:20</time>
+          </header>
+          <div class="content"><p>这是真狠啊，这么高的请求，有理由怀疑拿去中转了</p></div>
+        </article>
+      
+
+        <article class="post" id="post-140">
+          <header>
+            <a href="#post-140">#140</a>
+            <strong>johnwick</strong>
+            <span>@johnwick</span>
+            
+            <time datetime="2026-06-13T07:05:48.027Z">2026/6/13 15:05:48</time>
+          </header>
+          <div class="content"><p>这种就是就是看到免费的使劲儿蹬 我刚500ldc买了邀请码 还没用 20余额就被清零了。。。</p></div>
+        </article>
+      
+  </main>
+  <script>
+(function () {
+  var form = document.querySelector("[data-floor-jump]");
+  if (!form) {
+    return;
+  }
+  var input = form.querySelector("input[name='floor']");
+  var status = document.querySelector("[data-floor-jump-status]");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    jumpToFloor(input ? input.value : "");
+  });
+
+  normalizeInitialHash();
+
+  function normalizeInitialHash() {
+    var rawHash = decodeURIComponent(window.location.hash || "");
+    var match = rawHash.match(/^#(\d+)$/);
+    if (!match) {
+      return;
+    }
+    window.setTimeout(function () {
+      jumpToFloor(match[1], true);
+    }, 0);
+  }
+
+  function jumpToFloor(value, replaceHash) {
+    var floor = Number.parseInt(String(value || "").trim(), 10);
+    if (!Number.isFinite(floor) || floor < 1) {
+      setStatus("Enter a valid floor number.", "error");
+      return;
+    }
+    var targetId = "post-" + floor;
+    var target = document.getElementById(targetId);
+    if (!target) {
+      setStatus("Floor #" + floor + " is not in this archive.", "error");
+      return;
+    }
+    setStatus("");
+    if (input) {
+      input.value = String(floor);
+    }
+    var nextHash = "#" + targetId;
+    try {
+      if (replaceHash) {
+        window.history.replaceState(null, "", nextHash);
+      } else {
+        window.history.pushState(null, "", nextHash);
+      }
+    } catch (_error) {
+      window.location.hash = nextHash;
+    }
+    target.scrollIntoView({ block: "start" });
+  }
+
+  function setStatus(message, state) {
+    if (!status) {
+      return;
+    }
+    status.textContent = message || "";
+    if (state) {
+      status.dataset.state = state;
+    } else {
+      delete status.dataset.state;
+    }
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2391112,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2391112",
+    "title": "对不起，虽然你订阅了不限额度的日卡，但是我真没办法给你履约服务了",
+    "currentVersionId": "v1",
+    "currentHash": "701eefad0a4845c34416938c72a194e1bab7d76828ba20556dff82d3ed218470",
+    "postCount": 140,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2391112,
+      "sourceUrl": "https://linux.do/t/topic/2391112",
+      "archivedAt": "2026-06-13T07:16:14.619Z",
+      "contentHash": "701eefad0a4845c34416938c72a194e1bab7d76828ba20556dff82d3ed218470",
+      "postCount": 140,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 140 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
