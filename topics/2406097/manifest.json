@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2406097,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2406097",
+    "title": "节奏带得飞起，但这有什么好争的？",
+    "currentVersionId": "v1",
+    "currentHash": "a2130d8e2595e8ac7f59049b2e3e0c4de409b7c1d25a2d284b2d1fa7102a2db6",
+    "postCount": 254,
+    "missingPostNumbers": [
+      137,
+      201,
+      241
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2406097,
+      "sourceUrl": "https://linux.do/t/topic/2406097",
+      "archivedAt": "2026-06-15T08:27:26.828Z",
+      "contentHash": "a2130d8e2595e8ac7f59049b2e3e0c4de409b7c1d25a2d284b2d1fa7102a2db6",
+      "postCount": 254,
+      "missingPostNumbers": [
+        137,
+        201,
+        241
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 254 visible posts with 3 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
