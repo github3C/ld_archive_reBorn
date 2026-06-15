@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2402911,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2402911",
+    "title": "表达一下现在公益站的看法",
+    "currentVersionId": "v1",
+    "currentHash": "a9f55f84fd5a69b563bf1b05b1b9816a3dff837a9cc17844d9147755f4b8040e",
+    "postCount": 170,
+    "missingPostNumbers": [
+      7,
+      14,
+      19
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2402911,
+      "sourceUrl": "https://linux.do/t/topic/2402911",
+      "archivedAt": "2026-06-15T06:44:38.664Z",
+      "contentHash": "a9f55f84fd5a69b563bf1b05b1b9816a3dff837a9cc17844d9147755f4b8040e",
+      "postCount": 170,
+      "missingPostNumbers": [
+        7,
+        14,
+        19
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 170 visible posts with 3 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
