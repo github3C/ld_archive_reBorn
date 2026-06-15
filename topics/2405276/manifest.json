@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2405276,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2405276",
+    "title": "公益归公益，掺假归掺假",
+    "currentVersionId": "v1",
+    "currentHash": "1179cde6483febe0e7b4d1c0042b72b77ad2ea13dc7dd9e9de2b64452dad82ca",
+    "postCount": 30,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2405276,
+      "sourceUrl": "https://linux.do/t/topic/2405276",
+      "archivedAt": "2026-06-15T05:02:59.768Z",
+      "contentHash": "1179cde6483febe0e7b4d1c0042b72b77ad2ea13dc7dd9e9de2b64452dad82ca",
+      "postCount": 30,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 30 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
