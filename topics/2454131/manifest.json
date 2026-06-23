@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2454131,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2454131",
+    "title": "君の公益，没君不行",
+    "currentVersionId": "v1",
+    "currentHash": "0e19ebed9025c4e0f22932667a44d1ed74f7b846698c5af473506e6146ec0999",
+    "postCount": 85,
+    "missingPostNumbers": [
+      1,
+      4,
+      5,
+      8,
+      9,
+      19,
+      83,
+      84,
+      86,
+      90
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2454131,
+      "sourceUrl": "https://linux.do/t/topic/2454131",
+      "archivedAt": "2026-06-23T03:42:07.904Z",
+      "contentHash": "0e19ebed9025c4e0f22932667a44d1ed74f7b846698c5af473506e6146ec0999",
+      "postCount": 85,
+      "missingPostNumbers": [
+        1,
+        4,
+        5,
+        8,
+        9,
+        19,
+        83,
+        84,
+        86,
+        90
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 85 visible posts with 10 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
