@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2547883,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2547883",
+    "title": "你说，恋爱是什么味道",
+    "currentVersionId": "v1",
+    "currentHash": "38173c3159289394ab3ff5e93c039b1213345387ac9e61bc0412bd446360d528",
+    "postCount": 57,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2547883,
+      "sourceUrl": "https://linux.do/t/topic/2547883",
+      "archivedAt": "2026-07-08T14:38:39.497Z",
+      "contentHash": "38173c3159289394ab3ff5e93c039b1213345387ac9e61bc0412bd446360d528",
+      "postCount": 57,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 57 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
