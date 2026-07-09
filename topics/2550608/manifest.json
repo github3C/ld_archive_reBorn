@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2550608,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2550608",
+    "title": "公益而已，何必呢，以后不会在维护了",
+    "currentVersionId": "v1",
+    "currentHash": "f547fd0faa63a8a68f890c17d5fcf22038af9b9d978108f9ca9e03cd3c3ca1c0",
+    "postCount": 84,
+    "missingPostNumbers": [
+      18
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2550608,
+      "sourceUrl": "https://linux.do/t/topic/2550608",
+      "archivedAt": "2026-07-09T06:57:38.897Z",
+      "contentHash": "f547fd0faa63a8a68f890c17d5fcf22038af9b9d978108f9ca9e03cd3c3ca1c0",
+      "postCount": 84,
+      "missingPostNumbers": [
+        18
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 84 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
