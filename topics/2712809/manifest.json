@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2712809,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2712809",
+    "title": "给大家看一下号池记录吧，我觉得可以终结这个话题了",
+    "currentVersionId": "v1",
+    "currentHash": "b85c638969a5e8cfb45dd38b51f82b84e385bf00aa39b29185a818cff00500f6",
+    "postCount": 20,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2712809,
+      "sourceUrl": "https://linux.do/t/topic/2712809",
+      "archivedAt": "2026-08-06T05:24:40.850Z",
+      "contentHash": "b85c638969a5e8cfb45dd38b51f82b84e385bf00aa39b29185a818cff00500f6",
+      "postCount": 20,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 20 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
