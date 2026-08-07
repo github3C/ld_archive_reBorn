@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2716202,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2716202",
+    "title": "不是不是，星辰站问题已经解决完了吗？",
+    "currentVersionId": "v1",
+    "currentHash": "9b2128ac567cad08867b2739f37111592b0d857a8ee9505f140f819b00a14f30",
+    "postCount": 63,
+    "missingPostNumbers": [
+      8
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2716202,
+      "sourceUrl": "https://linux.do/t/topic/2716202",
+      "archivedAt": "2026-08-07T05:47:21.476Z",
+      "contentHash": "9b2128ac567cad08867b2739f37111592b0d857a8ee9505f140f819b00a14f30",
+      "postCount": 63,
+      "missingPostNumbers": [
+        8
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 63 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
