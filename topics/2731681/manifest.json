@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2731681,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2731681",
+    "title": "我是真不敢吃公益站的流量阿",
+    "currentVersionId": "v1",
+    "currentHash": "2eeb8620bf3ca0c35554f0b97ce90dec19f9f69d1d69c0df252b912bb4cbd1a3",
+    "postCount": 237,
+    "missingPostNumbers": [
+      38,
+      41,
+      44,
+      50,
+      65,
+      75,
+      95,
+      122,
+      131,
+      140,
+      158,
+      176,
+      216,
+      219
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2731681,
+      "sourceUrl": "https://linux.do/t/topic/2731681",
+      "archivedAt": "2026-08-10T13:25:38.939Z",
+      "contentHash": "2eeb8620bf3ca0c35554f0b97ce90dec19f9f69d1d69c0df252b912bb4cbd1a3",
+      "postCount": 237,
+      "missingPostNumbers": [
+        38,
+        41,
+        44,
+        50,
+        65,
+        75,
+        95,
+        122,
+        131,
+        140,
+        158,
+        176,
+        216,
+        219
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 237 visible posts with 14 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
