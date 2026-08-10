@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2735396,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2735396",
+    "title": "此次风波的时间线以及道歉声明",
+    "currentVersionId": "v1",
+    "currentHash": "ca54a0f6fd4c7f536d3acf3949635e2a91a03bde8b0e95c0ff5eaa6e2b90b351",
+    "postCount": 138,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2735396,
+      "sourceUrl": "https://linux.do/t/topic/2735396",
+      "archivedAt": "2026-08-10T13:14:01.134Z",
+      "contentHash": "ca54a0f6fd4c7f536d3acf3949635e2a91a03bde8b0e95c0ff5eaa6e2b90b351",
+      "postCount": 138,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 138 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
