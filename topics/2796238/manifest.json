@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2796238,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2796238",
+    "title": "【曝光】KRILL 中转站:客服滥用权限全群公开订单隐私，最后破防狂骂！",
+    "currentVersionId": "v1",
+    "currentHash": "c4535897208327223956e66a8ecd35d952bfb15e77d837a0da6754dffc33be75",
+    "postCount": 290,
+    "missingPostNumbers": [
+      75,
+      139,
+      165,
+      166,
+      250
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2796238,
+      "sourceUrl": "https://linux.do/t/topic/2796238",
+      "archivedAt": "2026-08-24T02:44:01.224Z",
+      "contentHash": "c4535897208327223956e66a8ecd35d952bfb15e77d837a0da6754dffc33be75",
+      "postCount": 290,
+      "missingPostNumbers": [
+        75,
+        139,
+        165,
+        166,
+        250
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 290 visible posts with 5 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
