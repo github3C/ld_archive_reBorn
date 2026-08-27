@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2742127,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2742127",
+    "title": "Krill虚开发票，6啊，我没话说，Krill这算是跑路了？",
+    "currentVersionId": "v1",
+    "currentHash": "0c5239c858311b3ca0228746244b04379387a28c24cf52585a53c0d6a516fa03",
+    "postCount": 211,
+    "missingPostNumbers": [
+      19,
+      43,
+      80,
+      82,
+      86,
+      116,
+      121,
+      152,
+      153,
+      174,
+      205,
+      207,
+      209
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2742127,
+      "sourceUrl": "https://linux.do/t/topic/2742127",
+      "archivedAt": "2026-08-27T03:57:44.352Z",
+      "contentHash": "0c5239c858311b3ca0228746244b04379387a28c24cf52585a53c0d6a516fa03",
+      "postCount": 211,
+      "missingPostNumbers": [
+        19,
+        43,
+        80,
+        82,
+        86,
+        116,
+        121,
+        152,
+        153,
+        174,
+        205,
+        207,
+        209
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 211 visible posts with 13 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
