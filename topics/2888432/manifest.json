@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2888432,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2888432",
+    "title": "无良中转Krill半夜调价冻结套餐不冻结余额",
+    "currentVersionId": "v1",
+    "currentHash": "f2d79dc32677317465f9896658c743b38675e648ca6097283cf70e15a11019db",
+    "postCount": 46,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2888432,
+      "sourceUrl": "https://linux.do/t/topic/2888432",
+      "archivedAt": "2026-09-11T03:51:17.974Z",
+      "contentHash": "f2d79dc32677317465f9896658c743b38675e648ca6097283cf70e15a11019db",
+      "postCount": 46,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 46 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
