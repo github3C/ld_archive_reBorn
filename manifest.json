@@ -3,6 +3,17 @@
   "generator": "linux.do Archiver Tampermonkey",
   "topics": [
     {
+      "topicId": 2906758,
+      "title": "Krill 你承诺的退款呢？",
+      "url": "https://linux.do/t/topic/2906758",
+      "latestVersionId": "v1",
+      "lastArchivedAt": "2026-09-16T09:05:27.466Z",
+      "currentHash": "c744e77c0dd33db614dc57528ed3d6328aead6f2e50cf560375c3f607feb056a",
+      "postCount": 43,
+      "missingPostCount": 1,
+      "versionsCount": 1
+    },
+    {
       "topicId": 2888432,
       "title": "无良中转Krill半夜调价冻结套餐不冻结余额",
       "url": "https://linux.do/t/topic/2888432",

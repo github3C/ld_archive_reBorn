@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 2906758,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/2906758",
+    "title": "Krill 你承诺的退款呢？",
+    "currentVersionId": "v1",
+    "currentHash": "c744e77c0dd33db614dc57528ed3d6328aead6f2e50cf560375c3f607feb056a",
+    "postCount": 43,
+    "missingPostNumbers": [
+      24
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 2906758,
+      "sourceUrl": "https://linux.do/t/topic/2906758",
+      "archivedAt": "2026-09-16T09:05:12.869Z",
+      "contentHash": "c744e77c0dd33db614dc57528ed3d6328aead6f2e50cf560375c3f607feb056a",
+      "postCount": 43,
+      "missingPostNumbers": [
+        24
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 43 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
