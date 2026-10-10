@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3003356,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3003356",
+    "title": "别的不说，讨论一下真实使用华为产品的经历",
+    "currentVersionId": "v1",
+    "currentHash": "d94edea3225e6f03946a18d9c432f41279116089a57af268fd7a8770d14de182",
+    "postCount": 46,
+    "missingPostNumbers": [
+      1
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3003356,
+      "sourceUrl": "https://linux.do/t/topic/3003356",
+      "archivedAt": "2026-10-10T05:32:38.661Z",
+      "contentHash": "d94edea3225e6f03946a18d9c432f41279116089a57af268fd7a8770d14de182",
+      "postCount": 46,
+      "missingPostNumbers": [
+        1
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 46 visible posts with 1 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
