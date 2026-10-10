@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3003390,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3003390",
+    "title": "踩断了就是踩断了，烧没了就是烧没了，为什么总有人急着替车企解释",
+    "currentVersionId": "v1",
+    "currentHash": "75d918228869e9930c3b971cf302b677c826ec886f392a35b801421ab1a9f803",
+    "postCount": 15,
+    "missingPostNumbers": [
+      1,
+      2
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3003390,
+      "sourceUrl": "https://linux.do/t/topic/3003390",
+      "archivedAt": "2026-10-10T09:02:47.974Z",
+      "contentHash": "75d918228869e9930c3b971cf302b677c826ec886f392a35b801421ab1a9f803",
+      "postCount": 15,
+      "missingPostNumbers": [
+        1,
+        2
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 15 visible posts with 2 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

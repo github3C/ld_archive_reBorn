@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3003390,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3003390",
+    "title": "踩断了就是踩断了，烧没了就是烧没了，为什么总有人急着替车企解释",
+    "createdAt": null,
+    "currentVersionId": "v1",
+    "currentHash": "75d918228869e9930c3b971cf302b677c826ec886f392a35b801421ab1a9f803"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 3003390,
+    "sourceUrl": "https://linux.do/t/topic/3003390",
+    "archivedAt": "2026-10-10T09:02:47.974Z",
+    "contentHash": "75d918228869e9930c3b971cf302b677c826ec886f392a35b801421ab1a9f803",
+    "postCount": 15,
+    "missingPostNumbers": [
+      1,
+      2
+    ],
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 15 visible posts with 2 missing floors."
+    }
+  },
+  "capture": {
+    "source": "visible-page",
+    "capturedAt": "2026-10-10T09:02:47.968Z",
+    "capturedPostCount": 15,
+    "warning": "Recovered from the browser-rendered page. It may include only posts the browser could render during scrolling."
+  },
+  "posts": [
+    {
+      "id": 23486701,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "HX_1009",
+      "displayName": "HR",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">因为【实事求是】，是很难做到的，其中掺杂了各种利益～～</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "因为【实事求是】，是很难做到的，其中掺杂了各种利益～～",
+      "contentHash": "630831f068fb0a2b268e176875c075034be519c3fe504b14699dc4ad5499af76"
+    },
+    {
+      "id": 23486768,
+      "postNumber": 4,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "MightyLu",
+      "displayName": "MightyLu",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">一些是收了钱的<br>\n一些是纯信仰<br>\n至于为啥会信仰一个品牌，这个问题值得讨论。</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "一些是收了钱的 一些是纯信仰 至于为啥会信仰一个品牌，这个问题值得讨论。",
+      "contentHash": "5dfc42d56e831d1a52260d362e70ccd03e8eb836ca451c085695c4d8dbab264d"
+    },
+    {
+      "id": 23486873,
+      "postNumber": 5,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "czh2728",
+      "displayName": "期待。",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">真正出过事的已经被洗掉淡忘。现在还没出事的，只能说这就是商战，养了一堆人一边在黑、一边在洗。</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "真正出过事的已经被洗掉淡忘。现在还没出事的，只能说这就是商战，养了一堆人一边在黑、一边在洗。",
+      "contentHash": "6ef9f6ada4cf330624d115c685e3507ef70cc115571f60e13a001758c8db869c"
+    },
+    {
+      "id": 23486900,
+      "postNumber": 6,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "summeryu",
+      "displayName": "summeryu",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我感觉国人的容忍度和接受度在被动的变得越来越高，这种事放哪个地方车企都要被搞破产</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我感觉国人的容忍度和接受度在被动的变得越来越高，这种事放哪个地方车企都要被搞破产",
+      "contentHash": "05cd24f888cc6620e3c31a018cc14faf904a0638f53bcc87d199096b8417ca4e"
+    },
+    {
+      "id": 23487024,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "chenxu",
+      "displayName": "晨旭",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">这个误会了，其实不是，是因为鸿蒙版本没适配跳转抖音视频的功能<br>\n后面测试了别的抖音的视频，确实都不能跳转，不是单独屏蔽这个视频</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "这个误会了，其实不是，是因为鸿蒙版本没适配跳转抖音视频的功能 后面测试了别的抖音的视频，确实都不能跳转，不是单独屏蔽这个视频",
+      "contentHash": "235ec31809c538d0a91d0a970f3988aa04e89f556ae54b4bf7cf1e14d47b9557"
+    },
+    {
+      "id": 23487025,
+      "postNumber": 8,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Ben23Wang",
+      "displayName": "Ben23Wang",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">无非就是：<br>\n有流量<br>\n有利益<br>\n有信仰<br>\n有表达欲<br>\n有脑子<br>\n有不辨不明的地方<br>\n有（可能的潜在的）不明真相群众<br>\n有价值观的碰撞</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "无非就是： 有流量 有利益 有信仰 有表达欲 有脑子 有不辨不明的地方 有（可能的潜在的）不明真相群众 有价值观的碰撞",
+      "contentHash": "e93ab6b6d59cc66645088b9dd8b498d53f60000bb1ee087abadb628bca5810ce"
+    },
+    {
+      "id": 23487117,
+      "postNumber": 9,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "yhdan",
+      "displayName": "Sugar",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">某些 kol 签了企业的年度框架，不出来洗一下，表一下忠心，明年还签不签了</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "某些 kol 签了企业的年度框架，不出来洗一下，表一下忠心，明年还签不签了",
+      "contentHash": "2d955deff4d3c6079305662531791998b1af8a307d7681ac0ff661c1ccf7a44f"
+    },
+    {
+      "id": 23487149,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "holysin",
+      "displayName": "ysin",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">现在的车企都得轮流感受当初特斯拉 21 年感受到的一切</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "现在的车企都得轮流感受当初特斯拉 21 年感受到的一切",
+      "contentHash": "fb85de5e8523d6eb294aee9b0f517e3974273e4dfb8b6ee4c6be2b65b02e596f"
+    },
+    {
+      "id": 23487247,
+      "postNumber": 11,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "ZhangCraig",
+      "displayName": "ZhangCraig",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">大部分是普通人，普通人和我们搞程序的是不一样的，他们根本懒得去弄清真相，只接受快捷的大众评论：“大家都说好那应该就不错”。而所有水军的作用就是引导评论走向。那些解释的人到底是真实用户还是有人操纵这个说不清。<br>\n当然，以上言论只出自个人主观。 <img src=\"https://cdn.ldstatic.com/images/emoji/twitter/sweat_smile.png?v=15\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\"></p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "大部分是普通人，普通人和我们搞程序的是不一样的，他们根本懒得去弄清真相，只接受快捷的大众评论：“大家都说好那应该就不错”。而所有水军的作用就是引导评论走向。那些解释的人到底是真实用户还是有人操纵这个说不清。 当然，以上言论只出自个人主观。",
+      "contentHash": "01846afbf72428030f6e5b4fe25beca18f0c23b172512f711f7472ee4299d737"
+    },
+    {
+      "id": 23487329,
+      "postNumber": 12,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "AkaChou",
+      "displayName": "AkaChou",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">感觉现在人都不实事求是了，产品出问题了就改，又不是只有一个产品，非要上升到国民感情中去堵嘴，说什么伤害国产品牌，我想说的是，别把自己当根葱，优秀的国产商品多了去了。三鹿都能转生做好，伤害的只不过是一家粗制滥造的企业罢了。</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "感觉现在人都不实事求是了，产品出问题了就改，又不是只有一个产品，非要上升到国民感情中去堵嘴，说什么伤害国产品牌，我想说的是，别把自己当根葱，优秀的国产商品多了去了。三鹿都能转生做好，伤害的只不过是一家粗制滥造的企业罢了。",
+      "contentHash": "2c9f68f8c441ffe4c4edf1bb6469dc8a68f1044221de47a6e7ed0611da8e3f09"
+    },
+    {
+      "id": 23487350,
+      "postNumber": 13,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Firenze",
+      "displayName": "FirenzeLor",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\"><img src=\"https://cdn.ldstatic.com/images/emoji/twitter/smirking_face.png?v=15\" title=\":smirking_face:\" class=\"emoji\" alt=\":smirking_face:\" loading=\"lazy\" width=\"20\" height=\"20\" style=\"aspect-ratio: 20 / 20;\">众所周知，这些企业的 title 是……（扣帽子警告</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "众所周知，这些企业的 title 是……（扣帽子警告",
+      "contentHash": "f89f2e1164ea21991a55aa9cc87428d35caf68fa40436884f7e01fee525f75aa"
+    },
+    {
+      "id": 23487420,
+      "postNumber": 14,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "ChristianHaydn",
+      "displayName": "ChristianHaydn",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">哈哈，遥遥领先，推荐大家买哈，但是我不买</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "哈哈，遥遥领先，推荐大家买哈，但是我不买",
+      "contentHash": "9f79cda7d7c7c03a81a0ea2d5eeb2546c7910c63e0479c1e5736ba4e552e4d12"
+    },
+    {
+      "id": 23487484,
+      "postNumber": 15,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Xfmmda",
+      "displayName": "Xfmmda",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">互联网真是有信息茧房，本人米粉，没刷到过那个车烧了的信息</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "互联网真是有信息茧房，本人米粉，没刷到过那个车烧了的信息",
+      "contentHash": "ac72b7dad85f161d9a84cacd152b68dbaf6ac7fa67095d9eb0511108d6c9d3b8"
+    },
+    {
+      "id": 23487546,
+      "postNumber": 16,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Pan1",
+      "displayName": "攀",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">我昨天才看见，QQ 群里发的，绝了，信息茧房唉</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "我昨天才看见，QQ 群里发的，绝了，信息茧房唉",
+      "contentHash": "f4fccaad584eeaeb0df2f788b4fff2410fa1c1cec9daf617aaab296abfbff8a3"
+    },
+    {
+      "id": 23487568,
+      "postNumber": 17,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Kenneth_Yu",
+      "displayName": "YUhome",
+      "createdAt": null,
+      "updatedAt": null,
+      "cookedHtml": "<p dir=\"auto\">自持新能源，同时有传统油车，常常有种错觉，感觉以前油车年代的时候没那么多现在这种浮躁的车企宣传和攻势，当然也有可能是自己接触的信息面太窄了。</p><div class=\"cooked-selection-barrier\" aria-hidden=\"true\"><br></div>",
+      "normalizedText": "自持新能源，同时有传统油车，常常有种错觉，感觉以前油车年代的时候没那么多现在这种浮躁的车企宣传和攻势，当然也有可能是自己接触的信息面太窄了。",
+      "contentHash": "3d9a5ac58fd3436ca0284b683a0ac8fb3263d38e78c6a14e68434d55ead637df"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 1696,
+    "resources": [
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/sweat_smile.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          11
+        ],
+        "mirroredPath": "assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png",
+        "status": "mirrored",
+        "sizeBytes": 994,
+        "contentType": "image/png",
+        "sha256": "7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twitter/smirking_face.png?v=15",
+        "kind": "image",
+        "postNumbers": [
+          13
+        ],
+        "mirroredPath": "assets/mirrored/47/47fea9c90bfea7bd4990f004d7018f5c304d7423559a5ac2001caab666252d66.png",
+        "status": "mirrored",
+        "sizeBytes": 702,
+        "contentType": "image/png",
+        "sha256": "47fea9c90bfea7bd4990f004d7018f5c304d7423559a5ac2001caab666252d66",
+        "reason": ""
+      }
+    ]
+  }
+}
