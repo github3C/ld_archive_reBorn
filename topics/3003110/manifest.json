@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3003110,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3003110",
+    "title": "这下把华为彻底得罪死了……",
+    "currentVersionId": "v1",
+    "currentHash": "c8de6a7faa2cd79dfd32653b7fc58ed17fd831dd9c1831eb7fdf749da1955710",
+    "postCount": 73,
+    "missingPostNumbers": []
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3003110,
+      "sourceUrl": "https://linux.do/t/topic/3003110",
+      "archivedAt": "2026-10-10T03:40:25.324Z",
+      "contentHash": "c8de6a7faa2cd79dfd32653b7fc58ed17fd831dd9c1831eb7fdf749da1955710",
+      "postCount": 73,
+      "missingPostNumbers": [],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 73 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
