@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3084103,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3084103",
+    "title": "一大早看的一个帖子给我看红温了",
+    "createdAt": null,
+    "currentVersionId": "v1",
+    "currentHash": "e1c68eedb2283c43641ebf642bb677fcbe8a7abb0b1eb473b180f42e1b173721",
+    "postCount": 34,
+    "missingPostNumbers": [
+      1,
+      9,
+      34,
+      37
+    ]
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3084103,
+      "sourceUrl": "https://linux.do/t/topic/3084103",
+      "archivedAt": "2026-10-28T03:28:38.441Z",
+      "contentHash": "e1c68eedb2283c43641ebf642bb677fcbe8a7abb0b1eb473b180f42e1b173721",
+      "postCount": 34,
+      "missingPostNumbers": [
+        1,
+        9,
+        34,
+        37
+      ],
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 34 visible posts with 4 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
