@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="728" height="992" viewBox="0 0 728 992" role="img" aria-labelledby="title desc">
+
+
+  <defs>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F52A30"/><stop offset=".52" stop-color="#F51E27"/><stop offset="1" stop-color="#EF1B24"/></linearGradient>
+    <linearGradient id="flap" x1="0" y1="0" x2=".7" y2="1"><stop offset="0" stop-color="#FE363C"/><stop offset="1" stop-color="#F2252E"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE29A"/><stop offset="1" stop-color="#FFD064"/></linearGradient>
+    <linearGradient id="foldShade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#B90013" stop-opacity=".27"/><stop offset="1" stop-color="#B90013" stop-opacity="0"/></linearGradient>
+    <clipPath id="envelope"><rect width="728" height="992" rx="25"/></clipPath>
+  </defs>
+  <g clip-path="url(#envelope)">
+    <rect width="728" height="992" fill="url(#body)"/>
+    <path d="M0 164 Q143 329 364 329 Q585 329 728 164 L728 185 Q586 350 364 350 Q142 350 0 185Z" fill="url(#foldShade)"/>
+    <path d="M0 0 H728 V164 Q588 326 364 326 Q140 326 0 164Z" fill="url(#flap)"/>
+  </g>
+  <circle cx="364" cy="341" r="73" fill="url(#gold)"/>
+  <rect x="339" y="316" width="50" height="50" rx="4" transform="rotate(45 364 341)" fill="#F1242E"/>
+
+<g text-anchor="middle" font-family="Noto Sans SC, PingFang SC, Microsoft YaHei, sans-serif" fill="#FFE29A">
+<text x="364" y="91" font-size="28" font-weight="600">&#x6765;&#x81EA;</text>
+<text font-size="44" font-weight="700"><tspan x="364" y="178">rsharecn</tspan></text>
+<text font-size="32" font-weight="600" fill="#FFFFFF"><tspan x="364" y="541">&#x606D;&#x559C;&#x53D1;&#x8D22;&#xFF0C;&#x5927;&#x5409;&#x5927;&#x5229;</tspan></text>
+<text x="364" y="675" font-size="28" font-weight="600">&#x5269;&#x4F59;&#x4EFD;&#x6570;</text>
+<text x="364" y="755" font-size="80" font-weight="700">10<tspan font-size="36"> / 10</tspan></text>
+<text x="364" y="817" font-size="36" font-weight="700">&#x53EF;&#x9886;&#x53D6;</text>
+<g fill="#260306" font-size="26" font-weight="600">
+<text x="364" y="873">&#x6709;&#x6548;&#x671F;&#x81F3; 2026-11-05 09:51:42</text>
+<text x="364" y="914">&#x66F4;&#x65B0;&#x4E8E; 2026-11-04 09:57:53</text>
+<text x="364" y="961" font-size="24">&#x70B9;&#x51FB;&#x67E5;&#x770B;&#x7EA2;&#x5305; &#xB7; &#x65F6;&#x95F4;&#x5747;&#x4E3A; UTC+8</text>
+</g>
+</g></svg>

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3118630,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3118630",
+    "title": "不想多说啥了，看到就领吧，希望能有机会把LDC都还给大家。",
+    "currentVersionId": "v1",
+    "currentHash": "f31f55bbba6b08ff0da29041cab04d2f84a18fdb5af5b0ec3f9dc90c39230eaa",
+    "postCount": 293,
+    "missingPostNumbers": [],
+    "capture": {
+      "source": "api",
+      "capturedAt": "2026-11-04T03:02:14.454Z",
+      "capturedPostCount": 293,
+      "completeness": "complete",
+      "expectedPostCount": 293,
+      "unresolvedPostIds": []
+    }
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3118630,
+      "sourceUrl": "https://linux.do/t/topic/3118630",
+      "archivedAt": "2026-11-04T03:02:14.474Z",
+      "contentHash": "f31f55bbba6b08ff0da29041cab04d2f84a18fdb5af5b0ec3f9dc90c39230eaa",
+      "postCount": 293,
+      "missingPostNumbers": [],
+      "capture": {
+        "source": "api",
+        "capturedAt": "2026-11-04T03:02:14.454Z",
+        "capturedPostCount": 293,
+        "completeness": "complete",
+        "expectedPostCount": 293,
+        "unresolvedPostIds": []
+      },
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 293 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}

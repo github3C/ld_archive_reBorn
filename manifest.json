@@ -3,15 +3,34 @@
   "generator": "linux.do Archiver Tampermonkey",
   "topics": [
     {
-  "topicId": 3084103,
-  "title": "一大早看的一个帖子给我看红温了",
-  "url": "https://linux.do/t/topic/3084103",
-  "latestVersionId": "v1",
-  "lastArchivedAt": "2026-10-28T03:28:38.441Z",
-  "currentHash": "e1c68eedb2283c43641ebf642bb677fcbe8a7abb0b1eb473b180f42e1b173721",
-  "postCount": 34,
-  "missingPostCount": 4,
-  "versionsCount": 1
+      "topicId": 3118630,
+      "title": "不想多说啥了，看到就领吧，希望能有机会把LDC都还给大家。",
+      "url": "https://linux.do/t/topic/3118630",
+      "latestVersionId": "v1",
+      "lastArchivedAt": "2026-11-04T03:02:56.117Z",
+      "currentHash": "f31f55bbba6b08ff0da29041cab04d2f84a18fdb5af5b0ec3f9dc90c39230eaa",
+      "postCount": 293,
+      "missingPostCount": 0,
+      "capture": {
+        "source": "api",
+        "capturedAt": "2026-11-04T03:02:14.454Z",
+        "capturedPostCount": 293,
+        "completeness": "complete",
+        "expectedPostCount": 293,
+        "unresolvedPostIds": []
+      },
+      "versionsCount": 1
+    },
+    {
+      "topicId": 3084103,
+      "title": "一大早看的一个帖子给我看红温了",
+      "url": "https://linux.do/t/topic/3084103",
+      "latestVersionId": "v1",
+      "lastArchivedAt": "2026-10-28T03:28:38.441Z",
+      "currentHash": "e1c68eedb2283c43641ebf642bb677fcbe8a7abb0b1eb473b180f42e1b173721",
+      "postCount": 34,
+      "missingPostCount": 4,
+      "versionsCount": 1
     },
     {
       "topicId": 3003390,
