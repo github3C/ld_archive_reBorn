@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3240256,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3240256",
+    "title": "做人要讲诚信",
+    "createdAt": "2026-11-25T05:35:34.557Z",
+    "currentVersionId": "v1",
+    "currentHash": "56df94f5c46910f849e980a00bfa6787f6e0bef8b76634037c1f980e4108a2d0"
+  },
+  "version": {
+    "id": "v1",
+    "topicId": 3240256,
+    "sourceUrl": "https://linux.do/t/topic/3240256",
+    "archivedAt": "2026-11-25T05:45:28.941Z",
+    "contentHash": "56df94f5c46910f849e980a00bfa6787f6e0bef8b76634037c1f980e4108a2d0",
+    "postCount": 16,
+    "missingPostNumbers": [],
+    "capture": {
+      "source": "api",
+      "capturedAt": "2026-11-25T05:45:28.937Z",
+      "capturedPostCount": 16,
+      "completeness": "complete",
+      "expectedPostCount": 16,
+      "unresolvedPostIds": []
+    },
+    "changeSummary": {
+      "type": "snapshot",
+      "message": "Archived 16 visible posts with 0 missing floors."
+    }
+  },
+  "capture": {
+    "source": "api",
+    "capturedAt": "2026-11-25T05:45:28.937Z",
+    "capturedPostCount": 16,
+    "completeness": "complete",
+    "expectedPostCount": 16,
+    "unresolvedPostIds": []
+  },
+  "posts": [
+    {
+      "id": 25221067,
+      "postNumber": 1,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "dvdbv",
+      "displayName": "dvdbv",
+      "createdAt": "2026-11-25T05:35:34.750Z",
+      "updatedAt": "2026-11-25T05:43:03.058Z",
+      "cookedHtml": "<p>此帖子已被社区举报，现已被临时隐藏。</p>",
+      "normalizedText": "此帖子已被社区举报，现已被临时隐藏。",
+      "contentHash": "452a025defde1df7d9fda4f0334b37aa8b03699920e5ea925a5f1683f961273c"
+    },
+    {
+      "id": 25221113,
+      "postNumber": 2,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "March7th",
+      "displayName": "三月七",
+      "createdAt": "2026-11-25T05:36:30.453Z",
+      "updatedAt": "2026-11-25T05:36:30.453Z",
+      "cookedHtml": "<p>不要挂人，容易违规吃举报的。。 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/slightly_smiling_face.png?v=16\" title=\":slightly_smiling_face:\" class=\"emoji\" alt=\":slightly_smiling_face:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "不要挂人，容易违规吃举报的。。",
+      "contentHash": "b2647abcd9533198bd17d939ec01f75c7a739b8b18e2d5f1622a2652b318c897"
+    },
+    {
+      "id": 25221123,
+      "postNumber": 3,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "peorio",
+      "displayName": "peorio",
+      "createdAt": "2026-11-25T05:36:40.988Z",
+      "updatedAt": "2026-11-25T05:36:40.988Z",
+      "cookedHtml": "<p>？不能直接挂人吧 讲讲具体什么事</p>",
+      "normalizedText": "？不能直接挂人吧 讲讲具体什么事",
+      "contentHash": "09dc24464b98bb80bafe2fcecdcdd9628c6f0b1e757c737de5ac55b3c86f5abc"
+    },
+    {
+      "id": 25221141,
+      "postNumber": 4,
+      "replyToPostNumber": 2,
+      "replyToPostId": 25221113,
+      "replyToUsername": "March7th",
+      "replyToDisplayName": "三月七",
+      "username": "dvdbv",
+      "displayName": "dvdbv",
+      "createdAt": "2026-11-25T05:37:06.679Z",
+      "updatedAt": "2026-11-25T05:37:06.679Z",
+      "cookedHtml": "<p>不要三级也无所谓了，彻底失望了。</p>",
+      "normalizedText": "不要三级也无所谓了，彻底失望了。",
+      "contentHash": "b1bff76ad56b2effea01e907dc60dcf75d006c2aee71f220ed1d889e164c0589"
+    },
+    {
+      "id": 25221169,
+      "postNumber": 5,
+      "replyToPostNumber": 4,
+      "replyToPostId": 25221141,
+      "replyToUsername": "dvdbv",
+      "replyToDisplayName": "dvdbv",
+      "username": "March7th",
+      "displayName": "三月七",
+      "createdAt": "2026-11-25T05:37:58.288Z",
+      "updatedAt": "2026-11-25T05:37:58.288Z",
+      "cookedHtml": "<p>互联网上的本来也没啥约束，论坛又不是什么净土，不至于</p>",
+      "normalizedText": "互联网上的本来也没啥约束，论坛又不是什么净土，不至于",
+      "contentHash": "b28b789035aed514757ff3253748f0def238738f0466abb3f40ca3fbda435376"
+    },
+    {
+      "id": 25221216,
+      "postNumber": 6,
+      "replyToPostNumber": 5,
+      "replyToPostId": 25221169,
+      "replyToUsername": "March7th",
+      "replyToDisplayName": "三月七",
+      "username": "dvdbv",
+      "displayName": "dvdbv",
+      "createdAt": "2026-11-25T05:39:03.284Z",
+      "updatedAt": "2026-11-25T05:40:17.634Z",
+      "cookedHtml": "<p>额，我又不是退了，二级照样刷贴，自己心里气捋顺了就好</p>",
+      "normalizedText": "额，我又不是退了，二级照样刷贴，自己心里气捋顺了就好",
+      "contentHash": "cb7d57bb221b249a666ad5d059f0b3580ea98a929e2bfb92d247c2abce806182"
+    },
+    {
+      "id": 25221235,
+      "postNumber": 7,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "asyu9912",
+      "displayName": "渡边鸽咕嗝",
+      "createdAt": "2026-11-25T05:39:24.554Z",
+      "updatedAt": "2026-11-25T05:39:24.554Z",
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e.png\" data-download-href=\"/uploads/short-url/asPX4pv8tt46k1hMgxukkcXGud0.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e_2_690x463.png\" alt=\"image\" data-base62-sha1=\"asPX4pv8tt46k1hMgxukkcXGud0\" width=\"690\" height=\"463\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e_2_690x463.png, https://cdn3.ldstatic.com/original/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e.png 1.5x, https://cdn3.ldstatic.com/original/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e.png 2x\" data-dominant-color=\"FBFCFD\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">852×572 42.4 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n释然了.jpg<br>\n<div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7.png\" data-download-href=\"/uploads/short-url/agBWE8zkZZuDnl6U27h1e275bQb.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/optimized/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7_2_690x162.png\" alt=\"image\" data-base62-sha1=\"agBWE8zkZZuDnl6U27h1e275bQb\" width=\"690\" height=\"162\" srcset=\"https://cdn3.ldstatic.com/optimized/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7_2_690x162.png, https://cdn3.ldstatic.com/original/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7.png 1.5x, https://cdn3.ldstatic.com/original/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7.png 2x\" data-dominant-color=\"F6E9E9\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">752×177 16.2 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><p></p>",
+      "normalizedText": "image852×572 42.4 KB 释然了.jpg image752×177 16.2 KB",
+      "contentHash": "19bd7af844b94a50163b925ff609910de94641f38125a5c95213865c4256cb0e"
+    },
+    {
+      "id": 25221268,
+      "postNumber": 8,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "YuanQin99",
+      "displayName": "YuanQin99",
+      "createdAt": "2026-11-25T05:39:57.387Z",
+      "updatedAt": "2026-11-25T05:39:57.387Z",
+      "cookedHtml": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://cdn3.ldstatic.com/original/4X/e/a/1/ea15f57ed62b8286f175b08d4c5d94ca754253b8.png\" data-download-href=\"/uploads/short-url/xoOM2Vg1kack6bvhlbJWVjKDRdS.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://cdn3.ldstatic.com/original/4X/e/a/1/ea15f57ed62b8286f175b08d4c5d94ca754253b8.png\" alt=\"image\" data-base62-sha1=\"xoOM2Vg1kack6bvhlbJWVjKDRdS\" width=\"428\" height=\"374\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">428×374 12.5 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div><br>\n看了一下他主页的总结 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=16\" title=\":rofl:\" class=\"emoji\" alt=\":rofl:\" loading=\"lazy\" width=\"20\" height=\"20\"><p></p>",
+      "normalizedText": "image428×374 12.5 KB 看了一下他主页的总结",
+      "contentHash": "824ec2f3a4015df5aec0fbae10c1374b3f0403ea3bc58d1ffe7a1feedf1d0ab7"
+    },
+    {
+      "id": 25221280,
+      "postNumber": 9,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "Fulunmaii",
+      "displayName": "浮伦大麦茶",
+      "createdAt": "2026-11-25T05:40:12.935Z",
+      "updatedAt": "2026-11-25T05:40:12.935Z",
+      "cookedHtml": "<p><strong>不要直接挂人，这不符合社区规则。</strong></p>\n<hr>\n<p>论坛只要人多了总有这样那样的问题，不过说实话咱还是喜欢看到脱敏的全过程。</p>",
+      "normalizedText": "不要直接挂人，这不符合社区规则。 论坛只要人多了总有这样那样的问题，不过说实话咱还是喜欢看到脱敏的全过程。",
+      "contentHash": "5b0c88dcd8a28af08d4a983996a3298ddef18e0a8430f023fa8afe00a18bd092"
+    },
+    {
+      "id": 25221287,
+      "postNumber": 10,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "lllc",
+      "displayName": "高坚果",
+      "createdAt": "2026-11-25T05:40:22.921Z",
+      "updatedAt": "2026-11-25T05:40:22.921Z",
+      "cookedHtml": "<p>感觉像贩子，他那贴全是抽奖的，估计美美卖到<img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/fish.png?v=16\" title=\":fish:\" class=\"emoji\" alt=\":fish:\" loading=\"lazy\" width=\"20\" height=\"20\">去咯</p>",
+      "normalizedText": "感觉像贩子，他那贴全是抽奖的，估计美美卖到去咯",
+      "contentHash": "8bb05e9404ffe0793f17d2ba182f78fbe2c46e047f8b22a2013bc6b309f6ede8"
+    },
+    {
+      "id": 25221328,
+      "postNumber": 11,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "renhe_xu",
+      "displayName": "renhe_xu",
+      "createdAt": "2026-11-25T05:41:14.731Z",
+      "updatedAt": "2026-11-25T05:41:14.731Z",
+      "cookedHtml": "<p>挂人没用，得不偿失。不如去群组狠狠骂</p>",
+      "normalizedText": "挂人没用，得不偿失。不如去群组狠狠骂",
+      "contentHash": "2755b7c5ea15c952aad03b1988f88399347e3c78f4b3b7f8e15e07cfdd58614e"
+    },
+    {
+      "id": 25221368,
+      "postNumber": 12,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "kamieee",
+      "displayName": "kamieee",
+      "createdAt": "2026-11-25T05:42:05.224Z",
+      "updatedAt": "2026-11-25T05:42:05.224Z",
+      "cookedHtml": "<p>不得不说，我还是更怀念非必要不抽奖的时期</p>",
+      "normalizedText": "不得不说，我还是更怀念非必要不抽奖的时期",
+      "contentHash": "3fb443d814e259f55a71c80b5a02491a17da58a933adfd8a1d13c4840c04ce22"
+    },
+    {
+      "id": 25221396,
+      "postNumber": 13,
+      "replyToPostNumber": 7,
+      "replyToPostId": 25221235,
+      "replyToUsername": "asyu9912",
+      "replyToDisplayName": "渡边鸽咕嗝",
+      "username": "liuzhaojie",
+      "displayName": "zhao",
+      "createdAt": "2026-11-25T05:42:36.682Z",
+      "updatedAt": "2026-11-25T05:42:36.682Z",
+      "cookedHtml": "<p>传递之前最好看一下主页吧，这太难崩了 <img src=\"https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=16\" title=\":sweat_smile:\" class=\"emoji\" alt=\":sweat_smile:\" loading=\"lazy\" width=\"20\" height=\"20\"></p>",
+      "normalizedText": "传递之前最好看一下主页吧，这太难崩了",
+      "contentHash": "800961fb75e14bb28079118e1cf790a1cf77457b469cd6b5cca9b8dddae797f7"
+    },
+    {
+      "id": 25221410,
+      "postNumber": 14,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "xiaoddiao",
+      "displayName": "xiaoddiao",
+      "createdAt": "2026-11-25T05:42:50.221Z",
+      "updatedAt": "2026-11-25T05:42:50.221Z",
+      "cookedHtml": "<p>挂人会被举报，当骗子毫无惩罚，鼓励</p>",
+      "normalizedText": "挂人会被举报，当骗子毫无惩罚，鼓励",
+      "contentHash": "ea4ed57220428e1ed22ecf4455edc6f4f66e497e13389935cae02add9e5e7833"
+    },
+    {
+      "id": 25221419,
+      "postNumber": 15,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "system",
+      "displayName": "system",
+      "createdAt": "2026-11-25T05:43:03.197Z",
+      "updatedAt": "2026-11-25T05:43:03.197Z",
+      "cookedHtml": "",
+      "normalizedText": "",
+      "contentHash": "2b12a7d42e265a5f111f6c6fab4c34e5987f8aed6f25139a9c8e6a854fc834ab"
+    },
+    {
+      "id": 25221490,
+      "postNumber": 16,
+      "replyToPostNumber": null,
+      "replyToPostId": null,
+      "replyToUsername": "",
+      "replyToDisplayName": "",
+      "username": "acscs",
+      "displayName": "heiqiu47",
+      "createdAt": "2026-11-25T05:44:54.829Z",
+      "updatedAt": "2026-11-25T05:44:54.829Z",
+      "cookedHtml": "<p>小豆注册后会生成一个邀请码，这人领了佬的邀请码，然后把自己的邀请码私吞了</p>",
+      "normalizedText": "小豆注册后会生成一个邀请码，这人领了佬的邀请码，然后把自己的邀请码私吞了",
+      "contentHash": "0182bf9bcb0751aa8820dc93f33a139bbf640e994b16ecc9748ec7de8a49ed23"
+    }
+  ],
+  "assetMirror": {
+    "schemaVersion": 1,
+    "limits": {
+      "singleResourceBytes": 10485760,
+      "totalResourceBytes": 52428800
+    },
+    "totalMirroredBytes": 61523,
+    "resources": [
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/slightly_smiling_face.png?v=16",
+        "kind": "image",
+        "postNumbers": [
+          2
+        ],
+        "mirroredPath": "assets/mirrored/58/5802b3b9eedc136a366d1a6add054f2afe79a74cb6043c07c490a8ae4bfac637.png",
+        "status": "mirrored",
+        "sizeBytes": 618,
+        "contentType": "image/png",
+        "sha256": "5802b3b9eedc136a366d1a6add054f2afe79a74cb6043c07c490a8ae4bfac637",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/4/9/5/495842b548c42b54993ae5d776f42f33cc36e37e_2_690x463.png",
+        "kind": "image",
+        "postNumbers": [
+          7
+        ],
+        "mirroredPath": "assets/mirrored/ba/badf6d8b9dbda7a40a99fd0e8352992f449713d24d88fa926ceff14ec0bc3cc4.png",
+        "status": "mirrored",
+        "sizeBytes": 29875,
+        "contentType": "image/png",
+        "sha256": "badf6d8b9dbda7a40a99fd0e8352992f449713d24d88fa926ceff14ec0bc3cc4",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/optimized/4X/4/7/f/47f676a5318cb71e448ef8f46cae897d0ef02ed7_2_690x162.png",
+        "kind": "image",
+        "postNumbers": [
+          7
+        ],
+        "mirroredPath": "assets/mirrored/1d/1da31c7583d1b039ac566da904e7774cf4eb0107cc1e98be0f5d73a9b4d1d0ea.png",
+        "status": "mirrored",
+        "sizeBytes": 14972,
+        "contentType": "image/png",
+        "sha256": "1da31c7583d1b039ac566da904e7774cf4eb0107cc1e98be0f5d73a9b4d1d0ea",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn3.ldstatic.com/original/4X/e/a/1/ea15f57ed62b8286f175b08d4c5d94ca754253b8.png",
+        "kind": "image",
+        "postNumbers": [
+          8
+        ],
+        "mirroredPath": "assets/mirrored/24/24c45b379c90f103be431ff29489c1724bca27d5c7df23917df27d593417dcf2.png",
+        "status": "mirrored",
+        "sizeBytes": 12779,
+        "contentType": "image/png",
+        "sha256": "24c45b379c90f103be431ff29489c1724bca27d5c7df23917df27d593417dcf2",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/rofl.png?v=16",
+        "kind": "image",
+        "postNumbers": [
+          8
+        ],
+        "mirroredPath": "assets/mirrored/4a/4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5.png",
+        "status": "mirrored",
+        "sizeBytes": 1294,
+        "contentType": "image/png",
+        "sha256": "4a371ef1123fee52185f3098d3d3b65dc7f695fdd574ea977ea2afedff963ad5",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/fish.png?v=16",
+        "kind": "image",
+        "postNumbers": [
+          10
+        ],
+        "mirroredPath": "assets/mirrored/75/7598563d1ccee302e3db10d53fbc9b975464fd66838fed92980e998bd7b12eb4.png",
+        "status": "mirrored",
+        "sizeBytes": 991,
+        "contentType": "image/png",
+        "sha256": "7598563d1ccee302e3db10d53fbc9b975464fd66838fed92980e998bd7b12eb4",
+        "reason": ""
+      },
+      {
+        "originalUrl": "https://cdn.ldstatic.com/images/emoji/twemoji/sweat_smile.png?v=16",
+        "kind": "image",
+        "postNumbers": [
+          13
+        ],
+        "mirroredPath": "assets/mirrored/7c/7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f.png",
+        "status": "mirrored",
+        "sizeBytes": 994,
+        "contentType": "image/png",
+        "sha256": "7cabe38e4fbcd004aabe3211ed481ef540cca0969ad30eed19080a96eee1165f",
+        "reason": ""
+      }
+    ]
+  }
+}

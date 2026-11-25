@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "generator": "linux.do Archiver Tampermonkey",
+  "topic": {
+    "topicId": 3240256,
+    "slug": "topic",
+    "url": "https://linux.do/t/topic/3240256",
+    "title": "做人要讲诚信",
+    "currentVersionId": "v1",
+    "currentHash": "56df94f5c46910f849e980a00bfa6787f6e0bef8b76634037c1f980e4108a2d0",
+    "postCount": 16,
+    "missingPostNumbers": [],
+    "capture": {
+      "source": "api",
+      "capturedAt": "2026-11-25T05:45:28.937Z",
+      "capturedPostCount": 16,
+      "completeness": "complete",
+      "expectedPostCount": 16,
+      "unresolvedPostIds": []
+    }
+  },
+  "versions": [
+    {
+      "id": "v1",
+      "topicId": 3240256,
+      "sourceUrl": "https://linux.do/t/topic/3240256",
+      "archivedAt": "2026-11-25T05:45:28.941Z",
+      "contentHash": "56df94f5c46910f849e980a00bfa6787f6e0bef8b76634037c1f980e4108a2d0",
+      "postCount": 16,
+      "missingPostNumbers": [],
+      "capture": {
+        "source": "api",
+        "capturedAt": "2026-11-25T05:45:28.937Z",
+        "capturedPostCount": 16,
+        "completeness": "complete",
+        "expectedPostCount": 16,
+        "unresolvedPostIds": []
+      },
+      "changeSummary": {
+        "type": "snapshot",
+        "message": "Archived 16 visible posts with 0 missing floors."
+      }
+    }
+  ],
+  "diffs": []
+}
